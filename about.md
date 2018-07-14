@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Wines by Jeremy and Jeremy Myers
+title: About Wines by Jeremy
 permalink: /about/
 ---
 
