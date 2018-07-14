@@ -26,6 +26,7 @@ url: "https://www.winesbyjeremy.com" # the base hostname & protocol for your sit
 twitter_username: winesbyjeremy
 instagram_username: winesbyjeremy
 github_username:  winesbyjeremy
+facebook_username:  winesbyjeremy
 
 # Build settings
 markdown: kramdown
