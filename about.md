@@ -11,3 +11,4 @@ Back in the DMV, I study under two Masters of Wine as a WSET Diploma Candidate a
 I look forward to sharing my passion for wine with you, and to inspire and support you in your own wine journey. My private, exclusive approach to wine education will broaden your palate and help you enjoy your wine more, ushering you into the curated, high-end world of wine.
 
 [Follow Wines by Jeremy on Instagram](https://www.instagram.com/winesbyjeremy/ "Wines By Jeremy on Instagram")
+<winesbyjeremy@gmail.com>
