@@ -21,7 +21,10 @@ description: >- # this means to ignore newlines until "baseurl:"
   exclusive tastings, highly curated event tastings, educational events, and wine cellar consulting.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.winesbyjeremy.com" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Social Accounts
 twitter_username: winesbyjeremy
+instagram_username: winesbyjeremy
 github_username:  winesbyjeremy
 
 # Build settings
