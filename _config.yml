@@ -19,7 +19,6 @@ description: >- # this means to ignore newlines until "baseurl:"
   Wines by Jeremy offers an educative and enjoyable personalized wine experience. 
   Located in the DC metro area, Wines by Jeremy provides a number of services including in-home 
   exclusive tastings, highly curated event tastings, educational events, and wine cellar consulting.
-#FIXME: Set the baseurl to "" after moving to the new domain.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.winesbyjeremy.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: winesbyjeremy
