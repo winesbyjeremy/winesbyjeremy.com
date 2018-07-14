@@ -26,9 +26,10 @@ github_username:  winesbyjeremy
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-architect
+#theme: jekyll-theme-architect
 plugins:
   - jekyll-feed
+  - jekyll-seo
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
