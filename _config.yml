@@ -26,7 +26,7 @@ github_username:  winesbyjeremy
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-architect
+theme: minima
 plugins:
   - jekyll-feed
 
