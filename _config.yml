@@ -26,12 +26,15 @@ url: "https://www.winesbyjeremy.com" # the base hostname & protocol for your sit
 twitter_username: winesbyjeremy
 instagram_username: winesbyjeremy
 github_username:  winesbyjeremy
+facebook_username:  winesbyjeremy
 
 # Build settings
 markdown: kramdown
 #theme: jekyll-theme-architect
 plugins:
   - jekyll-feed
+
+mailchimp-list: //winesbyjeremy.us18.list-manage.com/subscribe/post?u=b22a07e976dd2efd7490276f9&amp;id=1e062452b6
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
