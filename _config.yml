@@ -20,7 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Located in the DC metro area, Wines by Jeremy provides a number of services including in-home 
   exclusive tastings, highly curated event tastings, educational events, and wine cellar consulting.
 #FIXME: Set the baseurl to "" after moving to the new domain.
-baseurl: "winesbyjeremy.com" # the subpath of your site, e.g. /blog
+baseurl: "/winesbyjeremy.com" # the subpath of your site, e.g. /blog
 url: "https://www.winesbyjeremy.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: winesbyjeremy
 github_username:  winesbyjeremy
@@ -30,7 +30,6 @@ markdown: kramdown
 #theme: jekyll-theme-architect
 plugins:
   - jekyll-feed
-  - jekyll-seo
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -43,5 +42,3 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
-theme: jekyll-theme-minimal
