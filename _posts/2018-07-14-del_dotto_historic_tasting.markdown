@@ -22,7 +22,7 @@ Many people haven’t experienced a barrel tasting before, which makes this a fu
 * 2016 Cabernet Sauvignon (Rutherford Estate) ($195)
 * 2016 Cabernet Sauvignon (Vineyard 887) ($195)
 * 2016 Chardonnay from bottle (Cinghiale Vineyard) ($85)
-** Not on the tasting menu...
+  * Not on the tasting menu...
 
 The style of wine that Del Dotto produces is very American as well - all of the wines have an undeniable intensity of fruit in them, and tasting the wines from barrel before they have finished aging accentuates this.  The best example I can think of is their Sangiovese.  Many people are familiar with Chianti and Brunello (Sangiovese from different locations in Italy) and their associated flavors (e.g. Sour Cherry).  Some well-studied people may also know that Sangiovese is considered to be a domestic varietal, one that doesn’t do too well outside of Italy.  The Del Dotto Sangiovese blows both of those pre-conceptions out of the water with its ripeness, intensity, and still med+ acidity that shapes the wine.  The wood flavors in some of the wines may seem a bit raw/intense as well, but should be integrated with the wine over time, so I don’t see this as a huge issue.
 
