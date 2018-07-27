@@ -16,12 +16,12 @@ Definitely one of the classier establishments I have been to in Napa – once yo
 Darioush leverages its terroir and has Shiraz (also known as Syrah) play a signifant role in its lineup to deliver a bold wine lineup that emphasizes spice as its differentiator.  Combined with the art/architecture, it's hard not to imagine that you've been transported to somewhere near the Mediterranean.  The white wines feel like a cool breeze that quench your thirst in a cool crisp fashion, making it a nice complement to the spicier reds.  Our lineup was the following:
 * [2016 Sauvignon Blanc](https://www.darioush.com/our-wine/2016-signature-sauvignon-blanc-sage-vineyard) ($52)
   * If you show up to your reservation early, they will serve this as an apertif
-*	[2016 Chardonnay](https://www.darioush.com/our-wine/2016-signature-chardonnay-napa-valley) ($48)
-*	[2014 Merlot](https://www.darioush.com/our-wine/2014-signature-merlot-napa-valley) ($58)
-*	[2015 Duel](https://www.darioush.com/our-wine/2015-duel-shiraz-cabernet-sauvignon) ($60)
+* [2016 Chardonnay](https://www.darioush.com/our-wine/2016-signature-chardonnay-napa-valley) ($48)
+* [2014 Merlot](https://www.darioush.com/our-wine/2014-signature-merlot-napa-valley) ($58)
+* [2015 Duel](https://www.darioush.com/our-wine/2015-duel-shiraz-cabernet-sauvignon) ($60)
   * A near 50/50 blend of their Shiraz and Cabernet Sauvignon
-*	[2014 Shiraz](https://www.darioush.com/our-wine/2014-signature-shiraz-napa-valley) ($78)
-*	[2015 Cabernet Sauvignon](https://www.darioush.com/our-wine/2015-signature-cabernet-sauvignon) ($105)
+* [2014 Shiraz](https://www.darioush.com/our-wine/2014-signature-shiraz-napa-valley) ($78)
+* [2015 Cabernet Sauvignon](https://www.darioush.com/our-wine/2015-signature-cabernet-sauvignon) ($105)
   * 96-98pts Wine Advocate - Good rating at the price point
 
 If you ever find a glass of their Darius II (the crown jewel of the estate) at some point in your life, consider yourself lucky.  As I mentioned before, all of the reds have an exotic spiciness and wood integrated into them to some degree.  These are wines that are definitely better in the winter time than the summer, but their complexity and reflection of the terroir / the owner is quite striking.  This reflection may do better in some wines (their Cabernet, Shiraz, and Duel) than others (their Merlot).
