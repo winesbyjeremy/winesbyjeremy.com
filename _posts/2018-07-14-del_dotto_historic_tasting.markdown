@@ -13,16 +13,16 @@ For me, Del Dotto is a great introduction to what Napa wine country can offer yo
 
 Many people haven’t experienced a barrel tasting before, which makes this a fun, unique experience.  A barrel tasting is when winemakers will use a wine thief (basically a curved turkey baster) to siphon off wine from the barrel while it's aging in oak and let customers taste the wine before it's finished.  The number of wines you get to sample and their quality/price make the $75 tasting price tag seem very reasonable (almost a steal by Napa standards).  In all, you get samples of the following wines:
 
-* Sauvignon Blanc
+* **Sauvignon Blanc**
   * Served from bottle as an apertif before the tasting
-* 2017 Pinot Noir (Cinghiale Vineyard) ($75)
-* 2016 Sangiovese ($58)
-* 2016 Cabernet Franc ($85)
-* 2016 Cabernet Sauvignon (French Oak) ($85)
-* 2016 Cabernet Sauvignon (American Oak) ($85)
-* 2016 Cabernet Sauvignon (Rutherford Estate) ($195)
-* 2016 Cabernet Sauvignon (Vineyard 887) ($195)
-* 2016 Chardonnay (Cinghiale Vineyard) ($85)
+* **2017 Pinot Noir (Cinghiale Vineyard)** ($75)
+* **2016 Sangiovese** ($58)
+* **2016 Cabernet Franc** ($85)
+* **2016 Cabernet Sauvignon (French Oak)** ($85)
+* **2016 Cabernet Sauvignon (American Oak)** ($85)
+* **2016 Cabernet Sauvignon (Rutherford Estate)** ($195)
+* **2016 Cabernet Sauvignon (Vineyard 887)** ($195)
+* **2016 Chardonnay (Cinghiale Vineyard)** ($85)
   * Served from botte - not on the tasting menu, but received a pour after asking
 
 The style of wine that Del Dotto produces is very New World as well - all of the wines have an undeniable intensity of fruit in them, and tasting the wines from barrel before they have finished aging accentuates this.  The best example I can think of is their Sangiovese.  Many people are familiar with Chianti and Brunello (Sangiovese from different locations in Italy) and their associated flavors (e.g. Sour Cherry).  Some well-studied people may also know that Sangiovese is considered to be a domestic varietal, one that doesn’t do too well outside of Italy.  The Del Dotto Sangiovese blows both of those pre-conceptions out of the water with its ripeness, intensity, and still med+ acidity that shapes the wine.  The wood flavors in some of the wines may seem a bit raw/intense as well, but should be integrated with the wine over time, so I don’t see this as a huge issue.
