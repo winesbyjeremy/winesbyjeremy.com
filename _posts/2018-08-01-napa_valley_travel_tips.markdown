@@ -17,6 +17,7 @@ The schedule below is what we followed for our four-day weekend:
 * 1200: Lunch @ Brix
 * 1330: Kapcsandy – Private Tasting with Owner, Appointment Required
 * 1530: Darioush – Appointment Recommended
+
 ### Saturday
 * 1000: Jericho Canyon – Private Tasting, Appointment Required
 * 1130: Tom Eddy – Private Tasting, Appointment Required
@@ -24,6 +25,7 @@ The schedule below is what we followed for our four-day weekend:
 * 1430: Spring Mountain
 * 1530: Fantesca / La Sirena – Private Tasting, Appointment Required
 * Dinner @ Morimoto
+
 ### Sunday
 * 1000: Beringer – Rhine House Private Tasting, Appointment Required
 * 1130: Lunch @ The Charter Oak
@@ -31,13 +33,15 @@ The schedule below is what we followed for our four-day weekend:
 * 1430: Gandona – Private Tasting, Appointment Required
 * 1630: Hall
 * Dinner @ Don Giovanni’s
+
 ### Monday
 * 1000: Favia – Private Tasting, Appointment Required
 * 1200: Lunch @ Culinary Institute of America (CIA) Copia
 * 1400: Shafer – Private Tasting, Appointment Required
 * 1600: Amuse Bouche – Private Tasting, Appointment Required
 
-Lessons Learned (in relative order of importance):
+
+### Lessons Learned (in relative order of importance):
 * **Hire a guide and/or a driver.**  Although it will add cost to your trip, it has its advantages in addition to preventing a DUI.  They can help with scheduling (which is not trivial), keeping you ontime for your appointments, and giving you an out (e.g. Running late for the next tasting) when you feel pressured to join a membership / purchase bottles.
 * **Limit the number of tastings.**  If you are going to Napa to do walk-in tastings, you can fit 4 places a day in your schedule.  If you are doing private tours, book no more than three a day, else you will feel rushed and it will negatively affect your experience.  We definitely felt rushed and a little worn out by the fourth tasting on Saturday and Sunday.
 * **Co-locate your tastings/lunch.**  Organize your schedule so that the events of your day occur in the same relative region.  E.g. Do not schedule a tasting in St. Helena, then one on Atlas Peak (8 miles apart, but a 30min drive).  The same goes for your lunch – keep it along your scheduled route.  This takes additional time and effort, but is well worth it.
