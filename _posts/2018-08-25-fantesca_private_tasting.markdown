@@ -5,9 +5,10 @@ author: "Jeremy Myers"
 date:   2018-08-25 15:20:00 -0400
 categories: review winery tasting
 ---
-Fantesca ($100 or Free with purchase): <https://fantesca.com>
-
-Rating: 98 out of 100
+# **Fantesca**: <https://fantesca.com>
+* Rating: 98 out of 100
+* Tasting Fee: $100 or Free with Purchase
+* Reservation Required: Yes
 
 As you dive deeper into the world of wine, you start to build a portfolio of wines that you've liked and attempt to correlate them, hoping that it will give you an indication of whether you'll like another wine or not.  One of those correlation factors is the winemaker as some have a distinct and profound influence on the wines they produce.  My favorite is probably [Heidi Barrett](https://en.wikipedia.org/wiki/Heidi_Barrett), the First Lady of Wine.  For those who are unfamiliar with the legend of Heidi Barrett, please do yourself a favor and look her up.  She was the first winemaker at Screaming Eagle (new releases retail $3000 a bottle) and has worked with several highly-acclaimed wineries during her time in Napa.  Currently, there are only a few that still count her as their winemaker/partner.  Fantesca is one of those lucky few and currently home to her only Chardonnay (until she releases another under her personal La Sirena label later this year).
 
