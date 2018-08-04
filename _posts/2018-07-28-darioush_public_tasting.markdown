@@ -5,7 +5,7 @@ author: "Jeremy Myers"
 date:   2018-07-28 15:20:00 -0400
 categories: review winery tasting
 ---
-### Darioush ($40 or Free with 2-bottle purchase): <https://www.darioush.com>
+# Darioush ($40 or Free with 2-bottle purchase): <https://www.darioush.com>
 * Rating: 92 out of 100
 * Reservation Required: No, but recommended
 
