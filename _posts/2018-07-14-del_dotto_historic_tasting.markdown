@@ -8,6 +8,7 @@ categories: review winery tasting
 Del Dotto ($75): <http://www.deldottovineyards.com>
 
 Rating: 96 out of 100
+Reservation Required: For Barrel Tastings, Yes
 
 For me, Del Dotto is a great introduction to what Napa wine country can offer you.  It takes some discipline to make it here as larger reservations require a 10AM start time and you'll drive by some brand name wineries (Cakebread, Robert Mondavi) to get here.  But it is worth the wait...  Del Dotto currently has two locations (their historic site and St. Helena site), with a third coming online later this year.  Walking through the caves of the historic site stimulates the imagination as to how they managed to chisel out the tunnels, while the St. Helena site feels like you are entering the underground of Rome and discovering a perfectly preserved cellar from the past.  Just make sure to arrive 5-10 min before your appointment so you can enjoy an aperitif (likely their Sauvignon Blanc) before the tasting begins, along with some nice photo opportunities with the architecture.
 
