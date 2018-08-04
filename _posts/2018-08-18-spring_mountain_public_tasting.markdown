@@ -5,9 +5,10 @@ author: "Jeremy Myers"
 date:   2018-08-18 15:20:00 -0400
 categories: review winery tasting
 ---
-Spring Mountain ($40): <https://www.springmountainvineyard.com/>
-
-Rating: 91 out of 100
+# **Spring Mountain**: <https://www.springmountainvineyard.com/>
+* Rating: 91 out of 100
+* Tasting Fee: $40
+* Reservation Required: Yes
 
 Some places can seem intimidating due to the energy, focus, and exclusivity of the winery in their drive to produce amazing wines, which also brings high scores.  With the high scores comes high prices due to supply/demand, which increases the exclusivity and continues the cycle.  Spring Mountain bucks that mindset while still producing great wines, thanks to the resources of its owner and his desire to make wine unique to their terroir, rather than aiming for what wine reviewers desire.  They offer excellent Old World style Cabernet Sauvignons and an amazing view from the comfort of outdoor lawn chairs, staring at Spring Mountain.  A great tasting to avoid breaking the bank for those that are in Napa for a leisurely weekend.  You still need to make a reservation, but really their only drawback is that you are not allowed to purchase bottles and consume them onsite.  Since the atmosphere is a huge component of what makes them unique, their rating suffers a couple points for not allowing patrons to savor the experience.  
 
