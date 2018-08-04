@@ -5,10 +5,9 @@ author: "Jeremy Myers"
 date:   2018-08-04 15:20:00 -0400
 categories: review winery tasting
 ---
-Jericho Canyon ($50): <http://www.jerichocanyonvineyard.com>
-
-Rating: 95 out of 100
-Reservation Required: Yes
+### Jericho Canyon ($50): <http://www.jerichocanyonvineyard.com>
+* Rating: 95 out of 100
+* Reservation Required: Yes
 
 Many places in Napa will tout the location and contour of their vineyards / hillsides as reasons they are able to produce great wines.  Jericho Canyon is a different beast altogether.  If you're lucky enough to secure a tasting reservation here, you’ll discover a beautiful canyon that seems sculpted by Mother Earth herself for growing amazing fruit.  This is one of the reasons why famous wine personalities have either bought their fruit for their own wine (e.g. David Ramey) or work as consultants to help make the Jericho wines (e.g. Michel Rolland).  I highly recommend making a 10AM reservation – the morning fog rolling over the top of the hills is an amazing, picturesque scene for photography enthusiasts!
 
