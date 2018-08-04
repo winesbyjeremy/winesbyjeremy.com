@@ -5,10 +5,10 @@ author: "Jeremy Myers"
 date:   2018-09-01 15:20:00 -0400
 categories: review winery tasting
 ---
-La Sirena ($50 or Free w/ 6 bottle purchase): <http://lasirenawine.com>
-
-Rating: 100 out of 100
-Reservation Required: Yes
+# **La Sirena**: <http://lasirenawine.com>
+* Rating: 100 out of 100
+* Tasting Fee: $50 or Free w/ 6 bottle purchase
+* Reservation Required: Yes
 
 Heidi Barrett’s personal label.  You would think that the prices would rival all the great titans in Napa.  Guess again.  Designed with the next generation of wine drinkers in mind, not the CEOs that love buying $500+ bottles, Heidi finds amazing deals on quality fruit and transforms it into exceptional wines at affordable prices for the consumer.  Though, she could definitely sell the wines at much higher prices if she wanted to...  La Sirena doesn’t have an allocation or membership program (there's no need), but they do have a mailing list you can sign up for to be notified when the new vintages are released for purchase.  
 
