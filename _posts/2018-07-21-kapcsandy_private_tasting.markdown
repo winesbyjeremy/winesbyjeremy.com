@@ -5,10 +5,10 @@ author: "Jeremy Myers"
 date:   2018-07-21 15:20:00 -0400
 categories: review winery tasting
 ---
-Kapcsandy ($150): <https://www.kapcsandywines.com>
-
-Rating: 100 out of 100
-Reservations Required: Yes
+# **Kapcsandy**: <https://www.kapcsandywines.com>
+* Rating: 100 out of 100
+* Tasting Fee: $150
+* Reservations Required: Yes
 
 I can say unequivocally that Kapcsandy has been my favorite wine tasting so far in the Napa Valley.  Although it lacks many of the aesthetics that you may come to expect from Napa wineries, imagine all of that energy and precision being focused on the wine instead (their website is the first indication of this philosophy).  It shows in every wine they make and all of the 98pt+ ratings that the world's premier wine reviewers heap on them.  So why isn’t this winery more famous like Screaming Eagle, Lokoya, Scarecrow, etc?  I can imagine there are many opinions on this, but my personal opinion on this is their blue collar nature in doing great work rather than advertising.  Other contributing factors include their small production and wine collectors buying up all their wine as soon as its released.
 
