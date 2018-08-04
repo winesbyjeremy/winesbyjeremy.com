@@ -5,7 +5,7 @@ author: "Jeremy Myers"
 date:   2018-08-04 15:20:00 -0400
 categories: review winery tasting
 ---
-**Jericho Canyon**: <http://www.jerichocanyonvineyard.com>
+# **Jericho Canyon**: <http://www.jerichocanyonvineyard.com>
 * Rating: 95 out of 100
 * Tasting Fee: $50
 * Reservation Required: Yes

@@ -5,7 +5,7 @@ author: "Jeremy Myers"
 date:   2018-07-14 15:20:00 -0400
 categories: review winery tasting
 ---
-**Del Dotto**: <http://www.deldottovineyards.com>
+# **Del Dotto**: <http://www.deldottovineyards.com>
 * Rating: 96 out of 100
 * Tasting Fee: $75
 * Reservation Required: For Barrel Tastings, Yes
