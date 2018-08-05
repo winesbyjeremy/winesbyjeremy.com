@@ -38,7 +38,6 @@ plugins:
 google_analytics: UA-123384548-1
 mailchimp-list: //winesbyjeremy.us18.list-manage.com/subscribe/post?u=b22a07e976dd2efd7490276f9&amp;id=1e062452b6
 paginate: 10
-show_excerpts: true
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
