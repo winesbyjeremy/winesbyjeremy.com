@@ -9,10 +9,13 @@ The world of wine is as vast and complex as it is enjoyable.  There is always so
 {:auto_ids}
 Apertif
 : Definition
+
 Cult Wine
 : Definition
+
 Cuvee
 : Definition
+
 First Growth
 : Definition
 Wine Cave
