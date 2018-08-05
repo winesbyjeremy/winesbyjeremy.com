@@ -3,7 +3,7 @@ layout: post
 title:  "Del Dotto Historic Tasting and Tour"
 author: "Jeremy Myers"
 date:   2018-07-14 15:20:00 -0400
-categories: review winery tasting
+categories: review winery tasting napa
 ---
 # **Del Dotto**: <http://www.deldottovineyards.com>
 * Rating: 96 out of 100
