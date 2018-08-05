@@ -6,9 +6,11 @@ permalink: /glossary/
 
 The world of wine is as vast and complex as it is enjoyable.  There is always something new to learn and terms you've never heard before.  For those in the industry and serious enthusiasts getting their certifications, I strongly suggest you seek out authoritative sources for proper definitions.  But I hope that these "definitions" can serve as a good primer for everyone else!
 
+{:auto_ids}
 Apertif
 
 : Definition
+  Testing
 
 Cult Wine
 
@@ -17,6 +19,7 @@ Cult Wine
 Cuvee
 
 : Definition
+  Testing if part of definition still
 
 First Growth
 
