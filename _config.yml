@@ -33,8 +33,12 @@ markdown: kramdown
 #theme: jekyll-theme-architect
 plugins:
   - jekyll-feed
+  - jekyll-paginate
 
+google_analytics: UA-123384548-1
 mailchimp-list: //winesbyjeremy.us18.list-manage.com/subscribe/post?u=b22a07e976dd2efd7490276f9&amp;id=1e062452b6
+paginate: 10
+show_excerpts: true
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
