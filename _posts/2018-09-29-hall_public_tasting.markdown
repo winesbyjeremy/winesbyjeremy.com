@@ -7,32 +7,33 @@ categories: review winery tasting
 ---
 # **Hall**: <http://>
 * Rating: 93 out of 100
-* Tasting Fee: $???
-* Reservation Required: No
+* Tasting Fee: $40 for Public Tasting, $150 for Ultimate Cabernet Experience
+* Reservation Required: No for Public Tasting, Yes for Special Experiences
 
-* [**2016 Rose**](http://www.jerichocanyonvineyard.com/page?pageid=04DD2AF1-197C-499E-900B-A82ABE8D34B6) ($40)
+As I mentioned in earlier articles, Napa can be both the ultimate educational experience and ultimate relaxation getaway - it all depends on what you are looking for.  Hall Winery is definitely for those that are looking for the later.  Though, you can definitely purchase 100 point quality wine there too if you wish.  For being both a purveyor of fine wine and tastings with a beautiful landscape, it's surprisingly each to find.  Right off the main highway (Route 29), it is easy to find with the giant metal rabbit out in front of the winery.  
 
-For those that want to stay on the main highway in Napa and visit a beautiful, larger winery that produces some top-notch quality wine, Hall is at or near the top of that list.  Its hard to miss in St. Helena with its giant, neo-architectural building next to a 1800s barn and the giant metal rabbit in front.  Prepare yourself, for when you enter the facility, you may feel like you are entering a blend of a futuristic winery and art gallery.
+As you park and approach this St. Helena winery, you'll see both the beautiful, neo-architectural building with an 1800s historic barn next to it.  Prepare yourself, because the inside is just another level compared to the exterior.  You may feel like you are entering a blend of a futuristic winery and art gallery.  If you are brave enough to take the Ultimate Cabernet Experience instead of the traditional tasting, you will be led to the shed where all of the technology and art fade away and all that is left is you and amazing wine.  If you are feeling especially fancy, you can arrange for a special personalized tasting in their Rutherford Estate.  
 
-If that is not enough to intimidate you, the tasting options might as there is everything from the standard tasting ($40) to the Ultimate Cabernet Experience ($150).  And if you are feeling especially fancy, you can arrange for a special tasting in their Rutherford Estate.  I personally think that the $40 tasting is a great deal that exposes you to some really high quality wine without a $75 tasting fee.  And while you are tasting your wine in the main tasting room, you get a glimpse of the gorgeous view behind the winery.  But best of all, there is no reservation required for the regular tasting!  So if you happen to find yourself in Napa with no plan, feel free to drop by here.
-
-I really like the membership benefits of Hall.  There is a separate area where wine club members can conduct their tasting (much quieter) and you can purchase bottles, go outside, and enjoy the view of the mountains from a lawn chair - they even have fire pits for the fall time!  The lawn in the back is well manicured as well, leaving you with the impression that you are a member of a high class country club.  One of the best views from the valley floor.
+I personally think that the $40 public tasting is a great deal that exposes you to some really high quality wine without a $75+ tasting fee - 2 of the wines are over $130!!  And scored 98 Points or better with The Wine Advocate.  So if powerful and ageable wines are your preference, you are going to be very happy here.  In addition, while you are tasting your wine in the main tasting room, you'll get a glimpse of the gorgeous view behind the winery.  But best of all, there is no reservation required for the regular tasting!  So if you happen to find yourself in Napa with no plan, feel free to drop by here.
 
 As for the wines, the tasting list generally looks like this:
 
-# Ultimate Cabernet (Sauvignon) Experience
-* 2014 Kathryn Hall
-* 2014 Bergfeld ($175)
-* Any two of the Mt. Veeder, Howell Mountain or Diamond Mountain ($175)
-* One of the 2014 Platinum Collection (Bishop, Rainin or Sacrashe) ($325)
-# Normal Tasting
-* 2016 WALT Clos Pepe – Santa Rita Hills Pinot Noir ($75)
-* 2014 Terra Secca ($65)
-* 2014 Ellie's ($80)
-* 2014 Jack's Masterpiece ($135)
-* 2014 Kathryn Hall ($175)
+# Ultimate Cabernet (Sauvignon) Experience ($)
+* [**2014 Kathryn Hall**](http://) ($)
+* [**2014 Bergfeld**]() ($175)
+* Their choice of any two of the Mt. Veeder, Howell Mountain or Diamond Mountain ($175 each)
+* One of the 2014 Platinum Collection (Bishop, Rainin or Sacrashe) ($325 each)
+
+# Normal Tasting ($)
+* [**2016 WALT Clos Pepe**]() ($75)
+  * Santa Rita Hills Pinot Noir
+* [**2014 Terra Secca**]() ($65)
+* [**2014 Ellie's**]() ($80)
+* [**2014 Jack's Masterpiece**]() ($135)
+* [**2014 Kathryn Hall**]() ($175)
+
+I really like the membership benefits of Hall.  There is a separate area where wine club members can conduct their tasting (much quieter) and you can purchase bottles, go outside, and enjoy the view of the mountains from a lawn chair.  They even have fire pits for the fall time!  The lawn in the back is well manicured as well, leaving you with the impression that you are a member of a high class country club.  Definitely one of the best views from the valley floor.  I only wish that it didn't take a membership to utilize all those features of the winery.  
 
 The theme of the wines is similar to that of other Napa Valley wineries in that it promotes fruit and power.  However, I've found that most of Hall's wines have much more rounded tannins than other places and are already approachable in their youth, as compared to other that require you to lay the bottles down for a few years.  Also, candied fruit and white flower are common notes that seem to come up for me.
 
-If you follow critics like Robert Parker or Jeb Dunnuck, you'll notice that some of the Hall wines score very highly on a consistent basis - the Rainin, Kathryn Hall and Jack's Masterpiece did very well this year.  I'm not one to chase scores, but I can see why people do as these wines are great and ready now.  Visit Hall, buy a bottle or two and sit outside with a group of friend when you get the chance.
-
+If you follow critics like Robert Parker or Jeb Dunnuck, you'll notice that some of the Hall wines score very highly on a consistent basis - the Kathryn Hall and Jack's Masterpiece received potential 100 point scores for the 2015 vintage.  I'm not one to chase scores, but I can see why people do as these wines are great and ready now.  Visit Hall, buy a bottle or two and sit outside with a group of friend when you get the chance.
