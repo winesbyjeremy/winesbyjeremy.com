@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Jericho Tasting Private Tour and Tasting"
+title:  "Jericho Canyon Private Tasting"
 author: "Jeremy Myers"
 date:   2018-08-04 15:20:00 -0400
 categories: review winery tasting
