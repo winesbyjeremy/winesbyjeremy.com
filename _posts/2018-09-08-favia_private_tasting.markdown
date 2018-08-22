@@ -5,7 +5,7 @@ author: "Jeremy Myers"
 date:   2018-10-06 15:20:00 -0400
 categories: review winery tasting
 ---
-# **Favia**: <http://>
+# **Favia**: <https://www.faviawine.com/>
 * Rating: 93 out of 100
 * Tasting Fee: None, but they require each person to purchase at least 2 bottles
 * Reservation Required: Yes
@@ -16,13 +16,13 @@ Located near Napa proper, it almost feels like you are driving to someone's hous
 
 Andy and Annie were kind enough to take time from their busy workday to come speak with our group and opened themselves up to questions.  I acted like a schoolboy talking to his high school crush and locked up a bit, but did manage to ask for a picture with Andy.  Though I am kicking myself that I missed the opportunity to get one with Annie...  As for the wines, they were very different in style than the ones we had so far that weekend:
 
-* [**2015 Suize Viognier Amador County**]() ($75)
+* [**2015 Suize Viognier Amador County**](https://www.faviawine.com/product/2015-Favia-Suize-Viognier-Amador-County?pageID=298543A9-B2DD-8454-41A3-067A79EC92F5&sortBy=DisplayOrder&maxRows=20&) ($75)
   * The Viognier was one of the most complex I have ever had without being overly intense and gives the great estates of Condrieu a run for their money.  Needless to say, I bought a few bottles.
-* [**2014 La Magdelena**]() ($175)
+* [**2014 La Magdelena**](https://www.faviawine.com/product/2014-Favia-La-Magdalena-Red-Wine-Napa-Valley?pageID=298543A9-B2DD-8454-41A3-067A79EC92F5&sortBy=DisplayOrder&maxRows=20&) ($175)
   * Cabernet Sauvignon + Cabernet Franc.  The Magdelena needs some time to integrate and develop its identity 
-* [**2014 Coombsville Cabernet Sauvignon**]() ($175)
+* [**2014 Coombsville Cabernet Sauvignon**](https://www.faviawine.com/product/2014-Favia-Coombsville-Cabernet-Sauvignon-Napa-Valley?pageID=298543A9-B2DD-8454-41A3-067A79EC92F5&sortBy=DisplayOrder&maxRows=20&) ($175)
   * 
-* [**2014 Cerro Sur (Cabernet Franc)**]() ($175)
+* [**2014 Cerro Sur (Cabernet Franc)**](https://www.faviawine.com/product/2014-Favia-Cerro-Sur-Red-Wine-Napa-Valley?pageID=298543A9-B2DD-8454-41A3-067A79EC92F5&sortBy=DisplayOrder&maxRows=20&) ($175)
   * the bottle I am most excited for is the Cerro Sur - it also happens to be Andy and Annie's favorite varietal and best represents the vineyards sense of place
 
 Although the wine tasting list was short, each bottle was a bit hit, which works for me!  If I had to qualify Favia with a theme, it would be doing what the terroir and grapes want with precise execution and not messing anything up from the human intervention perspective.  It's a little ironic too, given the level of talent both Annie and Andy have to shape the wine to what will score well and what Napa consumers want.  But I really respect this method of approach and this experience will help change my way of thinking in that respect as well.  The red wines are all very young though and won't hit their sweet spot for a while.  And it's not because of the tannin like other Napa wine - it is more because the wines are in hiberation and are closed in their flavors.  Once they do come out of their shells though, they are going to be quite something.
