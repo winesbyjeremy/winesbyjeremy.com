@@ -2,7 +2,7 @@
 layout: post
 title:  "Favia Private Tasting"
 author: "Jeremy Myers"
-date:   2018-10-06 15:20:00 -0400
+date:   2018-09-08 15:20:00 -0400
 categories: review winery tasting
 ---
 # **Favia**: <https://www.faviawine.com/>
