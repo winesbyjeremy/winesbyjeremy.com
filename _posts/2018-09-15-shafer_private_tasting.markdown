@@ -2,7 +2,7 @@
 layout: post
 title:  "Shafer Private Tasting"
 author: "Jeremy Myers"
-date:   2018-10-03 15:20:00 -0400
+date:   2018-09-15 15:20:00 -0400
 categories: review winery tasting
 ---
 # **Shafer**: <http://www.shafervineyards.com/>
