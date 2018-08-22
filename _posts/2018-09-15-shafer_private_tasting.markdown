@@ -5,7 +5,7 @@ author: "Jeremy Myers"
 date:   2018-10-03 15:20:00 -0400
 categories: review winery tasting
 ---
-# **Shafer**: <http://>
+# **Shafer**: <http://www.shafervineyards.com/>
 * Rating: 98 out of 100
 * Tasting Fee: $75
 * Reservation Required: Yes
@@ -16,15 +16,15 @@ Many people don't make it past Stags Leap Cellars (which is also great) when the
 
 Harden yourselves before you partake in this tasting, because the pours are generous and these wines will both chip away and melt you at the same time.  The tasting menu looks like the following:
 
-* [**Red Shoulder Chardonnay (Carneros)**]() ($)
+* [**Red Shoulder Chardonnay (Carneros)**](http://www.shafervineyards.com/wine/red-shoulder-ranch-chardonnay.php) ($52)
   * 14 mths in 75% new French Oak.  Ripe fruit that produces aromas from floral to tropical.  Similar to the Fantesca Chardonnay, this wine is produced without MLF, but undergoes lees aging for 14mths which gives it a great creamy mouthfeel, additional complexity, but without sacrificing the great acidity.  The natural yeast used for the fermentation also adds to the complexity
-* [**TD-9 (Cabernet Sauvignon, Merlot, Malbec)**]() ($)
+* [**TD-9 (Cabernet Sauvignon, Merlot, Malbec)**](http://www.shafervineyards.com/wine/td9.php) ($60)
   * 20 mths in 100% new French Oak.  Fruit from the southern Vaca Mountains, this reminds me a bit of Bordeaux blends, though the use of Merlot and Malbec in great proportions together is unusual.  Again, good fruit and phenolic development while maintaining good acidity and freshness thanks to the cooler southern climate.  A good intro to Shafer wines.
-* [**One Point Five (Cabernet Sauvignon)**]() ($)
+* [**One Point Five (Cabernet Sauvignon)**](http://www.shafervineyards.com/wine/one-point-five.php) ($95)
   * 20mths in 100% new French Oak.  After graduating from the TD-9, this should be your next wine.  Some Hillside Select fruit makes it into this bottle and you can tell it’s the beginning of something special.  It hints at some of the secondary/tertiary notes that the Hillside Select is famous for, without overwhelming the senses.  This competes with the best in the $70-80 range.
-* [**Relentless (Syrah and Petit Sirah)**]() ($)
+* [**Relentless (Syrah and Petit Sirah)**](http://www.shafervineyards.com/wine/relentless.php) ($92)
   * 30 mths in new French Oak.  This is one heck of a wine.  If you want a Syrah to blow you away, this is that wine.  Overwhelming body that is still smooth on the palate, with black fruit, smoke, tiny bit of meat juice and some cacao.  Instead of Relentless, I might have named this wine Shameless, because that’s what it feels like – no restraint.
-* [**Hillside Select (Cabernet Sauvignon)**]() ($)
+* [**Hillside Select (Cabernet Sauvignon)**](http://www.shafervineyards.com/wine/hillside-select.php) ($285)
   * 32 mths in new French Oak.  What a wine...  And with the pour you get, you could spend 20 minutes just with this wine alone.  Volcanic, poor nutrient soil leads to production that is half the normal amount of berries, leading to a wine that is as intense as the Relentless, but more complex flavors than the One Point Five, with great age-ability.  Bottle purchases are limited to two per person, so grab as many as you can and age them.  You’ll be glad you did!
 
 The two standouts for me are the Relentless and Hillside Select.  The Relentless is so unique with its Syrah character and an unctuous color, mouthfeel, and long finish.  I think everyone in our group purchased at least one bottle, including me.  But that Hillside Select was something else...  All of that big, bold Stags Leap character with some volcanic soil notes, a dusty cocoa tone, but still avoids being too heavy.
