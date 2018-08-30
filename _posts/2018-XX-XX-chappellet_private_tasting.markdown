@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "Chappellet Private Tasting"
+author: "Jeremy Myers"
+date:   2018-XX-XX 15:20:00 -0400
+categories: review winery tasting
+---
+# **Chappellet**: <http://>
+* Rating: 93 out of 100
+* Tasting Fee: $50
+* Reservation Required: Yes
+
+Sulphur problem in the winery got us the ability to taste at the private tent of the owners that 
+
+* [**2014 Signature Chardonnay**]() ($)
+  * Carneros, family growers purchased from, wanted Chablis level acidity but also new world style.  The fruit is nicely developed past the lemon/lime fruit development into the yellow apple phase.  2500 cases.
+* [**2014 Dutton Ranch Pinot Noir**]() ($)
+  * Great fruit development on the nose with a brightness of floral, spice, and tons of spice.  Cabernet lovers style of Pinot.  2500 cases.  14.9% ABV.  There is a bunch of earthiness to the wine, clean finish without lingering alcohol, good amount of acid that stimulates the cheeks.  The short finish of the fruit makes me think this would do better as a wine paired with dinner
+* [**2014 Napa Valley Merlot**]() ($) 
+  * 82% Merlot, 5% of Sauv and Franc, Malbec.  Bright red fruit with lots of spice/alcohol on the nose.  Definitely some tannin that clings through the finish.  The fruit is a bit lighter again, but with med+ body and acid.  Cooked/stewed fruit through the finish as well.  Some tobacco leaf and cedar and maybe some espresso?
+* [**2013 Napa Valley Malbec**]() ($)
+  * Deeper blue/black fruit on the nose, lean, really nice lingering aromas.  The palate is soft, with some black pepper, with some jam, black fruit, a touch warm, med+ finish, tastes a little young – seems like it needs to age a bit to round out the tannins a bit more
+* [**2015 Signature Cabernet Sauvignon**]() ($) 
+  * 79% CS 14% PV 4% Merlot 3% CF.  A richness, lighter spice and baby fat comes of the wines as soon as you dig you nose in.  Soft on the palate, it is drinkable right now.  Pretty and sweet red fruit, smooth tannins, a decent length on the finish.  And at a really decent price - just what I remember when I served this to my colleague at our company event.
+
+
