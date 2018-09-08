@@ -39,9 +39,3 @@ If you want a wine that has the minerality and lighter body of Silver Oak, the r
 
 Their membership program is very flexible and can be tailored to you, so get out there and experience Tom Eddy for yourself!  If you prefer white wines, I hear their Russian River Chardonnay is very good, but if you can afford it, I think holding a tasting with friends using the single-vineyard Cabernet Sauvignons can be a very special experience.
 
-
-<small>
-    {% for tag in page.tags %}
-    <a href="/tags/{{ tag }}/">{{ tag }}</a>
-    {% endfor %}
-</small>
