@@ -1,7 +1,6 @@
-###
+---
 layout: tagpage
-tag: travel
-permalink: /tags/travel/ # This is only required for pretty links.
-###
-
-# Thus, this page's link is /tags/travel/ rather than /tags/travel.html
+tag: travel-tips
+title: "Tag: travel tips"
+permalink: /tags/travel-tips/ # This is only required for pretty links.
+---
