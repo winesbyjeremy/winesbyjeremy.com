@@ -2,5 +2,4 @@
 layout: tagpage
 tag: review
 title: "Tag: review"
-permalink: /tags/review/ # This is only required for pretty links.
 ---
