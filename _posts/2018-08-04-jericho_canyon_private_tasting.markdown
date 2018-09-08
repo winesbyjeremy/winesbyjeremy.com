@@ -3,7 +3,7 @@ layout: review
 title:  Jericho Canyon Private Tasting
 author: Jeremy Myers
 date:   2018-08-04 15:20:00 -0400
-categories: review winery tasting
+tags: review winery tasting
 location:
   latitude: 38.620274
   longitude: -122.593695

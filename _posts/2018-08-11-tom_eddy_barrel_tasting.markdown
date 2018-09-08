@@ -3,7 +3,7 @@ layout: review
 title:  Tom Eddy Private Tasting
 author: Jeremy Myers
 date:   2018-08-11 15:20:00 -0400
-categories: review winery tasting
+tags: review winery tasting
 location:
   latitude: 38.604856
   longitude: -122.643010

@@ -3,7 +3,7 @@ layout: review
 title:  Darioush Public Tasting
 author: Jeremy Myers
 date:   2018-07-28 15:20:00 -0400
-categories: review winery tasting
+tags: review winery tasting
 location:
   latitude: 38.367523
   longitude: -122.294569
