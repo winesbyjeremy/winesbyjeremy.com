@@ -1,7 +1,6 @@
-###
+---
 layout: tagpage
 tag: review
+title: "Tag: review"
 permalink: /tags/review/ # This is only required for pretty links.
-###
-
-# Thus, this page's link is /tags/review/ rather than /tags/review.html
+---
