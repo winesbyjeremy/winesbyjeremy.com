@@ -3,7 +3,7 @@ layout: post
 title:  "Darioush Public Tasting"
 author: "Jeremy Myers"
 date:   2018-07-28 15:20:00 -0400
-categories: review winery tasting
+tags: review winery tasting
 ---
 # **Darioush**: <https://www.darioush.com>
 * Rating: 92 out of 100
@@ -28,3 +28,10 @@ Darioush leverages its terroir and has Shiraz (also known as Syrah) play a signi
 If you ever find a glass of their Darius II (the crown jewel of the estate) at some point in your life, consider yourself lucky.  As I mentioned before, all of the reds have an exotic spiciness and wood integrated into them to some degree.  These are wines that are definitely better in the winter time than the summer, but their complexity and reflection of the terroir / the owner is quite striking.  This reflection may do better in some wines (their Cabernet, Shiraz, and Duel) than others (their Merlot).
 
 All in all, a good tasting experience to casually enjoy the ambiance and conversation with friends!  I personally think their Chardonnay is above average as well, but I walked away with two bottles of the Cabernet Sauvignon while others took the Chardonnay, Shiraz, and Duel.  Even if you only wanted the Chardonnay, it was buy one ($48), get one for $8 because of the waived tasting fee.  I always have this place in my back pocket for a rainy day (literally) and recommend groups stop by that want a little culture and relaxation with their wine!
+
+
+<small>
+    {% for tag in page.tags %}
+    <a href="/tags/{{ tag }}/">{{ tag }}</a>
+    {% endfor %}
+</small>

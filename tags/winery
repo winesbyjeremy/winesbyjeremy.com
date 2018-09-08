@@ -1,0 +1,7 @@
+###
+layout: tagpage
+tag: winery
+permalink: /tags/winery/ # This is only required for pretty links.
+###
+
+# Thus, this page's link is /tags/winery/ rather than /tags/winery.html

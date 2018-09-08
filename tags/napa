@@ -1,0 +1,7 @@
+###
+layout: tagpage
+tag: napa
+permalink: /tags/napa/ # This is only required for pretty links.
+###
+
+# Thus, this page's link is /tags/napa/ rather than /tags/napa.html

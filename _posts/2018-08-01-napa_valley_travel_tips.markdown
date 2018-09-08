@@ -3,7 +3,7 @@ layout: post
 title:  "Wine Travel Tips"
 author: "Jeremy Myers"
 date:   2018-08-01 19:20:00 -0400
-categories: travel tips
+tags: travel tips
 ---
 
 First, I'd like to thank you, the readers, for joining me on my journey through the wine world.  We are first starting out with some Napa wineries, but will soon see reviews on wineries/wine bars from Virginia, Oregon, and other locations.  In the meantime, I wanted to take some time to touch on putting together a wine trip itinerary, as I hope you will feel inspired to take your own trips after reading my reviews.  What follows is an analysis on my recent Napa Valley trip with friends and advice I'd give my past self.  
@@ -53,3 +53,10 @@ The schedule below is what we followed for our four-day weekend:
 * **Bring sunscreen and lots of water/snacks.**  It’s not a given that every place will offer you water or snacks during/after a tasting.  Also, the thing about Napa is that it’s usually hot and always sunny.  Protect yourself and keep rehydrating – every winery has a bathroom if you need it.  
 * **Start your tastings @ 1000.**  You may have heard that your palate is better in the morning, but don’t discount how much this extra hour helps your schedule too.  Private tastings usually last 1.5-2 hours – starting early helps get you to lunch at a reasonable hour but also helps you catch some amazing pictures with the morning, rolling fog.
 * **Friends will be friends.**  15 minutes in the car with their phones is more than enough for tech-savvy friends to purchase (not) funny web domains, setup Wordpress and post your picture on it.
+
+
+<small>
+    {% for tag in page.tags %}
+    <a href="/tags/{{ tag }}/">{{ tag }}</a>
+    {% endfor %}
+</small>
