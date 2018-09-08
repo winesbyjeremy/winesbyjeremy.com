@@ -32,9 +32,3 @@ The other thing you’ll notice is that the vintages of Cabernets from Spring Mo
 
 I highly recommend visiting, at the very least as a contrast to other Napa wineries and wines.  And who knows, you could be seduced by the Elivette (their Signature Wine) and renounce Napa’s fruit-forward style in favor of the old world.  In that case, you'll also want to visit Inglenook and others that are influenced by the French.  Or you can just enjoy the great Napa weather, the amazing view from their lawn chairs, and enjoy several pours of nice wine.  If only Spring Mountain wasn't tastings only...
 
-
-<small>
-    {% for tag in page.tags %}
-    <a href="/tags/{{ tag }}/">{{ tag }}</a>
-    {% endfor %}
-</small>
