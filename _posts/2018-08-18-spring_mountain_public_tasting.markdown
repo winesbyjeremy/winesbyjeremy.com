@@ -3,7 +3,7 @@ layout: post
 title:  "Spring Mountain Public Tasting"
 author: "Jeremy Myers"
 date:   2018-08-18 15:20:00 -0400
-categories: review winery tasting
+tags: review winery tasting
 ---
 # **Spring Mountain**: <https://www.springmountainvineyard.com/>
 * Rating: 91 out of 100
@@ -34,7 +34,7 @@ I highly recommend visiting, at the very least as a contrast to other Napa winer
 
 
 <small>
-    {% for category in page.categories %}
-    <a href="/tags/{{ category }}/">{{ category }}</a>
+    {% for tag in page.tags %}
+    <a href="/tags/{{ tag }}/">{{ tag }}</a>
     {% endfor %}
 </small>
