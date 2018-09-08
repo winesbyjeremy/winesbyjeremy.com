@@ -33,11 +33,15 @@ markdown: kramdown
 #theme: jekyll-theme-architect
 plugins:
   - jekyll-feed
+  - jekyll-maps
   - jekyll-paginate
   - jekyll-sitemap
 
 google_analytics: UA-123384548-1
 mailchimp-list: //winesbyjeremy.us18.list-manage.com/subscribe/post?u=b22a07e976dd2efd7490276f9&amp;id=1e062452b6
+maps:
+  google:
+    api_key: AIzaSyBGVILhPMYqclKhtLj2UKlORo40CnQp6wo
 paginate: 10
 
 # Exclude from processing.
