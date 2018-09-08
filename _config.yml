@@ -23,10 +23,10 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.winesbyjeremy.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Social Accounts
-twitter_username: winesbyjeremy
+facebook_username: winesbyjeremy
+github_username: winesbyjeremy
 instagram_username: winesbyjeremy
-github_username:  winesbyjeremy
-facebook_username:  winesbyjeremy
+twitter_username: winesbyjeremy
 vivino_username: winesbyjeremy
 
 # Build settings
@@ -36,6 +36,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-auto-image
 
 google_analytics: UA-123384548-1
 mailchimp-list: //winesbyjeremy.us18.list-manage.com/subscribe/post?u=b22a07e976dd2efd7490276f9&amp;id=1e062452b6
