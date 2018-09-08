@@ -3,7 +3,7 @@ layout: review
 title:  Fantesca Private Tasting
 author: Jeremy Myers
 date:   2018-08-25 15:20:00 -0400
-categories: review winery tasting
+tags: review winery tasting
 location:
   latitude: 38.512611
   longitude: -122.495192

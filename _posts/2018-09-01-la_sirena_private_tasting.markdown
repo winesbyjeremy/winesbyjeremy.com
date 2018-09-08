@@ -3,7 +3,7 @@ layout: review
 title:  La Sirena Private Tasting
 author: Jeremy Myers
 date:   2018-09-01 15:20:00 -0400
-categories: review winery tasting
+tags: review winery tasting
 winery_details:
   name: La Sirena
   url: http://lasirenawine.com
