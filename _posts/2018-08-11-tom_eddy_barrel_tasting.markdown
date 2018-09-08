@@ -1,15 +1,19 @@
 ---
-layout: post
-title:  "Tom Eddy Private Tasting"
-author: "Jeremy Myers"
+layout: review
+title:  Tom Eddy Private Tasting
+author: Jeremy Myers
 date:   2018-08-11 15:20:00 -0400
 categories: review winery tasting
+location:
+  latitude: 38.604856
+  longitude: -122.643010
+winery_details:
+  name: Tom Eddy
+  url: https://tomeddywinery.com
+  rating: 97
+  tasting: $100
+  reservation: Yes
 ---
-# **Tom Eddy**: <https://tomeddywinery.com/>
-* Rating: 97 out of 100
-* Tasting Fee: $100
-* Reservation Required: Yes
-
 UC Davis, Class of ’74.  That’s really all you need to know.  Alright, a little more explanation - the Viticulture and Enology Department at UC Davis has been #1 in the US for a long time and continues to produce some of the best winemakers in the country.  The Class of '74 was especially great - it was this class that really started to turn Napa into the high quality wine paradise that it is today, especially after the Judgement of Paris in 1976 propelled Napa wine into the spotlight.  If you are interested in learning more about the Judgement of Paris, its easy to find lots of articles about it on the internet.  There's even a movie about Chateau Montelena winning the best white wine (Bottleshock).
 
 Although he still consults for several other places, you need to try the wines that bears Tom Eddy’s name.  Tastings are by appointment only and I recommend that you go for the barrel tasting.  At $100, it is an investment, though the return is well worth it.  Driving up to the winery, you get the sense you are actually driving up to someone’s house.  And that's exactly the hospitality you get during the tasting.  I really enjoyed it – Tom Eddy is a 3 person operation: Tom, his wife, and their brand ambassador / membership director.  The experience is 1-on-1, though I happened to pick the weekend that Tom what traveling (we were still greeted by his wife with the NZ Sauvignon Blanc on arrival).  The view from the property to the valley below is gorgeous (100+ acres of untouched grasslands and hills) and the wine cellar door makes you think you’ve stumbled into Hobbiton (LOTR).  All of these things combined with the knowledge but casual demeanor of their brand ambassador resulted in one of our groups favorite experiences that week.

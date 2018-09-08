@@ -1,15 +1,19 @@
 ---
-layout: post
-title:  "Darioush Public Tasting"
-author: "Jeremy Myers"
+layout: review
+title:  Darioush Public Tasting
+author: Jeremy Myers
 date:   2018-07-28 15:20:00 -0400
 categories: review winery tasting
+location:
+  latitude: 38.367523
+  longitude: -122.294569
+winery_details:
+  name: Darioush
+  url: https://www.darioush.com
+  rating: 92
+  tasting: $40 or Free with 2-bottle purchase
+  reservation: No, but recommended
 ---
-# **Darioush**: <https://www.darioush.com>
-* Rating: 92 out of 100
-* Tasting Fee: $40 or Free with 2-bottle purchase
-* Reservation Required: No, but recommended
-
 There are many beautiful places in the world where you can drink fantastic wine.  One of the reasons Napa Valley remains a top wine vacation destination is the diversity of its wineries, from the styles and varietals produced, to the architecture and feel of the winery itself.  Darioush is a prime example of that diversity.  When people ask me to refer them to a beautiful, culturally inspired winery with solid wines that reflect that culture, Darioush is one of the first that come to mind.  
 
 Definitely one of the classier establishments I have been to in Napa – once you drive through the gated entrance and park, you walk past columns and a fountain, up to a building whose exterior is shaped like the ancient Persians ones of old.  Though when you enter the building, you feel as if you've entered a chic, boutique, high-class winery.  The host/hostess will welcome your party at the entrance with a sample of the Sauvignon Blanc and encourage you to explore the blend of Persian history with classy interior design.  Although the winery has a formal feel, it is actually a great environment for those looking to enjoy an easy, laid-back tasting with spicier red wines.  I definitely recommend making a reservation though to guarantee quick seating and a corner location with couches, rather than being asked to sit on awkward seats at the bar.  
