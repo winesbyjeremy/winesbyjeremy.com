@@ -3,7 +3,7 @@ layout: post
 title:  "Jericho Canyon Private Tasting"
 author: "Jeremy Myers"
 date:   2018-08-04 15:20:00 -0400
-categories: review winery tasting
+tags: review winery tasting
 ---
 # **Jericho Canyon**: <http://www.jerichocanyonvineyard.com>
 * Rating: 95 out of 100
@@ -31,3 +31,4 @@ I recommend seeking out their 2015 Sauvignon Blanc if you can find it - concentr
 A great, personalized experience (only one visiting group is hosted on the property at a time) if you prefer wines with more structure, but in a French way with acidity and tannin contributing in balance, rather than leaving the bulk of the work to the tannins.  The wines are also very fresh, have a lighter body, great elegance, and doesn't overdo it on the ripeness.  Again, a great set to start your day with before moving onto more powerful wines.  Also note, it’s very hard to come across these bottles on the open market, so a membership allocation is your best bet to lock down continued access to the wines.  I have a 3-bottles allocation myself.
 
 I hope you get the chance to enjoy their wines!
+
