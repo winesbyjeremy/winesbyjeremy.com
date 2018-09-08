@@ -40,3 +40,10 @@ Ahead of time, we read about all of the famous personalities involved at the sta
 Unfortunately, many of these wines are out of the price range of the average consumer (the Roberta’s Reserve and Rapszodia start at $285 and the Grand Vin at $375), though the tasting fee should have hinted at this.  Personally, I bought several bottles for very special I-hope-they-happen-in-the-future occasions, but the wines others found affordable were the Estate Cuvee, the Furmint, and the Vino del Sol.  I think my group ended up purchasing 20+ bottles of the Vino del Sol ($45) and 10+ bottles of the Furmint ($35).  Comparing their quality to other Napa wines in the same price range, these two are both steals.  The Vino del Sol is a combo of Cabs and Merlot in a fortified wine style and the Furmint can fool friends who drink $50+ Sauvignon Blancs.
 
 If you are a serious wine drinker / wine collector that dabbles in cult wines of California, do not sleep on Kapcsandy.  The quality here surpasses many of the other places I’ve visited with prices in the same range.  And at 1/2 the price of first-growth Bordeaux’s, I’ll take a bottle of the Grand Vin or Roberta’s Reserve any day over them..
+
+
+<small>
+    {% for category in page.categories %}
+    <a href="/tags/{{ category }}/">{{ category }}</a>
+    {% endfor %}
+</small>
