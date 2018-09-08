@@ -41,9 +41,3 @@ Unfortunately, many of these wines are out of the price range of the average con
 
 If you are a serious wine drinker / wine collector that dabbles in cult wines of California, do not sleep on Kapcsandy.  The quality here surpasses many of the other places I’ve visited with prices in the same range.  And at 1/2 the price of first-growth Bordeaux’s, I’ll take a bottle of the Grand Vin or Roberta’s Reserve any day over them..
 
-
-<small>
-    {% for tag in page.tags %}
-    <a href="/tags/{{ tag }}/">{{ tag }}</a>
-    {% endfor %}
-</small>
