@@ -1,0 +1,14 @@
+<!-- This template uses instafeed. Documentation here: http://instafeedjs.com/#standard -->
+<script type="text/javascript" src="assets/js/instafeed.min.js"></script>
+
+<script type="text/javascript">
+    var feed = new Instafeed({
+        get: 'user',
+        userId: '{{ site.instagram.userId }}',
+        <!-- clientId: '{{ site.instagram.clientId }}', -->
+        accessToken: '{{ site.instagram.accessToken  }}'
+    });
+    feed.run();
+</script>
+
+<div id="instafeed"></div>

@@ -29,6 +29,13 @@ github_username:  winesbyjeremy
 facebook_username:  winesbyjeremy
 vivino_username: winesbyjeremy
 
+# Instagram
+instagram:
+  accessToken: 8215046157.a3e4160.6ec1b444763545de884fc96d7bd354f4
+#  clientId: a3e4160e47d1431c89c4cb8b196c4f79
+#  userId: 455594682
+  userId: 8215046157
+
 # Build settings
 markdown: kramdown
 #theme: jekyll-theme-architect
