@@ -3,7 +3,7 @@ layout: post
 title:  "Tom Eddy Private Tasting"
 author: "Jeremy Myers"
 date:   2018-08-11 15:20:00 -0400
-categories: review winery tasting
+tags: review winery tasting
 ---
 # **Tom Eddy**: <https://tomeddywinery.com/>
 * Rating: 97 out of 100
@@ -41,7 +41,7 @@ Their membership program is very flexible and can be tailored to you, so get out
 
 
 <small>
-    {% for category in page.categories %}
-    <a href="/tags/{{ category }}/">{{ category }}</a>
+    {% for tag in page.tags %}
+    <a href="/tags/{{ tag }}/">{{ tag }}</a>
     {% endfor %}
 </small>
