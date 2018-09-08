@@ -3,7 +3,7 @@ layout: post
 title:  "Del Dotto Historic Tasting and Tour"
 author: "Jeremy Myers"
 date:   2018-07-14 15:20:00 -0400
-categories: review winery tasting napa
+tags: review winery tasting napa
 ---
 # **Del Dotto**: <http://www.deldottovineyards.com>
 * Rating: 96 out of 100
@@ -35,7 +35,7 @@ The one caveat is that purchasing wines here is a bit different from the normal 
 If you manage to book an appointment here (it can book up rather quickly during popular travel dates), enjoy this unique experience!!
 
 <small>
-    {% for category in page.categories %}
-    <a href="/tags/{{ category }}/">{{ category }}</a>
+    {% for tag in page.tags %}
+    <a href="/tags/{{ tag }}/">{{ tag }}</a>
     {% endfor %}
 </small>
