@@ -3,7 +3,7 @@ layout: post
 title:  "Wine Travel Tips"
 author: "Jeremy Myers"
 date:   2018-08-01 19:20:00 -0400
-categories: travel tips
+tags: travel tips
 ---
 
 First, I'd like to thank you, the readers, for joining me on my journey through the wine world.  We are first starting out with some Napa wineries, but will soon see reviews on wineries/wine bars from Virginia, Oregon, and other locations.  In the meantime, I wanted to take some time to touch on putting together a wine trip itinerary, as I hope you will feel inspired to take your own trips after reading my reviews.  What follows is an analysis on my recent Napa Valley trip with friends and advice I'd give my past self.  
@@ -56,7 +56,7 @@ The schedule below is what we followed for our four-day weekend:
 
 
 <small>
-    {% for category in page.categories %}
-    <a href="/tags/{{ category }}/">{{ category }}</a>
+    {% for tag in page.tags %}
+    <a href="/tags/{{ tag }}/">{{ tag }}</a>
     {% endfor %}
 </small>
