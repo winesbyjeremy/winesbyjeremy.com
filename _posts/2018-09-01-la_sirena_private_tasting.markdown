@@ -3,7 +3,7 @@ layout: post
 title:  "La Sirena Private Tasting"
 author: "Jeremy Myers"
 date:   2018-09-01 15:20:00 -0400
-categories: review winery tasting
+tags: review winery tasting
 ---
 # **La Sirena**: <http://lasirenawine.com>
 * Rating: 100 out of 100
@@ -29,7 +29,7 @@ To summarize, these wines are the steal of Napa Valley – I cannot praise them 
 
 
 <small>
-    {% for category in page.categories %}
-    <a href="/tags/{{ category }}/">{{ category }}</a>
+    {% for tag in page.tags %}
+    <a href="/tags/{{ tag }}/">{{ tag }}</a>
     {% endfor %}
 </small>
