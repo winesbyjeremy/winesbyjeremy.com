@@ -3,7 +3,7 @@ layout: post
 title:  "Fantesca Private Tasting"
 author: "Jeremy Myers"
 date:   2018-08-25 15:20:00 -0400
-categories: review winery tasting
+tags: review winery tasting
 ---
 # **Fantesca**: <https://fantesca.com>
 * Rating: 98 out of 100
@@ -34,7 +34,7 @@ NOTE: I am also a 3-bottles allocation member with Fantesca.  And a special shou
 
 
 <small>
-    {% for category in page.categories %}
-    <a href="/tags/{{ category }}/">{{ category }}</a>
+    {% for tag in page.tags %}
+    <a href="/tags/{{ tag }}/">{{ tag }}</a>
     {% endfor %}
 </small>
