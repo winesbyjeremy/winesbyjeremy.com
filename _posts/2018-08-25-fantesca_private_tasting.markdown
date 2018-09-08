@@ -32,9 +32,3 @@ And although you can’t taste the Estate Cab this year, this is Heidi’s only 
 
 NOTE: I am also a 3-bottles allocation member with Fantesca.  And a special shout-out to Steve Frattini (the wine ambassador) for leading us through a great tasting and answering all of our questions!
 
-
-<small>
-    {% for tag in page.tags %}
-    <a href="/tags/{{ tag }}/">{{ tag }}</a>
-    {% endfor %}
-</small>
