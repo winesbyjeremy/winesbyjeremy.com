@@ -3,7 +3,7 @@ layout: post
 title:  "Jericho Canyon Private Tasting"
 author: "Jeremy Myers"
 date:   2018-08-04 15:20:00 -0400
-categories: review winery tasting
+tags: review winery tasting
 ---
 # **Jericho Canyon**: <http://www.jerichocanyonvineyard.com>
 * Rating: 95 out of 100
@@ -34,7 +34,7 @@ I hope you get the chance to enjoy their wines!
 
 
 <small>
-    {% for category in page.categories %}
-    <a href="/tags/{{ category }}/">{{ category }}</a>
+    {% for tag in page.tags %}
+    <a href="/tags/{{ tag }}/">{{ tag }}</a>
     {% endfor %}
 </small>
