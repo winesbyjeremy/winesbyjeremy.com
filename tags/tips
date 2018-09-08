@@ -1,7 +1,0 @@
-###
-layout: tagpage
-tag: tips
-permalink: /tags/tips/ # This is only required for pretty links.
-###
-
-# Thus, this page's link is /tags/tips/ rather than /tags/tips.html
