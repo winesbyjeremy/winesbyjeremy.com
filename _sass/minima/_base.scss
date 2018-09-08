@@ -208,6 +208,15 @@ pre {
  * Icons
  */
 
+.png-icon {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    filter: sepia(100%);
+    padding-right: 5px;
+    vertical-align: text-top;
+}
+
 .svg-icon {
     width: 16px;
     height: 16px;
