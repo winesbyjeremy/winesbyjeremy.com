@@ -27,9 +27,3 @@ Unlike most wineries, I have a story for each wine because of the impression tha
 
 To summarize, these wines are the steal of Napa Valley – I cannot praise them enough for the Quality/Price ratio.  Please make a reservation if you can and tell me that I am wrong about anything I said.  Though, I’ll suspect you’ll also jump on the Heidi Barrett bandwagon too.
 
-
-<small>
-    {% for tag in page.tags %}
-    <a href="/tags/{{ tag }}/">{{ tag }}</a>
-    {% endfor %}
-</small>
