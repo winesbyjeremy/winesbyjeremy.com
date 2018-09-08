@@ -26,3 +26,10 @@ As I was saying, every time I visit Napa Valley with a group of people, I always
 Unlike most wineries, I have a story for each wine because of the impression that David left.  The Moscato is as floral and amazing on the nose as a Moscato d’Asti, but is bone dry.  The Grenache is candied, very pretty and so smooth.  It's also uncommon to find a 100% Grenache in Napa.  The Malbec is one of the greatest you’ll taste of that varietal - complex with some terroir character and not overly reliant on the fruit.  The TreasuRed is a blend of 7 varietals and 15+ lots of wine that is Example A of Heidi’s blending brilliance (her background is in Chemistry).  And the Cabernet Sauvignon is reminiscent of her $2000+ Screaming Eagle wines.  She even uses some of the same grapes because she still holds the grape purchasing contracts from her time as winemaker there!  For those French wine lovers, the Barrett and Barrett is a collaboration with her husband (Bo Barrett – Winemaker/Chairman at Chateau Montelena) that integrates her balance/body/fruit approach with Bo’s French terroir/age-ability approach.
 
 To summarize, these wines are the steal of Napa Valley – I cannot praise them enough for the Quality/Price ratio.  Please make a reservation if you can and tell me that I am wrong about anything I said.  Though, I’ll suspect you’ll also jump on the Heidi Barrett bandwagon too.
+
+
+<small>
+    {% for category in page.categories %}
+    <a href="/tags/{{ category }}/">{{ category }}</a>
+    {% endfor %}
+</small>
