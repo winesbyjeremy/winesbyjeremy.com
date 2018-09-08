@@ -31,3 +31,10 @@ This is another winery that produces a refreshing Sauvignon Blanc.  Some winerie
 The other thing you’ll notice is that the vintages of Cabernets from Spring Mountain vary wildly in profile from each other.  That’s because every year, the winemaker gauges the quality of fruit produced and crafts that year's profile based on what nature gives him.  The winery sells off the rest.  Which means year-to-year, grapes from different plots are utilized for their wine – it’s not as if there is one “best” location that they get their grapes from.  I couldn't believe how different the 2007/2008 Cabernets were; they appeal to two totally different types of palates.  
 
 I highly recommend visiting, at the very least as a contrast to other Napa wineries and wines.  And who knows, you could be seduced by the Elivette (their Signature Wine) and renounce Napa’s fruit-forward style in favor of the old world.  In that case, you'll also want to visit Inglenook and others that are influenced by the French.  Or you can just enjoy the great Napa weather, the amazing view from their lawn chairs, and enjoy several pours of nice wine.  If only Spring Mountain wasn't tastings only...
+
+
+<small>
+    {% for category in page.categories %}
+    <a href="/tags/{{ category }}/">{{ category }}</a>
+    {% endfor %}
+</small>
