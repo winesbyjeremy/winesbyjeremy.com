@@ -53,3 +53,10 @@ The schedule below is what we followed for our four-day weekend:
 * **Bring sunscreen and lots of water/snacks.**  It’s not a given that every place will offer you water or snacks during/after a tasting.  Also, the thing about Napa is that it’s usually hot and always sunny.  Protect yourself and keep rehydrating – every winery has a bathroom if you need it.  
 * **Start your tastings @ 1000.**  You may have heard that your palate is better in the morning, but don’t discount how much this extra hour helps your schedule too.  Private tastings usually last 1.5-2 hours – starting early helps get you to lunch at a reasonable hour but also helps you catch some amazing pictures with the morning, rolling fog.
 * **Friends will be friends.**  15 minutes in the car with their phones is more than enough for tech-savvy friends to purchase (not) funny web domains, setup Wordpress and post your picture on it.
+
+
+<small>
+    {% for category in page.categories %}
+    <a href="/tags/{{ category }}/">{{ category }}</a>
+    {% endfor %}
+</small>
