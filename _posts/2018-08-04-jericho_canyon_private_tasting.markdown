@@ -32,9 +32,3 @@ A great, personalized experience (only one visiting group is hosted on the prope
 
 I hope you get the chance to enjoy their wines!
 
-
-<small>
-    {% for tag in page.tags %}
-    <a href="/tags/{{ tag }}/">{{ tag }}</a>
-    {% endfor %}
-</small>
