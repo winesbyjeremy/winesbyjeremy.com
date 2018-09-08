@@ -31,3 +31,10 @@ All of these wines are excellent and different than anything else you’ll exper
 And although you can’t taste the Estate Cab this year, this is Heidi’s only Spring Mountain Cabernet in her portfolio.  This wine is for the savvy consumer that has some disposable income available and doesn’t mind spending it on wine that is worth its price point.  Serve it only for special occasions and hoard the rest for yourself.  Most of the wines that Heidi produces are ready for immediate consumption, but I would put the Estate Cabernet away for a few years since its approaching a hibernation state, where it becomes less fragrant and harder to suss out the flavors for a few years.  
 
 NOTE: I am also a 3-bottles allocation member with Fantesca.  And a special shout-out to Steve Frattini (the wine ambassador) for leading us through a great tasting and answering all of our questions!
+
+
+<small>
+    {% for category in page.categories %}
+    <a href="/tags/{{ category }}/">{{ category }}</a>
+    {% endfor %}
+</small>
