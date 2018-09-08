@@ -3,7 +3,7 @@ layout: post
 title:  "Tom Eddy Private Tasting"
 author: "Jeremy Myers"
 date:   2018-08-11 15:20:00 -0400
-categories: review winery tasting
+tags: review winery tasting
 ---
 # **Tom Eddy**: <https://tomeddywinery.com/>
 * Rating: 97 out of 100
@@ -38,3 +38,4 @@ And I haven't even started talking about how good their wines are yet!  I think 
 If you want a wine that has the minerality and lighter body of Silver Oak, the ripeness of Caymus without going overboard, with enough pieces in the puzzle to keep you guessing, you will really appreciate the Tom Eddy Cabernet Sauvignons.  Tasting them in the barrel, you can still imagine what the wines will evolve into while still being able to appreciate how delicious and drinkable they are right now.  Though, the Cabernet from the Stagecoard Vineyard is just something special compared to the other single vineyard sites and I highly recommend that you try to get a taste for yourself.  I may have loaded up on the 2013 with pre-orders for the 2015 and 2016, but am definitely most excited for the 2016.  And as I mentioned before, now that E&J Gallo owns Stagecoach, finding wines made from that amazing fruit from wineries outside their portfolio may become very rare in the future.  
 
 Their membership program is very flexible and can be tailored to you, so get out there and experience Tom Eddy for yourself!  If you prefer white wines, I hear their Russian River Chardonnay is very good, but if you can afford it, I think holding a tasting with friends using the single-vineyard Cabernet Sauvignons can be a very special experience.
+

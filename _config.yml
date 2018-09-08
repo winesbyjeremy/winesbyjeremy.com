@@ -23,13 +23,11 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.winesbyjeremy.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Social Accounts
-twitter_username:   winesbyjeremy
+facebook_username: winesbyjeremy
+github_username: winesbyjeremy
 instagram_username: winesbyjeremy
-github_username:    winesbyjeremy
-facebook_username:  winesbyjeremy
-linkedin_username:
-google_plus_username:
-dribbble_username:
+twitter_username: winesbyjeremy
+vivino_username: winesbyjeremy
 
 # Build settings
 markdown: kramdown
