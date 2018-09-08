@@ -33,9 +33,3 @@ And although they don’t advertise it as much as many, they score well with tra
 The one caveat is that purchasing wines here is a bit different from the normal experience.  Del Dotto practices "en primeur" for its red wine, a French term meaning that they sell futures.  When you finish your barrel tasting and note the wines you want, the wine first needs to finish their time aging in the barrels, then they will be bottled and shipped to you, usually later in the year, but very well could be the following year.  But the wait is well worth it.  I definitely purchased some wine for aging and some wine for enjoying right away.
 
 If you manage to book an appointment here (it can book up rather quickly during popular travel dates), enjoy this unique experience!!
-
-<small>
-    {% for tag in page.tags %}
-    <a href="/tags/{{ tag }}/">{{ tag }}</a>
-    {% endfor %}
-</small>
