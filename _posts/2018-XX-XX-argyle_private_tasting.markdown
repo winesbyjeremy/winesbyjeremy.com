@@ -2,17 +2,17 @@
 layout: post
 title:  "Argyle Private Tasting"
 author: "Jeremy Myers"
-date:   2018-08-04 15:20:00 -0400
+date:   2018-XX-XX 15:20:00 -0400
 categories: review winery tasting
 ---
 # **Argyle**: <http://>
 * Rating: 95 out of 100
-* Tasting Fee: $40
-* Reservation Required: Yes
+* Tasting Fee: $XX
+* Reservation Required: Yes for Special Tastings
 
-When people think of Oregon wine, they normal think of red still wine that ranges from the finesse of Burgundy Pinot Noir to the power of Russian River Valley Pinot Noir.  They don’t necessarily think of Sparkling wine, which is a key product of Pinot Noir all around the world, not just Champagne.  And when it comes to Oregon Sparkling Wine, there is no place more established than Argyle - heck, it's even called out specifically in my Wine and Spirits Education Trust (WSET) Sparkling Wine Class!!  The reputation alone is enough to entice even seasoned wine professionals, but when I discovered there was a special Sparkling tasting that also lets you to disgorge a bottle by hand, I made Argyle my first call during my itinerary construction.  I brought along my cousin and her husband for a full weekend of tastings in Willamette as their wedding gift, but this visit was definitely a gift to myself, haha.
+When people think of Oregon wine, they normal think of red still wine that ranges from the finesse of Burgundy Pinot Noir to the power of Russian River Valley Pinot Noir.  They don’t necessarily think of Sparkling wine, which is a key product of Pinot Noir all around the world, not just Champagne.  And when it comes to Oregon Sparkling Wine, there is no place more established than Argyle; heck, it's even called out specifically in my Wine and Spirits Education Trust (WSET) Sparkling Wine Class!  The reputation alone is enough to entice even seasoned wine professionals, but when I discovered there was a special Sparkling tasting that also lets you to disgorge a bottle by hand, I made Argyle my first call during my itinerary construction.  I brought along my cousin and her husband for a full weekend of tastings in Willamette as their wedding gift, but this visit was definitely a gift to myself, haha.
  
-The winery itself is spacious and gorgeous - polished, yet rustic with parts from its old barrel storage facility incorporated into different aspects of the new building.  Argyle's tasting area could hold 100 people without issue and there's even enough room for kids to run around outside.  Upon entering the facility, we were greeted with a sparkling Riesling that resembled Deutcher Sekt (German Sparkling Wine), but was a little drier and lower in acidity.  After we finished exploring the tasting area, the manager of the winery picked us up and took us to the back for a private tour and tasting.
+The winery itself is spacious and gorgeous, polished yet rustic, and with parts from its old barrel storage facility incorporated into different aspects of the new building.  Argyle's tasting area could hold 100 people without issue and there's even enough room for kids to run around outside.  Upon entering the facility, we were greeted with a sparkling Riesling that resembled Deutcher Sekt (German Sparkling Wine), but was a little drier and lower in acidity.  After we finished exploring the tasting area, the manager of the winery picked us up and took us to the back for a private tour and tasting.
  
 We first walked through the back space of the storage area, where it was the coolest and darkest.  There we saw unspeakable things, like wines that had been aging on their lees for nearly 10 years, long enough to make even great Champagne Negociant houses blush; the prestige cuvees (best wines) of a Champagne Negociant (e.g. Moet Chandon) is normally aged on the lees for 5-7 years.  Although the bottles didn’t have the iconic black mold growing on the bottles (this was a warehouse, not an underground cave after all), you could tell that these were cared for greatly before they made it to the gyropalates for riddling and eventual disgorgement.
  
