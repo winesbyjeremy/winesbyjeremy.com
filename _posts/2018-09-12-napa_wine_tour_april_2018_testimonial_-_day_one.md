@@ -2,7 +2,7 @@
 layout: post
 title:  "Napa Wine Tour April 2018 Testimonial - Day One"
 author: "Orri Ganel"
-date:   2018-09-08 15:20:00 -0400
+date:   2018-09-12 15:20:00 -0400
 categories: review winery tasting napa testimonial tour
 ---
 
