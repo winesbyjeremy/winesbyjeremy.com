@@ -16,17 +16,17 @@
 title: Wines By Jeremy
 email: winesbyjeremy@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Wines by Jeremy offers an educative and enjoyable personalized wine experience. 
-  Located in the DC metro area, Wines by Jeremy provides a number of services including in-home 
+  Wines by Jeremy offers an educative and enjoyable personalized wine experience.
+  Located in the DC metro area, Wines by Jeremy provides a number of services including in-home
   exclusive tastings, highly curated event tastings, educational events, and wine cellar consulting.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.winesbyjeremy.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Social Accounts
-twitter_username: winesbyjeremy
+facebook_username: winesbyjeremy
+github_username: winesbyjeremy
 instagram_username: winesbyjeremy
-github_username:  winesbyjeremy
-facebook_username:  winesbyjeremy
+twitter_username: winesbyjeremy
 vivino_username: winesbyjeremy
 
 # Build settings
@@ -34,21 +34,26 @@ markdown: kramdown
 #theme: jekyll-theme-architect
 plugins:
   - jekyll-feed
+#  - jekyll-maps
   - jekyll-paginate
   - jekyll-sitemap
+#  - jekyll-auto-image
 
 google_analytics: UA-123384548-1
 mailchimp-list: //winesbyjeremy.us18.list-manage.com/subscribe/post?u=b22a07e976dd2efd7490276f9&amp;id=1e062452b6
+maps:
+  google:
+    api_key: AIzaSyBGVILhPMYqclKhtLj2UKlORo40CnQp6wo
 paginate: 10
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - node_modules
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - CNAME
+  - README.md
+  - locations.md
