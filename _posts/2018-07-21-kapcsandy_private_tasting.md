@@ -1,15 +1,19 @@
 ---
-layout: post
-title:  "Kapcsandy Private Tour and Tasting"
-author: "Jeremy Myers"
+layout: review
+title:  Kapcsandy Private Tour and Tasting
+author: Jeremy Myers
 date:   2018-07-21 15:20:00 -0400
-categories: review winery tasting
+tags: review winery tasting
+location:
+  latitude: 38.422735
+  longitude: -122.348862
+winery_details:
+  name: Kapcsandy
+  url: https://www.kapcsandywines.com
+  rating: 100
+  tasting: $150
+  reservation: Yes
 ---
-# **Kapcsandy**: <https://www.kapcsandywines.com>
-* Rating: 100 out of 100
-* Tasting Fee: $150
-* Reservations Required: Yes
-
 I can say unequivocally that Kapcsandy has been my favorite wine tasting so far in the Napa Valley.  Although it lacks many of the aesthetics that you may come to expect from Napa wineries, imagine all of that energy and precision being focused on the wine instead (their website is the first indication of this philosophy).  It shows in every wine they make and all of the 98pt+ ratings that the world's premier wine reviewers heap on them.  So why isn’t this winery more famous like Screaming Eagle, Lokoya, Scarecrow, etc?  I can imagine there are many opinions on this, but my personal opinion on this is their blue collar nature in doing great work rather than advertising.  Other contributing factors include their small production and wine collectors buying up all their wine as soon as its released.
 
 The experience all starts with signing up for an appointment.  You’ll notice that you can only make a reservation if your group is 4-8 people, for only one time of day (10:30am) and only on Tues-Fri.  Even then, you might not get an appointment.  They aren't trying to be difficult - it's because the operation is tiny.  Owned/Operated by a Father/Son tandem and ~6 other people, there isn’t much free time to hold tastings – and yes, if you get an appointment, the Father or Son will be the ones hosting the tasting!
