@@ -1,15 +1,19 @@
 ---
-layout: post
-title:  "Kapcsandy Private Tour and Tasting"
-author: "Jeremy Myers"
+layout: review
+title:  Kapcsandy Private Tour and Tasting
+author: Jeremy Myers
 date:   2018-07-21 15:20:00 -0400
 tags: review winery tasting
+location:
+  latitude: 38.422735
+  longitude: -122.348862
+winery_details:
+  name: Kapcsandy
+  url: https://www.kapcsandywines.com
+  rating: 100
+  tasting: $150
+  reservation: Yes
 ---
-# **Kapcsandy**: <https://www.kapcsandywines.com>
-* Rating: 100 out of 100
-* Tasting Fee: $150
-* Reservations Required: Yes
-
 I can say unequivocally that Kapcsandy has been my favorite wine tasting so far in the Napa Valley.  Although it lacks many of the aesthetics that you may come to expect from Napa wineries, imagine all of that energy and precision being focused on the wine instead (their website is the first indication of this philosophy).  It shows in every wine they make and all of the 98pt+ ratings that the world's premier wine reviewers heap on them.  So why isn’t this winery more famous like Screaming Eagle, Lokoya, Scarecrow, etc?  I can imagine there are many opinions on this, but my personal opinion on this is their blue collar nature in doing great work rather than advertising.  Other contributing factors include their small production and wine collectors buying up all their wine as soon as its released.
 
 The experience all starts with signing up for an appointment.  You’ll notice that you can only make a reservation if your group is 4-8 people, for only one time of day (10:30am) and only on Tues-Fri.  Even then, you might not get an appointment.  They aren't trying to be difficult - it's because the operation is tiny.  Owned/Operated by a Father/Son tandem and ~6 other people, there isn’t much free time to hold tastings – and yes, if you get an appointment, the Father or Son will be the ones hosting the tasting!
@@ -40,4 +44,3 @@ Ahead of time, we read about all of the famous personalities involved at the sta
 Unfortunately, many of these wines are out of the price range of the average consumer (the Roberta’s Reserve and Rapszodia start at $285 and the Grand Vin at $375), though the tasting fee should have hinted at this.  Personally, I bought several bottles for very special I-hope-they-happen-in-the-future occasions, but the wines others found affordable were the Estate Cuvee, the Furmint, and the Vino del Sol.  I think my group ended up purchasing 20+ bottles of the Vino del Sol ($45) and 10+ bottles of the Furmint ($35).  Comparing their quality to other Napa wines in the same price range, these two are both steals.  The Vino del Sol is a combo of Cabs and Merlot in a fortified wine style and the Furmint can fool friends who drink $50+ Sauvignon Blancs.
 
 If you are a serious wine drinker / wine collector that dabbles in cult wines of California, do not sleep on Kapcsandy.  The quality here surpasses many of the other places I’ve visited with prices in the same range.  And at 1/2 the price of first-growth Bordeaux’s, I’ll take a bottle of the Grand Vin or Roberta’s Reserve any day over them..
-

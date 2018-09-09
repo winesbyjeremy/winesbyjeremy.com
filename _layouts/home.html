@@ -21,6 +21,11 @@ layout: default
             {{ post.title | escape }}
           </a>
         </h3>
+        <span>
+          {%- if post.image -%}
+            <img class="thumbnail-image" src="{{ post.image | relative_url }}" />
+          {%- endif -%}
+        </span>
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
         {%- endif -%}

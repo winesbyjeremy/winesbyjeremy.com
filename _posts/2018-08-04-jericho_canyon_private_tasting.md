@@ -1,15 +1,19 @@
 ---
-layout: post
-title:  "Jericho Canyon Private Tasting"
-author: "Jeremy Myers"
+layout: review
+title:  Jericho Canyon Private Tasting
+author: Jeremy Myers
 date:   2018-08-04 15:20:00 -0400
 tags: review winery tasting
+location:
+  latitude: 38.620274
+  longitude: -122.593695
+winery_details:
+  name: Jericho Canyon
+  url: http://www.jerichocanyonvineyard.com
+  rating: 95
+  tasting: $50
+  reservation: Yes
 ---
-# **Jericho Canyon**: <http://www.jerichocanyonvineyard.com>
-* Rating: 95 out of 100
-* Tasting Fee: $50
-* Reservation Required: Yes
-
 Many places in Napa will tout the location and contour of their vineyards / hillsides as reasons they are able to produce great wines.  Jericho Canyon is a different beast altogether.  If you're lucky enough to secure a tasting reservation here, you’ll discover a beautiful canyon that seems sculpted by Mother Earth herself for growing amazing fruit.  This is one of the reasons why famous wine personalities have either bought their fruit for their own wine (e.g. David Ramey) or work as consultants to help make the Jericho wines (e.g. Michel Rolland).  I highly recommend making a 10AM reservation – the morning fog rolling over the top of the hills is an amazing, picturesque scene for photography enthusiasts!
 
 If you are feeling adventurous (and your group is 4 people or less) you can elect to go up into their vineyards on their Polaris (a small 4x4 offroader) as well.  Jericho will serve their Sauvignon Blanc and drive you up into the vineyards so you can walk around yourself and get a better vantage points for some postcard-quality pictures.  
@@ -31,4 +35,3 @@ I recommend seeking out their 2015 Sauvignon Blanc if you can find it - concentr
 A great, personalized experience (only one visiting group is hosted on the property at a time) if you prefer wines with more structure, but in a French way with acidity and tannin contributing in balance, rather than leaving the bulk of the work to the tannins.  The wines are also very fresh, have a lighter body, great elegance, and doesn't overdo it on the ripeness.  Again, a great set to start your day with before moving onto more powerful wines.  Also note, it’s very hard to come across these bottles on the open market, so a membership allocation is your best bet to lock down continued access to the wines.  I have a 3-bottles allocation myself.
 
 I hope you get the chance to enjoy their wines!
-

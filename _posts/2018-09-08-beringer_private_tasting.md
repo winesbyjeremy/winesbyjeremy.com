@@ -1,15 +1,19 @@
 ---
-layout: post
-title:  "Beringer Private Tasting"
-author: "Jeremy Myers"
+layout: review
+title:  Beringer Private Tasting
+author: Jeremy Myers
 date:   2018-09-08 15:20:00 -0400
-categories: review winery tasting
+tags: review winery tasting
+location:
+  latitude: 38.510169
+  longitude: -122.479882
+winery_details:
+  name: Beringer
+  url: https://www.beringer.com
+  rating: 95
+  tasting: $40 for Public Tasting, $75 for Private Tasting
+  reservation: No for Public Tasting, Yes for Private Tasting
 ---
-# **Beringer**: <https://www.beringer.com>
-* Rating: 95 out of 100
-* Tasting Fee: $40 for Public Tasting, $75 for Private Tasting
-* Reservation Required: No for Public Tasting, Yes for Private Tasting
-
 It's fitting that Beringer was my very first winery membership.  Although the brand has been bought/sold a few times, it is the oldest continuously operating winery in the Napa Valley (established in 1876).  Over the past 140+ years, it's been responsible for many "firsts" in Napa as well as the US Wine Industry at large, and has grown into a true powerhouse.  I had been to several Napa wineries before, but this was the first one that really left me in awe and raised my expectations for quality wine.  If you are like me, your first foray into wine came from the shelves of Trader Joes and other grocery store chains.  One of those $7 bottles I brought home was Beringer, so when I first saw that there was a tasting for $40, I thought to myself that they were crazy.  Little did I know.  
 
 While large producers like Beringer and Robert Mondavi may produce and sell large amounts of ~$7-$20 wine, they also produce some fantastic top quality wines because of all the land and capital they have access to.  Imagine if you had enough grapes to produce 1,000,000 bottles of wine and could save your best grapes for 1,000 bottles - how good do you think those 1,000 bottles could be?  Answer: Really good...
