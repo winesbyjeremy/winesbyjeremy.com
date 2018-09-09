@@ -3,11 +3,14 @@ layout: post
 title:  "Napa Wine Tour April 2018 Testimonial - Day One"
 author: "Orri Ganel"
 date:   2018-09-08 15:20:00 -0400
-categories: review winery tasting napa testimonial tour april-2018
+categories: review winery tasting napa testimonial tour
 ---
-Note from Jeremy: <INSERT TEXT HERE>... Without further ado, the first day:
 
-Wine is an incredibly personal experience.  For all that people like to follow trends and seek out expert ratings, at the end of the day, each palate is different - and each wine-drinking experience is different, as well.  Then, what to look for to have the best wine experience you can have?  You want a personable guide.  You want an expert who is capable and interested in exploring your palate with you, of opening the door for you to the dizzying universe of possibility.  Someone who is invested in your enjoyment.  Someone like Jeremy Myers, WSET diploma candidate.
+**Note from Jeremy**: Perspective is everything, especially on a topic as vast as wine.  As I continue to refine the wine trip experiences, it's important for me to reflect on what went well and what needs improvement.  Orri participated on the last trip I organized and graciously volunteered to share his perspective on the experience both for my and your benefit.  I have divided his submission into multiple posts (by day), but otherwise, they are unedited.  Without further ado, the first day as recounted by Orri:
+
+--
+
+Wine is an incredibly personal experience.  For all that people like to follow trends and seek out expert ratings, at the end of the day, each palate is different - and each wine-drinking experience is different, as well.  Then, what to look for to have the best wine experience you can have?  You want a personable guide.  You want an expert who is capable and interested in exploring your palate with you, of opening the door for you to the dizzying universe of possibility.  Someone who is invested in your enjoyment.  Someone like Jeremy Myers, WSET Diploma candidate and CSW.
 
 It was Jeremy who first introduced me to my palate, over the course of several small-group wine tasting sessions.  Every week a different theme, a new country in this new world that was wine.  He spoke the local dialect of every hidden street market in every forgotten corner - every breathtaking vista opening up before me came with the knowledge that the next wine would take me to yet a different forest floor, yet another ancient cavern.  He didn't just thrust a wine glass into my hand, he helped me understand what I liked - and more than that, he helped me understand why I liked what I liked.  And he did it all while putting me at ease.  He did it all while making me laugh.
 
