@@ -3,7 +3,7 @@ layout: review
 title:  Del Dotto Historic Tasting and Tour
 author: Jeremy Myers
 date:   2018-07-14 15:20:00 -0400
-tags: review winery tasting napa
+tags: review winery tasting california napa st-helena
 location:
   latitude: 38.479850
   longitude: -122.442466
