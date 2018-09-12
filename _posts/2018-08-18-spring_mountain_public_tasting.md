@@ -3,7 +3,7 @@ layout: review
 title:  Spring Mountain Public Tasting
 author: Jeremy Myers
 date:   2018-08-18 15:20:00 -0400
-tags: review winery tasting
+tags: review winery tasting california napa spring-mountain
 location:
   latitude: 38.506098
   longitude: -122.491280
