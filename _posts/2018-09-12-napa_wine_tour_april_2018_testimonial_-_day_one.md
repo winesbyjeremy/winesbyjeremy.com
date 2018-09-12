@@ -6,7 +6,7 @@ date:   2018-09-12 15:20:00 -0400
 categories: review california napa testimonial tour
 ---
 
-**Note from Jeremy**: Perspective is everything, especially on a topic as vast as wine.  As I continue to refine the wine trip experiences, it's important for me to reflect on what went well and what needs improvement.  Orri participated on the last trip I organized and graciously volunteered to share his perspective on the experience both for my and your benefit.  I have divided his submission into multiple posts (by day), but otherwise, they are unedited.  Without further ado, the first day as recounted by Orri:
+**Note from Jeremy**: Perspective is everything, especially on a topic as vast as wine.  As I continue to refine the wine trip experiences, it's important for me to reflect on what went well and what needs improvement.  Orri participated on the last trip I organized and graciously volunteered to share his perspective on the experience both for my and your benefit.  I have divided his submission into multiple posts (by day), but otherwise, they are unedited.  Without further ado, the first day as recounted by Orri!
 
 --
 
