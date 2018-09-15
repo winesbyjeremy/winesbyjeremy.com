@@ -1,22 +1,26 @@
 ---
-layout: post
-title:  "Clark-Claudon Private Tour and Tasting"
-author: "Jeremy Myers"
+layout: review
+title:  Clark-Claudon Private Tour and Tasting
+author: Jeremy Myers
 date:   2018-09-15 15:20:00 -0400
-categories: review winery tasting
+tags: review winery tasting california napa howell-mountain
+location:
+  latitude: 38.615967
+  longitude: -122.445332
+winery_details:
+  name: Clark Claudon
+  url: https://www.clarkclaudon.com/
+  rating: 97
+  tasting: $50 or Free with Purchases
+  reservation: Yes
 ---
-# **Clark-Claudon**: <https://www.clarkclaudon.com/>
-* Rating: 98 out of 100
-* Tasting Fee: $50 or Free with Purchases
-* Reservation Required: Yes
+Not all of the best places in Napa are the highly rated (e.g. Lokoya), produced by someone famous (e.g. Michel Rolland) or have a well-established pedigree (e.g. Opus One).  Some are family businesses that truly enjoy making good wine and sharing it with others.  Add unassuming, hard-to-find, and approachable to that mix, and you have Clark-Claudon.
 
-Not all of the best places in Napa are the highly rated (e.g. Lokoya), produced by someone famous (e.g. Dominus) or have a well-established pedigree (e.g. Michel Rolland).  Some are family businesses that truly enjoy making good wine and sharing it with others.  Add unassuming, hard-to-find, and approachable to that mix, and you have Clark-Claudon.
+I first had a bottle of Clark-Claudon Cabernet Sauvignon after seeing it ranked fairly high on Vivino.  As soon as I poured myself a glass, I was hooked.  Deep inky color, a very fresh nose of blue/black fruit, and crushed rocks in the palate profile - it was one of my first Cabernets where the fruit and secondary/tertiary flavor characteristics truly harmonized for me.  So I looked them up on the internet, sent an email requesting a tasting and set off on my journey to pay homage.
 
-I first had a bottle of Clark-Claudon Cabernet Sauvignon after seeing it ranked fairly high on Vivino.  As soon as I poured myself a glass, I was hooked.  Deep inky color, a very fresh nose of blue/black fruit, and crushed rocks in the palate profile - it was one of my first Cabernets where the fruit and secondary/tertiary characteristics truly harmonized for me.  So I looked them up on the internet, sent an email requesting a tasting and set off on my journey to pay homage.
+First off, I want to say that Laurie Claudon may be one of the nicest, most generous people in the Wine Industry.  During the course of our tasting, we spilled water and broke a glass, yet she was gracious through it all.  And the passion she showed for their wine was just truly inspiring.  There are two places that you can schedule the tasting: 1) at Alpha Omega as Clark Claudon borrows AO's facilities for their wine production process; or 2) at their vineyard just behind Howell Mountain in the Pope Valley.  While the Alpha Omega campus is beautiful, Laurie recommends conducting the wine tasting at their vineyard and I wholeheartedly agree with that recommendation.  I will warn you - it's a trek to get up there (25min from the Route 29), so try to schedule some other wine tastings up there as well or make it your first or last tasting of the day for travel time purposes.    
 
-First off, I want to say that Laurie Claudon may be one of the nicest, most generous people in the Wine Industry.  During the course of our tasting, we spilled water and broke a glass, yet she was gracious through it all (we are just clumsy people).  She even let us enjoy some of the leftovers from the tasting before heading out.  There are two places that you can schedule the tasting: 1) at Alpha Omega as Clark Claudon borrows AO's facilities for their wine production process; or 2) at their vineyard just behind Howell Mountain in the Pope Valley.  While the Alpha Omega campus is beautiful, they recommend conducting the wine tasting at their vineyard and I wholeheartedly agree with that recommendation.  I will warn you - it's a trek to get up there (25min from the Route 29), so try to schedule some other wine tastings up there as well or make it your first or last tasting of the day for travel time purposes.    
-
-Their tasting room on Howell Mountain is actually an old small house that has been converted into a mini-office.  Your host (Laurie or her husband) will greet you with their Sauvignon Blanc as your sit on the patio waiting for them to prepare a cheese/meat plate and the red wines for the tasting.  If you ask nicely, you can even walk up into the vineyards with some wine and get a beautiful look at the rolling hills that produce these incredible wines.  Speaking of which, the tasting is usually the following.  **NOTE: When buying wines from Clark-Claudon, I highly recommend becoming a First-Flight member as you save 40% off the wine without necessarily needing an allocation.  The prices below reflect the "First-Flight" membership price.**
+Their tasting room on Howell Mountain is actually an small house that has been converted into a mini-office.  Your host (Laurie or her husband) will greet you with their Sauvignon Blanc and a as cheese/meat plate to enjoy with their red wines during the tasting.  If you ask nicely, you can even walk up into the vineyards with some wine and get a beautiful look at the rolling hills that produce these incredible wines.  Speaking of which, the tasting lineup looks like the following.  **NOTE: When buying wines from Clark-Claudon, I highly recommend becoming a First-Flight member as you save 40% off the wine without necessarily needing an allocation.  The prices below reflect the "First-Flight" membership price.**
 
 * [**2017 Wild Iris (Sauvignon Blanc)**](https://www.clarkclaudon.com/wines/All-Wines/2017-Wild-Iris-Sauvignon-Blanc) ($34.58)
   * Another wonderful Sauvignon Blanc – I really like how this one turned out due to the Howell Mountain AVA terroir.  Fragrant, light bodied but good mouthfeel, a nice touch of minerality, and good fruit development that makes it to melon in terms of ripeness.  At the First-Flight price, this wine is a steal.
