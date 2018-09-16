@@ -1,15 +1,16 @@
 ---
-layout: post
-title:  "La Sirena Private Tasting"
-author: "Jeremy Myers"
+layout: review
+title:  La Sirena Private Tasting
+author: Jeremy Myers
 date:   2018-09-01 15:20:00 -0400
-categories: review winery tasting
+tags: review winery tasting california napa
+winery_details:
+  name: La Sirena
+  url: http://lasirenawine.com
+  rating: 100
+  tasting: $50 or Free w/ 6 bottle purchase
+  reservation: Yes
 ---
-# **La Sirena**: <http://lasirenawine.com>
-* Rating: 100 out of 100
-* Tasting Fee: $50 or Free w/ 6 bottle purchase
-* Reservation Required: Yes
-
 Heidi Barrett’s personal label.  You would think that the prices would rival all the great titans in Napa.  Guess again.  Designed with the next generation of wine drinkers in mind, not the CEOs that love buying $500+ bottles, Heidi finds amazing deals on quality fruit and transforms it into exceptional wines at affordable prices for the consumer.  Though, she could definitely sell the wines at much higher prices if she wanted to, as evidenced by the Wells Fargo CEO having a La Sirena Private Tasting just before us...  La Sirena doesn’t have an allocation or membership program (there's no need since they sell out of everything), but they do have a mailing list you can sign up for to be notified when the new vintages are released for purchase.  
 
 Another reason they can offer wines at reasonable prices is that La Sirena doesn’t have the infrastructure costs (e.g. a tasting room) of other traditional wineries.  Instead, when you email their wine ambassador (David Devan) for a tasting appointment, you get options to hold the La Sirena tasting at other wineries that Heidi collaborates with (e.g. Fantesca).  Trust me, the quality of the wine makes this coordination all worth it – the wine is just that good.  In addition to their quality wine, David is one of the best wine ambassadors in the industry whose storytelling brings the wines to life and leaves you wanting to read Heidi’s biography.  If I am lucky enough to become a Wine Ambassador one day, he is who I would want to emulate.  
