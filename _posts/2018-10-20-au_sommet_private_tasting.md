@@ -1,14 +1,20 @@
 ---
-layout: post
-title:  "Private Tasting with wines from Au Sommet, Amuse Bouche, and Coup de Foudre at Au Sommet"
-author: "Jeremy Myers"
-date:   2018-09-22 15:20:00 -0400
-categories: review winery tasting
+layout: review
+title:  Private Tasting with wines from Au Sommet, Amuse Bouche, and Coup de Foudre at Au Sommet
+author: Jeremy Myers
+date:   2018-10-20 15:20:00 -0400
+tags: review winery tasting california napa atlas-peak
+location:
+  latitude: 38.443124
+  longitude: -122.244865
+winery_details:
+  name: Au Sommet
+  url: http://www.ausommetwine.com/
+  rating: 96
+  tasting: $50
+  reservation: Yes
 ---
-# [**Au Sommet**](http://www.ausommetwine.com/), [**Amuse Bouche**](http://www.amusebouchewine.com/index.php), and [**Coup de Foudre**](http://www.coupdefoudrewine.com/)
-* Rating: 96 out of 100
-* Tasting Fee: $50
-* Reservation Required: Yes
+# NOTE: We also had wines from [**Amuse Bouche**](http://www.amusebouchewine.com/index.php) and [**Coup de Foudre**](http://www.coupdefoudrewine.com/) while at Au Sommet.
 
 The last winery for one of our weekend trips to Napa and it was indeed a good one.  Once you contact the winery to setup an appointment, you'll have a couple of options for the tasting: the Amuse Bouche building in downtown Napa or the Au Sommet vineyard on Atlas Peak.  We obviously chose Atlas Peak, but if you are pressed for time (it is a 20min drive from Napa) or are a nervous driver (it's unpaved roads only 1.5 lanes wide going up a mountain), I recommend you stay in Napa.  Once you do make it to the winery though, like so many others, the view is worth it.
 
