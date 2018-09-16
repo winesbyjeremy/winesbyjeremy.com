@@ -1,0 +1,14 @@
+---
+layout: post
+---
+{%- if page.winery_details -%}
+  <h1><a href="{{ page.winery_details.url }}">{{ page.winery_details.name }}</a></h1>
+  <ul>
+    <li>Rating: {{ page.winery_details.rating }} out of 100</li>
+    <li>Tasting Fee: {{ page.winery_details.tasting }}</li>
+    <li>Reservation Required: {{ page.winery_details.reservation }}</li>
+  </ul>
+{%- endif -%}
+
+<h1>Review</h1>
+{{ content }}
