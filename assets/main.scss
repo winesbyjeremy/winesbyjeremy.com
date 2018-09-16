@@ -3,3 +3,18 @@
 ---
 
 @import "minima";
+
+.center-image {
+    margin: 0 auto;
+    display: block;
+}
+
+.center-caption {
+    text-align: center;
+}
+
+.thumbnail-image {
+    max-width: 250px;
+    width: 100%;
+    height: auto;
+}
