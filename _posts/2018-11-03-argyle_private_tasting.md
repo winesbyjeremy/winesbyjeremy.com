@@ -1,15 +1,19 @@
 ---
-layout: post
-title:  "Argyle Private Tasting"
-author: "Jeremy Myers"
-date:   2018-XX-XX 15:20:00 -0400
-categories: review winery tasting
+layout: review
+title:  Argyle "Masters of Sparking" Private Tasting
+author: Jeremy Myers
+date:   2018-11-03 15:20:00 -0400
+tags: review winery tasting oregon willamette-valley dundee-hills
+location:
+  latitude: 45.278047
+  longitude: -123.010180
+winery_details:
+  name: Argyle
+  url: https://argylewinery.com/
+  rating: 95
+  tasting: $75 for Master Classes, $20 for Traditional Tasting
+  reservation: Yes for Special Tastings, No for Traditional Tastings
 ---
-# **Argyle**: <http://>
-* Rating: 95 out of 100
-* Tasting Fee: $XX
-* Reservation Required: Yes for Special Tastings
-
 When people think of Oregon wine, they normal think of red still wine that ranges from the finesse of Burgundy Pinot Noir to the power of Russian River Valley Pinot Noir.  They don’t necessarily think of Sparkling wine, which is a key product of Pinot Noir all around the world, not just Champagne.  And when it comes to Oregon Sparkling Wine, there is no place more established than Argyle; heck, it's even called out specifically in my Wine and Spirits Education Trust (WSET) Sparkling Wine Class!  The reputation alone is enough to entice even seasoned wine professionals, but when I discovered there was a special Sparkling tasting that also lets you to disgorge a bottle by hand, I made Argyle my first call during my itinerary construction.  I brought along my cousin and her husband for a full weekend of tastings in Willamette as their wedding gift, but this visit was definitely a gift to myself, haha.
  
 The winery itself is spacious and gorgeous, polished yet rustic, and with parts from its old barrel storage facility incorporated into different aspects of the new building.  Argyle's tasting area could hold 100 people without issue and there's even enough room for kids to run around outside.  Upon entering the facility, we were greeted with a sparkling Riesling that resembled Deutcher Sekt (German Sparkling Wine), but was a little drier and lower in acidity.  After we finished exploring the tasting area, the manager of the winery picked us up and took us to the back for a private tour and tasting.
