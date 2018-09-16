@@ -1,11 +1,10 @@
 ---
 layout: post
-title:  "Wine Travel Tips"
-author: "Jeremy Myers"
+title:  Wine Travel Tips
+author: Jeremy Myers
 date:   2018-08-01 19:20:00 -0400
-categories: travel tips
+tags: travel-tips tour california napa
 ---
-
 First, I'd like to thank you, the readers, for joining me on my journey through the wine world.  We are first starting out with some Napa wineries, but will soon see reviews on wineries/wine bars from Virginia, Oregon, and other locations.  In the meantime, I wanted to take some time to touch on putting together a wine trip itinerary, as I hope you will feel inspired to take your own trips after reading my reviews.  What follows is an analysis on my recent Napa Valley trip with friends and advice I'd give my past self.  
 
 Regarding Napa specifically, there seems to be a dichotomy to how it is perceived and experienced.  Some people see it as the ultimate wine getaway where enthusiasts gather and enjoy the paradise created by many large properties (e.g. V. Sattui, Hall, etc.).  Others see it as a microcosm of different terroirs, people, and methodologies that produce a culture almost as diverse and yet tightly knit as an entire country.  Although I have enjoyed trips to Napa in the spirit of the former, this past pilgrimage was about taking some friends through the latter.
@@ -53,3 +52,4 @@ The schedule below is what we followed for our four-day weekend:
 * **Bring sunscreen and lots of water/snacks.**  It’s not a given that every place will offer you water or snacks during/after a tasting.  Also, the thing about Napa is that it’s usually hot and always sunny.  Protect yourself and keep rehydrating – every winery has a bathroom if you need it.  
 * **Start your tastings @ 1000.**  You may have heard that your palate is better in the morning, but don’t discount how much this extra hour helps your schedule too.  Private tastings usually last 1.5-2 hours – starting early helps get you to lunch at a reasonable hour but also helps you catch some amazing pictures with the morning, rolling fog.
 * **Friends will be friends.**  15 minutes in the car with their phones is more than enough for tech-savvy friends to purchase (not) funny web domains, setup Wordpress and post your picture on it.
+
