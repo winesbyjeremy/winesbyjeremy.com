@@ -1,15 +1,19 @@
 ---
-layout: post
-title:  "Archery Summit Public Tasting"
-author: "Jeremy Myers"
-date:   2018-XX-XX 15:20:00 -0400
-categories: review winery tasting
+layout: review
+title:  Archery Summit Public Tasting
+author: Jeremy Myers
+date:   2018-10-27 15:20:00 -0400
+tags: review winery tasting oregon willamette-valley dundee-hills
+location:
+  latitude: 45.258447
+  longitude: -123.047410
+winery_details:
+  name: Archery Summit
+  url: http://www.archerysummit.com/
+  rating: 94
+  tasting: $30 for Signature Tasting, $45 for the Tour and Tasting
+  reservation: Yes
 ---
-# **Archery Summit**: <http://www.archerysummit.com/>
-* Rating: 94 out of 100
-* Tasting Fee: $XX or Free with an estate bottle purchase
-* Reservation Required: Yes
-
 One of the toughest questions I've been asked about my Oregon travels is "where do I find good Pinot?"  The reason this is tough is because it's everywhere, especially with Willamette Valley being a short 1-hour drive from Portland.  But when people ask me where the best Oregon Pinot Noir can be found, I normally respond with Archery Summit in my Top 3.  As its name implies, the winery can be found on the top of a hill not far from Domaine Drouhin, Sokol Blosser, and others.  I love their planting pattern too - you almost need to weave through the vines while driving up to the tasting room.  
  
 The tasting room itself is small, holding only ~20 people at a time, and their entrance to the storage level from the tasting room area is a small hidden entrance down some stairs.  All of this gives it a homely, friendly feel until you start the tasting.  Don't let the modest exterior and tasting room fool you - Archery Summit is a powerhouse in Willamette that produces exceptional wines.  Although they are only ~25 years old, they own 6 vineyards encompassing 120 acres, have some of the oldest Pinot vines in the valley (40+ years), maintain the only cave system in Oregon, and consistently deliver high-scoring wines.  
