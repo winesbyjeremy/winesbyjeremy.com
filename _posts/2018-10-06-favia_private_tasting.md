@@ -1,15 +1,19 @@
 ---
-layout: post
-title:  "Favia Private Tasting"
-author: "Jeremy Myers"
-date:   2018-09-08 15:20:00 -0400
-categories: review winery tasting
+layout: review
+title:  Favia Private Tasting
+author: Jeremy Myers
+date:   2018-10-06 15:20:00 -0400
+tags: review winery tasting california napa coombsville
+location:
+  latitude: 38.293494
+  longitude: -122.249806
+winery_details:
+  name: Favia
+  url: https://www.faviawine.com
+  rating: 93
+  tasting: None, but they require each person to purchase at least 2 bottles
+  reservation: Yes
 ---
-# **Favia**: <https://www.faviawine.com/>
-* Rating: 93 out of 100
-* Tasting Fee: None, but they require each person to purchase at least 2 bottles
-* Reservation Required: Yes
-
 Besides Bo and Heidi Barrett, there may not be another couple in the valley that has the background, experience and reputation of Annie and Andy Erickson.  Both have worked for their share of cult wineries that produced highly acclaimed wines wines and the price tags that go along with them.  But now, they work for themselves at their family winery in Coombsville.  The new up-and-coming AVA of the Napa Valley, Coombsville is still not on many people's radar and wasn't on mine until this visit.  Though, knowing Annie and Andy, I knew this was going to be an incredible experience.  I later found out that Coombsville winemakers like the make the anology of Coombsville is to Napa as Brooklyn is to NYC.  
 
 Located near Napa proper, it almost feels like you are driving to someone's house when you arrive - no hills, no isolation, just another house with vineyards surrounding it.  The grapevines that you see are actually the property of another winery nearby.  The vines Favia owns are on sloped hills behind the house and across the way.  The tasting is very intimate, by appointment only and only available on weekdays.  And though there is no tasting fee, there is a minimum bottle purchase requirement that they ask you to meet while scheduling your appointment.  My group didn't have a problem with this but I encourage you to find a bottle of their wines in a shop, try it out, then decide if the style and price range are to your liking before making your own appointment.  
