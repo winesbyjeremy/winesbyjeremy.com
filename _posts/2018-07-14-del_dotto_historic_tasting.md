@@ -1,15 +1,19 @@
 ---
-layout: post
-title:  "Del Dotto Historic Tasting and Tour"
-author: "Jeremy Myers"
+layout: review
+title:  Del Dotto Historic Tasting and Tour
+author: Jeremy Myers
 date:   2018-07-14 15:20:00 -0400
-categories: review winery tasting napa
+tags: review winery tasting california napa st-helena
+location:
+  latitude: 38.479850
+  longitude: -122.442466
+winery_details:
+  name: Del Dotto
+  url: http://www.deldottovineyards.com
+  rating: 96
+  tasting: $75
+  reservation: For Barrel Tastings, Yes
 ---
-# **Del Dotto**: <http://www.deldottovineyards.com>
-* Rating: 96 out of 100
-* Tasting Fee: $75
-* Reservation Required: For Barrel Tastings, Yes
-
 For me, Del Dotto is a great introduction to what Napa wine country can offer you.  It takes some discipline to make it here as larger reservations require a 10AM start time and you'll drive by some brand name wineries (Cakebread, Robert Mondavi) to get here.  But it is worth the wait...  Del Dotto currently has two locations (their historic site and St. Helena site), with a third coming online later this year.  Walking through the caves of the historic site stimulates the imagination as to how they managed to chisel out the tunnels, while the St. Helena site feels like you are entering the underground of Rome and discovering a perfectly preserved cellar from the past.  Just make sure to arrive 5-10 min before your appointment so you can enjoy an aperitif (likely their Sauvignon Blanc) before the tasting begins, along with some nice photo opportunities with the architecture.
 
 Many people haven’t experienced a barrel tasting before, which makes this a fun, unique experience.  A barrel tasting is when winemakers will use a wine thief (basically a curved turkey baster) to siphon off wine from the barrel while it's aging in oak and let customers taste the wine before it's finished.  The number of wines you get to sample and their quality/price make the $75 tasting price tag seem very reasonable (almost a steal by Napa standards).  In all, you get samples of the following wines:

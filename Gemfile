@@ -18,8 +18,10 @@ gem "jekyll", "~> 3.8.3"
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
   gem "jekyll-seo-tag", "~> 2.1"
+  gem 'jekyll-maps'
   gem "jekyll-paginate"
   gem "jekyll-sitemap"
+  gem "jekyll-auto-image"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
