@@ -1,15 +1,19 @@
+--
+layout: review
+title:  Shafer Private Tasting
+author: Jeremy Myers
+date:   2018-10-13 15:20:00 -0400
+tags: review winery tasting california napa stags-leap
+location:
+  latitude: 38.421002
+  longitude: -122.326365
+winery_details:
+  name: Shafer
+  url: http://www.shafervineyards.com/
+  rating: 98
+  tasting: $75
+  reservation: Yes
 ---
-layout: post
-title:  "Shafer Private Tasting"
-author: "Jeremy Myers"
-date:   2018-09-15 15:20:00 -0400
-categories: review winery tasting
----
-# **Shafer**: <http://www.shafervineyards.com/>
-* Rating: 98 out of 100
-* Tasting Fee: $75
-* Reservation Required: Yes
-
 It's hard for me to recall another winery with as large a production, well-known reputation, but as reclusive from the public eye as Shafer.  But I totally understand and appreciate it - especially since we had the whole place to ourselves during our visit.  Although the estate appears large and the tasting room is gorgeous, there are actually not many people onsite.  Besides ourselves, the Shafer wine educator and the father/son proprietors, I don't recall seeing anyone else on the property at the time.  There were three workers in the field grafting vines, but that's it.
 
 Many people don't make it past Stags Leap Cellars (which is also great) when they visit the Stags Leap AVA.  Besides driving past the 1976 Judgement of Paris winner for red wines, there are other obstacles to visiting Shafer, such as it's only open on weekdays and by tasting appointment only.  But once you make it there, your realize the journey was well worth it...  Quite a number of fantastic wines to taste, fantastic views of the hillside from the winery with grapevines completely surrounding the building, and a great educational experience with a takeaway notebook detailing their wines, origins and process.
