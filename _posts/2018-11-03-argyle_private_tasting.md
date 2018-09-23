@@ -10,7 +10,7 @@ location:
 winery_details:
   name: Argyle
   url: https://argylewinery.com/
-  rating: 95
+  rating: 96
   tasting: $75 for Master Classes, $20 for Traditional Tasting
   reservation: Yes for Special Tastings, No for Traditional Tastings
 ---
@@ -24,10 +24,8 @@ One curious thing - there was a pupitre in a corner that someone had been manual
  
 Once we cleaned up and geeked out a bit more on the production process, it was time to head inside for the tasting.  Our lineup consisted of the following:
 
-* [**2016 Sauvignon Blanc**](http://www.jerichocanyonvineyard.com/sauvignon-blanc) ($40)
-
-10 Year Old Sparkling Wine
-10 Year Old Rose Sparkling Wine
+* [**2007 Extended Tirage Brut**](https://shop.argylewinery.com/2007ExtendedTirageBrut) ($75)
+* [**2007 Extended Tirage Brut Rose**] ($125)
 3 Yr Old Sparkling Wine (low dosage)
 3 Yr Old Sparkling Wine (med dosage)
  
