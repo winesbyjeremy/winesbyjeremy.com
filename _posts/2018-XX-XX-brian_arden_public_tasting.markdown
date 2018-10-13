@@ -5,8 +5,8 @@ author: Jeremy Myers
 date:   XXXX-XX-XX 15:20:00 -0400
 tags: review winery tasting california napa calistoga
 location:
-  latitude: 38.421002
-  longitude: -122.326365
+  latitude: 38.583062
+  longitude: -122.565383
 winery_details:
   name: Brian Arden
   url: http://brianardenwines.com/
