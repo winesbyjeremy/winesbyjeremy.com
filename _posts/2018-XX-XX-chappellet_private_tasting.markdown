@@ -1,14 +1,19 @@
 ---
-layout: post
-title:  "Chappellet Private Tasting"
-author: "Jeremy Myers"
+layout: review
+title:  Chappellet Private Tasting
+author: Jeremy Myers
 date:   2018-XX-XX 15:20:00 -0400
-categories: review winery tasting
+tags: review winery tasting california napa pritchard-hill
+location:
+  latitude: 38.481846
+  longitude: -122.335478
+winery_details:
+  name: Chappellet
+  url: https://www.chappellet.com/
+  rating: 93
+  tasting: $50
+  reservation: Yes
 ---
-# **Chappellet**: <http://>
-* Rating: 93 out of 100
-* Tasting Fee: $50
-* Reservation Required: Yes
 
 Sulphur problem in the winery got us the ability to taste at the private tent of the owners that 
 
@@ -23,4 +28,4 @@ Sulphur problem in the winery got us the ability to taste at the private tent of
 * [**2015 Signature Cabernet Sauvignon**]() ($) 
   * 79% CS 14% PV 4% Merlot 3% CF.  A richness, lighter spice and baby fat comes of the wines as soon as you dig you nose in.  Soft on the palate, it is drinkable right now.  Pretty and sweet red fruit, smooth tannins, a decent length on the finish.  And at a really decent price - just what I remember when I served this to my colleague at our company event.
 
-
+I'm sure that if we had the signature tasting (~$95), that includes the Pritchard Hill Cabernet Sauvignon ($225) that consistently gets 98+ points from Robert Parker, I would've been happier with the wines.  
