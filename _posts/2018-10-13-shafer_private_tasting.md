@@ -1,4 +1,4 @@
---
+---
 layout: review
 title:  Shafer Private Tasting
 author: Jeremy Myers
