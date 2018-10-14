@@ -5,13 +5,13 @@ author: Jeremy Myers
 date:   XXXX-XX-XX 15:20:00 -0400
 tags: review winery tasting california napa spring-mountain
 location:
-  latitude: 
-  longitude: 
+  latitude: 38.520147 
+  longitude: -122.538024
 winery_details:
   name: Lokoya
-  url: 
+  url: https://www.lokoya.com/
   rating: 98
-  tasting: $100-$150
+  tasting: $125 or Free with Purchases
   reservation: Yes
 ---
 TTT
