@@ -16,6 +16,8 @@ winery_details:
 ---
 Ian Stout was my wine ambassador and he was amazing.  From Texas and his father is a Master Somm and has his own Syrah vineyard in Texas.  The tasting was both a progression of intensity and fruit flavor types (light blue -> deep red -> black).  Put out some cheeses (3) for the tasting.  All of the wines that they make are 100% varietals.  They like to think of it like sculpting with marble (wine making techniques to adjust), rather than blending lots of varietals.  No charge on my tasting fee and he is going to give me membership discounts on any wines I buy.  I need to submit an order for 6 or 12 bottles and ask him to fill out any of the free bottle spaces I have for my shipment.  
 
+The sister winery to Far Niente.  While Far Niente is known for its rounded portfolio, Nickel and Nickel has built a reputation for itself through its vast number of single vineyard Cabernet Sauvignons.  Even the single vineyard tasting gives you a preview of less than half (6 out of 15).  
+
 * [**2015 Stiling Chardonnay**](https://shop.farniente.com/product/2015-Nickel---Nickel-Stiling-Vineyard-Chardonnay--Russian-River-Valley--Sonoma) ($55)
   * Russian River Valley
 * [**2015 Branding Iron**](https://shop.farniente.com/product/2015-Nickel---Nickel-Branding-Iron-Vineyard-Cabernet-Sauvignon--Oakville) ($120)
