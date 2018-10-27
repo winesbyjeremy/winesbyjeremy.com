@@ -22,9 +22,13 @@ Many places in Napa will tout the location and contour of their vineyards / hill
 
 If you are feeling adventurous (and your group is 4 people or less) you can elect to go up into their vineyards on their Polaris (a small 4x4 offroader) as well.  Jericho will serve their Sauvignon Blanc and drive you up into the vineyards so you can walk around yourself and get a better vantage points for some postcard-quality pictures.  
 
+![](/assets/jericho_canyon/2.jpg "Little House on the Hill?"){: .center-image }
+***Caption Title:*** *You can catch the Polaris up to the Owner's house as well!*
+{: .center-caption }
+
 Unfortunately, when our group arrived on Saturday morning, we discovered that the power lines for the winery had been taken down by some trees.  Luckily, our hosts were very resourceful and held our tasting in their wine cave by candlelight.  This normally would have made for a very romantic experience, though it was a little wasted on us since we were captivated by the wines and oblivious to everything else.  That, and it was a little chilly, so don't forget to bring a light spring jacket with you!  
 
-![](/assets/jericho_canyon/2.jpg "Candlelight makes for great pictures"){: .center-image }
+![](/assets/jericho_canyon/3.jpg "Candlelight makes for great pictures"){: .center-image }
 ***Caption Title:*** *Enjoying the wines of Jericho Canyon by candlelight*
 {: .center-caption }
 
