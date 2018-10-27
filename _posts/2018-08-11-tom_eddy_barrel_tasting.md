@@ -16,9 +16,19 @@ winery_details:
 ---
 UC Davis, Class of ’74.  That’s really all you need to know.  Alright, a little more explanation - the Viticulture and Enology Department at UC Davis has been #1 in the US for a long time and continues to produce some of the best winemakers in the country.  The Class of '74 was especially great - it was this class that really started to turn Napa into the high quality wine paradise that it is today, especially after the Judgement of Paris in 1976 propelled Napa wine into the spotlight.  If you are interested in learning more about the Judgement of Paris, its easy to find lots of articles about it on the internet.  There's even a movie about Chateau Montelena winning the best white wine (Bottleshock).
 
-Although he still consults for several other places, you need to try the wines that bears Tom Eddy’s name.  Tastings are by appointment only and I recommend that you go for the barrel tasting.  At $100, it is an investment, though the return is well worth it.  Driving up to the winery, you get the sense you are actually driving up to someone’s house.  And that's exactly the hospitality you get during the tasting.  I really enjoyed it – Tom Eddy is a 3 person operation: Tom, his wife, and their brand ambassador / membership director.  The experience is 1-on-1, though I happened to pick the weekend that Tom what traveling (we were still greeted by his wife with the NZ Sauvignon Blanc on arrival).  The view from the property to the valley below is gorgeous (100+ acres of untouched grasslands and hills) and the wine cellar door makes you think you’ve stumbled into Hobbiton (LOTR).  All of these things combined with the knowledge but casual demeanor of their brand ambassador resulted in one of our groups favorite experiences that week.
+Although he still consults for several other places, you need to try the wines that bears Tom Eddy’s name.  Tastings are by appointment only and I recommend that you go for the barrel tasting.  At $100, it is an investment, though the return is well worth it.  Driving up to the winery, you get the sense you are actually driving up to someone’s house.  
 
-And I haven't even started talking about how good their wines are yet!  I think we got lucky with our tasting menu since I espoused the qualities/beauty of wines from Stagecoach Vineyard and Tom’s reputation.  Also, now that E&J Gallo purchased Stagecoach Vineyard for $180 Million in April, the price for wines from there will only go up.
+![](/assets/tom_eddy/1.jpg "I wish my backyard looked like this"){: .center-image }
+***Caption Title:*** *The vast preserved lands surrounding Tom Eddy's vineyards*
+{: .center-caption }
+
+And that's exactly the hospitality you get during the tasting.  I really enjoyed it – Tom Eddy is a 3 person operation: Tom, his wife, and their brand ambassador / membership director.  The experience is 1-on-1, though I happened to pick the weekend that Tom was traveling (we were still greeted by his wife with the NZ Sauvignon Blanc on arrival).  The view from the property to the valley below is gorgeous (100+ acres of untouched grasslands and hills) and the wine cellar door makes you think you’ve stumbled into Hobbiton (LOTR).  
+
+![](/assets/tom_eddy/2.jpg "The door to vast treasures"){: .center-image }
+***Caption Title:*** *The door to Hobbiton or Tom Eddy's cellars?  Either way, treasures lie within...*
+{: .center-caption }
+
+All of these things combined with the knowledge but casual demeanor of their brand ambassador resulted in one of our groups favorite experiences that week.  And I haven't even started talking about how good their wines are yet!  I think we got lucky with our tasting menu since I espoused the qualities/beauty of wines from Stagecoach Vineyard and Tom’s reputation.  Also, now that E&J Gallo purchased Stagecoach Vineyard for $180 Million in April, the price for wines from there will only go up.
 
 <https://tomeddywinery.com/order/>
 * **2017 New Zealand Sauvignon Blanc** ($25)
@@ -42,3 +52,9 @@ And I haven't even started talking about how good their wines are yet!  I think 
 If you want a wine that has the minerality and lighter body of Silver Oak, the ripeness of Caymus without going overboard, with enough pieces in the puzzle to keep you guessing, you will really appreciate the Tom Eddy Cabernet Sauvignons.  Tasting them in the barrel, you can still imagine what the wines will evolve into while still being able to appreciate how delicious and drinkable they are right now.  Though, the Cabernet from the Stagecoard Vineyard is just something special compared to the other single vineyard sites and I highly recommend that you try to get a taste for yourself.  I may have loaded up on the 2013 with pre-orders for the 2015 and 2016, but am definitely most excited for the 2016.  And as I mentioned before, now that E&J Gallo owns Stagecoach, finding wines made from that amazing fruit from wineries outside their portfolio may become very rare in the future.  
 
 Their membership program is very flexible and can be tailored to you, so get out there and experience Tom Eddy for yourself!  If you prefer white wines, I hear their Russian River Chardonnay is very good, but if you can afford it, I think holding a tasting with friends using the single-vineyard Cabernet Sauvignons can be a very special experience.
+
+And nothing beats enjoy some great wine while enjoying great views.
+
+![](/assets/jericho_canyon/3.jpg "Nature is special"){: .center-image }
+***Caption Title:*** *Enjoying great views with great wines feels like true harmony*
+{: .center-caption }
