@@ -18,7 +18,19 @@ winery_details:
 
 The last winery for one of our weekend trips to Napa and it was indeed a good one.  Once you contact the winery to setup an appointment, you'll have a couple of options for the tasting: the Amuse Bouche building in downtown Napa or the Au Sommet vineyard on Atlas Peak.  We obviously chose Atlas Peak, but if you are pressed for time (it is a 20min drive from Napa) or are a nervous driver (it's unpaved roads only 1.5 lanes wide going up a mountain), I recommend you stay in Napa.  Once you do make it to the winery though, like so many others, the view is worth it.
 
+![](/assets/au_sommet/1.jpg "It really was a great view"){: .center-image }
+***Caption Title:*** *Enjoying the view from of the vineyards from the tower on the property*
+{: .center-caption }
+
 As you drive up the mountain, you can still see the devastating effects of the forest fires from last year: some houses completely burnt down, others nearby amazingly unscathed, and blackened plots of land that are starting to show signs of life again.  I hope it wasn't disrespectful, but multiple times, we slowed down to take pictures because of the impressions the sights left on us.  When we finally made it to the winery, we took a moment to reflect on the power and unpredictability of nature, then proceeded to listen to the story the wines had to tell us.
+
+![](/assets/au_sommet/2.jpg "I told you it was a great view"){: .center-image }
+***Caption Title:*** *The view of the vineyards from the watchtower as I am explaining something that is probably important*
+{: .center-caption }
+
+![](/assets/au_sommet/3.jpg "I may talk with my hands a bit"){: .center-image }
+***Caption Title:*** *The view from the ground as I continue to explain something that is probably important*
+{: .center-caption }
 
 The tasting room itself is almost a side house/renovated shed next to the main property (I think the family lives in the main building).  There was a watchtower-like structure that we could climb to get a view of the valley below and also catch a glimpse of the helipad that Heidi Barrett uses to land her helicopter when she comes here.  Oh, did I mention that Heidi is a collaborator with some of the wines?  After some more pictures and breathing in the mountain air with no sounds but the birds chirping, we were ready to taste the wines:
 
@@ -36,5 +48,9 @@ The tasting room itself is almost a side house/renovated shed next to the main p
   * I also walked away with bottles of this.  The second label Merlot to the Amuse Bouche, this wine has great perfume, ripeness and balance on the palate.  If the Amuse Bouche is quality play, this is the value play as it will stand up nicely against other estates' premium Merlot offering.  This is capable of some aging too, so don't drink it all right away!
 * [**2015 Coup de Foudre**](http://www.coupdefoudrewine.com/cabernetsauvignon.php) ($95) 
   * I love the concept of this bottle; you can peel off the label and then document where/when you had it and how it made you feel.  But that is window dressing as the wine is plenty good without the trick to the label.  It's also priced at the right level - it should not be compared to the Au Sommet nor Amuse Bouche, but to other estates' $100 Cabernet.
+
+![](/assets/au_sommet/4.jpg "So much good wine in the storage room"){: .center-image }
+***Caption Title:*** *The wine tasting bar and inventory storage.  We did our tasting outside to enjoy the weather*
+{: .center-caption }
 
 The theme of the wines is similar to that of other Heidi Barrett style wines - great quality, fruit, midpalate, balance and the wines are approachable early in their development.  The breadth of varietals and AVAs used for these wines makes it a great visit too if you want something more than just the typical Chardonnay/Sauvignon Blanc + Cabernet Sauvignon offering.  The view, clean cool air and the drive up to Atlas Peak are nothing to scoff at either, even though it was hard to stomach at times.  If you have the time, consider making a reservation for a tasting!  Though, be warned, the wines are available for purchase only via 6-packs (or 3-packs in the case of the Au Sommet), so make sure you go as a group to the tasting!
