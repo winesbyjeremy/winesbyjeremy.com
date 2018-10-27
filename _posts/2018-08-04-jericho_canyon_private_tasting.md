@@ -16,9 +16,19 @@ winery_details:
 ---
 Many places in Napa will tout the location and contour of their vineyards / hillsides as reasons they are able to produce great wines.  Jericho Canyon is a different beast altogether.  If you're lucky enough to secure a tasting reservation here, you’ll discover a beautiful canyon that seems sculpted by Mother Earth herself for growing amazing fruit.  This is one of the reasons why famous wine personalities have either bought their fruit for their own wine (e.g. David Ramey) or work as consultants to help make the Jericho wines (e.g. Michel Rolland).  I highly recommend making a 10AM reservation – the morning fog rolling over the top of the hills is an amazing, picturesque scene for photography enthusiasts!
 
+![](/assets/jericho_canyon/1.jpg "The Vineyards of Jericho Canyon"){: .center-image }
+***Caption Title:*** *Exploring the vineyards of Jericho Canyon*
+{: .center-caption }
+
 If you are feeling adventurous (and your group is 4 people or less) you can elect to go up into their vineyards on their Polaris (a small 4x4 offroader) as well.  Jericho will serve their Sauvignon Blanc and drive you up into the vineyards so you can walk around yourself and get a better vantage points for some postcard-quality pictures.  
 
-Unfortunately, when our group arrived on Saturday morning, we discovered that the power lines for the winery had been taken down by some trees.  Luckily, our hosts were very resourceful and held our tasting in their wine cave by candlelight.  This normally would have made for a very romantic experience, though it was a little wasted on us since we were captivated by the wines and oblivious to everything else.  That, and it was a little chilly, so don't forget to bring a light spring jacket with you!  Our tasting menu consisted of:
+Unfortunately, when our group arrived on Saturday morning, we discovered that the power lines for the winery had been taken down by some trees.  Luckily, our hosts were very resourceful and held our tasting in their wine cave by candlelight.  This normally would have made for a very romantic experience, though it was a little wasted on us since we were captivated by the wines and oblivious to everything else.  That, and it was a little chilly, so don't forget to bring a light spring jacket with you!  
+
+![](/assets/jericho_canyon/2.jpg "Candlelight makes for great pictures"){: .center-image }
+***Caption Title:*** *Enjoying the wines of Jericho Canyon by candlelight*
+{: .center-caption }
+
+Our tasting menu consisted of:
 * [**2016 Sauvignon Blanc**](http://www.jerichocanyonvineyard.com/sauvignon-blanc) ($40)
   * Continues to be one of my favorite Sauvignon Blancs in the valley.  Fresh, less ripe than the 2015, with neutral oak to round out the body and acidity a bit.  A crisper wine for those looking for a good white on a hot day
 * [**2016 Rose**](http://www.jerichocanyonvineyard.com/page?pageid=04DD2AF1-197C-499E-900B-A82ABE8D34B6) ($40)
