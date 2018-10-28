@@ -16,7 +16,7 @@ winery_details:
 ---
 Some places can seem intimidating due to the energy, focus, and exclusivity of the winery in their drive to produce amazing wines, which also brings high scores.  With the high scores comes high prices due to supply/demand, which increases the exclusivity and continues the cycle.  Spring Mountain bucks that mindset while still producing nice old-world style wines, thanks to the resources of its owner and his desire to make wine unique to their terroir, rather than aiming for what wine reviewers desire.  And you get to enjoy the wines from the comfort of outdoor lawn chairs, staring at Spring Mountain (this is quite a sight/site).  
 
-![](/assets/spring_mountain/1.jpg "Spring Mountain is gorgeous"){: .center-image }
+![](/assets/spring_mountain/1.JPG "Spring Mountain is gorgeous"){: .center-image }
 ***Caption Title:*** *The view of Spring Mountain from the wine tasting lawn chairs*
 {: .center-caption }
 
@@ -24,7 +24,7 @@ When you also factor in that it won't break the bank to pay the tasting fee, thi
 
 Located at the base of Spring Mountain, just outside of St. Helena, Spring Mountain Winery looks like a small family-owned winery with just the plot of land in front of the tasting room and up on the hill in view of the winery.  It’s surprising to hear that the winery actually owns most of the land in the Spring Mountain AVA and sells off a majority of its fruit to other wineries.  This winery only uses its best for their own production and ages its wine however long they need to be before they’ve reached their pinnacle.  This style of winemaking emulates the best Bordeaux estates moreso than other Napa Valley brethren.  
 
-![](/assets/spring_mountain/2.jpg "The actual lawn chairs"){: .center-image }
+![](/assets/spring_mountain/2.JPG "The actual lawn chairs"){: .center-image }
 ***Caption Title:*** *A group of us actually sitting in the lawn chairs*
 {: .center-caption }
 
