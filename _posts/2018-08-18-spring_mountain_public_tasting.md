@@ -24,7 +24,7 @@ When you also factor in that it won't break the bank to pay the tasting fee, thi
 
 Located at the base of Spring Mountain, just outside of St. Helena, Spring Mountain Winery looks like a small family-owned winery with just the plot of land in front of the tasting room and up on the hill in view of the winery.  It’s surprising to hear that the winery actually owns most of the land in the Spring Mountain AVA and sells off a majority of its fruit to other wineries.  This winery only uses its best for their own production and ages its wine however long they need to be before they’ve reached their pinnacle.  This style of winemaking emulates the best Bordeaux estates moreso than other Napa Valley brethren.  
 
-![](/assets/spring_mountain/3.jpg "The actual lawn chairs"){: .center-image }
+![](/assets/spring_mountain/2.jpg "The actual lawn chairs"){: .center-image }
 ***Caption Title:*** *A group of us actually sitting in the lawn chairs*
 {: .center-caption }
 
@@ -42,7 +42,7 @@ For most wine tastings at this price, I am expecting 3-5 wines that are newly re
 
 This is another winery that produces a refreshing Sauvignon Blanc.  Some wineries will utilize the ripeness they can achieve in Napa for exotically style wines.  Spring Mountain preserves the light body and acidity for a nice, light, crisp wine to be enjoyed on a hot summer day.  The Cabernet Sauvignons are drier, earthier, and display a bit more spice than most other Napa Cabs, reminding me of old world style wines from Europe.  It’s incredible that the current release of wine is 10 years old and aged to its height of fruit/earth/wood balance.  
 
-![](/assets/spring_mountain/2.jpg "Why are all the glasses empty?!?!"){: .center-image }
+![](/assets/spring_mountain/3.jpg "Why are all the glasses empty?!?!"){: .center-image }
 ***Caption Title:*** *Tasting Spring Mountain wines in the great outdoors*
 {: .center-caption }
 
