@@ -55,6 +55,6 @@ Their membership program is very flexible and can be tailored to you, so get out
 
 And nothing beats enjoy some great wine while enjoying great views.
 
-![](/assets/jericho_canyon/3.jpg "Nature is special"){: .center-image }
+![](/assets/tom_eddy/3.jpg "Nature is special"){: .center-image }
 ***Caption Title:*** *Enjoying great views with great wines feels like true harmony*
 {: .center-caption }
