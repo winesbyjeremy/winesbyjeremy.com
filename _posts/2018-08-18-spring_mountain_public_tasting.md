@@ -24,6 +24,10 @@ When you also factor in that it won't break the bank to pay the tasting fee, thi
 
 Located at the base of Spring Mountain, just outside of St. Helena, Spring Mountain Winery looks like a small family-owned winery with just the plot of land in front of the tasting room and up on the hill in view of the winery.  It’s surprising to hear that the winery actually owns most of the land in the Spring Mountain AVA and sells off a majority of its fruit to other wineries.  This winery only uses its best for their own production and ages its wine however long they need to be before they’ve reached their pinnacle.  This style of winemaking emulates the best Bordeaux estates moreso than other Napa Valley brethren.  
 
+![](/assets/spring_mountain/3.jpg "The actual lawn chairs"){: .center-image }
+***Caption Title:*** *A group of us actually sitting in the lawn chairs*
+{: .center-caption }
+
 For most wine tastings at this price, I am expecting 3-5 wines that are newly released and are produced at volume.  Well, I got the number of wines right, but boy did I underestimate the quality of the wine we were going to be served:
 
 <https://www.springmountainvineyard.com/store/>
