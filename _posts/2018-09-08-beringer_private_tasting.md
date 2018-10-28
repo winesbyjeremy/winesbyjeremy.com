@@ -51,9 +51,13 @@ Ok, enough reminiscing from me.  Here is what you can expect between the two tas
 * [**2014 Private Reserve Cabernet Sauvignon**](https://www.beringer.com/wines/private-reserve/cabernet-napa-valley/2014) ($170)
   * Not quite as huge as the 2013, there is a bit more nuance and freshness to the wine, making it more approachable earlier in its life.  Similar tasting notes as the 2013, drink this while waiting for that vintage to come around
 
+![](/assets/beringer/3.jpg ""){: .center-image }
+***Caption Title:*** *The private tasting room in the top floor of the Rhine House.  Did I mention that it was a blind tasting?  And in case you were wondering, I didn't get the four of them correct...*
+{: .center-caption }
+
 For those that like oaked Chardonnays but want less butter and more complexity, the Private Reserve is my go-to.  Well balanced between the intensity and high acidity plus the hints of nut from the barrel aging is really captivating.  The Private Reserves need more time for aging as the tannins are still a bit aggressive but the potential is obvious and the fruit+weight on the palate feel sooo good.  If you are an impatient drinker like me, the Bancroft Ranch Merlot and Knights Valley Cab are ready right now and can be almost as pleasurable as the Private Reserves in good vintages.  
 
-![](/assets/beringer/3.jpg "Nothing better than wine and nature in the morning"){: .center-image }
+![](/assets/beringer/4.jpg "Nothing better than wine and nature in the morning"){: .center-image }
 ***Caption Title:*** *The patio of the Rhine House - It would've been great to hold the tasting here too*
 {: .center-caption }
 
