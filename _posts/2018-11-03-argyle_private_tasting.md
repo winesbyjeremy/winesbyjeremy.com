@@ -30,6 +30,8 @@ We first walked through the back space of the storage area, where it was the coo
  
 One curious thing - there was a pupitre in a corner that someone had been manually riddling.  Turns out, this is for perspective customers of this tasting!  Our host grabbed a bottle and a cap-popping tool and we all headed outside.  The weekend was my cousin’s wedding present, so I let her husband do the disgorging – it was actually well-done...
  
+![](/assets/argyle/3.mov "fire in the hole"){: .center-image }
+
 Once we cleaned up and geeked out a bit more on the production process, it was time to head inside for the tasting.  Our lineup consisted of the following:
 
 * **Sparkling Wine - Zero Dosage**
