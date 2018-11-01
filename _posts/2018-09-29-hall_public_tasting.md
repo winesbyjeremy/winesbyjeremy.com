@@ -18,7 +18,15 @@ As I mentioned in earlier articles, Napa can be both the ultimate educational ex
 
 As you park and approach this St. Helena winery, you'll see both the beautiful, neo-architectural winery and the 1800s historic barn next to it.  Prepare yourself, because the inside is just another level compared to the exterior.  You may feel like you are entering a blend of a futuristic winery and art gallery.  If you are brave enough to take the Ultimate Cabernet Experience instead of the traditional tasting, you will be led to the barn where all of the technology and art fade away and all that is left is you and amazing wine.  If you are feeling especially fancy, you can arrange for a special personalized tasting at their Rutherford Estate as well.  
 
+![](/assets/hall/1.jpg "The Vineyards of Hall"){: .center-image }
+***Caption Title:*** *The Vineyards at Hall after a spring rain in the morning*
+{: .center-caption }
+
 I personally think that the public tasting is a great deal that exposes you to some really high quality wine without a $75+ tasting fee; two of the wines are over $130 each and scored 98 Points or better with The Wine Advocate.  So if powerful and ageable wines are your preference, you are going to be very happy here.  In addition, while you are tasting the wine in the main area, you'll get a glimpse of the gorgeous view behind the winery.  But best of all, there is no reservation required for the regular tasting!  So if you happen to find yourself in Napa with no plan, feel free to drop by here.
+
+![](/assets/hall/2.jpg "Makeup is hard"){: .center-image }
+***Caption Title:*** *Getting ready for my close up.  Or maybe caught getting caught off-guard during it?*
+{: .center-caption }
 
 As for the wines, the tasting list generally looks like this:
 
@@ -43,7 +51,15 @@ As for the wines, the tasting list generally looks like this:
 * [**2014 Kathryn Hall**](http://www.hallwines.com/shop-90-point-wines-14/2014-hall-kathryn-hall-cabernet-sauvignon.html) ($175)
   * If the Jack's reminded me of Howell Mountain, then the Kathryn Hall reminded me of Rutherford.  This wine is richer and bigger in body, but the detail that grabbed me was a dustiness that you see a lot in Rutherford.  Still, this wine is so smooth and approachable, even in its youth, but it could definitely age 10-20 years effortlessly.  This is another one of those wines that you can enjoy without thinking, but then drink again while paying attention and point out 4-6 distinct flavors.  
 
+![](/assets/hall/3.jpg "Picnic Time"){: .center-image }
+***Caption Title:*** *The outdoor picnic area available to winery members.  Who wouldn't want to enjoy a bottle out here?*
+{: .center-caption }
+
 I really like the membership benefits of Hall.  There is a separate area where wine club members can conduct their tasting (much quieter) and you can purchase bottles, go outside, and enjoy the view of the mountains from a lawn chair.  They even have fire pits for the fall time!  The lawn in the back is well manicured as well, leaving you with the impression that you are a member of a high class country club.  Definitely one of the best views from the valley floor. 
+
+![](/assets/hall/4.jpg "Napa scenery is always beautiful"){: .center-image }
+***Caption Title:*** *Another angle of the picnic area from nature's point of view.*
+{: .center-caption }
 
 The theme of the wines is similar to that of other Napa Valley wineries in that it promotes fruit, wood spice, and power.  However, I've found that most of Hall's wines have much more rounded tannins than other places and are already approachable in their youth.  No need to wait any requisite amount of time to enjoy the wines.  Also, candied fruit and white flower are common notes that seem to come up for me throughout the tasting, though I didn't explicitly call them out above.
 

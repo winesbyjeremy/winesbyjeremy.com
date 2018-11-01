@@ -15,6 +15,10 @@ Heidi Barrett’s personal label.  You would think that the prices would rival a
 
 Another reason they can offer wines at reasonable prices is that La Sirena doesn’t have the infrastructure costs (e.g. a tasting room) of other traditional wineries.  Instead, when you email their wine ambassador (David Devan) for a tasting appointment, you get options to hold the La Sirena tasting at other wineries that Heidi collaborates with (e.g. Fantesca).  Trust me, the quality of the wine makes this coordination all worth it – the wine is just that good.  In addition to their quality wine, David is one of the best wine ambassadors in the industry whose storytelling brings the wines to life and leaves you wanting to read Heidi’s biography.  If I am lucky enough to become a Wine Ambassador one day, he is who I would want to emulate.  
 
+![](/assets/la_sirena/1.jpg "Selfie time!"){: .center-image }
+***Caption Title:*** *Obligatory selfie photo from my iPhone back when we had the tasting at Jericho Canyon a couple years ago.  Sorry that there isn't a more recent photo.  The amazing wine always makes me forget to take pictures.*
+{: .center-caption }
+
 As I was saying, every time I visit Napa Valley with a group of people, I always go out of my way to introduce them to La Sirena – I will book that appointment first and then build the weekend around it.  The tasting menu looks like the following:
 * [**2017 Moscato**](http://lasirenawine.com/wine/moscato-azul/) ($30)
 * [**2017 Rosato**](http://www.shop-lasirenawine.com/product/2017-La-Sirena-Rosato) ($28)
