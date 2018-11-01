@@ -15,13 +15,23 @@ winery_details:
   reservation: Yes for Special Tastings, No for Traditional Tastings
 ---
 When people think of Oregon wine, they normal think of red still wine that ranges from the finesse of Burgundy Pinot Noir to the power of Russian River Valley Pinot Noir.  They don’t necessarily think of Sparkling wine, which is a key product of Pinot Noir all around the world, not just Champagne.  And when it comes to Oregon Sparkling Wine, there is no place more established than Argyle; heck, it's even called out specifically in my Wine and Spirits Education Trust (WSET) Sparkling Wine Class!  The reputation alone is enough to entice even seasoned wine professionals, but when I discovered there was a special Sparkling tasting that also lets you to disgorge a bottle by hand, I made Argyle my first call during my itinerary construction.  I brought along my cousin and her husband for a full weekend of tastings in Willamette as their wedding gift, but this visit was definitely a gift to myself, haha.
- 
+
+![](/assets/argyle/1.jpg "beautiful tasting room"){: .center-image }
+***Caption Title:*** *The view of Argyle's tasting room as your enter the winery.  Clean, rustic and just feels like a place I would want to drink good wine.*
+{: .center-caption }
+
 The winery itself is spacious and gorgeous, polished yet rustic, and has parts from its old barrel storage facility incorporated into different aspects of the new building.  Argyle's tasting area could hold 100 people without issue and there's even enough room for kids to run around outside.  Upon entering the facility, we were greeted with a sparkling Riesling that resembled Deutcher Sekt (German Sparkling Wine), but was a little drier and lower in acidity.  After we finished exploring the tasting area, the manager of the winery picked us up and took us to the back for a private tour and tasting.
- 
+
+![](/assets/argyle/2.jpg "just nod"){: .center-image }
+***Caption Title:*** *Learning about the unique terroir of the Willamette Valley and why Pinot Noir is so delicious here.*
+{: .center-caption }
+
 We first walked through the back space of the storage area, where it was the coolest and darkest.  There we saw unspeakable things, like wines that had been aging on their lees for nearly 10 years, long enough to make even great Champagne Negociant houses blush; the prestige cuvees (best wines) of a Champagne Negociant (e.g. Moet Chandon) is normally aged on the lees for 5-7 years.  Although the bottles didn’t have the iconic black mold growing on the bottles (this was a warehouse, not an underground cave after all), you could tell that these were cared for greatly before they made it to the gyropalates for riddling and eventual disgorgement.
  
 One curious thing - there was a pupitre in a corner that someone had been manually riddling.  Turns out, this is for perspective customers of this tasting!  Our host grabbed a bottle and a cap-popping tool and we all headed outside.  The weekend was my cousin’s wedding present, so I let her husband do the disgorging – it was actually well-done...
  
+![](/assets/argyle/3.mov "fire in the hole"){: .center-image }
+
 Once we cleaned up and geeked out a bit more on the production process, it was time to head inside for the tasting.  Our lineup consisted of the following:
 
 * **Sparkling Wine - Zero Dosage**
@@ -40,10 +50,22 @@ Once we cleaned up and geeked out a bit more on the production process, it was t
 * **2007 Extended Tirage Brut Rose** ($120)
   * If this wine was priced similarly to the Extended Tirage Brut, I would have also picked up a bottle.  There is similar character to the Brut Rose and the Extended Tirage Brut with some additional fleshiness on the palate as well.  However it's priced a little too high for my taste.  Definitely still worth tasting at the winery if you get the chance!
 
+![](/assets/argyle/4.jpg "delicious"){: .center-image }
+***Caption Title:*** *Argyle's linup of Sparkling Wines*
+{: .center-caption }
+
 Yes, there are 10 wines in this tasting that are broken up into two sets, so come prepared.  The first set is purely for educational purposes - both for you and the winery.  You receive the same sparkling wine with four different dosage levels (including Zero Dosage) and are asked which is your preference.  After all, it's important the winery produces wines that consumers like!  Next you can try to guess the dosage levels of each sparkling wine and then which of the four the Final Blend is.  Hint: It's not the Zero Dosage wine.  But getting it right is actually much harder than you might think as they all feel pretty similar on the palate.  After discussing Argyle's approach to sparkling wine, you'll then taste the next set.
 
+![](/assets/argyle/5.jpg "captivated"){: .center-image }
+***Caption Title:*** *Discussing Argyle's methodology when it comes to producing its Sparkling wines and how the dosage affects more than just taste.*
+{: .center-caption }
+
 Out of all these wines, I was absolutely captivated by the 10 Year Old Sparkling Wine, which I found out later was the highest rated of the group.  Unlike Champagne where fertilization of the soil every few years is necessary, Oregon has more fertile soil by comparison, which in turn leads to wines with greater flavors.  Normally, this is greatly desired, but in Sparkling wine, you want a more neutral base wine so that the flavors which result from the lees aging are more prominent (e.g. brioche, cream).  To deal with this stronger fruit flavor in the base wine, Argyle makes a wine that ages on the lees for ~10 years to increase the strength of those flavors.  What results is a strong, but subtle wine of great flavor that seemingly could explode at any moment, favoring one flavor (fruit) or the other (lees aging).
- 
+
+![](/assets/argyle/6.jpg "every day I'm hustling"){: .center-image }
+***Caption Title:*** *You know why I am smiling right?  Guess who ranked all of the dosage levels correctly and then guessed the final blend?  This guy...*
+{: .center-caption }
+
 The tasting itself though was a very educational experience.  Tasting four wines of the exact same blend, from the same vintage, and from the same vineyards, differing only in the dosage was a real treat.  So many things I learned about in class that are hard to taste/test practically became much more clear.  The room used for the tasting itself was a small room enclosed by glass, surrounded by racks holding some of their rarest/oldest wines.  I couldn’t quite convince the manager to open one of the bottles, but I was able to get a 6-pack of the 10 Year Old Sparkling Wine at a members discount with free shipping, which isn’t bad.  My cousin and her husband ended up becoming members on the winery, so I probably got the discount transitively.  
  
 If you are interested in Sparkling wines, but don’t want to pay for that ticket to Europe, Argyle is a great alternative that stands among the best in America.  And do take advantage of the food truck outside or eat lunch before your tasting appointment.  You will thank yourself, haha.  Cheers!
