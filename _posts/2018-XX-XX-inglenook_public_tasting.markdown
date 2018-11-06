@@ -16,9 +16,17 @@ winery_details:
 ---
 I've had (the very affordable) Francis Coppola wines before and was skeptical of Inglenook even before reading the reviews by the major wine publications.  But I think you can officially change my status from skeptic to believer, because everything about this winery is impressive.  For example, when you make your way to the winery, Google Maps bring you to a small building that turns out to be the check-in desk where they confirm your reservation, give you a ticket to scan at the estate gate, and send you on your way.
 
+![](/assets/inglenook/1.jpg "Where are you taking me?"){: .center-image }
+***Caption Title:*** *For a while there, it seemed like the road would go on forever.  That's definitely one way to heighten the expectations of visitors.*
+{: .center-caption }
+
 The driveway is quite long and leads you to a large parking lot that is next to the largest campus I have seen in the Napa Valley so far.  What's more, it contrasts wineries like Hall in that everything about the campus looks and feels historic.  The backstory of this land seems surreal when you hear about it, but once you explore and read the signs that are everywhere, you really start to understand that this land is special.
 
 Inglenook, or more accurately the winery that existed before it was purchased and named Inglenook, was founded by a Finnish animal fur trader in the 1850s, who had been responsibe for a vast amount of charting along the west coast.  He was a wine conneiseur, his wife a SF socialite.  It's no surprise that they compromised and moved from fur trading to operating a winery in Napa.  And it certainly wasn't about the money - he wanted to show the world that he could make wines that could rival the world’s best in France.  This, a 100+ years before the Judgement of Paris.  Just hearing about the passion and history is enough to get you excited about the wines.
+
+![](/assets/inglenook/2.jpg "There was none left for me..."){: .center-image }
+***Caption Title:*** *I feel like I needed to include a picture of this bottle in the post.  If you are wondering why, I'd recommend doing some research on the older Niebaum-Coppola wines that were released.  Then, you will understand...*
+{: .center-caption }
 
 When Francis Coppola purchased the land, Robert Mondavi immediately called him up to setup a dinner and proceeded to explain the history and potential Francis, practically charging Coppola that he had the moral responsibility to restore Inglenook to its former glory.  After digging some 50+ year old wines out of the Inglenook cellar and tasting them with Mondavi, Coppola was convinced and so the dream was born.  And if that isn't enough to get you excited, the consulting winemaker (Philippe Bascaules) happens to be the President of Chateau Margaux, who now flies back to California every two months to make sure that Inglenook is producing amazing wines, as nature intended.  Coppola is also Italian – that’s why there is a Zindandel (known in Italy as Primitivo) here.  If you want French styled wine that just has great balance, you need to try these wines:
 
