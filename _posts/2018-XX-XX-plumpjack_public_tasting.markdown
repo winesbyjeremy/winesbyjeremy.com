@@ -14,6 +14,15 @@ winery_details:
   tasting: $40
   reservation: Recommended
 ---
+
+![](/assets/plumpjack/1.jpg "PJW!"){: .center-image }
+***Caption Title:*** *The entrance to the Plumpjack Winery!  As we arrived close to 10:30, we were the only visitors at the winery which made for a nice experience.*
+{: .center-caption }
+
+![](/assets/plumpjack/2.jpg "Wine Ambassadors!!"){: .center-image }
+***Caption Title:*** *Another benefit of going to the winery early in the day - everyone is available for a photograph!!  Everyone was very nice and opened a couple extra wines for our tasting, for which we were very grateful.*
+{: .center-caption }
+
 Aaron Miller – winemaker since 2012, went to UC Davis, smaller tasting space.  Small semi-circle bar made of solid rock, with a small gift shop and a small space to sit outside to taste/drink wine, but the view is a little blocked by all of the vines surrounding the property.  Case of wine will ship for free normally (its technically 2-day air that they use).  
 
 * [**2017 Reserve Chardonnay**](https://store.plumpjackwinery.com/SHOP.AMS?LEVEL=BOT&PART=PJ17CHSC7) ($52)
