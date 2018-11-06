@@ -16,9 +16,25 @@ winery_details:
 ---
 One of the first ten wineries established in the Napa Valley, Chappellet has a long and storied history - from Wine Spectator mentioning one of its wines in the top ten of the past **century**, to naming and copyrighting the location that people think of when they hear Bryant Family, Colgin, etc. (Chappellet copyrighted "Pritchard Hill"), to producing a consistent 97+ pt wine in the Wine Advocate (their Pritchard Hill Cabernet Sauvignon).  Chappellet has a fantastic reputation and for good reason - the quality of their wine is very good.  This was the reason I had to visit Chappellet on my most recent trip, though the reasonable tasting fee also helped.  Note that like many other owners in Napa, the proprietar of Chappellet made his money before coming out to Napa and buying land.  In his case, he invented the first coffee vending machines, where you would pay to get a cup of coffee automatically dispensed for you.  No disrespect to coffee lovers, but I am glad he transitioned to wine!
 
+![](/assets/chappellet/1.jpg "Like the pyramids of old"){: .center-image }
+***Caption Title:*** *Inside the Chappellet winery.  It's too bad that we couldn't explore it any further.  Maybe next time...*
+{: .center-caption }
+
 Our visit to Chappellet was a little more epic than normal because of a sulphur leakage inside the winery.  Scary, I know, but it was easy to smell that something was wrong in the storage/tasting area.  The owners had approved us to have our wine tasting at a cool alternative location - their private outdoor tent in the vineyard.  For those that don't know, most wineries have a special area that is designated for us only by the winery owners, where they can host close friends, VIPs, and others in a more secluded and relaxed setting.  Very rarely do common visitors like us get a chance to enjoy the wineries private oasis.  
 
+![](/assets/chappellet/2.jpg "My friends are a power couple"){: .center-image }
+***Caption Title:*** *Getting ready to hop in the Swiss Pinzgauer and head up into the vineyards.  Don't drink and drive but it's ok to drink and ride in a winery*
+{: .center-caption }
+
+![](/assets/chappellet/3.jpg "First-class seat"){: .center-image }
+***Caption Title:*** *The view out of the back of the Swiss Pinzgauer heading up to the tent.  It was quite the view the whole way up, but the dust that got kicked up was a bit much at times*
+{: .center-caption }
+
 They didn't tell us that right away though.  Instead we were lead to what looked like a miniature version of a military transport truck.  After we all managed to climb in the back, we took off into the winery.  Although it did get dusty (and some people forgot to protect their glass of Chardonnay), we finally made it to the owner's private tent in the back-left portion of the winery.  We dusted ourselves off, took many pictures of the tent and the surrounding area, then proceeded to sit at the table and enjoy the wines.  
+
+![](/assets/chappellet/4.jpg "Owner's Box"){: .center-image }
+***Caption Title:*** *Heading into the owner's tent for the tasting.  I must say - I really hope to befriend some winery owners at some point in my life, haha.  Now that I've been to one, I really want to spend the day or have a dinner at another!*
+{: .center-caption }
 
 * [**2014 Signature Chardonnay**](https://www.chappellet.com/product/2014-Signature-Chardonnay) ($45)
   * The grapes are from family growers in the cooler Carneros, as the winemaker wanted Chablis level acidity for use in a new world style wine.  The fruit is nicely developed past the lemon/lime fruit development into the yellow apple / apricot stage.  The minerality and sweeter spice are deeper in the wine and take some time to dig out.
@@ -30,6 +46,10 @@ They didn't tell us that right away though.  Instead we were lead to what looked
   * Deeper blue/black fruit on the nose, lean, really nice lingering aromas.  The palate is soft, with some black pepper, jam, black fruit, a touch warm, and a med+ finish.  It tastes a little young – seems like it needs to age a bit to round out the tannins a bit more.  The tertiary note in this wine is more coffee than the wood spices of the Merlot.
 * [**2015 Signature Cabernet Sauvignon**](https://www.chappellet.com/product/2015-Signature-Cabernet-Sauvignon-Napa-Valley-1-5) ($55) 
   * 79% Cab Sauv, 14% Petit Verdot, 4% Merlot, and 3% Cab Franc.  A richness, lighter spice and baby fat comes off the wines as soon as you dig your nose in.  Soft on the palate, it is drinkable right now.  Pretty and sweet red fruit, smooth tannins, a decent length on the finish.  And at a really decent price - just what I remember when I served six bottles of this to my colleagues at our company event.  I didn't really get the herbs and cola to the extent our wine guide described, but I did get the licorice.
+
+![](/assets/chappellet/5.jpg "What a sight"){: .center-image }
+***Caption Title:*** *The view of the vineyards from the owner's tent.  I know, it is quite a sight...  Why doesn't my backyard look like that I wonder?*
+{: .center-caption }
 
 I'm sure that if we had the signature tasting (~$95), that includes the Pritchard Hill Cabernet Sauvignon ($225), I would've been happier with the wine piece of the experience.  Chappellet was also our final winery of the day and was right after a late lunch, so I would also be interested in making another visit, though I doubt we will get the same experience.  
 
