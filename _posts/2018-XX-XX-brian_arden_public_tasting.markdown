@@ -16,7 +16,15 @@ winery_details:
 ---
 As more investment pours into Napa Valley and the large conglomerates (e.g. Constellation Brands) purchase more property to consolidate the industry, it's getting harder to find quality smaller wineries that aren't all about the dollars.  Luckily, there is one right off the Silverado Trail that has been growing slowly, but surely these past 5-10 years.  This recent visit to Brian Arden was a coming of age for both of us - the last time I visited several years ago, they had just opened their facility on the Silverado Trail and I was just discovering how amazing wine could be.  It may have been my second-ever trip to Napa.  
 
+![](/assets/brian-arden/1.jpg "beautiful winery"){: .center-image }
+***Caption Title:*** *I really do like the architecture of the winery.  If I had to design one for myself, I hope it comes out looking as good as this one.*
+{: .center-caption }
+
 Even after some years, Brian Arden still looks like an architectural novelty as you enter the driveway.  Though, it isn't like Hall where the novelty seems artistically driven - the novelty here is they aimed for a clean design that seems classy and homely at the same time.  The abundance of windows makes the tasting room a little warm during the afternoon, but also allows you to enjoy the incredible views from inside the tasting room unimpeded.  The same goes for inside the tasting room - there was constant traffic, but it was never crowded or too loud.  The owner (who is also the winemaker) made it a point to come inside and thank every party for their patronage and get their feedback on the wines.  This wasn't an easy thing for him to do as he was also receiving delivery of the bottles that will be used for this upcoming vintage - a lot of delicate work to balance, for sure.  
+
+![](/assets/brian-arden/2.jpg "peaceful tasting"){: .center-image }
+***Caption Title:*** *There's nothing like sitting a table enjoying good wine and people watching...  Well, the view outside those windows might have been more captivating.*
+{: .center-caption }
 
 Like many other small producers, Brian first got his start with a larger winery (Terra Valentine) and has met / worked with others who are in the ultra-premium wine category.  Incorporating all of that knowledge into his winemaking style, but keeping things very approachable (like his winery), Brian produces enjoyable wines that can be drunk immediately, are still complex, while also being great value deals at their price points.  In addition, all of his single varietal wines are actually 100% (and not just 75% as required by California Law to label your bottle with a varietal).  To keep things interesting though, the only continuous grape contracts they have are for their Chardonnay and the Zinfandel (they own their Zin vines).  The source of all their other fruit can and does change year-to-year, depending on what's available for purchase from others.   This means that each vintage will likely taste very different from their previous ones.  They also have more fun wines coming down the pipe (e.g. Sparkling rose, Rose, Riesling, etc.)
 
