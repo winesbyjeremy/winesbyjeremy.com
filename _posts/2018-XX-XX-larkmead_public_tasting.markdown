@@ -16,7 +16,15 @@ winery_details:
 ---
 Another winery with a storied history longer than most (dating back to the late 1800s) and which continues to produce top notch wines is Larkmead.  Though unlike many others with the same length of history, Larkmead continues to be a small production winery, choosing to concentrate on quality over quantity as its 2013 The Lark (100pt by Wine Advocate) demonstrates.  Its smaller size and simple-but-bright tasting room provides quite the contrast to Frank Family, which is right across the street.  Both are located in Calistoga off the main highway though, so there's no reason not to visit either or both.
 
+![](/assets/larkmead/1.jpg "Peaceful, but not for long"){: .center-image }
+***Caption Title:*** *The winery getting ready to start the day.  The winemaking facilty is on the right and the wine tasting building is on the left.  You can take the wine tour and visit both buildings.*
+{: .center-caption }
+
 There's a reason why both wineries are so close together.  Larkmead sold its original winery building to Frank Family back in the day, but kept the land and continued to produce great wine, later constructing its new tasting room that I had the pleasure of visiting.  There are many reasons why this small family winery produces excellent wines, but I think the level of interaction with their vines is the most important one.  They hand prune and hand harvest everything in addition to walking the vineyards every day observing their development and making adjustments as needed.  As it was close to harvest time, I got to wander the vineyards with them and tasted some of the grapes - their Sauvignon Blanc in front of the winery was on point...
+
+![](/assets/larkmead/2.jpg "Wine loves Art"){: .center-image }
+***Caption Title:*** *The private tasting room for larger reservations.  The family loves (and creates) art, which makes for great decorations around a tasting table.*
+{: .center-caption }
 
 Shout-out to Deanna Basham for taking me on a tour of the vineyards, for letting the wine sell itself while demonstrating a vast depth of knowledge and for off-roading a little bit on the tasting menu - yes, I had a couple more than what is normally offered.  Though, if you show respect for the great wines they produce as well, I'm sure they will also treat you like family and expand the menu to a couple more.  It's just too bad that the Lark is nearly impossible to get ahold of; they only produce 4-6 barrels of this rockstar each vintage.
 
