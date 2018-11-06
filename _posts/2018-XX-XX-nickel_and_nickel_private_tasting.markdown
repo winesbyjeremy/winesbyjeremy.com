@@ -10,13 +10,17 @@ location:
 winery_details:
   name: Nickel and Nickel
   url: https://nickelandnickel.com/
-  rating: 94
+  rating: 93
   tasting: $80
   reservation: Yes
 ---
-Ian Stout was my wine ambassador and he was amazing.  From Texas and his father is a Master Somm and has his own Syrah vineyard in Texas.  The tasting was both a progression of intensity and fruit flavor types (light blue -> deep red -> black).  Put out some cheeses (3) for the tasting.  All of the wines that they make are 100% varietals.  They like to think of it like sculpting with marble (wine making techniques to adjust), rather than blending lots of varietals.  No charge on my tasting fee and he is going to give me membership discounts on any wines I buy.  I need to submit an order for 6 or 12 bottles and ask him to fill out any of the free bottle spaces I have for my shipment.  
+Nickel and Nickel is another winery right next to the main highway through Napa.  The styling used for its logo is very similar to Far Niente which isn't to far away.  That's not a coincidence - the two are sister wineries.  While Far Niente is known for its rounded portfolio, Nickel and Nickel has built its reputation through its vast number of single vineyard Cabernet Sauvignons.  Even the single vineyard tasting gives you a preview of less than half (6 out of 15) of the single vineyard Cabernet Sauvignons on their menu.
 
-The sister winery to Far Niente.  While Far Niente is known for its rounded portfolio, Nickel and Nickel has built a reputation for itself through its vast number of single vineyard Cabernet Sauvignons.  Even the single vineyard tasting gives you a preview of less than half (6 out of 15).  
+In a previous article discussing Beringer, I mentioned that it was a great location to explore single vineyard Cabernet Sauvignons.  If I were to contrast these two, it would be that Beringer makes it's Cabernets heavier and with more tannin, while the Cabernets from Nickel and Nickel are softer and ready to drink earlier.  As far as educative experiences go, this was very helpful in isolating the characteristics of the different terroir along the valley floor (e.g. Oakville, Yountville, Rutherford, and St. Helena).  Even if you don't have the most discerning wine palate yet, this is a fun experience to see if you can taste anything different between the wines.  Once you are able to take that first step, the rest follows.
+
+
+
+
 
 * [**2015 Stiling Chardonnay**](https://shop.farniente.com/product/2015-Nickel---Nickel-Stiling-Vineyard-Chardonnay--Russian-River-Valley--Sonoma) ($55)
   * Russian River Valley
@@ -35,5 +39,5 @@ The sister winery to Far Niente.  While Far Niente is known for its rounded port
 * [**2014 Syrah**](https://shop.farniente.com/product/2014-Nickel---Nickel-Darien-Vineyard-Syrah--Russian-River-Valley--Sonoma) ($65)
   * Russian River Valley.  2 acres of Syrah in the Pinot Noir block that they bought and they just made wine out of it.  Lamb and rosemary with this wine would be soo good.  Really nice cool fruit that has quite a bit of character - the wild flavors of Syrah and the black pepper is so integrated with everything that it makes this cerebral and yet easy drinking at the same time.  
 
-
+Ian Stout was my wine ambassador and he was amazing.  From Texas and his father is a Master Somm and has his own Syrah vineyard in Texas.  The tasting was both a progression of intensity and fruit flavor types (light blue -> deep red -> black).  Put out some cheeses (3) for the tasting.  All of the wines that they make are 100% varietals.  They like to think of it like sculpting with marble (wine making techniques to adjust), rather than blending lots of varietals.  No charge on my tasting fee and he is going to give me membership discounts on any wines I buy.  I need to submit an order for 6 or 12 bottles and ask him to fill out any of the free bottle spaces I have for my shipment.
 
