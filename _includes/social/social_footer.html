@@ -1,8 +1,9 @@
+<!-- <link rel="stylesheet" href="{{ site.baseurl }}/css/social.css"> -->
 <ul class="social-media-list">
   {%- if site.vivino_username -%}
   <li>
     <a href="https://vivino.com/users/{{ site.vivino_username | cgi_escape | escape }}">
-      <img class="png-icon" src="{{ '/assets/vivino_icon.png' | relative_url }}" style="filter:none;" />
+      {%- include social/icons/vivino.html -%}
       <span class="username">{{ site.vivino_username | escape }}</span>
     </a>
   </li>
@@ -10,9 +11,7 @@
   {%- if site.dribbble_username -%}
   <li>
     <a href="https://dribbble.com/{{ site.dribbble_username | cgi_escape | escape }}">
-      <svg class="svg-icon">
-        <use href="{{ '/assets/minima-social-icons.svg#dribbble' | relative_url }}" />
-      </svg>
+      {%- include social/icons/dribble.html -%}
       <span class="username">{{ site.dribbble_username | escape }}</span>
     </a>
   </li>
@@ -20,9 +19,7 @@
   {%- if site.facebook_username -%}
   <li>
     <a href="https://www.facebook.com/{{ site.facebook_username | cgi_escape | escape }}">
-      <svg class="svg-icon">
-        <use href="{{ '/assets/minima-social-icons.svg#facebook' | relative_url }}" fill="#3B5998" />
-      </svg>
+      {%- include social/icons/facebook.html -%}
       <span class="username">{{ site.facebook_username | escape }}</span>
     </a>
   </li>
@@ -30,9 +27,7 @@
   {%- if site.flickr_username -%}
   <li>
     <a href="https://www.flickr.com/photos/{{ site.flickr_username | cgi_escape | escape }}">
-      <svg class="svg-icon">
-        <use href="{{ '/assets/minima-social-icons.svg#flickr' | relative_url }}" />
-      </svg>
+      {%- include social/icons/flickr.html -%}
       <span class="username">{{ site.flickr_username | escape }}</span>
     </a>
   </li>
@@ -40,9 +35,7 @@
   {%- if site.github_username -%}
   <li>
     <a href="https://github.com/{{ site.github_username | cgi_escape | escape }}">
-      <svg class="svg-icon">
-        <use href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}" fill="black" />
-      </svg>
+      {%- include social/icons/github.html -%}
       <span class="username">{{ site.github_username | escape }}</span>
     </a>
   </li>
@@ -50,16 +43,7 @@
   {%- if site.instagram_username -%}
   <li>
     <a href="https://instagram.com/{{ site.instagram_username | cgi_escape | escape }}">
-      <svg class="svg-icon">
-        <radialGradient id="instagram_gradient" r="150%" cx="30%" cy="107%">
-          <stop stop-color="#fdf497" offset="0" />
-          <stop stop-color="#fdf497" offset="0.05" />
-          <stop stop-color="#fd5949" offset="0.45" />
-          <stop stop-color="#d6249f" offset="0.6" />
-          <stop stop-color="#285AEB" offset="0.9" />
-        </radialGradient>
-        <use href="{{ '/assets/minima-social-icons.svg#instagram' | relative_url }}" fill="url(#instagram_gradient)" />
-      </svg>
+      {%- include social/icons/instagram.html -%}
       <span class="username">{{ site.instagram_username | escape }}</span>
     </a>
   </li>
@@ -67,9 +51,7 @@
   {%- if site.linkedin_username -%}
   <li>
     <a href="https://www.linkedin.com/in/{{ site.linkedin_username | cgi_escape | escape }}">
-      <svg class="svg-icon">
-        <use href="{{ '/assets/minima-social-icons.svg#linkedin' | relative_url }}" />
-      </svg>
+      {%- include social/icons/linkedin.html -%}
       <span class="username">{{ site.linkedin_username | escape }}</span>
     </a>
   </li>
@@ -77,9 +59,7 @@
   {%- if site.pinterest_username -%}
   <li>
     <a href="https://www.pinterest.com/{{ site.pinterest_username | cgi_escape | escape }}">
-      <svg class="svg-icon">
-        <use href="{{ '/assets/minima-social-icons.svg#pinterest' | relative_url }}" />
-      </svg>
+      {%- include social/icons/pinterest.html -%}
       <span class="username">{{ site.pinterest_username | escape }}</span>
     </a>
   </li>
@@ -87,9 +67,7 @@
   {%- for mst in site.mastodon -%}{%- if mst.username and mst.instance -%}
   <li>
     <a href="https://{{ mst.instance | cgi_escape | escape}}/@{{mst.username}}">
-      <svg class="svg-icon">
-        <use href="{{ '/assets/minima-social-icons.svg#mastodon' | relative_url }}" />
-      </svg>
+      {%- include social/icons/mastodon.html -%}
       <span class="username">{{ mst.username |escape }}</span>
     </a>
   </li>
@@ -97,9 +75,7 @@
   {%- if site.twitter_username -%}
   <li>
     <a href="https://www.twitter.com/{{ site.twitter_username | cgi_escape | escape }}">
-      <svg class="svg-icon">
-        <use href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}" fill="#1DA1F2" />
-      </svg>
+      {%- include social/icons/twitter.html -%}
       <span class="username">{{ site.twitter_username | escape }}</span>
     </a>
   </li>
@@ -107,29 +83,15 @@
   {%- if site.youtube_username -%}
   <li>
     <a href="https://youtube.com/{{ site.youtube_username | cgi_escape | escape }}">
-      <svg class="svg-icon">
-        <use href="{{ '/assets/minima-social-icons.svg#youtube' | relative_url }}" />
-      </svg>
+      {%- include social/icons/youtube.html -%}
       <span class="username">{{ site.youtube_username | escape }}</span>
-    </a>
-  </li>
-  {%- endif -%}
-  {%- if site.googleplus_username -%}
-  <li>
-    <a href="https://plus.google.com/{{ site.googleplus_username | escape }}">
-      <svg class="svg-icon">
-        <use href="{{ '/assets/minima-social-icons.svg#googleplus' | relative_url }}" />
-      </svg>
-      <span class="username">{{ site.googleplus_username | escape }}</span>
     </a>
   </li>
   {%- endif -%}
   {%- if site.rss -%}
   <li>
     <a href="{{ 'feed.xml' | relative_url }}">
-      <svg class="svg-icon">
-        <use href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}" />
-      </svg>
+        {%- include social/icons/rss.html -%}
       <span>{{ site.rss | escape }}</span>
     </a>
   </li>
