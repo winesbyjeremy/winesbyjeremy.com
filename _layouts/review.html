@@ -1,20 +1,34 @@
 ---
 layout: post
 ---
-{%- if page.winery_details -%}
-  <h1><a href="{{ page.winery_details.url }}">{{ page.winery_details.name }}</a></h1>
-  <ul>
-    <li>Rating: {{ page.winery_details.rating }} out of 100</li>
-    <li>Tasting Fee: {{ page.winery_details.tasting }}</li>
-    <li>Reservation Required: {{ page.winery_details.reservation }}</li>
-  </ul>
-{%- endif -%}
+<div itemscope itemtype="http://schema.org/Review">
 
-{%- if page.location -%}
-  <h1>Location</h1>
-  {% google_map zoom="16" %}
-  <br />
-{%- endif -%}
+  {%- if page.winery_details -%}
+    <div itemprop="itemReviewed" itemscope itemtype="http://schema.org/Winery">
+      <h1><a href="{{ page.winery_details.url }}" itemprop="url"><span itemprop="name">{{ page.winery_details.name }}</span></a></h1>
+      <meta itemprop="servesCuisine" content="Wine">
+    </div>
+    <ul>
+      <li><span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+        Rating: <span itemprop="ratingValue">{{ page.winery_details.rating }}</span> 
+        out of <span itemprop="bestRating">100</span>
+        </span></li>
+      <li>Tasting Fee: {{ page.winery_details.tasting }}</li>
+      <li>Reservation Required: {{ page.winery_details.reservation }}</li>
+    </ul>
+  {%- endif -%}
 
-<h1>Review</h1>
-{{ content }}
+  {%- if page.location -%}
+    <h1>Location</h1>
+    {% google_map zoom="16" %}
+    <br />
+  {%- endif -%}
+
+  <h1>Review</h1>
+  <meta itemprop=name content="{{ page.title }}">
+  <meta itemprop=author itemscope itemtype="http://schema.org/Person" content="{{ page.author }}">
+  <span itemprop="reviewBody">
+    {{ content }}
+  </span>
+
+</div>
