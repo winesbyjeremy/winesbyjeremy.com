@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Au Sommet Private Tasting with Amuse Bouche and Coup de Foudre | Wines By Jeremy</title>
+<meta name="generator" content="Jekyll v3.8.3" />
+<meta property="og:title" content="Au Sommet Private Tasting with Amuse Bouche and Coup de Foudre" />
+<meta name="author" content="Jeremy Myers" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="NOTE: We also had wines from Amuse Bouche and Coup de Foudre while at Au Sommet." />
+<meta property="og:description" content="NOTE: We also had wines from Amuse Bouche and Coup de Foudre while at Au Sommet." />
+<link rel="canonical" href="https://www.winesbyjeremy.com/2018/10/20/au_sommet_private_tasting.html" />
+<meta property="og:url" content="https://www.winesbyjeremy.com/2018/10/20/au_sommet_private_tasting.html" />
+<meta property="og:site_name" content="Wines By Jeremy" />
+<meta property="og:image" content="https://www.winesbyjeremy.com/assets/au_sommet/1.jpg" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2018-10-20T19:20:00+00:00" />
+<script type="application/ld+json">
+{"description":"NOTE: We also had wines from Amuse Bouche and Coup de Foudre while at Au Sommet.","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.winesbyjeremy.com/2018/10/20/au_sommet_private_tasting.html"},"@type":"BlogPosting","image":"https://www.winesbyjeremy.com/assets/au_sommet/1.jpg","url":"https://www.winesbyjeremy.com/2018/10/20/au_sommet_private_tasting.html","headline":"Au Sommet Private Tasting with Amuse Bouche and Coup de Foudre","dateModified":"2018-10-20T19:20:00+00:00","datePublished":"2018-10-20T19:20:00+00:00","author":{"@type":"Person","name":"Jeremy Myers"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/css/main.css"><link type="application/atom+xml" rel="alternate" href="https://www.winesbyjeremy.com/feed.xml" title="Wines By Jeremy" /><script>
+if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1")) {
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-123384548-1', 'auto');
+  ga('send', 'pageview');
+}
+</script>
+  
+
+        
+
+
+
+
+
+
+    
+<script type='text/javascript'>
+  /* global google */
+/* global MarkerClusterer */
+// eslint-disable-next-line no-unused-vars
+var jekyllMaps = (function() {
+  'use strict'
+  var clusterSettings = {}
+  var clusterReady = false
+  var mapReady = false
+  var options = {}
+  var data = []
+  var maps = []
+
+  return {
+    initializeMap: initializeMap,
+    initializeCluster: initializeCluster,
+    register: register
+  }
+
+  /**
+   * Setup Google Maps options and call renderer.
+   */
+  function initializeMap() {
+    options = {
+      mapTypeId: google.maps.MapTypeId.ROADMAP,
+      center: new google.maps.LatLng(0, 0)
+    }
+    mapReady = true
+    render()
+  }
+
+  /**
+   * Register map data to be rendered once Google Maps API is loaded.
+   *
+   * @param string id
+   * @param Array locations
+   * @param Object settings
+   */
+  function register(id, locations, options) {
+    data.push({ id: id, locations: locations, options: options })
+    render()
+  }
+
+  /**
+   * Render maps data if Google Maps API is loaded.
+   */
+  function render() {
+    if (!mapReady) return
+
+    while (data.length > 0) {
+      var item = data.pop()
+      var bounds = new google.maps.LatLngBounds()
+      var mapOptions = Object.assign({}, options, item.options)
+      var map = new google.maps.Map(
+        document.getElementById(item.id),
+        mapOptions
+      )
+      var infoWindow = new google.maps.InfoWindow()
+      var markers = item.locations.map(createMarker)
+
+      map.fitBounds(bounds)
+      google.maps.event.addListenerOnce(map, 'idle', function() {
+        if (this.customZoom) this.setZoom(this.customZoom)
+      })
+      if (mapOptions.useCluster) {
+        maps.push({ map: map, markers: markers })
+        processCluster()
+      }
+    }
+
+    function createMarker(location) {
+      var position = new google.maps.LatLng(
+        location.latitude,
+        location.longitude
+      )
+      bounds.extend(position)
+      if (!mapOptions.showMarker) return false
+
+      var marker = new google.maps.Marker({
+        position: position,
+        title: location.title,
+        image: location.image,
+        icon: location.icon || mapOptions.markerIcon,
+        url: markerUrl(mapOptions.baseUrl, location.url),
+        url_text: location.url_text,
+        map: map
+      })
+      if (mapOptions.showMarkerPopup) marker.addListener('click', markerPopup)
+
+      return marker
+    }
+
+    function markerUrl(baseUrl, url) {
+      if (/^(https?|\/\/)/.test(url)) return url
+
+      return url.length > 0 ? baseUrl + url : ''
+    }
+
+    function markerPopup() {
+      var content = '<div class="map-info-window"><h5>' + this.title + '</h5>'
+      var imageTag =
+        this.image.length > 0 &&
+        '<img src="' + this.image + '" alt="' + this.title + '"/>'
+      if (this.url.length > 0) {
+        var linkContent = imageTag || this.url_text || 'View'
+        content += '<a href="' + this.url + '">' + linkContent + '</a>'
+      } else if (imageTag) {
+        content += imageTag
+      }
+      content += '</div>'
+      infoWindow.setContent(content)
+      infoWindow.open(map, this)
+    }
+  }
+
+  function initializeCluster(settings) {
+    clusterReady = true
+    clusterSettings = settings || {}
+    processCluster()
+  }
+
+  function processCluster() {
+    if (!clusterReady) return
+
+    while (maps.length > 0) {
+      var obj = maps.pop()
+      // eslint-disable-next-line no-new
+      new MarkerClusterer(obj.map, obj.markers, {
+        gridSize: clusterSettings.grid_size || 25,
+        imagePath:
+          'https://cdn.rawgit.com/googlemaps/js-marker-clusterer/gh-pages/images/m'
+      })
+    }
+  }
+})()
+/* Object.assign polyfill */
+if (typeof Object.assign !== 'function') {
+  Object.assign = function(target) {
+    'use strict'
+    if (target == null) {
+      throw new TypeError('Cannot convert undefined or null to object')
+    }
+
+    target = Object(target)
+    for (var index = 1; index < arguments.length; index++) {
+      var source = arguments[index]
+      if (source != null) {
+        for (var key in source) {
+          if (Object.prototype.hasOwnProperty.call(source, key)) {
+            target[key] = source[key]
+          }
+        }
+      }
+    }
+    return target
+  }
+}
+
+</script>
+<script async defer src='https://maps.googleapis.com/maps/api/js?key=AIzaSyBGVILhPMYqclKhtLj2UKlORo40CnQp6wo&callback=jekyllMaps.initializeMap'></script>
+
+<script async defer src='https://cdn.rawgit.com/googlemaps/js-marker-clusterer/gh-pages/src/markerclusterer.js'
+        onload='jekyllMaps.initializeCluster({})'></script>
+
+</head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Wines By Jeremy</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About Wines by Jeremy</a><a class="page-link" href="/glossary/">Glossary</a><a class="page-link" href="/locations/">Locations</a></div>
+      </nav></div>
+</header>
+<!-- Load font awesome icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/social/social_sidebar.css">
+
+<!-- The social media icon bar -->
+<div class="social-sidebar"><a
+            href="https://twitter.com/intent/tweet?url=https://www.winesbyjeremy.com/2018/10/20/au_sommet_private_tasting.htmlAu Sommet Private Tasting with Amuse Bouche and Coup de Foudre"
+            class="twitter"
+            title="Share on Twitter"
+        >
+            <i class="fa fa-twitter"></i>
+        </a><a
+            href="https://www.facebook.com/sharer/sharer.php?u=https://www.winesbyjeremy.com/2018/10/20/au_sommet_private_tasting.htmlAu Sommet Private Tasting with Amuse Bouche and Coup de Foudre"
+            class="facebook"
+            title="Share on Facebook"
+        >
+            <i class="fa fa-facebook"></i>
+        </a></div><main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Au Sommet Private Tasting with Amuse Bouche and Coup de Foudre</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2018-10-20T19:20:00+00:00" itemprop="datePublished">Oct 20, 2018
+      </time>• <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">Jeremy Myers</span></span></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <div itemscope itemtype="http://schema.org/Review"><div itemprop="itemReviewed" itemscope itemtype="http://schema.org/Winery">
+      <h1><a href="http://www.ausommetwine.com/" itemprop="url"><span itemprop="name">Au Sommet</span></a></h1>
+      <meta itemprop="servesCuisine" content="Wine">
+    </div>
+    <ul>
+      <li><span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+        Rating: <span itemprop="ratingValue">96</span> 
+        out of <span itemprop="bestRating">100</span>
+        </span></li>
+      <li>Tasting Fee: $50</li>
+      <li>Reservation Required: true</li>
+    </ul><h1>Location</h1>
+    <div id='40cab7f6-6814-404c-bec1-8da9f9dc3557' style='width:600px;height:400px;'></div>
+<script type='text/javascript'>
+  jekyllMaps.register(
+    '40cab7f6-6814-404c-bec1-8da9f9dc3557',
+    [{"latitude":38.443124,"longitude":-122.244865,"title":"Au Sommet Private Tasting with Amuse Bouche and Coup de Foudre","icon":null,"url":"/2018/10/20/au_sommet_private_tasting.html","url_text":null,"image":"/assets/au_sommet/1.jpg"}],
+    {"baseUrl":"","useCluster":true,"showMarker":true,"showMarkerPopup":true,"markerIcon":null,"customZoom":16}
+  );
+</script>
+
+    <br /><h1>Review</h1>
+  <meta itemprop=name content="Au Sommet Private Tasting with Amuse Bouche and Coup de Foudre">
+  <meta itemprop=author itemscope itemtype="http://schema.org/Person" content="Jeremy Myers">
+  <span itemprop="reviewBody">
+    <p><strong>NOTE:</strong> We also had wines from <a href="http://www.amusebouchewine.com/index.php"><strong>Amuse Bouche</strong></a> and <a href="http://www.coupdefoudrewine.com/"><strong>Coup de Foudre</strong></a> while at Au Sommet.</p>
+
+<p>The last winery for one of our weekend trips to Napa and it was indeed a good one.  Once you contact the winery to setup an appointment, you’ll have a couple of options for the tasting: the Amuse Bouche building in downtown Napa or the Au Sommet vineyard on Atlas Peak.  We obviously chose Atlas Peak, but if you are pressed for time (it is a 20min drive from Napa) or are a nervous driver (it’s unpaved roads only 1.5 lanes wide going up a mountain), I recommend you stay in Napa.  Once you do make it to the winery though, like so many others, the view is worth it.</p>
+
+<p class="center-caption"><img src="/assets/au_sommet/1.jpg" alt="" title="It really was a great view" class="center-image" />
+<strong><em>Caption Title:</em></strong> <em>Enjoying the view from of the vineyards from the tower on the property</em></p>
+
+<p>As you drive up the mountain, you can still see the devastating effects of the forest fires from last year: some houses completely burnt down, others nearby amazingly unscathed, and blackened plots of land that are starting to show signs of life again.  I hope it wasn’t disrespectful, but multiple times, we slowed down to take pictures because of the impressions the sights left on us.  When we finally made it to the winery, we took a moment to reflect on the power and unpredictability of nature, then proceeded to listen to the story the wines had to tell us.</p>
+
+<p class="center-caption"><img src="/assets/au_sommet/2.jpg" alt="" title="I told you it was a great view" class="center-image" />
+<strong><em>Caption Title:</em></strong> <em>The view of the vineyards from the watchtower as I am explaining something that is probably important</em></p>
+
+<p class="center-caption"><img src="/assets/au_sommet/3.jpg" alt="" title="I may talk with my hands a bit" class="center-image" />
+<strong><em>Caption Title:</em></strong> <em>The view from the ground as I continue to explain something that is probably important</em></p>
+
+<p>The tasting room itself is almost a side house/renovated shed next to the main property (I think the family lives in the main building).  There was a watchtower-like structure that we could climb to get a view of the valley below and also catch a glimpse of the helipad that Heidi Barrett uses to land her helicopter when she comes here.  Oh, did I mention that Heidi is a collaborator with some of the wines?  After some more pictures and breathing in the mountain air with no sounds but the birds chirping, we were ready to taste the wines:</p>
+
+<ul>
+  <li><a href="http://amusebouchewine.com/pret-a-boire/index.php"><strong>2017 Pret a Boire</strong></a> ($75)
+    <ul>
+      <li>A rose composed of 66% Grenache and 33% Syrah.  This wine was a balancing act of ripeness, freshness, acidity and body.  There are few roses that command this type of price point, but I think it’s warranted.  It will assuredly test your palate’s limits when it comes to subtlety.</li>
+    </ul>
+  </li>
+  <li><a href="http://amusebouchewine.com/richard-g-peterson/richard-g-peterson-pinot-noir.php"><strong>2012 Richard Peterson Pinot Noir</strong></a> ($55)
+    <ul>
+      <li>One of the most purchased wines by our group at this tasting.  The only varietal that Heidi Barrett does not work with is the one that her father (Richard Peterson) specializes in: Pinot Noir.  And this Pinot Noir is very good.  Stylistically, it reminds me of Burgundy Pinots that cost much more than this bottle.  This is a great price point too when you consider the other Pinot Noirs grown in the Russian River Valley nearby.</li>
+    </ul>
+  </li>
+  <li><a href="http://www.coupdefoudrewine.com/lesbouquinistes.php"><strong>2015 Les Bouquinistes</strong></a> ($58)
+    <ul>
+      <li>A complicated blend of Syrah, Merlot, Petit Verdot, Zinfandel.  This is definitely not a typical blend of varietals that you’ll see elsewhere.  And because of that, you know that I bought a few bottles…  The price point also makes it very attractive.  The wine is also quite enjoyable in addition to being cerebral - wine experts and newbies alike should be able to enjoy this one.</li>
+    </ul>
+  </li>
+  <li><a href="http://ausommetwine.com/au-sommet/index.php"><strong>2014 Au Sommet</strong></a> ($250)
+    <ul>
+      <li>The estate Cabernet Sauvignon produced from the vines on this Atlas Peak property.  Very drinkable now, as is Heidi’s style, but you can taste that there is potential for aging.  The wine is also reflective of the Atlas Peak terroir and how it differs from the other mountain AVAs around Napa Valley.</li>
+    </ul>
+  </li>
+  <li><a href="http://amusebouchewine.com/amuse-bouche/index.php"><strong>2014 Amuse Bouche</strong></a> ($225)
+    <ul>
+      <li>This is the wine for which a reporter once asked where the grapes came from and Heidi responded she would have to kill him if she told him.  This Merlot from an undisclosed site was just something special; I couldn’t quite put my finger on what though in this right-bank Bordeaux style wine.  Both the Au Sommet and this were wonderful, but I walked away with bottles of this because of that extra something.</li>
+    </ul>
+  </li>
+  <li><a href="http://amusebouchewine.com/vin-perdu/index.php"><strong>2015 Vin Perdu</strong></a> ($75)
+    <ul>
+      <li>I also walked away with bottles of this.  The second label Merlot to the Amuse Bouche, this wine has great perfume, ripeness and balance on the palate.  If the Amuse Bouche is quality play, this is the value play as it will stand up nicely against other estates’ premium Merlot offering.  This is capable of some aging too, so don’t drink it all right away!</li>
+    </ul>
+  </li>
+  <li><a href="http://www.coupdefoudrewine.com/cabernetsauvignon.php"><strong>2015 Coup de Foudre</strong></a> ($95)
+    <ul>
+      <li>I love the concept of this bottle; you can peel off the label and then document where/when you had it and how it made you feel.  But that is window dressing as the wine is plenty good without the trick to the label.  It’s also priced at the right level - it should not be compared to the Au Sommet nor Amuse Bouche, but to other estates’ $100 Cabernet.</li>
+    </ul>
+  </li>
+</ul>
+
+<p class="center-caption"><img src="/assets/au_sommet/4.jpg" alt="" title="So much good wine in the storage room" class="center-image" />
+<strong><em>Caption Title:</em></strong> <em>The wine tasting bar and inventory storage.  We did our tasting outside to enjoy the weather</em></p>
+
+<p>The theme of the wines is similar to that of other Heidi Barrett style wines - great quality, fruit, midpalate, balance and the wines are approachable early in their development.  The breadth of varietals and AVAs used for these wines makes it a great visit too if you want something more than just the typical Chardonnay/Sauvignon Blanc + Cabernet Sauvignon offering.  The view, clean cool air and the drive up to Atlas Peak are nothing to scoff at either, even though it was hard to stomach at times.  If you have the time, consider making a reservation for a tasting!  Though, be warned, the wines are available for purchase only via 6-packs (or 3-packs in the case of the Au Sommet), so make sure you go as a group to the tasting!</p>
+
+  </span>
+
+</div>
+
+  </div>
+  
+  <span>[
+  
+    
+    <a href="/tag/review"><code class="highligher-rouge"><nobr>review</nobr></code>&nbsp;</a>
+  
+    
+    <a href="/tag/winery"><code class="highligher-rouge"><nobr>winery</nobr></code>&nbsp;</a>
+  
+    
+    <a href="/tag/tasting"><code class="highligher-rouge"><nobr>tasting</nobr></code>&nbsp;</a>
+  
+    
+    <a href="/tag/california"><code class="highligher-rouge"><nobr>california</nobr></code>&nbsp;</a>
+  
+    
+    <a href="/tag/napa"><code class="highligher-rouge"><nobr>napa</nobr></code>&nbsp;</a>
+  
+    
+    <a href="/tag/atlas-peak"><code class="highligher-rouge"><nobr>atlas-peak</nobr></code>&nbsp;</a>
+  
+]</span><a class="u-url" href="/2018/10/20/au_sommet_private_tasting.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Wines By Jeremy</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Wines By Jeremy</li><li><a class="u-email" href="mailto:winesbyjeremy@gmail.com">winesbyjeremy@gmail.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><!-- <link rel="stylesheet" href="/css/social.css"> -->
+<ul class="social-media-list"><li>
+    <a href="https://vivino.com/users/winesbyjeremy"><img class="png-icon" src="/assets/vivino_icon.png" style="filter:none;" /><span class="username">winesbyjeremy</span>
+    </a>
+  </li><li>
+    <a href="https://www.facebook.com/winesbyjeremy"><svg class="svg-icon">
+  <use href="/assets/minima-social-icons.svg#facebook" fill="#3B5998" />
+</svg><span class="username">winesbyjeremy</span>
+    </a>
+  </li><li>
+    <a href="https://github.com/winesbyjeremy"><svg class="svg-icon">
+  <use href="/assets/minima-social-icons.svg#github" fill="black" />
+</svg><span class="username">winesbyjeremy</span>
+    </a>
+  </li><li>
+    <a href="https://instagram.com/winesbyjeremy"><svg class="svg-icon">
+    <radialGradient id="instagram_gradient" r="150%" cx="30%" cy="107%">
+        <stop stop-color="#fdf497" offset="0" />
+        <stop stop-color="#fdf497" offset="0.05" />
+        <stop stop-color="#fd5949" offset="0.45" />
+        <stop stop-color="#d6249f" offset="0.6" />
+        <stop stop-color="#285AEB" offset="0.9" />
+    </radialGradient>
+    <use href="/assets/minima-social-icons.svg#instagram" fill="url(#instagram_gradient)" />
+</svg><span class="username">winesbyjeremy</span>
+    </a>
+  </li><li>
+    <a href="https://www.twitter.com/winesbyjeremy"><svg class="svg-icon">
+    <use href="/assets/minima-social-icons.svg#twitter" fill="#1DA1F2" />
+</svg><span class="username">winesbyjeremy</span>
+    </a>
+  </li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Wines by Jeremy offers an educative and enjoyable personalized wine experience. Located in the DC metro area, Wines by Jeremy provides a number of services including in-home exclusive tastings, highly curated event tastings, educational events, and wine cellar consulting.</p>
+      </div>
+    </div>
+  </div>
+
+</footer>
+</body>
+
+</html>

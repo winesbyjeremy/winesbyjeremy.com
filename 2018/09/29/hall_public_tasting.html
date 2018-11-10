@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Hall Public Tasting | Wines By Jeremy</title>
+<meta name="generator" content="Jekyll v3.8.3" />
+<meta property="og:title" content="Hall Public Tasting" />
+<meta name="author" content="Jeremy Myers" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="As I mentioned in earlier articles, Napa can be both the ultimate educational experience and ultimate relaxation getaway - it all depends on what you are looking for. Hall Winery is predominantly for those that are looking for the later, though you can definitely purchase 100 point quality wine there too if you wish. For being both a purveyor of fine wine and tastings with a beautiful landscape, it’s surprisingly easy to find. Right off the main highway (Route 29), the giant metal rabbit out in front of the winery is hard to miss." />
+<meta property="og:description" content="As I mentioned in earlier articles, Napa can be both the ultimate educational experience and ultimate relaxation getaway - it all depends on what you are looking for. Hall Winery is predominantly for those that are looking for the later, though you can definitely purchase 100 point quality wine there too if you wish. For being both a purveyor of fine wine and tastings with a beautiful landscape, it’s surprisingly easy to find. Right off the main highway (Route 29), the giant metal rabbit out in front of the winery is hard to miss." />
+<link rel="canonical" href="https://www.winesbyjeremy.com/2018/09/29/hall_public_tasting.html" />
+<meta property="og:url" content="https://www.winesbyjeremy.com/2018/09/29/hall_public_tasting.html" />
+<meta property="og:site_name" content="Wines By Jeremy" />
+<meta property="og:image" content="https://www.winesbyjeremy.com/assets/hall/1.jpg" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2018-09-29T19:20:00+00:00" />
+<script type="application/ld+json">
+{"description":"As I mentioned in earlier articles, Napa can be both the ultimate educational experience and ultimate relaxation getaway - it all depends on what you are looking for. Hall Winery is predominantly for those that are looking for the later, though you can definitely purchase 100 point quality wine there too if you wish. For being both a purveyor of fine wine and tastings with a beautiful landscape, it’s surprisingly easy to find. Right off the main highway (Route 29), the giant metal rabbit out in front of the winery is hard to miss.","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.winesbyjeremy.com/2018/09/29/hall_public_tasting.html"},"@type":"BlogPosting","image":"https://www.winesbyjeremy.com/assets/hall/1.jpg","url":"https://www.winesbyjeremy.com/2018/09/29/hall_public_tasting.html","headline":"Hall Public Tasting","dateModified":"2018-09-29T19:20:00+00:00","datePublished":"2018-09-29T19:20:00+00:00","author":{"@type":"Person","name":"Jeremy Myers"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/css/main.css"><link type="application/atom+xml" rel="alternate" href="https://www.winesbyjeremy.com/feed.xml" title="Wines By Jeremy" /><script>
+if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1")) {
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-123384548-1', 'auto');
+  ga('send', 'pageview');
+}
+</script>
+  
+
+        
+
+
+
+
+
+
+    
+<script type='text/javascript'>
+  /* global google */
+/* global MarkerClusterer */
+// eslint-disable-next-line no-unused-vars
+var jekyllMaps = (function() {
+  'use strict'
+  var clusterSettings = {}
+  var clusterReady = false
+  var mapReady = false
+  var options = {}
+  var data = []
+  var maps = []
+
+  return {
+    initializeMap: initializeMap,
+    initializeCluster: initializeCluster,
+    register: register
+  }
+
+  /**
+   * Setup Google Maps options and call renderer.
+   */
+  function initializeMap() {
+    options = {
+      mapTypeId: google.maps.MapTypeId.ROADMAP,
+      center: new google.maps.LatLng(0, 0)
+    }
+    mapReady = true
+    render()
+  }
+
+  /**
+   * Register map data to be rendered once Google Maps API is loaded.
+   *
+   * @param string id
+   * @param Array locations
+   * @param Object settings
+   */
+  function register(id, locations, options) {
+    data.push({ id: id, locations: locations, options: options })
+    render()
+  }
+
+  /**
+   * Render maps data if Google Maps API is loaded.
+   */
+  function render() {
+    if (!mapReady) return
+
+    while (data.length > 0) {
+      var item = data.pop()
+      var bounds = new google.maps.LatLngBounds()
+      var mapOptions = Object.assign({}, options, item.options)
+      var map = new google.maps.Map(
+        document.getElementById(item.id),
+        mapOptions
+      )
+      var infoWindow = new google.maps.InfoWindow()
+      var markers = item.locations.map(createMarker)
+
+      map.fitBounds(bounds)
+      google.maps.event.addListenerOnce(map, 'idle', function() {
+        if (this.customZoom) this.setZoom(this.customZoom)
+      })
+      if (mapOptions.useCluster) {
+        maps.push({ map: map, markers: markers })
+        processCluster()
+      }
+    }
+
+    function createMarker(location) {
+      var position = new google.maps.LatLng(
+        location.latitude,
+        location.longitude
+      )
+      bounds.extend(position)
+      if (!mapOptions.showMarker) return false
+
+      var marker = new google.maps.Marker({
+        position: position,
+        title: location.title,
+        image: location.image,
+        icon: location.icon || mapOptions.markerIcon,
+        url: markerUrl(mapOptions.baseUrl, location.url),
+        url_text: location.url_text,
+        map: map
+      })
+      if (mapOptions.showMarkerPopup) marker.addListener('click', markerPopup)
+
+      return marker
+    }
+
+    function markerUrl(baseUrl, url) {
+      if (/^(https?|\/\/)/.test(url)) return url
+
+      return url.length > 0 ? baseUrl + url : ''
+    }
+
+    function markerPopup() {
+      var content = '<div class="map-info-window"><h5>' + this.title + '</h5>'
+      var imageTag =
+        this.image.length > 0 &&
+        '<img src="' + this.image + '" alt="' + this.title + '"/>'
+      if (this.url.length > 0) {
+        var linkContent = imageTag || this.url_text || 'View'
+        content += '<a href="' + this.url + '">' + linkContent + '</a>'
+      } else if (imageTag) {
+        content += imageTag
+      }
+      content += '</div>'
+      infoWindow.setContent(content)
+      infoWindow.open(map, this)
+    }
+  }
+
+  function initializeCluster(settings) {
+    clusterReady = true
+    clusterSettings = settings || {}
+    processCluster()
+  }
+
+  function processCluster() {
+    if (!clusterReady) return
+
+    while (maps.length > 0) {
+      var obj = maps.pop()
+      // eslint-disable-next-line no-new
+      new MarkerClusterer(obj.map, obj.markers, {
+        gridSize: clusterSettings.grid_size || 25,
+        imagePath:
+          'https://cdn.rawgit.com/googlemaps/js-marker-clusterer/gh-pages/images/m'
+      })
+    }
+  }
+})()
+/* Object.assign polyfill */
+if (typeof Object.assign !== 'function') {
+  Object.assign = function(target) {
+    'use strict'
+    if (target == null) {
+      throw new TypeError('Cannot convert undefined or null to object')
+    }
+
+    target = Object(target)
+    for (var index = 1; index < arguments.length; index++) {
+      var source = arguments[index]
+      if (source != null) {
+        for (var key in source) {
+          if (Object.prototype.hasOwnProperty.call(source, key)) {
+            target[key] = source[key]
+          }
+        }
+      }
+    }
+    return target
+  }
+}
+
+</script>
+<script async defer src='https://maps.googleapis.com/maps/api/js?key=AIzaSyBGVILhPMYqclKhtLj2UKlORo40CnQp6wo&callback=jekyllMaps.initializeMap'></script>
+
+<script async defer src='https://cdn.rawgit.com/googlemaps/js-marker-clusterer/gh-pages/src/markerclusterer.js'
+        onload='jekyllMaps.initializeCluster({})'></script>
+
+</head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Wines By Jeremy</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About Wines by Jeremy</a><a class="page-link" href="/glossary/">Glossary</a><a class="page-link" href="/locations/">Locations</a></div>
+      </nav></div>
+</header>
+<!-- Load font awesome icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/social/social_sidebar.css">
+
+<!-- The social media icon bar -->
+<div class="social-sidebar"><a
+            href="https://twitter.com/intent/tweet?url=https://www.winesbyjeremy.com/2018/09/29/hall_public_tasting.htmlHall Public Tasting"
+            class="twitter"
+            title="Share on Twitter"
+        >
+            <i class="fa fa-twitter"></i>
+        </a><a
+            href="https://www.facebook.com/sharer/sharer.php?u=https://www.winesbyjeremy.com/2018/09/29/hall_public_tasting.htmlHall Public Tasting"
+            class="facebook"
+            title="Share on Facebook"
+        >
+            <i class="fa fa-facebook"></i>
+        </a></div><main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Hall Public Tasting</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2018-09-29T19:20:00+00:00" itemprop="datePublished">Sep 29, 2018
+      </time>• <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">Jeremy Myers</span></span></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <div itemscope itemtype="http://schema.org/Review"><div itemprop="itemReviewed" itemscope itemtype="http://schema.org/Winery">
+      <h1><a href="https://www.hallwines.com/" itemprop="url"><span itemprop="name">Hall</span></a></h1>
+      <meta itemprop="servesCuisine" content="Wine">
+    </div>
+    <ul>
+      <li><span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+        Rating: <span itemprop="ratingValue">93</span> 
+        out of <span itemprop="bestRating">100</span>
+        </span></li>
+      <li>Tasting Fee: $40 for Public Tasting, $150 for Ultimate Cabernet Experience</li>
+      <li>Reservation Required: No for Public Tasting, Yes for Special Experiences</li>
+    </ul><h1>Location</h1>
+    <div id='b27c0174-6c3c-4aef-bc04-21ff2dc46ed8' style='width:600px;height:400px;'></div>
+<script type='text/javascript'>
+  jekyllMaps.register(
+    'b27c0174-6c3c-4aef-bc04-21ff2dc46ed8',
+    [{"latitude":38.489082,"longitude":-122.451963,"title":"Hall Public Tasting","icon":null,"url":"/2018/09/29/hall_public_tasting.html","url_text":null,"image":"/assets/hall/1.jpg"}],
+    {"baseUrl":"","useCluster":true,"showMarker":true,"showMarkerPopup":true,"markerIcon":null,"customZoom":16}
+  );
+</script>
+
+    <br /><h1>Review</h1>
+  <meta itemprop=name content="Hall Public Tasting">
+  <meta itemprop=author itemscope itemtype="http://schema.org/Person" content="Jeremy Myers">
+  <span itemprop="reviewBody">
+    <p>As I mentioned in earlier articles, Napa can be both the ultimate educational experience and ultimate relaxation getaway - it all depends on what you are looking for.  Hall Winery is predominantly for those that are looking for the later, though you can definitely purchase 100 point quality wine there too if you wish.  For being both a purveyor of fine wine and tastings with a beautiful landscape, it’s surprisingly easy to find.  Right off the main highway (Route 29), the giant metal rabbit out in front of the winery is hard to miss.</p>
+
+<p>As you park and approach this St. Helena winery, you’ll see both the beautiful, neo-architectural winery and the 1800s historic barn next to it.  Prepare yourself, because the inside is just another level compared to the exterior.  You may feel like you are entering a blend of a futuristic winery and art gallery.  If you are brave enough to take the Ultimate Cabernet Experience instead of the traditional tasting, you will be led to the barn where all of the technology and art fade away and all that is left is you and amazing wine.  If you are feeling especially fancy, you can arrange for a special personalized tasting at their Rutherford Estate as well.</p>
+
+<p class="center-caption"><img src="/assets/hall/1.jpg" alt="" title="The Vineyards of Hall" class="center-image" />
+<strong><em>Caption Title:</em></strong> <em>The Vineyards at Hall after a spring rain in the morning</em></p>
+
+<p>I personally think that the public tasting is a great deal that exposes you to some really high quality wine without a $75+ tasting fee; two of the wines are over $130 each and scored 98 Points or better with The Wine Advocate.  So if powerful and ageable wines are your preference, you are going to be very happy here.  In addition, while you are tasting the wine in the main area, you’ll get a glimpse of the gorgeous view behind the winery.  But best of all, there is no reservation required for the regular tasting!  So if you happen to find yourself in Napa with no plan, feel free to drop by here.</p>
+
+<p class="center-caption"><img src="/assets/hall/2.jpg" alt="" title="Makeup is hard" class="center-image" />
+<strong><em>Caption Title:</em></strong> <em>Getting ready for my close up.  Or maybe caught getting caught off-guard during it?</em></p>
+
+<p>As for the wines, the tasting list generally looks like this:</p>
+
+<h1 id="ultimate-cabernet-sauvignon-experience-150">Ultimate Cabernet (Sauvignon) Experience ($150)</h1>
+<ul>
+  <li><a href="http://www.hallwines.com/shop-90-point-wines-14/2014-hall-kathryn-hall-cabernet-sauvignon.html"><strong>2014 Kathryn Hall</strong></a> ($175)</li>
+  <li><a href="http://www.hallwines.com/shop-90-point-wines-14/2014-hall-bergfeld-st-helena-cabernet-sauvignon.html"><strong>2014 Bergfeld</strong></a> ($175)
+    <ul>
+      <li>Almost as important as the flavors of this wine (floral, fruitcake, sweet spice, tea, with bright red fruit) is the texture and weight on the palate.  How wine feels in your mouth is obviously important, but until you have a wine that blows you away, you won’t truly appreciate how important it is.  This wine was one of those that opened my eyes to what amazing texture and weight feel like.</li>
+    </ul>
+  </li>
+  <li>Their choice of any two of the <a href="http://www.hallwines.com/shop-90-point-wines-14/2014-hall-mount-veeder-cabernet-sauvignon.html">Mt. Veeder</a>, <a href="http://www.hallwines.com/winery-exclusive-wines/2014-hall-howell-mountain-cabernet-sauvignon.html">Howell Mountain</a>, <a href="http://www.hallwines.com/winery-exclusive-wines/2014-hall-stags-leap-cabernet-sauvignon.html">Stag’s Leap</a>, or <a href="http://www.hallwines.com/winery-exclusive-wines/2015-hall-diamond-mountain-cabernet-sauvignon.html">Diamond Mountain</a> ($175 each)
+    <ul>
+      <li>Unfortunately, I misplaced my notes for the wines I tasted, but do remember that the tasting notes were pretty much what I got from the wines.  In addition to Beringer, Hall is another great location to taste single AVA Cabernets and observe the nuances.  The wines here are a bit riper and warmer in style, but are also more accessible earlier in their life.  They also score very well with Robert Parker on a consistent basis.</li>
+    </ul>
+  </li>
+  <li>One of the 2014 Platinum Collection: <a href="http://www.hallwines.com/2014-the-bishop">Bishop</a>, <a href="http://www.hallwines.com/2014-rainin">Rainin</a>, or <a href="http://www.hallwines.com/2014-sacrashe">Sacrashe</a> ($325 each)
+    <ul>
+      <li>I’m partial to Howell Mountain wines (The Bishop) and Rainin gets near 100pt scores, so of course we got the Sacrashe at our tasting.  Although I was initially disappointed, that feeling disappeared as quickly as the wine from my glass.  Really great integration of black fruit, creme de cassis, cedar and terroir notes.  The difference between Hall’s Platinum Series and their Signature wines is an additional degree of purity and complexity.  That might sound like a contradiction on the surface, but once you taste these wines, it will make sense.  The price point and rarity make it hard to obtain bottles, so tasting at the winery is recommended.</li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="normal-tasting-40">Normal Tasting ($40)</h1>
+<ul>
+  <li><a href="https://www.waltwines.com/pinot-noir-14/2016-walt-clos-pepe-sta-rita-hills-pinot-noir.html"><strong>2016 WALT Clos Pepe</strong></a> ($75)
+    <ul>
+      <li>Santa Rita Hills Pinot Noir.  As with all their wines, there’s an extra degree of ripeness and spice notes from the wood aging.  For this Pinot, red cherry and blackberries are the dominant fruits.  In the summertime, the wood spice and alcohol warmth might seem a bit much for a Pinot - this wine is at its best during the fall and winter when you don’t want to drink something as heavy as a Cabernet.</li>
+    </ul>
+  </li>
+  <li><a href="http://www.hallwines.com/shop-90-point-wines-14/2014-hall-terra-secca-cabernet-sauvignon.html"><strong>2014 Terra Secca</strong></a> ($65)
+    <ul>
+      <li>For Napa Cabernet, it’s hard to beat the quality-to-price ratio (QPR) of the Hall Terra Secca.  Really great concentration/intensity of black fruit with the hallmark spices that you expect from Hall.  A bit richer in body than the Hall Cabernet Sauvignon with an extra layer of flavor that’s earthy in character.  But make no mistake - this is a nicely balanced wine.</li>
+    </ul>
+  </li>
+  <li><a href="http://www.hallwines.com/winery-exclusive-wines/2014-hall-ellies-cabernet-sauvignon.html"><strong>2014 Ellie’s</strong></a> ($80)
+    <ul>
+      <li>The Terra Secca utilizes earthiness to provide complexity, while Ellie’s leverages herbal flavors to provide complexity in the wine.  Again, because of the flavors of sage and clove, this wine is best enjoyed in the Fall time instead of reaching for some heavy mulled wine.  In addition, while the Terra Secca lies on the powerful side of balanced, Ellie’s lies on the elegant side of balanced.  Having both back-to-back provided a good contrast, though I would’ve served the Ellie’s first.</li>
+    </ul>
+  </li>
+  <li><a href="http://www.hallwines.com/shop-90-point-wines-14/2014-hall-jack-s-masterpiece-cabernet-sauvignon.html"><strong>2014 Jack’s Masterpiece</strong></a> ($135)
+    <ul>
+      <li>Although the Kathryn Hall and Platinum series receive most of the marketing attention, Jack’s Masterpiece quietly outscores some of those wines year after year with a better price point.  The 2014 reminded me of Howell Mountain with its crushed rocks / graphite notes, but of course it had great rich fruit character as well, like black currant and cassis.  The body was lighter than I was expecting though - great finesse for those than prefer that style.</li>
+    </ul>
+  </li>
+  <li><a href="http://www.hallwines.com/shop-90-point-wines-14/2014-hall-kathryn-hall-cabernet-sauvignon.html"><strong>2014 Kathryn Hall</strong></a> ($175)
+    <ul>
+      <li>If the Jack’s reminded me of Howell Mountain, then the Kathryn Hall reminded me of Rutherford.  This wine is richer and bigger in body, but the detail that grabbed me was a dustiness that you see a lot in Rutherford.  Still, this wine is so smooth and approachable, even in its youth, but it could definitely age 10-20 years effortlessly.  This is another one of those wines that you can enjoy without thinking, but then drink again while paying attention and point out 4-6 distinct flavors.</li>
+    </ul>
+  </li>
+</ul>
+
+<p class="center-caption"><img src="/assets/hall/3.jpg" alt="" title="Picnic Time" class="center-image" />
+<strong><em>Caption Title:</em></strong> <em>The outdoor picnic area available to winery members.  Who wouldn’t want to enjoy a bottle out here?</em></p>
+
+<p>I really like the membership benefits of Hall.  There is a separate area where wine club members can conduct their tasting (much quieter) and you can purchase bottles, go outside, and enjoy the view of the mountains from a lawn chair.  They even have fire pits for the fall time!  The lawn in the back is well manicured as well, leaving you with the impression that you are a member of a high class country club.  Definitely one of the best views from the valley floor.</p>
+
+<p class="center-caption"><img src="/assets/hall/4.jpg" alt="" title="Napa scenery is always beautiful" class="center-image" />
+<strong><em>Caption Title:</em></strong> <em>Another angle of the picnic area from nature’s point of view.</em></p>
+
+<p>The theme of the wines is similar to that of other Napa Valley wineries in that it promotes fruit, wood spice, and power.  However, I’ve found that most of Hall’s wines have much more rounded tannins than other places and are already approachable in their youth.  No need to wait any requisite amount of time to enjoy the wines.  Also, candied fruit and white flower are common notes that seem to come up for me throughout the tasting, though I didn’t explicitly call them out above.</p>
+
+<p>If you follow critics like Robert Parker or Jeb Dunnuck, you’ll notice that some of the Hall wines score very highly on a consistent basis - the Kathryn Hall and Jack’s Masterpiece received potential 100 point scores for the 2015 vintage.  I’m not one to chase scores, but I can see why people do as these wines are great and ready now.  Visit Hall, buy a bottle or two and sit outside with a group of friends when you get the chance.</p>
+
+  </span>
+
+</div>
+
+  </div>
+  
+  <span>[
+  
+    
+    <a href="/tag/review"><code class="highligher-rouge"><nobr>review</nobr></code>&nbsp;</a>
+  
+    
+    <a href="/tag/winery"><code class="highligher-rouge"><nobr>winery</nobr></code>&nbsp;</a>
+  
+    
+    <a href="/tag/tasting"><code class="highligher-rouge"><nobr>tasting</nobr></code>&nbsp;</a>
+  
+    
+    <a href="/tag/california"><code class="highligher-rouge"><nobr>california</nobr></code>&nbsp;</a>
+  
+    
+    <a href="/tag/napa"><code class="highligher-rouge"><nobr>napa</nobr></code>&nbsp;</a>
+  
+    
+    <a href="/tag/st-helena"><code class="highligher-rouge"><nobr>st-helena</nobr></code>&nbsp;</a>
+  
+]</span><a class="u-url" href="/2018/09/29/hall_public_tasting.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Wines By Jeremy</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Wines By Jeremy</li><li><a class="u-email" href="mailto:winesbyjeremy@gmail.com">winesbyjeremy@gmail.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><!-- <link rel="stylesheet" href="/css/social.css"> -->
+<ul class="social-media-list"><li>
+    <a href="https://vivino.com/users/winesbyjeremy"><img class="png-icon" src="/assets/vivino_icon.png" style="filter:none;" /><span class="username">winesbyjeremy</span>
+    </a>
+  </li><li>
+    <a href="https://www.facebook.com/winesbyjeremy"><svg class="svg-icon">
+  <use href="/assets/minima-social-icons.svg#facebook" fill="#3B5998" />
+</svg><span class="username">winesbyjeremy</span>
+    </a>
+  </li><li>
+    <a href="https://github.com/winesbyjeremy"><svg class="svg-icon">
+  <use href="/assets/minima-social-icons.svg#github" fill="black" />
+</svg><span class="username">winesbyjeremy</span>
+    </a>
+  </li><li>
+    <a href="https://instagram.com/winesbyjeremy"><svg class="svg-icon">
+    <radialGradient id="instagram_gradient" r="150%" cx="30%" cy="107%">
+        <stop stop-color="#fdf497" offset="0" />
+        <stop stop-color="#fdf497" offset="0.05" />
+        <stop stop-color="#fd5949" offset="0.45" />
+        <stop stop-color="#d6249f" offset="0.6" />
+        <stop stop-color="#285AEB" offset="0.9" />
+    </radialGradient>
+    <use href="/assets/minima-social-icons.svg#instagram" fill="url(#instagram_gradient)" />
+</svg><span class="username">winesbyjeremy</span>
+    </a>
+  </li><li>
+    <a href="https://www.twitter.com/winesbyjeremy"><svg class="svg-icon">
+    <use href="/assets/minima-social-icons.svg#twitter" fill="#1DA1F2" />
+</svg><span class="username">winesbyjeremy</span>
+    </a>
+  </li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Wines by Jeremy offers an educative and enjoyable personalized wine experience. Located in the DC metro area, Wines by Jeremy provides a number of services including in-home exclusive tastings, highly curated event tastings, educational events, and wine cellar consulting.</p>
+      </div>
+    </div>
+  </div>
+
+</footer>
+</body>
+
+</html>

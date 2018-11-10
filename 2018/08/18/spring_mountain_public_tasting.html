@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Spring Mountain Public Tasting | Wines By Jeremy</title>
+<meta name="generator" content="Jekyll v3.8.3" />
+<meta property="og:title" content="Spring Mountain Public Tasting" />
+<meta name="author" content="Jeremy Myers" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Some places can seem intimidating due to the energy, focus, and exclusivity of the winery in their drive to produce amazing wines, which also brings high scores. With the high scores comes high prices due to supply/demand, which increases the exclusivity and continues the cycle. Spring Mountain bucks that mindset while still producing nice old-world style wines, thanks to the resources of its owner and his desire to make wine unique to their terroir, rather than aiming for what wine reviewers desire. And you get to enjoy the wines from the comfort of outdoor lawn chairs, staring at Spring Mountain (this is quite a sight/site)." />
+<meta property="og:description" content="Some places can seem intimidating due to the energy, focus, and exclusivity of the winery in their drive to produce amazing wines, which also brings high scores. With the high scores comes high prices due to supply/demand, which increases the exclusivity and continues the cycle. Spring Mountain bucks that mindset while still producing nice old-world style wines, thanks to the resources of its owner and his desire to make wine unique to their terroir, rather than aiming for what wine reviewers desire. And you get to enjoy the wines from the comfort of outdoor lawn chairs, staring at Spring Mountain (this is quite a sight/site)." />
+<link rel="canonical" href="https://www.winesbyjeremy.com/2018/08/18/spring_mountain_public_tasting.html" />
+<meta property="og:url" content="https://www.winesbyjeremy.com/2018/08/18/spring_mountain_public_tasting.html" />
+<meta property="og:site_name" content="Wines By Jeremy" />
+<meta property="og:image" content="https://www.winesbyjeremy.com/assets/spring_mountain/1.JPG" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2018-08-18T19:20:00+00:00" />
+<script type="application/ld+json">
+{"description":"Some places can seem intimidating due to the energy, focus, and exclusivity of the winery in their drive to produce amazing wines, which also brings high scores. With the high scores comes high prices due to supply/demand, which increases the exclusivity and continues the cycle. Spring Mountain bucks that mindset while still producing nice old-world style wines, thanks to the resources of its owner and his desire to make wine unique to their terroir, rather than aiming for what wine reviewers desire. And you get to enjoy the wines from the comfort of outdoor lawn chairs, staring at Spring Mountain (this is quite a sight/site).","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.winesbyjeremy.com/2018/08/18/spring_mountain_public_tasting.html"},"@type":"BlogPosting","image":"https://www.winesbyjeremy.com/assets/spring_mountain/1.JPG","url":"https://www.winesbyjeremy.com/2018/08/18/spring_mountain_public_tasting.html","headline":"Spring Mountain Public Tasting","dateModified":"2018-08-18T19:20:00+00:00","datePublished":"2018-08-18T19:20:00+00:00","author":{"@type":"Person","name":"Jeremy Myers"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/css/main.css"><link type="application/atom+xml" rel="alternate" href="https://www.winesbyjeremy.com/feed.xml" title="Wines By Jeremy" /><script>
+if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1")) {
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-123384548-1', 'auto');
+  ga('send', 'pageview');
+}
+</script>
+  
+
+        
+
+
+
+
+
+
+    
+<script type='text/javascript'>
+  /* global google */
+/* global MarkerClusterer */
+// eslint-disable-next-line no-unused-vars
+var jekyllMaps = (function() {
+  'use strict'
+  var clusterSettings = {}
+  var clusterReady = false
+  var mapReady = false
+  var options = {}
+  var data = []
+  var maps = []
+
+  return {
+    initializeMap: initializeMap,
+    initializeCluster: initializeCluster,
+    register: register
+  }
+
+  /**
+   * Setup Google Maps options and call renderer.
+   */
+  function initializeMap() {
+    options = {
+      mapTypeId: google.maps.MapTypeId.ROADMAP,
+      center: new google.maps.LatLng(0, 0)
+    }
+    mapReady = true
+    render()
+  }
+
+  /**
+   * Register map data to be rendered once Google Maps API is loaded.
+   *
+   * @param string id
+   * @param Array locations
+   * @param Object settings
+   */
+  function register(id, locations, options) {
+    data.push({ id: id, locations: locations, options: options })
+    render()
+  }
+
+  /**
+   * Render maps data if Google Maps API is loaded.
+   */
+  function render() {
+    if (!mapReady) return
+
+    while (data.length > 0) {
+      var item = data.pop()
+      var bounds = new google.maps.LatLngBounds()
+      var mapOptions = Object.assign({}, options, item.options)
+      var map = new google.maps.Map(
+        document.getElementById(item.id),
+        mapOptions
+      )
+      var infoWindow = new google.maps.InfoWindow()
+      var markers = item.locations.map(createMarker)
+
+      map.fitBounds(bounds)
+      google.maps.event.addListenerOnce(map, 'idle', function() {
+        if (this.customZoom) this.setZoom(this.customZoom)
+      })
+      if (mapOptions.useCluster) {
+        maps.push({ map: map, markers: markers })
+        processCluster()
+      }
+    }
+
+    function createMarker(location) {
+      var position = new google.maps.LatLng(
+        location.latitude,
+        location.longitude
+      )
+      bounds.extend(position)
+      if (!mapOptions.showMarker) return false
+
+      var marker = new google.maps.Marker({
+        position: position,
+        title: location.title,
+        image: location.image,
+        icon: location.icon || mapOptions.markerIcon,
+        url: markerUrl(mapOptions.baseUrl, location.url),
+        url_text: location.url_text,
+        map: map
+      })
+      if (mapOptions.showMarkerPopup) marker.addListener('click', markerPopup)
+
+      return marker
+    }
+
+    function markerUrl(baseUrl, url) {
+      if (/^(https?|\/\/)/.test(url)) return url
+
+      return url.length > 0 ? baseUrl + url : ''
+    }
+
+    function markerPopup() {
+      var content = '<div class="map-info-window"><h5>' + this.title + '</h5>'
+      var imageTag =
+        this.image.length > 0 &&
+        '<img src="' + this.image + '" alt="' + this.title + '"/>'
+      if (this.url.length > 0) {
+        var linkContent = imageTag || this.url_text || 'View'
+        content += '<a href="' + this.url + '">' + linkContent + '</a>'
+      } else if (imageTag) {
+        content += imageTag
+      }
+      content += '</div>'
+      infoWindow.setContent(content)
+      infoWindow.open(map, this)
+    }
+  }
+
+  function initializeCluster(settings) {
+    clusterReady = true
+    clusterSettings = settings || {}
+    processCluster()
+  }
+
+  function processCluster() {
+    if (!clusterReady) return
+
+    while (maps.length > 0) {
+      var obj = maps.pop()
+      // eslint-disable-next-line no-new
+      new MarkerClusterer(obj.map, obj.markers, {
+        gridSize: clusterSettings.grid_size || 25,
+        imagePath:
+          'https://cdn.rawgit.com/googlemaps/js-marker-clusterer/gh-pages/images/m'
+      })
+    }
+  }
+})()
+/* Object.assign polyfill */
+if (typeof Object.assign !== 'function') {
+  Object.assign = function(target) {
+    'use strict'
+    if (target == null) {
+      throw new TypeError('Cannot convert undefined or null to object')
+    }
+
+    target = Object(target)
+    for (var index = 1; index < arguments.length; index++) {
+      var source = arguments[index]
+      if (source != null) {
+        for (var key in source) {
+          if (Object.prototype.hasOwnProperty.call(source, key)) {
+            target[key] = source[key]
+          }
+        }
+      }
+    }
+    return target
+  }
+}
+
+</script>
+<script async defer src='https://maps.googleapis.com/maps/api/js?key=AIzaSyBGVILhPMYqclKhtLj2UKlORo40CnQp6wo&callback=jekyllMaps.initializeMap'></script>
+
+<script async defer src='https://cdn.rawgit.com/googlemaps/js-marker-clusterer/gh-pages/src/markerclusterer.js'
+        onload='jekyllMaps.initializeCluster({})'></script>
+
+</head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Wines By Jeremy</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About Wines by Jeremy</a><a class="page-link" href="/glossary/">Glossary</a><a class="page-link" href="/locations/">Locations</a></div>
+      </nav></div>
+</header>
+<!-- Load font awesome icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/social/social_sidebar.css">
+
+<!-- The social media icon bar -->
+<div class="social-sidebar"><a
+            href="https://twitter.com/intent/tweet?url=https://www.winesbyjeremy.com/2018/08/18/spring_mountain_public_tasting.htmlSpring Mountain Public Tasting"
+            class="twitter"
+            title="Share on Twitter"
+        >
+            <i class="fa fa-twitter"></i>
+        </a><a
+            href="https://www.facebook.com/sharer/sharer.php?u=https://www.winesbyjeremy.com/2018/08/18/spring_mountain_public_tasting.htmlSpring Mountain Public Tasting"
+            class="facebook"
+            title="Share on Facebook"
+        >
+            <i class="fa fa-facebook"></i>
+        </a></div><main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Spring Mountain Public Tasting</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2018-08-18T19:20:00+00:00" itemprop="datePublished">Aug 18, 2018
+      </time>• <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">Jeremy Myers</span></span></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <div itemscope itemtype="http://schema.org/Review"><div itemprop="itemReviewed" itemscope itemtype="http://schema.org/Winery">
+      <h1><a href="https://www.springmountainvineyard.com" itemprop="url"><span itemprop="name">Spring Mountain</span></a></h1>
+      <meta itemprop="servesCuisine" content="Wine">
+    </div>
+    <ul>
+      <li><span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+        Rating: <span itemprop="ratingValue">91</span> 
+        out of <span itemprop="bestRating">100</span>
+        </span></li>
+      <li>Tasting Fee: $40</li>
+      <li>Reservation Required: true</li>
+    </ul><h1>Location</h1>
+    <div id='0e4eb392-9569-4597-8fd2-eec10d02bbc7' style='width:600px;height:400px;'></div>
+<script type='text/javascript'>
+  jekyllMaps.register(
+    '0e4eb392-9569-4597-8fd2-eec10d02bbc7',
+    [{"latitude":38.506098,"longitude":-122.49128,"title":"Spring Mountain Public Tasting","icon":null,"url":"/2018/08/18/spring_mountain_public_tasting.html","url_text":null,"image":"/assets/spring_mountain/1.JPG"}],
+    {"baseUrl":"","useCluster":true,"showMarker":true,"showMarkerPopup":true,"markerIcon":null,"customZoom":16}
+  );
+</script>
+
+    <br /><h1>Review</h1>
+  <meta itemprop=name content="Spring Mountain Public Tasting">
+  <meta itemprop=author itemscope itemtype="http://schema.org/Person" content="Jeremy Myers">
+  <span itemprop="reviewBody">
+    <p>Some places can seem intimidating due to the energy, focus, and exclusivity of the winery in their drive to produce amazing wines, which also brings high scores.  With the high scores comes high prices due to supply/demand, which increases the exclusivity and continues the cycle.  Spring Mountain bucks that mindset while still producing nice old-world style wines, thanks to the resources of its owner and his desire to make wine unique to their terroir, rather than aiming for what wine reviewers desire.  And you get to enjoy the wines from the comfort of outdoor lawn chairs, staring at Spring Mountain (this is quite a sight/site).</p>
+
+<p class="center-caption"><img src="/assets/spring_mountain/1.JPG" alt="" title="Spring Mountain is gorgeous" class="center-image" />
+<strong><em>Caption Title:</em></strong> <em>The view of Spring Mountain from the wine tasting lawn chairs</em></p>
+
+<p>When you also factor in that it won’t break the bank to pay the tasting fee, this can be a relaxing tasting for the new initiates of Napa as well as an educational tasting for the seasoned veterans.  You still need to make a reservation, but really their only drawback is that you are not allowed to purchase bottles and consume them onsite.  Since the atmosphere is a huge component of what makes them unique, their rating suffers a couple points for not allowing patrons to savor the experience.</p>
+
+<p>Located at the base of Spring Mountain, just outside of St. Helena, Spring Mountain Winery looks like a small family-owned winery with just the plot of land in front of the tasting room and up on the hill in view of the winery.  It’s surprising to hear that the winery actually owns most of the land in the Spring Mountain AVA and sells off a majority of its fruit to other wineries.  This winery only uses its best for their own production and ages its wine however long they need to be before they’ve reached their pinnacle.  This style of winemaking emulates the best Bordeaux estates moreso than other Napa Valley brethren.</p>
+
+<p class="center-caption"><img src="/assets/spring_mountain/2.JPG" alt="" title="The actual lawn chairs" class="center-image" />
+<strong><em>Caption Title:</em></strong> <em>A group of us actually sitting in the lawn chairs</em></p>
+
+<p>For most wine tastings at this price, I am expecting 3-5 wines that are newly released and are produced at volume.  Well, I got the number of wines right, but boy did I underestimate the quality of the wine we were going to be served:</p>
+
+<p><a href="https://www.springmountainvineyard.com/store/">https://www.springmountainvineyard.com/store/</a></p>
+<ul>
+  <li><strong>2016 Sauvignon Blanc</strong> ($40)</li>
+  <li><strong>2008 Cabernet Sauvignon</strong> ($85)</li>
+  <li><strong>2007 Cabernet Sauvignon</strong> (750ml Sold Out)
+    <ul>
+      <li>Served from a magnum</li>
+    </ul>
+  </li>
+  <li><strong>2011 Elivette</strong> ($150)
+    <ul>
+      <li>A blend that varies in composition year-to-year, similar to the Joseph Phelps Insignia but with a totally different taste profile and composition</li>
+    </ul>
+  </li>
+  <li><strong>2001 Cabernet Sauvignon</strong> ($85)
+    <ul>
+      <li>Although the fruit has taken a backseat, the wine is still in balance and interesting to taste</li>
+    </ul>
+  </li>
+</ul>
+
+<p>This is another winery that produces a refreshing Sauvignon Blanc.  Some wineries will utilize the ripeness they can achieve in Napa for exotically style wines.  Spring Mountain preserves the light body and acidity for a nice, light, crisp wine to be enjoyed on a hot summer day.  The Cabernet Sauvignons are drier, earthier, and display a bit more spice than most other Napa Cabs, reminding me of old world style wines from Europe.  It’s incredible that the current release of wine is 10 years old and aged to its height of fruit/earth/wood balance.</p>
+
+<p class="center-caption"><img src="/assets/spring_mountain/3.jpg" alt="" title="Why are all the glasses empty?!?!" class="center-image" />
+<strong><em>Caption Title:</em></strong> <em>Tasting Spring Mountain wines in the great outdoors</em></p>
+
+<p>The other thing you’ll notice is that the vintages of Cabernets from Spring Mountain vary wildly in profile from each other.  That’s because every year, the winemaker gauges the quality of fruit produced and crafts that year’s profile based on what nature gives him.  The winery sells off the rest.  Which means year-to-year, grapes from different plots are utilized for their wine – it’s not as if there is one “best” location that they get their grapes from.  I couldn’t believe how different the 2007/2008 Cabernets were; they appeal to two totally different types of palates.</p>
+
+<p>I highly recommend visiting, at the very least as a contrast to other Napa wineries and wines.  And who knows, you could be seduced by the Elivette (their Signature Wine) and renounce Napa’s fruit-forward style in favor of the old world.  In that case, you’ll also want to visit Inglenook and others that are influenced by the French.  Or you can just enjoy the great Napa weather, the amazing view from their lawn chairs, and enjoy several pours of nice wine.  If only Spring Mountain wasn’t tastings only…</p>
+
+  </span>
+
+</div>
+
+  </div>
+  
+  <span>[
+  
+    
+    <a href="/tag/review"><code class="highligher-rouge"><nobr>review</nobr></code>&nbsp;</a>
+  
+    
+    <a href="/tag/winery"><code class="highligher-rouge"><nobr>winery</nobr></code>&nbsp;</a>
+  
+    
+    <a href="/tag/tasting"><code class="highligher-rouge"><nobr>tasting</nobr></code>&nbsp;</a>
+  
+    
+    <a href="/tag/california"><code class="highligher-rouge"><nobr>california</nobr></code>&nbsp;</a>
+  
+    
+    <a href="/tag/napa"><code class="highligher-rouge"><nobr>napa</nobr></code>&nbsp;</a>
+  
+    
+    <a href="/tag/spring-mountain"><code class="highligher-rouge"><nobr>spring-mountain</nobr></code>&nbsp;</a>
+  
+]</span><a class="u-url" href="/2018/08/18/spring_mountain_public_tasting.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Wines By Jeremy</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Wines By Jeremy</li><li><a class="u-email" href="mailto:winesbyjeremy@gmail.com">winesbyjeremy@gmail.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><!-- <link rel="stylesheet" href="/css/social.css"> -->
+<ul class="social-media-list"><li>
+    <a href="https://vivino.com/users/winesbyjeremy"><img class="png-icon" src="/assets/vivino_icon.png" style="filter:none;" /><span class="username">winesbyjeremy</span>
+    </a>
+  </li><li>
+    <a href="https://www.facebook.com/winesbyjeremy"><svg class="svg-icon">
+  <use href="/assets/minima-social-icons.svg#facebook" fill="#3B5998" />
+</svg><span class="username">winesbyjeremy</span>
+    </a>
+  </li><li>
+    <a href="https://github.com/winesbyjeremy"><svg class="svg-icon">
+  <use href="/assets/minima-social-icons.svg#github" fill="black" />
+</svg><span class="username">winesbyjeremy</span>
+    </a>
+  </li><li>
+    <a href="https://instagram.com/winesbyjeremy"><svg class="svg-icon">
+    <radialGradient id="instagram_gradient" r="150%" cx="30%" cy="107%">
+        <stop stop-color="#fdf497" offset="0" />
+        <stop stop-color="#fdf497" offset="0.05" />
+        <stop stop-color="#fd5949" offset="0.45" />
+        <stop stop-color="#d6249f" offset="0.6" />
+        <stop stop-color="#285AEB" offset="0.9" />
+    </radialGradient>
+    <use href="/assets/minima-social-icons.svg#instagram" fill="url(#instagram_gradient)" />
+</svg><span class="username">winesbyjeremy</span>
+    </a>
+  </li><li>
+    <a href="https://www.twitter.com/winesbyjeremy"><svg class="svg-icon">
+    <use href="/assets/minima-social-icons.svg#twitter" fill="#1DA1F2" />
+</svg><span class="username">winesbyjeremy</span>
+    </a>
+  </li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Wines by Jeremy offers an educative and enjoyable personalized wine experience. Located in the DC metro area, Wines by Jeremy provides a number of services including in-home exclusive tastings, highly curated event tastings, educational events, and wine cellar consulting.</p>
+      </div>
+    </div>
+  </div>
+
+</footer>
+</body>
+
+</html>
