@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Wines by Jeremy offers an educative and enjoyable personalized wine experience.
   Located in the DC metro area, Wines by Jeremy provides a number of services including in-home
   exclusive tastings, highly curated event tastings, educational events, and wine cellar consulting.
-baseurl: /
+baseurl: ''
 url: https://www.winesbyjeremy.com
 
 # Social Accounts
