@@ -32,6 +32,7 @@ jobs:
             - _site
       - store_artifacts:
           path: _site
+          destination: html
 
   deploy-ghpages:
     docker:
