@@ -71,7 +71,7 @@ workflows:
                 - gh-pages
       - deploy-ghpages:
           requires:
-            - build
+            - make
           filters:
             branches:
               only: master
