@@ -4,8 +4,6 @@ title:  Del Dotto Historic Tasting and Tour
 author: Jeremy Myers
 date:   2018-07-14 15:20:00 -0400
 tags: review winery tasting california napa st-helena
-excerpt: For me, Del Dotto is a great introduction to what Napa wine country can offer you.  It takes some discipline to make it here as larger reservations require a 10AM start time and you'll drive by some brand name wineries (Cakebread, Robert Mondavi) to get here.  But it is worth the wait...  Del Dotto currently has two locations (their historic site and St. Helena site), with a third coming online later this year.  Walking through the caves of the historic site stimulates the imagination as to how they managed to chisel out the tunnels, while the St. Helena site feels like you are entering the underground of Rome and discovering a perfectly preserved cellar from the past.  Just make sure to arrive 5-10 min before your appointment so you can enjoy an aperitif (likely their Sauvignon Blanc) before the tasting begins, along with some nice photo opportunities with the architecture.
-image: /assets/del_dotto/1.jpg
 location:
   latitude: 38.479850
   longitude: -122.442466
