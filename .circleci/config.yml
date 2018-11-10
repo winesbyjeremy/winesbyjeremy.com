@@ -14,23 +14,18 @@ jobs:
             - rubygems-v1-{{ checksum "Gemfile.lock" }}
             - rubygems-v1-fallback
       - run:
-          name: Bundle Install
-          command: bundle check || bundle install --jobs=4 --retry=3
+          name: Make Install
+          command: make install
       - save_cache:
           key: rubygems-v1-{{ checksum "Gemfile.lock" }}
           paths:
             - vendor/bundle
       - run:
-          name: Jekyll Build
-          command: bundle exec jekyll build
+          name: Make Build
+          command: make build
       - run:
-          name: HTMLProofer Tests
-          command: |
-            bundle exec htmlproofer _site \
-              --allow-hash-href \
-              --check-favicon  \
-              --check-html \
-              --disable-external
+          name: Make Tests
+          command: make test
       - persist_to_workspace:
           root: ./
           paths:
