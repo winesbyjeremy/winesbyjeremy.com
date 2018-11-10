@@ -1,0 +1,44 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+%thumbnail-image-shared {
+    max-width: 250px;
+    width: 100%;
+    height: auto;
+}
+
+.center-image {
+    margin: 0 auto;
+    display: block;
+}
+
+.center-caption {
+    text-align: center;
+}
+
+.thumbnail-image {
+    @extend %thumbnail-image-shared;
+}
+
+.offering-img {
+    @extend %thumbnail-image-shared;
+    float: left;
+    margin: 15px 20px 0 0;
+}
+
+.offering-wrapper {
+    border: 5px solid red;
+    border-width: thin;
+}
+
+.offering-content {
+    margin: 20px;
+}
+
+.offering-price {
+    color: red;
+    font-weight: bold;
+}

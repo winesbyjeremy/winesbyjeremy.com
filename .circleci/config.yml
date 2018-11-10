@@ -1,0 +1,77 @@
+version: 2
+jobs:
+  make:
+    docker:
+      - image: circleci/ruby:2.5
+    environment:
+      BUNDLE_PATH: ./vendor/bundle
+      JEKYLL_ENV: production
+      NOKOGIRI_USE_SYSTEM_LIBRARIES: 'true'
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - rubygems-v1-{{ checksum "Gemfile.lock" }}
+            - rubygems-v1-fallback
+      - run:
+          name: Make Install
+          command: make install
+      - save_cache:
+          key: rubygems-v1-{{ checksum "Gemfile.lock" }}
+          paths:
+            - vendor/bundle
+      - run:
+          name: Make Build
+          command: make build
+      - run:
+          name: Make Test
+          command: make test || true
+      - persist_to_workspace:
+          root: ./
+          paths:
+            - _site
+      - store_artifacts:
+          path: _site
+          destination: html
+
+  deploy-ghpages:
+    docker:
+      - image: circleci/buildpack-deps
+    steps:
+      - checkout
+      - attach_workspace:
+          at: ./
+      - run:
+          name: Deploy gh-pages
+          command: .circleci/deploy-ghpages.sh _site
+
+  deploy-s3:
+    docker:
+      - image: circleci/python:3.6.3
+    environment:
+      S3_BUCKET_NAME: <<YOUR BUCKET NAME HERE>>
+    steps:
+      - attach_workspace:
+          at: ./
+      - run:
+          name: Install AWS CLI
+          command: pip install awscli --upgrade --user
+      - run:
+          name: Upload to s3
+          command: ~/.local/bin/aws s3 sync ./_site s3://$S3_BUCKET_NAME/ --delete --acl public-read
+
+workflows:
+  version: 2
+  make-deploy:
+    jobs:
+      - make:
+          filters:
+            branches:
+              ignore:
+                - gh-pages
+      - deploy-ghpages:
+          requires:
+            - make
+          filters:
+            branches:
+              only: master
