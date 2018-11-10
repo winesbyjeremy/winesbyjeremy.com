@@ -1,5 +1,7 @@
 # Quick helpers for common tasks
 
+.DEFAULT_GOAL := build
+
 clean:
 	bundle exec jekyll clean
 
