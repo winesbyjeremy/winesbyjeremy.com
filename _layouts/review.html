@@ -18,6 +18,12 @@ layout: post
     </ul>
   {%- endif -%}
 
+  {%- if page.location -%}
+    <h1>Location</h1>
+    {% google_map zoom="16" %}
+    <br />
+  {%- endif -%}
+
   <h1>Review</h1>
   <meta itemprop=name content="{{ page.title }}">
   <meta itemprop=author itemscope itemtype="http://schema.org/Person" content="{{ page.author }}">
