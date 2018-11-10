@@ -2,6 +2,7 @@
 layout: post
 ---
 <div itemscope itemtype="http://schema.org/Review">
+
   {%- if page.winery_details -%}
     <div itemprop="itemReviewed" itemscope itemtype="http://schema.org/Winery">
       <h1><a href="{{ page.winery_details.url }}" itemprop="url"><span itemprop="name">{{ page.winery_details.name }}</span></a></h1>
@@ -17,11 +18,11 @@ layout: post
     </ul>
   {%- endif -%}
 
-<h1>Review</h1>
-<meta itemprop=name content="{{ page.title }}">
-<meta itemprop=author itemscope itemtype="http://schema.org/Person" content="{{ page.author }}">
-<span itemprop="reviewBody">
-  {{ content }}
-</span>
+  <h1>Review</h1>
+  <meta itemprop=name content="{{ page.title }}">
+  <meta itemprop=author itemscope itemtype="http://schema.org/Person" content="{{ page.author }}">
+  <span itemprop="reviewBody">
+    {{ content }}
+  </span>
 
 </div>
