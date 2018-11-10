@@ -51,3 +51,5 @@ paginate: 10
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+show_excerpts: true
