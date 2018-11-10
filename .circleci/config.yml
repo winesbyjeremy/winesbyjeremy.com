@@ -1,6 +1,6 @@
 version: 2
 jobs:
-  build:
+  make:
     docker:
       - image: circleci/ruby:2.5
     environment:
@@ -38,6 +38,7 @@ jobs:
     docker:
       - image: circleci/buildpack-deps
     steps:
+      - checkout
       - attach_workspace:
           at: ./
       - run:
@@ -61,9 +62,9 @@ jobs:
 
 workflows:
   version: 2
-  test-deploy:
+  make-deploy:
     jobs:
-      - build:
+      - make:
           filters:
             branches:
               ignore:
