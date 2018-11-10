@@ -45,6 +45,3 @@ The world of wine is as vast and complex as it is enjoyable.  There is always so
 <a name="tertiary-flavors"></a>**Tertiary Flavors:** The tertiary flavors associated with the wine are those that generally result from the aging of a wine.  Its true that some flavors (e.g. animal fur) that are classified as teritary may result from a combination of the varietal and where it was grown (e.g. Syrah from Cote Rotie).  In general though, tertiary flavors are a result of a wine aging.  This ranges from marzipan from aging white wine or forest floor from aging red wine.  Tertiary flavors are most common in old world wines where the flavor profile is terroir driven intentionally so you get flavors of ceder, spices, leather, etc. 
 
 
-
-Place an anchor <a name="abcd"></a> where you want to link to and refer to it on the same page by [link text](#abcd).
-[Header link](/user/repository_name/wiki/page_name#title)
