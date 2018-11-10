@@ -22,3 +22,6 @@ test: build
 		--check-favicon  \
 		--check-html \
 		--disable-external
+
+publish: test
+	.circleci/deploy-ghpages.sh _site
