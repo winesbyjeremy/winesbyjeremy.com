@@ -18,8 +18,8 @@ layout: post
   {%- endif -%}
 
 <h1>Review</h1>
-<meta itemprop=name itemscope itemtype="http://schema.org/Person" content="{{ page.title }}">
-<meta itemprop=author content="{{ page.author }}">
+<meta itemprop=name content="{{ page.title }}">
+<meta itemprop=author itemscope itemtype="http://schema.org/Person" content="{{ page.author }}">
 <span itemprop="reviewBody">
   {{ content }}
 </span>
