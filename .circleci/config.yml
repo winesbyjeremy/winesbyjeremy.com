@@ -26,7 +26,7 @@ jobs:
       - run:
           name: HTMLProofer Tests
           command: |
-            bundle exec htmlproofer ./_site \
+            bundle exec htmlproofer _site \
               --allow-hash-href \
               --check-favicon  \
               --check-html \
@@ -35,6 +35,8 @@ jobs:
           root: ./
           paths:
             - _site
+      - store_artifacts:
+          path: _site
 
   deploy-ghpages:
     docker:
@@ -44,7 +46,7 @@ jobs:
           at: ./
       - run:
           name: Deploy gh-pages
-          command: .circleci/deploy-ghpages.sh ./_site
+          command: .circleci/deploy-ghpages.sh _site
 
   deploy-s3:
     docker:
