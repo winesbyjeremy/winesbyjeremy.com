@@ -1,17 +1,25 @@
 ---
 layout: review
-title:  Tom Eddy Private Tasting
+title:  Tom Eddy Private Barrel Tasting
 author: Jeremy Myers
 date:   2018-08-11 15:20:00 -0400
 tags: review winery tasting california napa calistoga
 location:
   latitude: 38.604856
   longitude: -122.643010
+  street: 3870 CA-128
+  city: Calistoga
+  state: CA
+  zip: 94515
+  country: US 
 winery_details:
   name: Tom Eddy
   url: https://tomeddywinery.com
   rating: 97
-  tasting: $100
+  tasting: $100 for Barrel Tasting, $75 for Release Tasting
+  price: $100
+  tasting_type: Private Tasting
+  accepts_reservations: "Yes" 
   reservation: Yes
 ---
 UC Davis, Class of ’74.  That’s really all you need to know.  Alright, a little more explanation - the Viticulture and Enology Department at UC Davis has been #1 in the US for a long time and continues to produce some of the best winemakers in the country.  The Class of '74 was especially great - it was this class that really started to turn Napa into the high quality wine paradise that it is today, especially after the Judgement of Paris in 1976 propelled Napa wine into the spotlight.  If you are interested in learning more about the Judgement of Paris, its easy to find lots of articles about it on the internet.  There's even a movie about Chateau Montelena winning the best white wine (Bottleshock).

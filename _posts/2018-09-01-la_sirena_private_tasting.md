@@ -9,6 +9,9 @@ winery_details:
   url: http://lasirenawine.com
   rating: 100
   tasting: $50 or Free w/ 6 bottle purchase
+  price: $50
+  tasting_type: Private Tasting
+  accepts_reservations: "Yes"
   reservation: Yes
 ---
 Heidi Barrett’s personal label.  You would think that the prices would rival all the great titans in Napa.  Guess again.  Designed with the next generation of wine drinkers in mind, not the CEOs that love buying $500+ bottles, Heidi finds amazing deals on quality fruit and transforms it into exceptional wines at affordable prices for the consumer.  Though, she could definitely sell the wines at much higher prices if she wanted to, as evidenced by the Wells Fargo CEO having a La Sirena Private Tasting just before us...  La Sirena doesn’t have an allocation or membership program (there's no need since they sell out of everything), but they do have a mailing list you can sign up for to be notified when the new vintages are released for purchase.  

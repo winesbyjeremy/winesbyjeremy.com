@@ -7,11 +7,19 @@ tags: review winery tasting oregon willamette-valley dundee-hills
 location:
   latitude: 45.258447
   longitude: -123.047410
+  street: 18599 NE Archery Summit Rd
+  city: Dayton
+  state: OR
+  zip: 97114
+  country: US
 winery_details:
   name: Archery Summit
   url: http://www.archerysummit.com/
   rating: 95
   tasting: $30 for Signature Tasting, $45 for the Tour and Tasting
+  price: $30
+  tasting_type: Public Tasting
+  accepts_reservations: "Yes"
   reservation: Yes
 ---
 One of the toughest questions I've been asked about my Oregon travels is "where do I find good Pinot?"  The reason this is tough is because it's everywhere, especially with Willamette Valley being a short 1-hour drive from Portland.  But when people ask me where the best Oregon Pinot Noir can be found, I normally respond with Archery Summit in my Top 3.  As its name implies, the winery can be found on the top of a hill not far from Domaine Drouhin, Sokol Blosser, and others.  I love their planting pattern too - you almost need to weave through the vines while driving up to the tasting room.  

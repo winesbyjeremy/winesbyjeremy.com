@@ -7,11 +7,19 @@ tags: review winery tasting california napa atlas-peak
 location:
   latitude: 38.443124
   longitude: -122.244865
+  street: 4400 Atlas Peak Rd
+  city: Napa
+  state: CA
+  zip: 94558
+  country: US
 winery_details:
   name: Au Sommet
   url: http://www.ausommetwine.com/
   rating: 96
   tasting: $50
+  price: $50
+  tasting_type: Private Tasting
+  accepts_reservations: "Yes"
   reservation: Yes
 ---
 **NOTE:** We also had wines from [**Amuse Bouche**](http://www.amusebouchewine.com/index.php) and [**Coup de Foudre**](http://www.coupdefoudrewine.com/) while at Au Sommet.

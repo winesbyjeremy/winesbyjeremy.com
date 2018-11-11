@@ -7,11 +7,19 @@ tags: review winery tasting oregon willamette-valley dundee-hills
 location:
   latitude: 45.265510
   longitude: -123.055333
+  street: 6750 NE Breyman Orchards Rd
+  city: Dayton
+  state: OR
+  zip: 97114
+  country: US
 winery_details:
   name: Domaine Drouhin
   url: http://www.domainedrouhin.com
   rating: 91
   tasting: $15 or Free with 3-Bottle Purchase
+  price: $15
+  tasting_type: Public Tasting
+  accepts_reservations: "Yes"
   reservation: Yes
 ---
 Starting a new winery is hard.  There are so many things to do on the operations side such as clearing out the field, adjusting the soil, planting and caring for the vines, etc.  But just as important as making the product is building a brand and fostering a consumer base that will purchase your product.  This is even harder when you are entering an established market like Willamette Valley.  Thankfully for Domaine Drouhin, they had the branding piece covered already when they established the winery in 1987 and have continued to add to their reputation and legacy from Burgundy.  

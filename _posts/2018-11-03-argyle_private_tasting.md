@@ -7,11 +7,19 @@ tags: review winery tasting oregon willamette-valley dundee-hills
 location:
   latitude: 45.278047
   longitude: -123.010180
+  street: 691 OR-99W
+  city: Dundee
+  state: OR
+  zip: 97115
+  country: US
 winery_details:
   name: Argyle
   url: https://argylewinery.com/
   rating: 95
   tasting: $75 for Master Classes, $20 for Traditional Tasting
+  price: $20
+  tasting_type: Public Tasting
+  accepts_reservations: "Yes"
   reservation: Yes for Special Tastings, No for Traditional Tastings
 ---
 When people think of Oregon wine, they normal think of red still wine that ranges from the finesse of Burgundy Pinot Noir to the power of Russian River Valley Pinot Noir.  They don’t necessarily think of Sparkling wine, which is a key product of Pinot Noir all around the world, not just Champagne.  And when it comes to Oregon Sparkling Wine, there is no place more established than Argyle; heck, it's even called out specifically in my Wine and Spirits Education Trust (WSET) Sparkling Wine Class!  The reputation alone is enough to entice even seasoned wine professionals, but when I discovered there was a special Sparkling tasting that also lets you to disgorge a bottle by hand, I made Argyle my first call during my itinerary construction.  I brought along my cousin and her husband for a full weekend of tastings in Willamette as their wedding gift, but this visit was definitely a gift to myself, haha.

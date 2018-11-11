@@ -5,13 +5,21 @@ author: Jeremy Myers
 date:   2018-09-15 15:20:00 -0400
 tags: review winery tasting california napa howell-mountain
 location:
-  latitude: 38.615967
-  longitude: -122.445332
+  latitude: 38.616627
+  longitude: -122.445133
+  street: 6189 Pope Valley Rd
+  city: Pope Valley
+  state: CA
+  zip: 94567
+  country: US
 winery_details:
   name: Clark Claudon
   url: https://www.clarkclaudon.com/
   rating: 97
   tasting: $50 or Free with Purchases
+  price: $50
+  tasting_type: Private Tasting
+  accepts_reservations: "Yes"  
   reservation: Yes
 ---
 Not all of the best places in Napa are the highly rated (e.g. Lokoya), produced by someone famous (e.g. Michel Rolland) or have a well-established pedigree (e.g. Opus One).  Some are family businesses that truly enjoy making good wine and sharing it with others.  Add unassuming, hard-to-find, and approachable to that mix, and you have Clark-Claudon.

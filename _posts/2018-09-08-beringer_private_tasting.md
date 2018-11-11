@@ -7,11 +7,19 @@ tags: review winery tasting california napa st-helena
 location:
   latitude: 38.510169
   longitude: -122.479882
+  street: 2000 Main St
+  city: St Helena
+  state: CA
+  zip: 94574
+  country: US
 winery_details:
   name: Beringer
   url: https://www.beringer.com
   rating: 95
   tasting: $40 for Public Tasting, $75 for Private Tasting
+  price: $75
+  tasting_type: Private Tasting
+  accepts_reservations: "Yes"
   reservation: No for Public Tasting, Yes for Private Tasting
 ---
 It's fitting that Beringer was my very first winery membership.  Although the brand has been bought/sold a few times, it is the oldest continuously operating winery in the Napa Valley (established in 1876).  Over the past 140+ years, it's been responsible for many "firsts" in Napa as well as the US Wine Industry at large, and has grown into a true powerhouse.  I had been to several Napa wineries before, but this was the first one that really left me in awe and raised my expectations for quality wine.  If you are like me, your first foray into wine came from the shelves of Trader Joes and other grocery store chains.  One of those $7 bottles I brought home was Beringer, so when I first saw that there was a tasting for $40, I thought to myself that they were crazy.  Little did I know.  
