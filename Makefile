@@ -1,23 +1,29 @@
-# Quick helpers for common tasks
+# Makefile to help out
+SHELL := /bin/bash
+BUNDLE := bundle
+JEKYLL := $(BUNDLE) exec jekyll
+HTMLPROOF := $(BUNDLE) exec htmlproofer
 
+PROJECT_DEPS := Gemfile
 .DEFAULT_GOAL := build
 
-clean:
-	bundle exec jekyll clean
+install: $(PROJECT_DEPS)
+	$(BUNDLE) check || $(BUNDLE) install --jobs=4 --retry=3
 
-install:
-	BUNDLE_PATH=./vendor/bundle
-	NOKOGIRI_USE_SYSTEM_LIBRARIES=true
-	bundle check || bundle install --jobs=4 --retry=3
+clean: install
+	$(JEKYLL) clean
 
-build: clean
-	bundle exec jekyll build
+build: install
+	$(JEKYLL) build
 
-run: clean
-	bundle exec jekyll serve --incremental
+update: $(PROJECT_DEPS)
+	$(BUNDLE) update
+
+run: clean install
+	$(JEKYLL) serve --incremental
 
 test: build
-	bundle exec htmlproofer _site \
+	$(HTMLPROOF) _site \
 		--allow-hash-href \
 		--check-favicon  \
 		--check-html \
