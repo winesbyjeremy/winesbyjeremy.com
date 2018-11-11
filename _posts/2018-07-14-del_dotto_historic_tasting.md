@@ -7,11 +7,19 @@ tags: review winery tasting california napa st-helena
 location:
   latitude: 38.479850
   longitude: -122.442466
+  street: 1445 St Helena Hwy
+  city: St Helena
+  state: CA
+  zip: 94574
+  country: US
 winery_details:
   name: Del Dotto
   url: http://www.deldottovineyards.com
   rating: 96
   tasting: $75
+  price: $75
+  tasting_type: Public Tasting
+  accepts_reservations: "Yes"
   reservation: For Barrel Tastings, Yes
 ---
 For me, Del Dotto is a great introduction to what Napa wine country can offer you.  It takes some discipline to make it here as larger reservations require a 10AM start time and you'll drive by some brand name wineries (Cakebread, Robert Mondavi) to get here.  But it is worth the wait...  Del Dotto currently has two locations (their historic site and St. Helena site), with a third coming online later this year.  Walking through the caves of the historic site stimulates the imagination as to how they managed to chisel out the tunnels, while the St. Helena site feels like you are entering the underground of Rome and discovering a perfectly preserved cellar from the past.  Just make sure to arrive 5-10 min before your appointment so you can enjoy an aperitif (likely their Sauvignon Blanc) before the tasting begins, along with some nice photo opportunities with the architecture.

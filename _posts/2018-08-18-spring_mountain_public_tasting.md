@@ -7,11 +7,19 @@ tags: review winery tasting california napa spring-mountain
 location:
   latitude: 38.506098
   longitude: -122.491280
+  street: 2805 Spring Mountain Rd
+  city: St Helena
+  state: CA
+  zip: 94574
+  country: US
 winery_details:
   name: Spring Mountain
   url: https://www.springmountainvineyard.com
   rating: 91
   tasting: $40
+  price: $40
+  tasting_type: Public Tasting
+  accepts_reservations: "Yes" 
   reservation: Yes
 ---
 Some places can seem intimidating due to the energy, focus, and exclusivity of the winery in their drive to produce amazing wines, which also brings high scores.  With the high scores comes high prices due to supply/demand, which increases the exclusivity and continues the cycle.  Spring Mountain bucks that mindset while still producing nice old-world style wines, thanks to the resources of its owner and his desire to make wine unique to their terroir, rather than aiming for what wine reviewers desire.  And you get to enjoy the wines from the comfort of outdoor lawn chairs, staring at Spring Mountain (this is quite a sight/site).  

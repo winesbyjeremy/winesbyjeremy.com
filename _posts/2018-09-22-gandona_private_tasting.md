@@ -7,11 +7,19 @@ tags: review winery tasting california napa pritchard-hill
 location:
   latitude: 38.477043
   longitude: -122.346078
+  street: 1533 Sage Canyon Rd
+  city: St Helena
+  state: CA
+  zip: 94574
+  country: US
 winery_details:
   name: Gandona
   url: https://gandona.com/
   rating: 96
   tasting: Free with bottle purchases
+  price: $0
+  tasting_type: Private Tasting
+  accepts_reservations: "Yes"
   reservation: Yes
 ---
 Many of the wineries I've talked about have very nice views from their property, but the one from Gandona is just surreal.  Located up on Pritchard Hill in the Vaca Mountains, Gandona sits at 1800 feet and overlooks Lake Hennessey.  It is also next to popular cult wineries such as Bryant Family, Colgin, and others that charge $500+ per bottle of wine.  With those kinds of neighbors, you'd get the feeling that this place would be unapproachable.  Not true at all - Gandona is another winery that invites you in with open arms, both with its open-air tasting room that takes full advantage of the view and their great host / wine ambassador.

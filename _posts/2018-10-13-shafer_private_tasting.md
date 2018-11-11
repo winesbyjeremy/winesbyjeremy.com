@@ -7,11 +7,19 @@ tags: review winery tasting california napa stags-leap
 location:
   latitude: 38.421002
   longitude: -122.326365
+  street: 6154 Silverado Trail
+  city: Napa
+  state: CA
+  zip: 94558
+  country: US
 winery_details:
   name: Shafer
   url: http://www.shafervineyards.com/
   rating: 98
   tasting: $75
+  price: $75
+  tasting_type: Private Tasting
+  accepts_reservations: "Yes"
   reservation: Yes
 ---
 It's hard for me to recall another winery with as large a production, well-known reputation, but as reclusive from the public eye as Shafer.  But I totally understand and appreciate it - especially since we had the whole place to ourselves during our visit.  Although the estate appears large and the tasting room is gorgeous, there are actually not many people onsite.  Besides ourselves, the Shafer wine educator and the father/son proprietors, I don't recall seeing anyone else on the property at the time.  There were three workers in the field grafting vines, but that's it.
