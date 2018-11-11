@@ -38,7 +38,6 @@ else
 fi
 
 # copy over or recompile the new site
-cp -a ../CNAME .
 cp -a "../${siteSource}/." .
 
 # stage any changes and new files

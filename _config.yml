@@ -54,5 +54,4 @@ exclude:
   - vendor
   - Gemfile
   - Gemfile.lock
-  - CNAME
   - README.md
