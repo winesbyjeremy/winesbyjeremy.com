@@ -292,19 +292,23 @@ if (typeof Object.assign !== 'function') {
     <div itemscope itemtype="http://schema.org/Review"><div itemprop="itemReviewed" itemscope itemtype="http://schema.org/Winery">
       <h1><a href="https://fantesca.com" itemprop="url"><span itemprop="name">Fantesca</span></a></h1>
       <meta itemprop="servesCuisine" content="Wine">
-    </div>
     <ul>
-      <li><span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
-        Rating: <span itemprop="ratingValue">98</span> 
-        out of <span itemprop="bestRating">100</span>
-        </span></li>
+      <li>Rating: 98 out of 100</li>
       <li>Tasting Fee: $100 or Free with Purchase</li>
+      <meta itemprop="priceRange" content="$100">
+      <li>Accepts Reservations: <span itemprop="acceptsReservations">Yes</span></li>
       <li>Reservation Required: true</li>
     </ul><h1>Location</h1>
-    <div id='e309a134-a064-4831-b737-73acf2fc18c8' style='width:600px;height:400px;'></div>
+    <div itemprop="address" itemtype="http://schema.org/PostalAddress" itemscope>
+      <span itemprop="streetAddress">2920 Spring Mountain Rd</span><br>
+      <span itemprop="addressLocality">St Helena</span>, <span itemprop="addressRegion">CA</span> <span itemprop="postalCode">94574</span>
+      <meta itemprop="addressCountry" content="US" />
+    </div>
+  </div>
+    <div id='db6c2bcf-abf2-46c3-afb4-54a4525020d0' style='width:600px;height:400px;'></div>
 <script type='text/javascript'>
   jekyllMaps.register(
-    'e309a134-a064-4831-b737-73acf2fc18c8',
+    'db6c2bcf-abf2-46c3-afb4-54a4525020d0',
     [{"latitude":38.512611,"longitude":-122.495192,"title":"Fantesca Private Tasting","icon":null,"url":"/2018/08/25/fantesca_private_tasting.html","url_text":null,"image":"/assets/fantesca/1.jpg"}],
     {"baseUrl":"","useCluster":true,"showMarker":true,"showMarkerPopup":true,"markerIcon":null,"customZoom":16}
   );
@@ -313,6 +317,7 @@ if (typeof Object.assign !== 'function') {
     <br /><h1>Review</h1>
   <meta itemprop=name content="Fantesca Private Tasting">
   <meta itemprop=author itemscope itemtype="http://schema.org/Person" content="Jeremy Myers">
+  <meta itemprop=reviewAspect content="Private Tasting">
   <span itemprop="reviewBody">
     <p>As you dive deeper into the world of wine, you start to build a mental portfolio of wines that you’ve liked and attempt to correlate them, hoping that it will give you an indication of whether you’ll like another wine or not.  One of those correlation factors is the winemaker as many have a distinct and profound influence on the wines they produce.  One of my favorites is <a href="https://en.wikipedia.org/wiki/Heidi_Barrett">Heidi Barrett</a>, the First Lady of Wine.  For those who are unfamiliar with the legend of Heidi Barrett, please do yourself a favor and look her up.  She was the first winemaker at Screaming Eagle (new releases retail at $3000 a bottle) and has worked with several highly-acclaimed wineries during her time in Napa.  Currently, there are only a few that still count her as their winemaker/partner.  Fantesca is one of those lucky few and currently home to her only Chardonnay (until she releases another under her personal “La Sirena” label later this year).</p>
 
@@ -363,6 +368,11 @@ if (typeof Object.assign !== 'function') {
 <p>NOTE: I am also a 3-bottles allocation member with Fantesca.  And a special shout-out to Steve Frattini (the wine ambassador) for leading us through a great tasting and answering all of our questions!</p>
 
   </span>
+  <br>
+  <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+    Rating: <span itemprop="ratingValue">98</span> 
+    out of <span itemprop="bestRating">100</span>
+    </span>
 
 </div>
 

@@ -292,19 +292,23 @@ if (typeof Object.assign !== 'function') {
     <div itemscope itemtype="http://schema.org/Review"><div itemprop="itemReviewed" itemscope itemtype="http://schema.org/Winery">
       <h1><a href="https://www.hallwines.com/" itemprop="url"><span itemprop="name">Hall</span></a></h1>
       <meta itemprop="servesCuisine" content="Wine">
-    </div>
     <ul>
-      <li><span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
-        Rating: <span itemprop="ratingValue">93</span> 
-        out of <span itemprop="bestRating">100</span>
-        </span></li>
+      <li>Rating: 93 out of 100</li>
       <li>Tasting Fee: $40 for Public Tasting, $150 for Ultimate Cabernet Experience</li>
+      <meta itemprop="priceRange" content="$40">
+      <li>Accepts Reservations: <span itemprop="acceptsReservations">Yes</span></li>
       <li>Reservation Required: No for Public Tasting, Yes for Special Experiences</li>
     </ul><h1>Location</h1>
-    <div id='ac87907e-015a-466a-8c43-90abe2862ff7' style='width:600px;height:400px;'></div>
+    <div itemprop="address" itemtype="http://schema.org/PostalAddress" itemscope>
+      <span itemprop="streetAddress">401 St Helena Hwy</span><br>
+      <span itemprop="addressLocality">St Helena</span>, <span itemprop="addressRegion">CA</span> <span itemprop="postalCode">94574</span>
+      <meta itemprop="addressCountry" content="US" />
+    </div>
+  </div>
+    <div id='28a0f304-9fbd-4083-b729-9714df948d79' style='width:600px;height:400px;'></div>
 <script type='text/javascript'>
   jekyllMaps.register(
-    'ac87907e-015a-466a-8c43-90abe2862ff7',
+    '28a0f304-9fbd-4083-b729-9714df948d79',
     [{"latitude":38.489082,"longitude":-122.451963,"title":"Hall Public Tasting","icon":null,"url":"/2018/09/29/hall_public_tasting.html","url_text":null,"image":"/assets/hall/1.jpg"}],
     {"baseUrl":"","useCluster":true,"showMarker":true,"showMarkerPopup":true,"markerIcon":null,"customZoom":16}
   );
@@ -313,6 +317,7 @@ if (typeof Object.assign !== 'function') {
     <br /><h1>Review</h1>
   <meta itemprop=name content="Hall Public Tasting">
   <meta itemprop=author itemscope itemtype="http://schema.org/Person" content="Jeremy Myers">
+  <meta itemprop=reviewAspect content="Public Tasting">
   <span itemprop="reviewBody">
     <p>As I mentioned in earlier articles, Napa can be both the ultimate educational experience and ultimate relaxation getaway - it all depends on what you are looking for.  Hall Winery is predominantly for those that are looking for the later, though you can definitely purchase 100 point quality wine there too if you wish.  For being both a purveyor of fine wine and tastings with a beautiful landscape, it’s surprisingly easy to find.  Right off the main highway (Route 29), the giant metal rabbit out in front of the winery is hard to miss.</p>
 
@@ -390,6 +395,11 @@ if (typeof Object.assign !== 'function') {
 <p>If you follow critics like Robert Parker or Jeb Dunnuck, you’ll notice that some of the Hall wines score very highly on a consistent basis - the Kathryn Hall and Jack’s Masterpiece received potential 100 point scores for the 2015 vintage.  I’m not one to chase scores, but I can see why people do as these wines are great and ready now.  Visit Hall, buy a bottle or two and sit outside with a group of friends when you get the chance.</p>
 
   </span>
+  <br>
+  <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+    Rating: <span itemprop="ratingValue">93</span> 
+    out of <span itemprop="bestRating">100</span>
+    </span>
 
 </div>
 

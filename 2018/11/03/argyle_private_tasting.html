@@ -292,19 +292,23 @@ if (typeof Object.assign !== 'function') {
     <div itemscope itemtype="http://schema.org/Review"><div itemprop="itemReviewed" itemscope itemtype="http://schema.org/Winery">
       <h1><a href="https://argylewinery.com/" itemprop="url"><span itemprop="name">Argyle</span></a></h1>
       <meta itemprop="servesCuisine" content="Wine">
-    </div>
     <ul>
-      <li><span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
-        Rating: <span itemprop="ratingValue">95</span> 
-        out of <span itemprop="bestRating">100</span>
-        </span></li>
+      <li>Rating: 95 out of 100</li>
       <li>Tasting Fee: $75 for Master Classes, $20 for Traditional Tasting</li>
+      <meta itemprop="priceRange" content="$20">
+      <li>Accepts Reservations: <span itemprop="acceptsReservations">Yes</span></li>
       <li>Reservation Required: Yes for Special Tastings, No for Traditional Tastings</li>
     </ul><h1>Location</h1>
-    <div id='72b19d89-a46f-4de0-aaab-5b3183852301' style='width:600px;height:400px;'></div>
+    <div itemprop="address" itemtype="http://schema.org/PostalAddress" itemscope>
+      <span itemprop="streetAddress">691 OR-99W</span><br>
+      <span itemprop="addressLocality">Dundee</span>, <span itemprop="addressRegion">OR</span> <span itemprop="postalCode">97115</span>
+      <meta itemprop="addressCountry" content="US" />
+    </div>
+  </div>
+    <div id='85c63db2-8503-4ccf-8705-28ddc6696f7c' style='width:600px;height:400px;'></div>
 <script type='text/javascript'>
   jekyllMaps.register(
-    '72b19d89-a46f-4de0-aaab-5b3183852301',
+    '85c63db2-8503-4ccf-8705-28ddc6696f7c',
     [{"latitude":45.278047,"longitude":-123.01018,"title":"Argyle \"Masters of Sparking\" Private Tasting","icon":null,"url":"/2018/11/03/argyle_private_tasting.html","url_text":null,"image":"/assets/argyle/1.jpg"}],
     {"baseUrl":"","useCluster":true,"showMarker":true,"showMarkerPopup":true,"markerIcon":null,"customZoom":16}
   );
@@ -313,6 +317,7 @@ if (typeof Object.assign !== 'function') {
     <br /><h1>Review</h1>
   <meta itemprop=name content="Argyle "Masters of Sparking" Private Tasting">
   <meta itemprop=author itemscope itemtype="http://schema.org/Person" content="Jeremy Myers">
+  <meta itemprop=reviewAspect content="Public Tasting">
   <span itemprop="reviewBody">
     <p>When people think of Oregon wine, they normal think of red still wine that ranges from the finesse of Burgundy Pinot Noir to the power of Russian River Valley Pinot Noir.  They don’t necessarily think of Sparkling wine, which is a key product of Pinot Noir all around the world, not just Champagne.  And when it comes to Oregon Sparkling Wine, there is no place more established than Argyle; heck, it’s even called out specifically in my Wine and Spirits Education Trust (WSET) Sparkling Wine Class!  The reputation alone is enough to entice even seasoned wine professionals, but when I discovered there was a special Sparkling tasting that also lets you to disgorge a bottle by hand, I made Argyle my first call during my itinerary construction.  I brought along my cousin and her husband for a full weekend of tastings in Willamette as their wedding gift, but this visit was definitely a gift to myself, haha.</p>
 
@@ -326,11 +331,7 @@ if (typeof Object.assign !== 'function') {
 
 <p>We first walked through the back space of the storage area, where it was the coolest and darkest.  There we saw unspeakable things, like wines that had been aging on their lees for nearly 10 years, long enough to make even great Champagne Negociant houses blush; the prestige cuvees (best wines) of a Champagne Negociant (e.g. Moet Chandon) is normally aged on the lees for 5-7 years.  Although the bottles didn’t have the iconic black mold growing on the bottles (this was a warehouse, not an underground cave after all), you could tell that these were cared for greatly before they made it to the gyropalates for riddling and eventual disgorgement.</p>
 
-<p>One curious thing - there was a pupitre in a corner that someone had been manually riddling.  Turns out, this is for perspective customers of this tasting!  Our host grabbed a bottle and a cap-popping tool and we all headed outside.  The weekend was my cousin’s wedding present, so I let her husband do the disgorging – it was actually well-done…</p>
-
-<p><img src="/assets/argyle/3.mov" alt="" title="fire in the hole" class="center-image" /></p>
-
-<p>Once we cleaned up and geeked out a bit more on the production process, it was time to head inside for the tasting.  Our lineup consisted of the following:</p>
+<p>One curious thing - there was a pupitre in a corner that someone had been manually riddling.  Turns out, this is for perspective customers of this tasting!  Our host grabbed a bottle and a cap-popping tool and we all headed outside.  The weekend was my cousin’s wedding present, so I let her husband do the disgorging – it was actually well-done…  Once we cleaned up and geeked out a bit more on the production process, it was time to head inside for the tasting.  Our lineup consisted of the following:</p>
 
 <ul>
   <li><strong>Sparkling Wine - Zero Dosage</strong></li>
@@ -383,6 +384,11 @@ if (typeof Object.assign !== 'function') {
 <p>If you are interested in Sparkling wines, but don’t want to pay for that ticket to Europe, Argyle is a great alternative that stands among the best in America.  And do take advantage of the food truck outside or eat lunch before your tasting appointment.  You will thank yourself, haha.  Cheers!</p>
 
   </span>
+  <br>
+  <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+    Rating: <span itemprop="ratingValue">95</span> 
+    out of <span itemprop="bestRating">100</span>
+    </span>
 
 </div>
 

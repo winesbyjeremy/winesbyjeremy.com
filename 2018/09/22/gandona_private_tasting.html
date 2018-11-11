@@ -291,19 +291,23 @@ if (typeof Object.assign !== 'function') {
     <div itemscope itemtype="http://schema.org/Review"><div itemprop="itemReviewed" itemscope itemtype="http://schema.org/Winery">
       <h1><a href="https://gandona.com/" itemprop="url"><span itemprop="name">Gandona</span></a></h1>
       <meta itemprop="servesCuisine" content="Wine">
-    </div>
     <ul>
-      <li><span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
-        Rating: <span itemprop="ratingValue">96</span> 
-        out of <span itemprop="bestRating">100</span>
-        </span></li>
+      <li>Rating: 96 out of 100</li>
       <li>Tasting Fee: Free with bottle purchases</li>
+      <meta itemprop="priceRange" content="$0">
+      <li>Accepts Reservations: <span itemprop="acceptsReservations">Yes</span></li>
       <li>Reservation Required: true</li>
     </ul><h1>Location</h1>
-    <div id='cfb16dfc-13d6-4c88-a79f-9b5694c65c47' style='width:600px;height:400px;'></div>
+    <div itemprop="address" itemtype="http://schema.org/PostalAddress" itemscope>
+      <span itemprop="streetAddress">1533 Sage Canyon Rd</span><br>
+      <span itemprop="addressLocality">St Helena</span>, <span itemprop="addressRegion">CA</span> <span itemprop="postalCode">94574</span>
+      <meta itemprop="addressCountry" content="US" />
+    </div>
+  </div>
+    <div id='aeb00145-f599-45b1-9c79-2429e347bfe7' style='width:600px;height:400px;'></div>
 <script type='text/javascript'>
   jekyllMaps.register(
-    'cfb16dfc-13d6-4c88-a79f-9b5694c65c47',
+    'aeb00145-f599-45b1-9c79-2429e347bfe7',
     [{"latitude":38.477043,"longitude":-122.346078,"title":"Gandona Private Tasting","icon":null,"url":"/2018/09/22/gandona_private_tasting.html","url_text":null,"image":""}],
     {"baseUrl":"","useCluster":true,"showMarker":true,"showMarkerPopup":true,"markerIcon":null,"customZoom":16}
   );
@@ -312,6 +316,7 @@ if (typeof Object.assign !== 'function') {
     <br /><h1>Review</h1>
   <meta itemprop=name content="Gandona Private Tasting">
   <meta itemprop=author itemscope itemtype="http://schema.org/Person" content="Jeremy Myers">
+  <meta itemprop=reviewAspect content="Private Tasting">
   <span itemprop="reviewBody">
     <p>Many of the wineries I’ve talked about have very nice views from their property, but the one from Gandona is just surreal.  Located up on Pritchard Hill in the Vaca Mountains, Gandona sits at 1800 feet and overlooks Lake Hennessey.  It is also next to popular cult wineries such as Bryant Family, Colgin, and others that charge $500+ per bottle of wine.  With those kinds of neighbors, you’d get the feeling that this place would be unapproachable.  Not true at all - Gandona is another winery that invites you in with open arms, both with its open-air tasting room that takes full advantage of the view and their great host / wine ambassador.</p>
 
@@ -357,6 +362,11 @@ if (typeof Object.assign !== 'function') {
 <p>Make sure to visit on a good weather day and enjoy!</p>
 
   </span>
+  <br>
+  <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+    Rating: <span itemprop="ratingValue">96</span> 
+    out of <span itemprop="bestRating">100</span>
+    </span>
 
 </div>
 

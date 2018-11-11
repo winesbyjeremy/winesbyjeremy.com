@@ -292,19 +292,23 @@ if (typeof Object.assign !== 'function') {
     <div itemscope itemtype="http://schema.org/Review"><div itemprop="itemReviewed" itemscope itemtype="http://schema.org/Winery">
       <h1><a href="http://www.shafervineyards.com/" itemprop="url"><span itemprop="name">Shafer</span></a></h1>
       <meta itemprop="servesCuisine" content="Wine">
-    </div>
     <ul>
-      <li><span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
-        Rating: <span itemprop="ratingValue">98</span> 
-        out of <span itemprop="bestRating">100</span>
-        </span></li>
+      <li>Rating: 98 out of 100</li>
       <li>Tasting Fee: $75</li>
+      <meta itemprop="priceRange" content="$75">
+      <li>Accepts Reservations: <span itemprop="acceptsReservations">Yes</span></li>
       <li>Reservation Required: true</li>
     </ul><h1>Location</h1>
-    <div id='e048f468-b188-4f85-999f-cfd0f9313caa' style='width:600px;height:400px;'></div>
+    <div itemprop="address" itemtype="http://schema.org/PostalAddress" itemscope>
+      <span itemprop="streetAddress">6154 Silverado Trail</span><br>
+      <span itemprop="addressLocality">Napa</span>, <span itemprop="addressRegion">CA</span> <span itemprop="postalCode">94558</span>
+      <meta itemprop="addressCountry" content="US" />
+    </div>
+  </div>
+    <div id='cd344ecd-15c2-4b20-93ec-1ac4f392fcd5' style='width:600px;height:400px;'></div>
 <script type='text/javascript'>
   jekyllMaps.register(
-    'e048f468-b188-4f85-999f-cfd0f9313caa',
+    'cd344ecd-15c2-4b20-93ec-1ac4f392fcd5',
     [{"latitude":38.421002,"longitude":-122.326365,"title":"Shafer Private Tasting","icon":null,"url":"/2018/10/13/shafer_private_tasting.html","url_text":null,"image":"/assets/shafer/1.jpg"}],
     {"baseUrl":"","useCluster":true,"showMarker":true,"showMarkerPopup":true,"markerIcon":null,"customZoom":16}
   );
@@ -313,6 +317,7 @@ if (typeof Object.assign !== 'function') {
     <br /><h1>Review</h1>
   <meta itemprop=name content="Shafer Private Tasting">
   <meta itemprop=author itemscope itemtype="http://schema.org/Person" content="Jeremy Myers">
+  <meta itemprop=reviewAspect content="Private Tasting">
   <span itemprop="reviewBody">
     <p>It’s hard for me to recall another winery with as large a production, well-known reputation, but as reclusive from the public eye as Shafer.  But I totally understand and appreciate it - especially since we had the whole place to ourselves during our visit.  Although the estate appears large and the tasting room is gorgeous, there are actually not many people onsite.  Besides ourselves, the Shafer wine educator and the father/son proprietors, I don’t recall seeing anyone else on the property at the time.  There were three workers in the field grafting vines, but that’s it.</p>
 
@@ -359,6 +364,11 @@ if (typeof Object.assign !== 'function') {
 <p>On that note, I think Shafer’s theme is its commitment to producing serious wines that are cerebral, different (see: Relentless), powerful, and moving.  We lost track of time and were late to our next appointment because of how touching the wine and scenery were.  Wear some nice clothes, because you are going to want to take some pictures on this property.  If you are in the area on a weekday, I highly recommend trying to setup an appointment.  But be warned, Shafer usually books up 2-4 weeks out, especially Thurs, Fri, and Mon (for good reason).  And if you are thinking about becoming a collector or just laying down some bottles for a future special occasion, the Hillside Select is not a bad choice, especially since you’ll likely only be able to buy it when you visit the winery and it’s limited to 2 per person.</p>
 
   </span>
+  <br>
+  <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+    Rating: <span itemprop="ratingValue">98</span> 
+    out of <span itemprop="bestRating">100</span>
+    </span>
 
 </div>
 

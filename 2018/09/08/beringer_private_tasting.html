@@ -292,19 +292,23 @@ if (typeof Object.assign !== 'function') {
     <div itemscope itemtype="http://schema.org/Review"><div itemprop="itemReviewed" itemscope itemtype="http://schema.org/Winery">
       <h1><a href="https://www.beringer.com" itemprop="url"><span itemprop="name">Beringer</span></a></h1>
       <meta itemprop="servesCuisine" content="Wine">
-    </div>
     <ul>
-      <li><span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
-        Rating: <span itemprop="ratingValue">95</span> 
-        out of <span itemprop="bestRating">100</span>
-        </span></li>
+      <li>Rating: 95 out of 100</li>
       <li>Tasting Fee: $40 for Public Tasting, $75 for Private Tasting</li>
+      <meta itemprop="priceRange" content="$75">
+      <li>Accepts Reservations: <span itemprop="acceptsReservations">Yes</span></li>
       <li>Reservation Required: No for Public Tasting, Yes for Private Tasting</li>
     </ul><h1>Location</h1>
-    <div id='24ec6d3f-4730-4410-9e99-22aff9ab91d0' style='width:600px;height:400px;'></div>
+    <div itemprop="address" itemtype="http://schema.org/PostalAddress" itemscope>
+      <span itemprop="streetAddress">2000 Main St</span><br>
+      <span itemprop="addressLocality">St Helena</span>, <span itemprop="addressRegion">CA</span> <span itemprop="postalCode">94574</span>
+      <meta itemprop="addressCountry" content="US" />
+    </div>
+  </div>
+    <div id='09de1654-a4b4-4953-8339-a182c9ca49d2' style='width:600px;height:400px;'></div>
 <script type='text/javascript'>
   jekyllMaps.register(
-    '24ec6d3f-4730-4410-9e99-22aff9ab91d0',
+    '09de1654-a4b4-4953-8339-a182c9ca49d2',
     [{"latitude":38.510169,"longitude":-122.479882,"title":"Beringer Private Tasting","icon":null,"url":"/2018/09/08/beringer_private_tasting.html","url_text":null,"image":"/assets/beringer/1.jpg"}],
     {"baseUrl":"","useCluster":true,"showMarker":true,"showMarkerPopup":true,"markerIcon":null,"customZoom":16}
   );
@@ -313,6 +317,7 @@ if (typeof Object.assign !== 'function') {
     <br /><h1>Review</h1>
   <meta itemprop=name content="Beringer Private Tasting">
   <meta itemprop=author itemscope itemtype="http://schema.org/Person" content="Jeremy Myers">
+  <meta itemprop=reviewAspect content="Private Tasting">
   <span itemprop="reviewBody">
     <p>It’s fitting that Beringer was my very first winery membership.  Although the brand has been bought/sold a few times, it is the oldest continuously operating winery in the Napa Valley (established in 1876).  Over the past 140+ years, it’s been responsible for many “firsts” in Napa as well as the US Wine Industry at large, and has grown into a true powerhouse.  I had been to several Napa wineries before, but this was the first one that really left me in awe and raised my expectations for quality wine.  If you are like me, your first foray into wine came from the shelves of Trader Joes and other grocery store chains.  One of those $7 bottles I brought home was Beringer, so when I first saw that there was a tasting for $40, I thought to myself that they were crazy.  Little did I know.</p>
 
@@ -379,6 +384,11 @@ if (typeof Object.assign !== 'function') {
 <p>The theme of Beringer’s wines is personality with power and every wine displays that with no apologies.  If you are a new world style drinker (want more fruit than terroir in your wine), you need to try Beringer’s Reserve tasting.  For those looking to expand their palate and knowledge with respect to the different terroir of the Napa valley, it’s hard to beat their Single Vineyard wine tasting.  Their single vineyard wines are produced using similar methods with the same or similar clones; the differences that you taste are the different characteristics of the Mountain American Viticultural Areas (AVAs) that they come from.  Cheers!</p>
 
   </span>
+  <br>
+  <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+    Rating: <span itemprop="ratingValue">95</span> 
+    out of <span itemprop="bestRating">100</span>
+    </span>
 
 </div>
 

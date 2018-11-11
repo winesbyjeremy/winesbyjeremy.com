@@ -292,19 +292,23 @@ if (typeof Object.assign !== 'function') {
     <div itemscope itemtype="http://schema.org/Review"><div itemprop="itemReviewed" itemscope itemtype="http://schema.org/Winery">
       <h1><a href="http://www.jerichocanyonvineyard.com" itemprop="url"><span itemprop="name">Jericho Canyon</span></a></h1>
       <meta itemprop="servesCuisine" content="Wine">
-    </div>
     <ul>
-      <li><span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
-        Rating: <span itemprop="ratingValue">95</span> 
-        out of <span itemprop="bestRating">100</span>
-        </span></li>
+      <li>Rating: 95 out of 100</li>
       <li>Tasting Fee: $50</li>
+      <meta itemprop="priceRange" content="$50">
+      <li>Accepts Reservations: <span itemprop="acceptsReservations">Yes</span></li>
       <li>Reservation Required: true</li>
     </ul><h1>Location</h1>
-    <div id='11673f4c-f049-43fd-8c33-27fcbdb1bcc8' style='width:600px;height:400px;'></div>
+    <div itemprop="address" itemtype="http://schema.org/PostalAddress" itemscope>
+      <span itemprop="streetAddress">3322 Old Lawley Toll Rd</span><br>
+      <span itemprop="addressLocality">Calistoga</span>, <span itemprop="addressRegion">CA</span> <span itemprop="postalCode">94515</span>
+      <meta itemprop="addressCountry" content="US" />
+    </div>
+  </div>
+    <div id='61d4f727-c25a-4b6a-ae55-4ff83a27236b' style='width:600px;height:400px;'></div>
 <script type='text/javascript'>
   jekyllMaps.register(
-    '11673f4c-f049-43fd-8c33-27fcbdb1bcc8',
+    '61d4f727-c25a-4b6a-ae55-4ff83a27236b',
     [{"latitude":38.620274,"longitude":-122.593695,"title":"Jericho Canyon Private Tasting","icon":null,"url":"/2018/08/04/jericho_canyon_private_tasting.html","url_text":null,"image":"/assets/jericho_canyon/1.jpg"}],
     {"baseUrl":"","useCluster":true,"showMarker":true,"showMarkerPopup":true,"markerIcon":null,"customZoom":16}
   );
@@ -313,6 +317,7 @@ if (typeof Object.assign !== 'function') {
     <br /><h1>Review</h1>
   <meta itemprop=name content="Jericho Canyon Private Tasting">
   <meta itemprop=author itemscope itemtype="http://schema.org/Person" content="Jeremy Myers">
+  <meta itemprop=reviewAspect content="Private Tasting">
   <span itemprop="reviewBody">
     <p>Many places in Napa will tout the location and contour of their vineyards / hillsides as reasons they are able to produce great wines.  Jericho Canyon is a different beast altogether.  If you’re lucky enough to secure a tasting reservation here, you’ll discover a beautiful canyon that seems sculpted by Mother Earth herself for growing amazing fruit.  This is one of the reasons why famous wine personalities have either bought their fruit for their own wine (e.g. David Ramey) or work as consultants to help make the Jericho wines (e.g. Michel Rolland).  I highly recommend making a 10AM reservation – the morning fog rolling over the top of the hills is an amazing, picturesque scene for photography enthusiasts!</p>
 
@@ -371,6 +376,11 @@ if (typeof Object.assign !== 'function') {
 <p>I hope you get the chance to enjoy their wines!</p>
 
   </span>
+  <br>
+  <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+    Rating: <span itemprop="ratingValue">95</span> 
+    out of <span itemprop="bestRating">100</span>
+    </span>
 
 </div>
 

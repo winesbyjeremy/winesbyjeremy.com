@@ -291,19 +291,23 @@ if (typeof Object.assign !== 'function') {
     <div itemscope itemtype="http://schema.org/Review"><div itemprop="itemReviewed" itemscope itemtype="http://schema.org/Winery">
       <h1><a href="http://www.archerysummit.com/" itemprop="url"><span itemprop="name">Archery Summit</span></a></h1>
       <meta itemprop="servesCuisine" content="Wine">
-    </div>
     <ul>
-      <li><span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
-        Rating: <span itemprop="ratingValue">95</span> 
-        out of <span itemprop="bestRating">100</span>
-        </span></li>
+      <li>Rating: 95 out of 100</li>
       <li>Tasting Fee: $30 for Signature Tasting, $45 for the Tour and Tasting</li>
+      <meta itemprop="priceRange" content="$30">
+      <li>Accepts Reservations: <span itemprop="acceptsReservations">Yes</span></li>
       <li>Reservation Required: true</li>
     </ul><h1>Location</h1>
-    <div id='9936e427-f950-448d-b746-829d9bcd0a25' style='width:600px;height:400px;'></div>
+    <div itemprop="address" itemtype="http://schema.org/PostalAddress" itemscope>
+      <span itemprop="streetAddress">18599 NE Archery Summit Rd</span><br>
+      <span itemprop="addressLocality">Dayton</span>, <span itemprop="addressRegion">OR</span> <span itemprop="postalCode">97114</span>
+      <meta itemprop="addressCountry" content="US" />
+    </div>
+  </div>
+    <div id='4208166f-d1d6-47bf-8ec5-c974289ab256' style='width:600px;height:400px;'></div>
 <script type='text/javascript'>
   jekyllMaps.register(
-    '9936e427-f950-448d-b746-829d9bcd0a25',
+    '4208166f-d1d6-47bf-8ec5-c974289ab256',
     [{"latitude":45.258447,"longitude":-123.04741,"title":"Archery Summit Public Tasting","icon":null,"url":"/2018/10/27/archery_summit_public_tasting.html","url_text":null,"image":""}],
     {"baseUrl":"","useCluster":true,"showMarker":true,"showMarkerPopup":true,"markerIcon":null,"customZoom":16}
   );
@@ -312,6 +316,7 @@ if (typeof Object.assign !== 'function') {
     <br /><h1>Review</h1>
   <meta itemprop=name content="Archery Summit Public Tasting">
   <meta itemprop=author itemscope itemtype="http://schema.org/Person" content="Jeremy Myers">
+  <meta itemprop=reviewAspect content="Public Tasting">
   <span itemprop="reviewBody">
     <p>One of the toughest questions I’ve been asked about my Oregon travels is “where do I find good Pinot?”  The reason this is tough is because it’s everywhere, especially with Willamette Valley being a short 1-hour drive from Portland.  But when people ask me where the best Oregon Pinot Noir can be found, I normally respond with Archery Summit in my Top 3.  As its name implies, the winery can be found on the top of a hill not far from Domaine Drouhin, Sokol Blosser, and others.  I love their planting pattern too - you almost need to weave through the vines while driving up to the tasting room.</p>
 
@@ -357,6 +362,11 @@ if (typeof Object.assign !== 'function') {
 <p>The theme of the wines from Archery Summit reminds me of Kapcsandy.  Not nearly the complexity or price, but that purity of fruit without much candied notes in the wine that is often seen elsewhere.  And although the tasting room is on the smaller side, they can still handle larger groups - a bachelorette party I sent there a couple of months ago had no problems and thoroughly enjoyed their visit.  I highly recommend visiting for a tasting before purchasing their single-vineyard wines, but if you find the 2015 Premium Cuvee at a wine store that you trust, buy a bottle and share with friends a taste of what Willamette has to offer.  Cheers!</p>
 
   </span>
+  <br>
+  <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+    Rating: <span itemprop="ratingValue">95</span> 
+    out of <span itemprop="bestRating">100</span>
+    </span>
 
 </div>
 

@@ -289,19 +289,23 @@ if (typeof Object.assign !== 'function') {
     <div itemscope itemtype="http://schema.org/Review"><div itemprop="itemReviewed" itemscope itemtype="http://schema.org/Winery">
       <h1><a href="https://www.darioush.com" itemprop="url"><span itemprop="name">Darioush</span></a></h1>
       <meta itemprop="servesCuisine" content="Wine">
-    </div>
     <ul>
-      <li><span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
-        Rating: <span itemprop="ratingValue">92</span> 
-        out of <span itemprop="bestRating">100</span>
-        </span></li>
+      <li>Rating: 92 out of 100</li>
       <li>Tasting Fee: $40 or Free with 2-bottle purchase</li>
+      <meta itemprop="priceRange" content="$50">
+      <li>Accepts Reservations: <span itemprop="acceptsReservations">Yes</span></li>
       <li>Reservation Required: No, but recommended</li>
     </ul><h1>Location</h1>
-    <div id='d9865edd-c122-4881-ac31-8e113af3df4c' style='width:600px;height:400px;'></div>
+    <div itemprop="address" itemtype="http://schema.org/PostalAddress" itemscope>
+      <span itemprop="streetAddress">4240 Silverado Trail</span><br>
+      <span itemprop="addressLocality">Napa</span>, <span itemprop="addressRegion">CA</span> <span itemprop="postalCode">94558</span>
+      <meta itemprop="addressCountry" content="US" />
+    </div>
+  </div>
+    <div id='6e0343b2-91e5-4ae9-84b3-ec7a3fbe8714' style='width:600px;height:400px;'></div>
 <script type='text/javascript'>
   jekyllMaps.register(
-    'd9865edd-c122-4881-ac31-8e113af3df4c',
+    '6e0343b2-91e5-4ae9-84b3-ec7a3fbe8714',
     [{"latitude":38.367523,"longitude":-122.294569,"title":"Darioush Public Tasting","icon":null,"url":"/2018/07/28/darioush_public_tasting.html","url_text":null,"image":""}],
     {"baseUrl":"","useCluster":true,"showMarker":true,"showMarkerPopup":true,"markerIcon":null,"customZoom":16}
   );
@@ -310,6 +314,7 @@ if (typeof Object.assign !== 'function') {
     <br /><h1>Review</h1>
   <meta itemprop=name content="Darioush Public Tasting">
   <meta itemprop=author itemscope itemtype="http://schema.org/Person" content="Jeremy Myers">
+  <meta itemprop=reviewAspect content="Public Tasting">
   <span itemprop="reviewBody">
     <p>There are many beautiful places in the world where you can drink fantastic wine.  One of the reasons Napa Valley remains a top wine vacation destination is the diversity of its wineries, from the styles and varietals produced, to the architecture and feel of the winery itself.  Darioush is a prime example of that diversity.  When people ask me to refer them to a beautiful, culturally inspired winery with solid wines that reflect that culture, Darioush is one of the first that come to mind.</p>
 
@@ -342,6 +347,11 @@ if (typeof Object.assign !== 'function') {
 <p>All in all, a good tasting experience to casually enjoy the ambiance and conversation with friends!  I personally think their Chardonnay is above average as well, but I walked away with two bottles of the Cabernet Sauvignon while others took the Chardonnay, Shiraz, and Duel.  Even if you only wanted the Chardonnay, it was buy one ($48), get one for $8 because of the waived tasting fee.  I always have this place in my back pocket for a rainy day (literally) and recommend groups stop by that want a little culture and relaxation with their wine!</p>
 
   </span>
+  <br>
+  <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+    Rating: <span itemprop="ratingValue">92</span> 
+    out of <span itemprop="bestRating">100</span>
+    </span>
 
 </div>
 

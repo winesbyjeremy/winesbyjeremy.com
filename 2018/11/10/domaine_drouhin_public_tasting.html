@@ -292,19 +292,23 @@ if (typeof Object.assign !== 'function') {
     <div itemscope itemtype="http://schema.org/Review"><div itemprop="itemReviewed" itemscope itemtype="http://schema.org/Winery">
       <h1><a href="http://www.domainedrouhin.com" itemprop="url"><span itemprop="name">Domaine Drouhin</span></a></h1>
       <meta itemprop="servesCuisine" content="Wine">
-    </div>
     <ul>
-      <li><span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
-        Rating: <span itemprop="ratingValue">91</span> 
-        out of <span itemprop="bestRating">100</span>
-        </span></li>
+      <li>Rating: 91 out of 100</li>
       <li>Tasting Fee: $15 or Free with 3-Bottle Purchase</li>
+      <meta itemprop="priceRange" content="$15">
+      <li>Accepts Reservations: <span itemprop="acceptsReservations">Yes</span></li>
       <li>Reservation Required: true</li>
     </ul><h1>Location</h1>
-    <div id='622decb5-a176-4427-8b0c-06962aa12eef' style='width:600px;height:400px;'></div>
+    <div itemprop="address" itemtype="http://schema.org/PostalAddress" itemscope>
+      <span itemprop="streetAddress">6750 NE Breyman Orchards Rd</span><br>
+      <span itemprop="addressLocality">Dayton</span>, <span itemprop="addressRegion">OR</span> <span itemprop="postalCode">97114</span>
+      <meta itemprop="addressCountry" content="US" />
+    </div>
+  </div>
+    <div id='a28e67f6-d7df-4f21-bc21-8eb7673a9b6b' style='width:600px;height:400px;'></div>
 <script type='text/javascript'>
   jekyllMaps.register(
-    '622decb5-a176-4427-8b0c-06962aa12eef',
+    'a28e67f6-d7df-4f21-bc21-8eb7673a9b6b',
     [{"latitude":45.26551,"longitude":-123.055333,"title":"Domaine Drouhin Public Tasting","icon":null,"url":"/2018/11/10/domaine_drouhin_public_tasting.html","url_text":null,"image":"/assets/domaine-drouhin/1.jpg"}],
     {"baseUrl":"","useCluster":true,"showMarker":true,"showMarkerPopup":true,"markerIcon":null,"customZoom":16}
   );
@@ -313,6 +317,7 @@ if (typeof Object.assign !== 'function') {
     <br /><h1>Review</h1>
   <meta itemprop=name content="Domaine Drouhin Public Tasting">
   <meta itemprop=author itemscope itemtype="http://schema.org/Person" content="Jeremy Myers">
+  <meta itemprop=reviewAspect content="Public Tasting">
   <span itemprop="reviewBody">
     <p>Starting a new winery is hard.  There are so many things to do on the operations side such as clearing out the field, adjusting the soil, planting and caring for the vines, etc.  But just as important as making the product is building a brand and fostering a consumer base that will purchase your product.  This is even harder when you are entering an established market like Willamette Valley.  Thankfully for Domaine Drouhin, they had the branding piece covered already when they established the winery in 1987 and have continued to add to their reputation and legacy from Burgundy.</p>
 
@@ -359,6 +364,11 @@ if (typeof Object.assign !== 'function') {
 <p>I think the $15 fee is very reasonable - The membership pricing and benefits (20% off or free shipping on 6 or more bottles for new memeber) are also pretty solid.  I did not bring back any bottles with me since there are so many good wineries in the area and my luggage was only so big.  However, I encourage you to put this place in your Top 5 of wineries to visit when in the region.  They definitely provide a unique perspective of the terroir in the area and the views are too good to ignore.  Just be prepared to wade through a mass of humanity on the weekend, haha.  Cheers!</p>
 
   </span>
+  <br>
+  <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+    Rating: <span itemprop="ratingValue">91</span> 
+    out of <span itemprop="bestRating">100</span>
+    </span>
 
 </div>
 

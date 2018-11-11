@@ -292,20 +292,24 @@ if (typeof Object.assign !== 'function') {
     <div itemscope itemtype="http://schema.org/Review"><div itemprop="itemReviewed" itemscope itemtype="http://schema.org/Winery">
       <h1><a href="https://www.clarkclaudon.com/" itemprop="url"><span itemprop="name">Clark Claudon</span></a></h1>
       <meta itemprop="servesCuisine" content="Wine">
-    </div>
     <ul>
-      <li><span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
-        Rating: <span itemprop="ratingValue">97</span> 
-        out of <span itemprop="bestRating">100</span>
-        </span></li>
+      <li>Rating: 97 out of 100</li>
       <li>Tasting Fee: $50 or Free with Purchases</li>
+      <meta itemprop="priceRange" content="$50">
+      <li>Accepts Reservations: <span itemprop="acceptsReservations">Yes</span></li>
       <li>Reservation Required: true</li>
     </ul><h1>Location</h1>
-    <div id='1f282efc-5567-4247-a240-c37e6311cf5b' style='width:600px;height:400px;'></div>
+    <div itemprop="address" itemtype="http://schema.org/PostalAddress" itemscope>
+      <span itemprop="streetAddress">6189 Pope Valley Rd</span><br>
+      <span itemprop="addressLocality">Pope Valley</span>, <span itemprop="addressRegion">CA</span> <span itemprop="postalCode">94567</span>
+      <meta itemprop="addressCountry" content="US" />
+    </div>
+  </div>
+    <div id='7461c996-191a-4940-a80e-bc0da6595c79' style='width:600px;height:400px;'></div>
 <script type='text/javascript'>
   jekyllMaps.register(
-    '1f282efc-5567-4247-a240-c37e6311cf5b',
-    [{"latitude":38.615967,"longitude":-122.445332,"title":"Clark-Claudon Private Tour and Tasting","icon":null,"url":"/2018/09/15/clark_claudon_private_tasting.html","url_text":null,"image":"/assets/clark_claudon/1.jpg"}],
+    '7461c996-191a-4940-a80e-bc0da6595c79',
+    [{"latitude":38.616627,"longitude":-122.445133,"title":"Clark-Claudon Private Tour and Tasting","icon":null,"url":"/2018/09/15/clark_claudon_private_tasting.html","url_text":null,"image":"/assets/clark_claudon/1.jpg"}],
     {"baseUrl":"","useCluster":true,"showMarker":true,"showMarkerPopup":true,"markerIcon":null,"customZoom":16}
   );
 </script>
@@ -313,6 +317,7 @@ if (typeof Object.assign !== 'function') {
     <br /><h1>Review</h1>
   <meta itemprop=name content="Clark-Claudon Private Tour and Tasting">
   <meta itemprop=author itemscope itemtype="http://schema.org/Person" content="Jeremy Myers">
+  <meta itemprop=reviewAspect content="Private Tasting">
   <span itemprop="reviewBody">
     <p>Not all of the best places in Napa are the highly rated (e.g. Lokoya), produced by someone famous (e.g. Michel Rolland) or have a well-established pedigree (e.g. Opus One).  Some are family businesses that truly enjoy making good wine and sharing it with others.  Add unassuming, hard-to-find, and approachable to that mix, and you have Clark-Claudon.</p>
 
@@ -370,6 +375,11 @@ if (typeof Object.assign !== 'function') {
 <p>The theme of Clark Claudon’s wines seems to be bringing out what the mountain fruit wants, rather than fitting it into the Napa Valley Wine Drinker’s box.  If you like big rich Cabernets that still feel fresh and reflect their terroir, then go buy this wine since there isn’t very much produced.  And make a visit to the winery if you can - this is a wonderful family running a small, but quality operation who enjoy having people over to share that joy with!</p>
 
   </span>
+  <br>
+  <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+    Rating: <span itemprop="ratingValue">97</span> 
+    out of <span itemprop="bestRating">100</span>
+    </span>
 
 </div>
 
