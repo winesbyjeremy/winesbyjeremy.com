@@ -43,10 +43,14 @@ Harden yourselves before you partake in this tasting, because the pours are gene
 * [**Hillside Select (Cabernet Sauvignon)**](http://www.shafervineyards.com/wine/hillside-select.php) ($285)
   * 32 mths in new French Oak.  What a wine...  And with the pour you get, you could spend 20 minutes just with this wine alone.  Volcanic, poor nutrient soil leads half the normal amount of grapes per acre, leading to a wine that is as intense as the Relentless, but more complex flavors than the One Point Five, with great aging potential.  Bottle purchases are limited to two per person, so grab as many as you can and prepare for the long haul.  You’ll be glad you did!
 
-The converation with our wine guide was also very enjoyable and unhurried - I think we spent 2.5 hours on the property.  And although their website limits the number of guests to 8, there is room enough at the table for more - it just gets roudier and harder to hear the wine guide, which is why they like to impose that limit.  Not surprisingly though, our group quieted down when we dug into the wines, as if the seriousness of the wines made us serious when tasting them.
-
 ![](/assets/shafer/2.jpg "rolling hills make some smooth wine"){: .center-image }
 ***Caption Title:*** *Some of their softer rolling hills that make some softer, more rounded wines that can be drunk early*
+{: .center-caption }
+
+The converation with our wine guide was also very enjoyable and unhurried - I think we spent 2.5 hours on the property.  And although their website limits the number of guests to 8, there is room enough at the table for more - it just gets roudier and harder to hear the wine guide, which is why they like to impose that limit.  Not surprisingly though, our group quieted down when we dug into the wines, as if the seriousness of the wines made us serious when tasting them.
+
+![](/assets/shafer/3.jpg "steeper hills make the interesting stuff"){: .center-image }
+***Caption Title:*** *Some of their rougher hills that make the Hillside Select, an enormous wine that needs so time in the cellar but will reward patience handsomely...*
 {: .center-caption }
 
 On that note, I think Shafer's theme is its commitment to producing serious wines that are cerebral, different (see: Relentless), powerful, and moving.  We lost track of time and were late to our next appointment because of how touching the wine and scenery were.  Wear some nice clothes, because you are going to want to take some pictures on this property.  If you are in the area on a weekday, I highly recommend trying to setup an appointment.  But be warned, Shafer usually books up 2-4 weeks out, especially Thurs, Fri, and Mon (for good reason).  And if you are thinking about becoming a collector or just laying down some bottles for a future special occasion, the Hillside Select is not a bad choice, especially since you'll likely only be able to buy it when you visit the winery and it's limited to 2 per person.

@@ -22,8 +22,6 @@ winery_details:
   accepts_reservations: "Yes"
   reservation: Yes
 ---
-**NOTE:** We also had wines from [**Amuse Bouche**](http://www.amusebouchewine.com/index.php) and [**Coup de Foudre**](http://www.coupdefoudrewine.com/) while at Au Sommet.
-
 The last winery for one of our weekend trips to Napa and it was indeed a good one.  Once you contact the winery to setup an appointment, you'll have a couple of options for the tasting: the Amuse Bouche building in downtown Napa or the Au Sommet vineyard on Atlas Peak.  We obviously chose Atlas Peak, but if you are pressed for time (it is a 20min drive from Napa) or are a nervous driver (it's unpaved roads only 1.5 lanes wide going up a mountain), I recommend you stay in Napa.  Once you do make it to the winery though, like so many others, the view is worth it.
 
 ![](/assets/au_sommet/1.jpg "It really was a great view"){: .center-image }
@@ -40,7 +38,7 @@ As you drive up the mountain, you can still see the devastating effects of the f
 ***Caption Title:*** *The view from the ground as I continue to explain something that is probably important*
 {: .center-caption }
 
-The tasting room itself is almost a side house/renovated shed next to the main property (I think the family lives in the main building).  There was a watchtower-like structure that we could climb to get a view of the valley below and also catch a glimpse of the helipad that Heidi Barrett uses to land her helicopter when she comes here.  Oh, did I mention that Heidi is a collaborator with some of the wines?  After some more pictures and breathing in the mountain air with no sounds but the birds chirping, we were ready to taste the wines:
+The tasting room itself is almost a side house/renovated shed next to the main property (I think the family lives in the main building).  There was a watchtower-like structure that we could climb to get a view of the valley below and also catch a glimpse of the helipad that Heidi Barrett uses to land her helicopter when she comes here.  Oh, did I mention that Heidi is a collaborator with some of the wines?  After some more pictures and breathing in the mountain air with no sounds but the birds chirping, we were ready to taste the wines.  **NOTE:** We also had wines from [**Amuse Bouche**](http://www.amusebouchewine.com/index.php) and [**Coup de Foudre**](http://www.coupdefoudrewine.com/) while at Au Sommet.
 
 * [**2017 Pret a Boire**](http://amusebouchewine.com/pret-a-boire/index.php) ($75)
   * A rose composed of 66% Grenache and 33% Syrah.  This wine was a balancing act of ripeness, freshness, acidity and body.  There are few roses that command this type of price point, but I think it's warranted.  It will assuredly test your palate's limits when it comes to subtlety.  

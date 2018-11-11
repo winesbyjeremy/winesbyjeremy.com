@@ -24,9 +24,21 @@ winery_details:
 ---
 I can say unequivocally that Kapcsandy has been my favorite wine tasting so far in the Napa Valley.  Although it lacks many of the aesthetics that you may come to expect from Napa wineries, imagine all of that energy and precision being focused on the wine instead (their website is the first indication of this philosophy).  It shows in every wine they make and all of the 98pt+ ratings that the world's premier wine reviewers heap on them.  So why isn’t this winery more famous like Screaming Eagle, Lokoya, Scarecrow, etc?  I can imagine there are many opinions on this, but my personal opinion on this is their blue collar nature in doing great work rather than advertising.  Other contributing factors include their small production and wine collectors buying up all their wine as soon as its released.
 
+![](/assets/kapcsandy/1.jpg "If only I could have a barrel"){: .center-image }
+***Caption Title:*** *Every winery has barrels of future vintages aging in them.  The reason I am posting one is because of how much I loved the wines of Kapcsandy.  What I would do for a barrel of their wine...*
+{: .center-caption }
+
 The experience all starts with signing up for an appointment.  You’ll notice that you can only make a reservation if your group is 4-8 people, for only one time of day (10:30am) and only on Tues-Fri.  Even then, you might not get an appointment.  They aren't trying to be difficult - it's because the operation is tiny.  Owned/Operated by a Father/Son tandem and ~6 other people, there isn’t much free time to hold tastings – and yes, if you get an appointment, the Father or Son will be the ones hosting the tasting!
 
+![](/assets/kapcsandy/2.jpg "Plain but effective"){: .center-image }
+***Caption Title:*** *The longest sorting table in the world.  Although this picture makes the winery look pretty plain, it's just optimized for making amazing wine, not for hosting guests.*
+{: .center-caption }
+
 The property itself is as unassuming as its website.  It's easy to drive past the winery and miss it – there aren't any signs!  When we arrived, we second-guessed ourselves whether we were in the right place as well.  The tour of the vineyards and facilities also reinforced that this place was a temple for making great wine, not for hosting visitors.  We even got to see the longest sorting table in the world that is in use for wine making (I believe it) - they make sure no unfit grapes make it into their wines.
+
+![](/assets/kapcsandy/3.jpg "Plain but effective"){: .center-image }
+***Caption Title:*** *I literally cried while having a couple of the wines at the end of this picture - especially the 2013 Grand Vin.  We tasted so many amazing wines that I was left speechless afterwards...  I've had many great wines, but this tasting was just extraordinary!*
+{: .center-caption }
 
 Ahead of time, we read about all of the famous personalities involved at the start of this place (Helen Turley of Marcassin, Denis Malbec of Chateau Latour and Notre Vin, etc.), but we had no idea why.  Until we started the tasting.  Have you ever had a wine so good that you just about started to cry?  I hadn't before this tasting.  A week later, I even tasted a 2009 Chateau Margaux (an amazing vintage of a First-Growth Bordeaux - $900+ a bottle) that critics everywhere rave about, but wouldn't hesitate pitting that wine against the 2013 Grand Vin and asking people to choose their favorite.  These wines were a revelation.  During our tasting for 8 people, they served us the following wines:
 
@@ -50,5 +62,9 @@ Ahead of time, we read about all of the famous personalities involved at the sta
   * Dark fruits, chocolate, silky but a great weight on the palate.  Some tertiary notes from the extra wood aging as well.  The price point makes it simply irresistible for those looking to find a dessert wine to stock.  If you cannot afford their red still wines, you can definitely afford this.  Just be careful – once you try it, you might find yourself trying to buy out their stock.
 
 Unfortunately, many of these wines are out of the price range of the average consumer (the Roberta’s Reserve and Rapszodia start at $285 and the Grand Vin at $375), though the tasting fee should have hinted at this.  Personally, I bought several bottles for very special I-hope-they-happen-in-the-future occasions, but the wines others found affordable were the Estate Cuvee, the Furmint, and the Vino del Sol.  I think my group ended up purchasing 20+ bottles of the Vino del Sol ($45) and 10+ bottles of the Furmint ($35).  Comparing their quality to other Napa wines in the same price range, these two are both steals.  The Vino del Sol is a combo of Cabs and Merlot in a fortified wine style and the Furmint can fool friends who drink $50+ Sauvignon Blancs.
+
+![](/assets/kapcsandy/4.jpg "Just one barrel..."){: .center-image }
+***Caption Title:*** *I'm serious, just give me one of these barrels on a shipwrecked island and I'll be good.  I can't help but think how much each one must be worth too.*
+{: .center-caption }
 
 If you are a serious wine drinker / wine collector that dabbles in cult wines of California, do not sleep on Kapcsandy.  The quality here surpasses many of the other places I’ve visited with prices in the same range.  And at 1/2 the price of first-growth Bordeaux’s, I’ll take a bottle of the Grand Vin or Roberta’s Reserve any day over them..
