@@ -36,11 +36,7 @@ The winery itself is spacious and gorgeous, polished yet rustic, and has parts f
 
 We first walked through the back space of the storage area, where it was the coolest and darkest.  There we saw unspeakable things, like wines that had been aging on their lees for nearly 10 years, long enough to make even great Champagne Negociant houses blush; the prestige cuvees (best wines) of a Champagne Negociant (e.g. Moet Chandon) is normally aged on the lees for 5-7 years.  Although the bottles didn’t have the iconic black mold growing on the bottles (this was a warehouse, not an underground cave after all), you could tell that these were cared for greatly before they made it to the gyropalates for riddling and eventual disgorgement.
  
-One curious thing - there was a pupitre in a corner that someone had been manually riddling.  Turns out, this is for perspective customers of this tasting!  Our host grabbed a bottle and a cap-popping tool and we all headed outside.  The weekend was my cousin’s wedding present, so I let her husband do the disgorging – it was actually well-done...
- 
-![](/assets/argyle/3.mov "fire in the hole"){: .center-image }
-
-Once we cleaned up and geeked out a bit more on the production process, it was time to head inside for the tasting.  Our lineup consisted of the following:
+One curious thing - there was a pupitre in a corner that someone had been manually riddling.  Turns out, this is for perspective customers of this tasting!  Our host grabbed a bottle and a cap-popping tool and we all headed outside.  The weekend was my cousin’s wedding present, so I let her husband do the disgorging – it was actually well-done...  Once we cleaned up and geeked out a bit more on the production process, it was time to head inside for the tasting.  Our lineup consisted of the following:
 
 * **Sparkling Wine - Zero Dosage**
 * **Sparkling Wine - Dosage A**
