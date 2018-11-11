@@ -20,6 +20,7 @@ jobs:
           key: rubygems-v1-{{ checksum "Gemfile.lock" }}
           paths:
             - vendor/bundle
+            - /usr/local/bundle
       - run:
           name: Make Build
           command: make build
