@@ -24,18 +24,15 @@
     <meta content="{{ site.url }}/about/" property="article:author">
 {% endif %}
 
-{% if page.image %}
-    {% assign imageurl = "/img/srcset/" | append: page.image %}
-{% else %}
-    <!-- TODO replace with logo -->
-    {% assign imageurl = "/assets/vivino_icon.png" %}
-{% endif %}
-
-{% if imageurl | slice: 0, 5 == "https" %}
-    <meta content="{{ imageurl }}" property="og:image">
-{% else %}
-    <meta content="{{ imageurl }}" property="og:image:secure_url">
-{% endif %}
+<!-- TODO replace default with logo -->
+<meta
+    content="{{ site.url }}{{ page.image | default: "/assets/vivino_icon.png" }}"
+    {%- if site.url | slice: 0, 5 == "https" -%}
+        property="og:image:secure_url"
+    {%- else -%}
+        property="og:image"
+    {%- endif -%}
+>
 
 {% if page.categories %}
     {% for category in page.categories limit:1 %}
