@@ -25,11 +25,16 @@
 {% endif %}
 
 {%- if page.image -%}
-    <meta content="/img/srcset/{{ page.image }}" property="og:image">
+    assign imageurl = "/img/srcset/" | append: {{ page.image }}
 {% else %}
     <!-- TODO replace with logo -->
-    <meta content="/assets/vivino_icon.png" property="og:image">
+    assign imageurl = "/assets/vivino_icon.png"
 {%- endif -%}
+{% if imageurl | slice: 0, 5 == "https" %}
+    <meta content="{{ imageurl }}" property="og:image">
+{% else %}
+    <meta content="{{ imageurl }}" property="og:image:secure_url">
+{% endif %}
 
 {% if page.categories %}
     {% for category in page.categories limit:1 %}
