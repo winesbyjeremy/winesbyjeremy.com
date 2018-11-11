@@ -55,3 +55,5 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
+
+show_excerpts: true
