@@ -83,6 +83,7 @@ picture:
         alt: 'image'
       source_default:
         width: 250
+        height: 250
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
