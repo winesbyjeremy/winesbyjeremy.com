@@ -38,6 +38,7 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-auto-image
+  - jekyll-picture-tag
 
 google_analytics: UA-123384548-1
 mailchimp-list: //winesbyjeremy.us18.list-manage.com/subscribe/post?u=b22a07e976dd2efd7490276f9&amp;id=1e062452b6
@@ -45,6 +46,43 @@ maps:
   google:
     api_key: AIzaSyBGVILhPMYqclKhtLj2UKlORo40CnQp6wo
 paginate: 10
+picture:
+  source: assets/images/_fullsize
+  output: assets/images
+  markup: picture
+  presets:
+    # Full width pictures
+    default:
+      ppi: [1, 1.5]
+      attr:
+        alt: 'image'
+      source_lrg:
+        media: "(min-width: 40em)"
+        width: 700
+      source_med:
+        media: "(min-width: 30em)"
+        width: 450
+      source_default:
+        width: 350
+    # Half width pictures
+    half:
+      ppi: [1, 1.5]
+      attr:
+        alt: 'image'
+      source_lrg:
+        media: "(min-width: 40em)"
+        width: 400
+      source_med:
+        media: "(min-width: 30em)"
+        width: 250
+      source_default:
+        width: 350
+    # 250px width pictures
+    thumbnail:
+      attr:
+        alt: 'image'
+      source_default:
+        width: 250
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -55,5 +93,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
+  - assets/images/_fullsize
 
 show_excerpts: true
