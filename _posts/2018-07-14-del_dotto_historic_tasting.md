@@ -24,8 +24,16 @@ winery_details:
 ---
 For me, Del Dotto is a great introduction to what Napa wine country can offer you.  It takes some discipline to make it here as larger reservations require a 10AM start time and you'll drive by some brand name wineries (Cakebread, Robert Mondavi) to get here.  But it is worth the wait...  Del Dotto currently has two locations (their historic site and St. Helena site), with a third coming online later this year.  Walking through the caves of the historic site stimulates the imagination as to how they managed to chisel out the tunnels, while the St. Helena site feels like you are entering the underground of Rome and discovering a perfectly preserved cellar from the past.  Just make sure to arrive 5-10 min before your appointment so you can enjoy an aperitif (likely their Sauvignon Blanc) before the tasting begins, along with some nice photo opportunities with the architecture.
 
-![](/assets/del_dotto/1.jpg "I told you it was cold"){: .center-image }
-***Caption Title:*** *Enjoying the barrel tasting in the cellars of the historic site*
+![](/assets/del_dotto/1.jpg "The Underground Bunker"){: .center-image }
+***Caption Title:*** *Their St. Helena site.  It might look like it from this view, but their are stairs that lead down to the entrance.  In other words, this view is the tip of the iceberg*
+{: .center-caption }
+
+![](/assets/del_dotto/2.jpg "Beautiful Architecture"){: .center-image }
+***Caption Title:*** *The tasting bar for those that do not want to do the barrel tasting.  A beautiful view of the winery's architecture, but I highly recommend you do the barrel tasting in the caves!*
+{: .center-caption }
+
+![](/assets/del_dotto/3.jpg "An alter to wine"){: .center-image }
+***Caption Title:*** *The view from the tasting bar.  You can see the entrance to the caves in the back-left corner.  Exploring this room reveals the history of the winery and its heritage.*
 {: .center-caption }
 
 Many people haven’t experienced a barrel tasting before, which makes this a fun, unique experience.  A barrel tasting is when winemakers will use a wine thief (basically a curved turkey baster) to siphon off wine from the barrel while it's aging in oak and let customers taste the wine before it's finished.  The number of wines you get to sample and their quality/price make the $75 tasting price tag seem very reasonable (almost a steal by Napa standards).  In all, you get samples of the following wines:
@@ -44,7 +52,15 @@ Many people haven’t experienced a barrel tasting before, which makes this a fu
 
 The style of wine that Del Dotto produces is very New World as well - all of the wines have an undeniable intensity of fruit in them, and tasting the wines from barrel before they have finished aging accentuates this.  The best example I can think of is their Sangiovese.  Many people are familiar with Chianti and Brunello (Sangiovese from different locations in Italy) and their associated flavors (e.g. Sour Cherry).  Some well-studied people may also know that Sangiovese is considered to be a domestic varietal, one that doesn’t do too well outside of Italy.  The Del Dotto Sangiovese blows both of those pre-conceptions out of the water with its ripeness, intensity, and still med+ acidity that shapes the wine.  The wood flavors in some of the wines may seem a bit raw/intense as well, but should be integrated with the wine over time, so I don’t see this as a huge issue.
 
+![](/assets/del_dotto/4.jpg "I told you it was cold"){: .center-image }
+***Caption Title:*** *Enjoying the barrel tasting in the cellars of the historic site*
+{: .center-caption }
+
 And although they don’t advertise it as much as many, they score well with trade publications, especially Robert Parker’s "The Wine Advocate" which is no surprise given that the powerful, age-worthy style of these wines is well aligned with what has traditionally scored well in years past.  For those that enjoy purity of fruit, power, but without overwhelming tannins in their wine, this will be right up your alley!
+
+![](/assets/del_dotto/5.jpg "Fancier flooring"){: .center-image }
+***Caption Title:*** *The barrel tasting hallway in the cellars of the St. Helena site.  Depending on which feel you like better, you can choose to do the barrel tasting at the historic site or St. Helena site.*
+{: .center-caption }
 
 The one caveat is that purchasing wines here is a bit different from the normal experience.  Del Dotto practices "en primeur" for its red wine, a French term meaning that they sell futures.  When you finish your barrel tasting and note the wines you want, the wine first needs to finish their time aging in the barrels, then they will be bottled and shipped to you, usually later in the year, but very well could be the following year.  But the wait is well worth it.  I definitely purchased some wine for aging and some wine for enjoying right away.
 
