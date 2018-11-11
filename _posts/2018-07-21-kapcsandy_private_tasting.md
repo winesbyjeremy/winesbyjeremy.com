@@ -7,11 +7,19 @@ tags: review winery tasting california napa yountville
 location:
   latitude: 38.422735
   longitude: -122.348862
+  street: 1001 State Ln
+  city: Yountville
+  state: CA
+  zip: 94599
+  country: US
 winery_details:
   name: Kapcsandy
   url: https://www.kapcsandywines.com
   rating: 100
   tasting: $150
+  price: $150
+  tasting_type: Private Tasting
+  accepts_reservations: "Yes" 
   reservation: Yes
 ---
 I can say unequivocally that Kapcsandy has been my favorite wine tasting so far in the Napa Valley.  Although it lacks many of the aesthetics that you may come to expect from Napa wineries, imagine all of that energy and precision being focused on the wine instead (their website is the first indication of this philosophy).  It shows in every wine they make and all of the 98pt+ ratings that the world's premier wine reviewers heap on them.  So why isn’t this winery more famous like Screaming Eagle, Lokoya, Scarecrow, etc?  I can imagine there are many opinions on this, but my personal opinion on this is their blue collar nature in doing great work rather than advertising.  Other contributing factors include their small production and wine collectors buying up all their wine as soon as its released.

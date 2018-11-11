@@ -7,11 +7,19 @@ tags: review winery tasting california napa st-helena
 location:
   latitude: 38.489082
   longitude: -122.451963
+  street: 401 St Helena Hwy
+  city: St Helena
+  state: CA
+  zip: 94574
+  country: US
 winery_details:
   name: Hall
   url: https://www.hallwines.com/
   rating: 93
   tasting: $40 for Public Tasting, $150 for Ultimate Cabernet Experience
+  price: $40
+  tasting_type: Public Tasting
+  accepts_reservations: "Yes"
   reservation: No for Public Tasting, Yes for Special Experiences
 ---
 As I mentioned in earlier articles, Napa can be both the ultimate educational experience and ultimate relaxation getaway - it all depends on what you are looking for.  Hall Winery is predominantly for those that are looking for the later, though you can definitely purchase 100 point quality wine there too if you wish.  For being both a purveyor of fine wine and tastings with a beautiful landscape, it's surprisingly easy to find.  Right off the main highway (Route 29), the giant metal rabbit out in front of the winery is hard to miss.

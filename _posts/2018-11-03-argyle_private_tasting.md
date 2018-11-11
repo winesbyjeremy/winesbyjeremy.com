@@ -7,11 +7,19 @@ tags: review winery tasting oregon willamette-valley dundee-hills
 location:
   latitude: 45.278047
   longitude: -123.010180
+  street: 691 OR-99W
+  city: Dundee
+  state: OR
+  zip: 97115
+  country: US
 winery_details:
   name: Argyle
   url: https://argylewinery.com/
   rating: 95
   tasting: $75 for Master Classes, $20 for Traditional Tasting
+  price: $20
+  tasting_type: Public Tasting
+  accepts_reservations: "Yes"
   reservation: Yes for Special Tastings, No for Traditional Tastings
 ---
 When people think of Oregon wine, they normal think of red still wine that ranges from the finesse of Burgundy Pinot Noir to the power of Russian River Valley Pinot Noir.  They don’t necessarily think of Sparkling wine, which is a key product of Pinot Noir all around the world, not just Champagne.  And when it comes to Oregon Sparkling Wine, there is no place more established than Argyle; heck, it's even called out specifically in my Wine and Spirits Education Trust (WSET) Sparkling Wine Class!  The reputation alone is enough to entice even seasoned wine professionals, but when I discovered there was a special Sparkling tasting that also lets you to disgorge a bottle by hand, I made Argyle my first call during my itinerary construction.  I brought along my cousin and her husband for a full weekend of tastings in Willamette as their wedding gift, but this visit was definitely a gift to myself, haha.
@@ -28,11 +36,7 @@ The winery itself is spacious and gorgeous, polished yet rustic, and has parts f
 
 We first walked through the back space of the storage area, where it was the coolest and darkest.  There we saw unspeakable things, like wines that had been aging on their lees for nearly 10 years, long enough to make even great Champagne Negociant houses blush; the prestige cuvees (best wines) of a Champagne Negociant (e.g. Moet Chandon) is normally aged on the lees for 5-7 years.  Although the bottles didn’t have the iconic black mold growing on the bottles (this was a warehouse, not an underground cave after all), you could tell that these were cared for greatly before they made it to the gyropalates for riddling and eventual disgorgement.
  
-One curious thing - there was a pupitre in a corner that someone had been manually riddling.  Turns out, this is for perspective customers of this tasting!  Our host grabbed a bottle and a cap-popping tool and we all headed outside.  The weekend was my cousin’s wedding present, so I let her husband do the disgorging – it was actually well-done...
- 
-![](/assets/argyle/3.mov "fire in the hole"){: .center-image }
-
-Once we cleaned up and geeked out a bit more on the production process, it was time to head inside for the tasting.  Our lineup consisted of the following:
+One curious thing - there was a pupitre in a corner that someone had been manually riddling.  Turns out, this is for perspective customers of this tasting!  Our host grabbed a bottle and a cap-popping tool and we all headed outside.  The weekend was my cousin’s wedding present, so I let her husband do the disgorging – it was actually well-done...  Once we cleaned up and geeked out a bit more on the production process, it was time to head inside for the tasting.  Our lineup consisted of the following:
 
 * **Sparkling Wine - Zero Dosage**
 * **Sparkling Wine - Dosage A**

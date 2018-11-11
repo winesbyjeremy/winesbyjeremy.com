@@ -7,19 +7,23 @@ layout: post
     <div itemprop="itemReviewed" itemscope itemtype="http://schema.org/Winery">
       <h1><a href="{{ page.winery_details.url }}" itemprop="url"><span itemprop="name">{{ page.winery_details.name }}</span></a></h1>
       <meta itemprop="servesCuisine" content="Wine">
-    </div>
     <ul>
-      <li><span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
-        Rating: <span itemprop="ratingValue">{{ page.winery_details.rating }}</span> 
-        out of <span itemprop="bestRating">100</span>
-        </span></li>
+      <li>Rating: {{ page.winery_details.rating }} out of 100</li>
       <li>Tasting Fee: {{ page.winery_details.tasting }}</li>
+      <meta itemprop="priceRange" content="{{ page.winery_details.price }}">
+      <li>Accepts Reservations: <span itemprop="acceptsReservations">{{ page.winery_details.accepts_reservations }}</span></li>
       <li>Reservation Required: {{ page.winery_details.reservation }}</li>
     </ul>
   {%- endif -%}
 
   {%- if page.location -%}
     <h1>Location</h1>
+    <div itemprop="address" itemtype="http://schema.org/PostalAddress" itemscope>
+      <span itemprop="streetAddress">{{ page.location.street }}</span><br>
+      <span itemprop="addressLocality">{{ page.location.city }}</span>, <span itemprop="addressRegion">{{ page.location.state }}</span> <span itemprop="postalCode">{{ page.location.zip }}</span>
+      <meta itemprop="addressCountry" content="{{ page.location.country }}" />
+    </div>
+  </div>
     {% google_map zoom="16" %}
     <br />
   {%- endif -%}
@@ -27,8 +31,14 @@ layout: post
   <h1>Review</h1>
   <meta itemprop=name content="{{ page.title }}">
   <meta itemprop=author itemscope itemtype="http://schema.org/Person" content="{{ page.author }}">
+  <meta itemprop=reviewAspect content="{{ page.winery_details.tasting_type }}">
   <span itemprop="reviewBody">
     {{ content }}
   </span>
+  <br>
+  <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+    Rating: <span itemprop="ratingValue">{{ page.winery_details.rating }}</span> 
+    out of <span itemprop="bestRating">100</span>
+    </span>
 
 </div>
