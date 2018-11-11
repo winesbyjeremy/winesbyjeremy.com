@@ -6,8 +6,8 @@ clean:
 	bundle exec jekyll clean
 
 install:
-	BUNDLE_PATH=./vendor/bundle \
-	NOKOGIRI_USE_SYSTEM_LIBRARIES=true \
+	BUNDLE_PATH=./vendor/bundle
+	NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 	bundle check || bundle install --jobs=4 --retry=3
 
 build: clean
