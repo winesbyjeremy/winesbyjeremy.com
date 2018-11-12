@@ -23,6 +23,16 @@
     @extend %thumbnail-image-shared;
 }
 
+.home .posts .post {
+  margin-bottom: 75px;
+}
+.home .posts .post img.post-thumbnail {
+  float: left;
+  margin-right: 10px;
+  max-width: 250px;
+  max-height: 250px;
+}
+
 .offering-img {
     @extend %thumbnail-image-shared;
     float: left;
