@@ -524,6 +524,15 @@ table {
 .center-caption {
   text-align: center; }
 
+.home .posts .post {
+  margin-bottom: 75px; }
+
+.home .posts .post img.post-thumbnail {
+  float: left;
+  margin-right: 10px;
+  max-width: 250px;
+  max-height: 250px; }
+
 .offering-img {
   float: left;
   margin: 15px 20px 0 0; }
