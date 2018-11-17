@@ -8,10 +8,10 @@ image: cristom/1.jpg
 location:
   latitude: 45.034559
   longitude: -123.120504
-  street: 
-  city: Dayton
+  street: 6905 Spring Valley Rd NW
+  city: Salem
   state: OR
-  zip: 97114
+  zip: 97304
   country: US
 winery_details:
   name: Cristom
@@ -23,7 +23,6 @@ winery_details:
   accepts_reservations: "Yes"
   reservation: Yes for the Cristom Experience, No for Traditional Tastings
 ---
-
 There are many exciting wineries to visit in the Portland / Willamette Valley area.  Although not as famous as Domaine Drouhin nor Argyle, Cristom is undoubtedly one of my favorites in the region, if not my absolute favorite.  Everything about Cristom screams family – from the shape/structure of the tasting room, to their candor and joy while conducting their tastings, to the accessible prices of their wines and your ability to taste anything (with the right appointment), to even the way they named the winery (named after the co-owners - Christine and Thomas).  
 
 {% picture cristom/1.jpg title="Chainsaw Massacre" class="center-image" %}
@@ -54,7 +53,7 @@ I don't know if this was the actual lineup, or I got a few extra bottles because
 * [**2014 Eileen Vineyard Pinot Noir**](https://www.cristomvineyards.com/product/2015-Eileen-Vineyard-Pinot-Noir) ($65)
 * [**2014 Louise Vineyard Pinot Noir**](https://www.cristomvineyards.com/product/14-Louise-Vineyard-Pinot-Noir-750ml) ($60)
 * [**2014 Jessie Vineyard Pinot Noir**](https://www.cristomvineyards.com/product/14-Jessie-Vineyard-Pinot-Noir-750ml) ($60)
-* [**2014 Marjorie Vineyard Pinot Noir**](Marjorie Vineyard Pinot Noir(https://www.cristomvineyards.com/product/2015-Marjorie-Vineyard-Pinot-Noir) ($70)
+* [**2014 Marjorie Vineyard Pinot Noir**](https://www.cristomvineyards.com/product/2015-Marjorie-Vineyard-Pinot-Noir) ($70)
 * [**2014 Carter Vineyard Pinot Noir**](https://www.cristomvineyards.com/product/2014-Carter-Vineyard-Pinot-Noir) ($55)
 * [**2014 Hirschy Vineyard Pinot Noir**](https://www.cristomvineyards.com/product/2014-Hirschy-Vineyard-Pinot-Noir) ($55)
 * [**2014 Canary Hill Vineyard Pinot Noir**](https://www.cristomvineyards.com/product/2014-Canary-Hill-Vineyard-Pinot-Noir) ($55)
