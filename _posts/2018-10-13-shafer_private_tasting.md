@@ -4,21 +4,30 @@ title:  Shafer Private Tasting
 author: Jeremy Myers
 date:   2018-10-13 15:20:00 -0400
 tags: review winery tasting california napa stags-leap
+image: shafer/1.jpg
 location:
   latitude: 38.421002
   longitude: -122.326365
+  street: 6154 Silverado Trail
+  city: Napa
+  state: CA
+  zip: 94558
+  country: US
 winery_details:
   name: Shafer
   url: http://www.shafervineyards.com/
   rating: 98
   tasting: $75
+  price: $75
+  tasting_type: Private Tasting
+  accepts_reservations: "Yes"
   reservation: Yes
 ---
 It's hard for me to recall another winery with as large a production, well-known reputation, but as reclusive from the public eye as Shafer.  But I totally understand and appreciate it - especially since we had the whole place to ourselves during our visit.  Although the estate appears large and the tasting room is gorgeous, there are actually not many people onsite.  Besides ourselves, the Shafer wine educator and the father/son proprietors, I don't recall seeing anyone else on the property at the time.  There were three workers in the field grafting vines, but that's it.
 
 Many people don't make it past Stags Leap Cellars (which is also great) when they visit the Stags Leap AVA.  Besides driving past the 1976 Judgement of Paris winner for red wines, there are other obstacles to visiting Shafer, such as it's only open on weekdays and by tasting appointment only.  But once you make it there, your realize the journey was well worth it...  Quite a number of fantastic wines to taste, fantastic views of the hillside from the winery with grapevines completely surrounding the building, and a great educational experience with a takeaway notebook detailing their wines, origins and process.
 
-![](/assets/shafer/1.jpg "some good looking folks there"){: .center-image }
+{% picture shafer/1.jpg alt="" title="some good looking folks there" class="center-image" %}
 ***Caption Title:*** *Group picture along the gravel road in front of the winery*
 {: .center-caption }
 
@@ -37,8 +46,14 @@ Harden yourselves before you partake in this tasting, because the pours are gene
 
 The converation with our wine guide was also very enjoyable and unhurried - I think we spent 2.5 hours on the property.  And although their website limits the number of guests to 8, there is room enough at the table for more - it just gets roudier and harder to hear the wine guide, which is why they like to impose that limit.  Not surprisingly though, our group quieted down when we dug into the wines, as if the seriousness of the wines made us serious when tasting them.
 
-![](/assets/shafer/2.jpg "rolling hills make some smooth wine"){: .center-image }
+{% picture shafer/2.jpg alt="" title="rolling hills make some smooth wine" class="center-image" %}
 ***Caption Title:*** *Some of their softer rolling hills that make some softer, more rounded wines that can be drunk early*
+{: .center-caption }
+
+The converation with our wine guide was also very enjoyable and unhurried - I think we spent 2.5 hours on the property.  And although their website limits the number of guests to 8, there is room enough at the table for more - it just gets roudier and harder to hear the wine guide, which is why they like to impose that limit.  Not surprisingly though, our group quieted down when we dug into the wines, as if the seriousness of the wines made us serious when tasting them.
+
+{% picture shafer/3.jpg alt="" title="steeper hills make the interesting stuff" class="center-image" %}
+***Caption Title:*** *Some of their rougher hills that make the Hillside Select, an enormous wine that needs so time in the cellar but will reward patience handsomely...*
 {: .center-caption }
 
 On that note, I think Shafer's theme is its commitment to producing serious wines that are cerebral, different (see: Relentless), powerful, and moving.  We lost track of time and were late to our next appointment because of how touching the wine and scenery were.  Wear some nice clothes, because you are going to want to take some pictures on this property.  If you are in the area on a weekday, I highly recommend trying to setup an appointment.  But be warned, Shafer usually books up 2-4 weeks out, especially Thurs, Fri, and Mon (for good reason).  And if you are thinking about becoming a collector or just laying down some bottles for a future special occasion, the Hillside Select is not a bad choice, especially since you'll likely only be able to buy it when you visit the winery and it's limited to 2 per person.

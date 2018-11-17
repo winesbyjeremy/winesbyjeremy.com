@@ -1,12 +1,33 @@
-# Quick helpers for common tasks
+# Makefile to help out
+SHELL := /bin/bash
+BUNDLE := bundle
+JEKYLL := $(BUNDLE) exec jekyll
+HTMLPROOF := $(BUNDLE) exec htmlproofer
 
+PROJECT_DEPS := Gemfile
 .DEFAULT_GOAL := build
 
-clean:
-	bundle exec jekyll clean
+install: $(PROJECT_DEPS)
+	$(BUNDLE) check || $(BUNDLE) install --jobs=4 --retry=3
 
-build: clean
-	bundle exec jekyll build
+clean: install
+	$(JEKYLL) clean
 
-run: clean
-	bundle exec jekyll serve --incremental
+build: install
+	$(JEKYLL) build
+
+update: $(PROJECT_DEPS)
+	$(BUNDLE) update
+
+run: install
+	$(JEKYLL) serve --incremental
+
+test: build
+	$(HTMLPROOF) _site \
+		--allow-hash-href \
+		--check-favicon  \
+		--check-html \
+		--disable-external
+
+publish: test
+	.circleci/deploy-ghpages.sh _site
