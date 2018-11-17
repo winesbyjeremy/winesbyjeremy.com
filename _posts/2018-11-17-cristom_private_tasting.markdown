@@ -18,28 +18,54 @@ winery_details:
   url: https://www.cristomvineyards.com
   rating: 96
   tasting: $50 for the Cristom Experience, $15 for Traditional Tasting
-  price: $50
-  tasting_type: Private Tasting
+  price: $15
+  tasting_type: Public Tasting
   accepts_reservations: "Yes"
   reservation: Yes for the Cristom Experience, No for Traditional Tastings
 ---
 
 There are many exciting wineries to visit in the Portland / Willamette Valley area.  Although not as famous as Domaine Drouhin nor Argyle, Cristom is undoubtedly one of my favorites in the region, if not my absolute favorite.  Everything about Cristom screams family – from the shape/structure of the tasting room, to their candor and joy while conducting their tastings, to the accessible prices of their wines and your ability to taste anything (with the right appointment), to even the way they named the winery (named after the co-owners - Christine and Thomas).  
 
-I happened to visit Cristom at a busy time too as they were in the middle of re-grafting a large section of their vineyard.  They were generous enough to bring me out into the field and explain their rationale for why they were changing their varietals.  After walking through the fields and their storage facilities with their estate Pinot in hand, we finally got to the main tasting event inside.
+{% picture cristom/1.jpg title="Chainsaw Massacre" class="center-image" %}
+***Caption Title:*** *Taking a chainsaw to the previously grafted section.  This way, they can re-plant a different varietal or a new clone of the same varietal on the rootstock.  It will be a couple years before they can harvest grapes from the new vines.*
+{: .center-caption }
 
-Or so I thought.  We were interrupted by the owner of the winery himself who heard that I was dropping wine knowledge to my cousin and her husband.  He introduced himself, asked how I heard about Cristom (blind Pinot Noir tasting with WSET students), and asked what I thought about their operation.  I forgot my resume at home, but needless to say that we got along swimmingly.  We even took a picture together, and yes, he was wearing a sweater and sweatpants while carry his daughter around.  There was no pretentiousness at this winery whatsoever, which is not to say other places I visited were - it's just that everyone felt so relaxed and happy just drinking the wine.  Only possible because the wine was that good.
+{% picture cristom/2.jpg title="TV Antennae" class="center-image" %}
+***Caption Title:*** *A picture of the newly grafted vines.  The sealant used at the grafting point and the top of the new vines is to protect them from disease, since the point of the wounds can get easily infected.  Very cool to watch as everything was happening.*
+{: .center-caption }
 
-Ok, no more stalling.  Here was the lineup:
+I happened to visit Cristom at a busy time too as they were in the middle of re-grafting a large section of their vineyard.  They were generous enough to bring me out into the field and explain their rationale for why they were changing their varietals and clones.  After walking through the fields and their storage facilities with their estate Viognier and Pinot in hand, we finally got to the main tasting event inside.
 
+{% picture cristom/3.jpg title="VSP" class="center-image" %}
+***Caption Title:*** *A great example of a vine planted for vertical shoot positioning (VSP).  A branch from last year's growth is preserved through the winter where new vines will grow vertically from.  They will be tied to the trellis wires (above) and trained upwards to ensure good sun exposure and space for wind to blow through (after rain and lingering fog.)*
+{: .center-caption }
 
-* [**2016 Sauvignon Blanc**](http://www.jerichocanyonvineyard.com/sauvignon-blanc) ($40)
+Or so I thought.  We were interrupted by the owner of the winery himself who heard that I was dropping wine knowledge to my cousin and her husband.  He introduced himself, asked how I heard about Cristom (blind Pinot Noir tasting with WSET students), and asked what I thought about their operation.  I forgot my resume at home, but needless to say that we got along swimmingly.  We even took a picture together (see below).  There was no pretentiousness at this winery whatsoever, which is not to say other places I visited were - it's just that everyone felt so relaxed and happy just drinking the wine.  This was only possible because the wine was that good...
 
+{% picture cristom/4.jpg title="Lucky Me!" class="center-image" %}
+***Caption Title:*** *I was lucky enough to run into the owner and winegrower of Cristom: Tom Gerrie.  We shared a conversation for 15 minutes on our obsession with wine, our respect for Burgundy, and our outsized expectations for Willamette Valley's future.  As much as I love exploring new places, I will definitely be visiting Cristom again when I return to Oregon!*
+{: .center-caption }
 
-Perhaps the only person more excited than us about the latest vintage release of Cristom is our friend, the #1 sommelier in America, Michael Madrigale. “This is hands-down my favorite Oregon Pinot producer — without a doubt,” Madrigale has told us, “not to mention that 2014 was the best vintage ever in Oregon.” After a decade of courtship, we harpooned our white whale with the previous vintage and this 2014 ups the ante. Robert Parker’s Wine Advocate has called Cristom “one of the greats of Oregon.” And in its annual restaurant poll, Wine & Spirits Magazine has found that Cristom is the “#1 Pinot Noir on restaurant wine lists in America” for two years running. From Wine Spectator’s legendary vintage, the 2014 Cristom Estate Pinot blends four prime vineyard sites in the Eola-Amity Hills AVA to reveal a deeply powerful wine. We found out that Wine & Spirits is about to publish a 93-point rave review. Before it hits — a mere 25 cases are up for grabs.
+I don't know if this was the actual lineup, or I got a few extra bottles because of the picture above, but I got to taste basically the entire inventory that Cristom had available at the time:
 
-In 1992, at the inception of Cristom Vineyards, Steve Doerner was brought on as head winemaker. Doerner had become a master of whole-cluster winemaking (keeping the stems on the grapes during fermentation), a technique he observed visiting Burgundy’s Domaine Dujac several times with the legendary Jacques Seysses. Stateside, Doerner was hired at Calera, where he perfected the craft.
+* [**2015 Estate Viognier**](https://www.cristomvineyards.com/product/2016-Estate-Viognier) ($30)
+* [**2015 Mt. Jefferson Cuvée Pinot Noir**](https://www.cristomvineyards.com/product/2016-Mt--Jefferson-Cuv-e-Pinot-Noir) ($35)
+* [**2014 Estate Pinot Noir**](https://www.cristomvineyards.com/product/2014-Estate-Pinot-Noir) ($50)
+* [**2014 Eileen Vineyard Pinot Noir**](https://www.cristomvineyards.com/product/2015-Eileen-Vineyard-Pinot-Noir) ($65)
+* [**2014 Louise Vineyard Pinot Noir**](https://www.cristomvineyards.com/product/14-Louise-Vineyard-Pinot-Noir-750ml) ($60)
+* [**2014 Jessie Vineyard Pinot Noir**](https://www.cristomvineyards.com/product/14-Jessie-Vineyard-Pinot-Noir-750ml) ($60)
+* [**2014 Marjorie Vineyard Pinot Noir**](Marjorie Vineyard Pinot Noir(https://www.cristomvineyards.com/product/2015-Marjorie-Vineyard-Pinot-Noir) ($70)
+* [**2014 Carter Vineyard Pinot Noir**](https://www.cristomvineyards.com/product/2014-Carter-Vineyard-Pinot-Noir) ($55)
+* [**2014 Hirschy Vineyard Pinot Noir**](https://www.cristomvineyards.com/product/2014-Hirschy-Vineyard-Pinot-Noir) ($55)
+* [**2014 Canary Hill Vineyard Pinot Noir**](https://www.cristomvineyards.com/product/2014-Canary-Hill-Vineyard-Pinot-Noir) ($55)
+* [**2014 Estate Syrah**](https://www.cristomvineyards.com/product/2015-Estate-Syrah) ($50)
 
-The 2014 Cristom is a blend of the best Pinot Noir sites in Oregon’s Eola-Amity Hills: Eileen Vineyard, Jessie Vineyard, Louise Vineyard and Marjorie Vineyard. Vines in these exceptional sites average 20 years of age and are rooted in mostly 15.5 million-year-old Columbia River Basalt Group soils. Tom Gerrie, a second-generation winegrower-owner who’s lived at Cristom since he was 8 years old, knows these vineyards well.
+Unfortunately, I lost a lot of tasting notes from my trip to Oregon this past year.  But my biggest regret is losing the tasting notes for Cristom, because the Pinot Noirs were all so wonderfully diverse.  The best were the four ladies - Eileen Vineyard, Jessie Vineyard, Louise Vineyard, and Marjorie Vineyard.  With vines that average over 20 years in age and are rooted in mostly 10M+ year old Basalt soils, there is just so much complexity that develops on the vines.
 
-Doerner and Gerrie craft the final blend and the resulting wine is a perfect snapshot of the legendary 2014 vintage (which Wine Spectator rated 96 points) as well as the Cristom terroir and whole-cluster winemaking style. A better calling card for a winery you cannot find. Their vision and fierce commitment to Burgundian techniques for 25 years has resulted in the consistency and immediate recognizability of the wines of Cristom. We see another great 25 years ahead.
+Combining that with whole-cluster fermentation techniques observed in Burgundy, the Pinot Noirs here have character that is unique in the Willamette Valley.  The flavors are more traditional (e.g. red fruit that is lighter than cherry, but not unripe by any means) but different compared to Burgundy (e.g. on one of the wines, I clearly observed tomato leaf as an aroma).  As someone who enjoys cerebral wines, this had me running around in circles.  Though I know others with an open mind could just enjoy the wines as well.
+
+{% picture cristom/5.jpg title="Lucky Me!" class="center-image" %}
+***Caption Title:*** *Obligatory picture of the beautiful vineyards.  Luckily, my cousin Jennifer was asking really good questions, which allowed me to hang back at points and just enjoy the experience.*
+{: .center-caption }
+
+Wine & Spirits Magazine found that Cristom is the "#1 Pinot Noir on restaurant wine lists in America" for two years running.  I'm not lucky enough to have restaurants near me with this on the menu, but I do imagine they would be fun to pair foods with.  To be safe, I walked away with a case of their wine - choosing several bottles of the Jessie and one of each of the rest I liked.  If you are in the area, Cristom needs to be on your list of wineries to visit.  It may be 15-20min south of the larger group of wineries, but you need to make this trip.  If you do and enjoy the wines as much as I do, be sure to tell them that Jeremy sent you.  Cheers!!
