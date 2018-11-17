@@ -53,7 +53,7 @@ I don't know if this was the actual lineup, or I got a few extra bottles because
 * [**2014 Eileen Vineyard Pinot Noir**](https://www.cristomvineyards.com/product/2015-Eileen-Vineyard-Pinot-Noir) ($65)
 * [**2014 Louise Vineyard Pinot Noir**](https://www.cristomvineyards.com/product/14-Louise-Vineyard-Pinot-Noir-750ml) ($60)
 * [**2014 Jessie Vineyard Pinot Noir**](https://www.cristomvineyards.com/product/14-Jessie-Vineyard-Pinot-Noir-750ml) ($60)
-* [**2014 Marjorie Vineyard Pinot Noir**](Marjorie Vineyard Pinot Noir(https://www.cristomvineyards.com/product/2015-Marjorie-Vineyard-Pinot-Noir) ($70)
+* [**2014 Marjorie Vineyard Pinot Noir**](https://www.cristomvineyards.com/product/2015-Marjorie-Vineyard-Pinot-Noir) ($70)
 * [**2014 Carter Vineyard Pinot Noir**](https://www.cristomvineyards.com/product/2014-Carter-Vineyard-Pinot-Noir) ($55)
 * [**2014 Hirschy Vineyard Pinot Noir**](https://www.cristomvineyards.com/product/2014-Hirschy-Vineyard-Pinot-Noir) ($55)
 * [**2014 Canary Hill Vineyard Pinot Noir**](https://www.cristomvineyards.com/product/2014-Canary-Hill-Vineyard-Pinot-Noir) ($55)
