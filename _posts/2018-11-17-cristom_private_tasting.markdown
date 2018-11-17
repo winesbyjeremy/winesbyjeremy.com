@@ -2,16 +2,25 @@
 layout: review
 title:  "The Cristom Experience" Private Tasting
 author: Jeremy Myers
-date:   2018-XX-XX 15:20:00 -0400
+date:   2018-11-17 15:20:00 -0400
 tags: review winery tasting oregon willamette-valley eola-amity-hills
+image: cristom/1.jpg
 location:
   latitude: 45.034559
   longitude: -123.120504
+  street: 
+  city: Dayton
+  state: OR
+  zip: 97114
+  country: US
 winery_details:
   name: Cristom
   url: https://www.cristomvineyards.com
   rating: 96
   tasting: $50 for the Cristom Experience, $15 for Traditional Tasting
+  price: $50
+  tasting_type: Private Tasting
+  accepts_reservations: "Yes"
   reservation: Yes for the Cristom Experience, No for Traditional Tastings
 ---
 
