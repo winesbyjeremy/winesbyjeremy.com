@@ -4,27 +4,36 @@ title:  Beringer Private Tasting
 author: Jeremy Myers
 date:   2018-09-08 15:20:00 -0400
 tags: review winery tasting california napa st-helena
+image: beringer/1.jpg
 location:
   latitude: 38.510169
   longitude: -122.479882
+  street: 2000 Main St
+  city: St Helena
+  state: CA
+  zip: 94574
+  country: US
 winery_details:
   name: Beringer
   url: https://www.beringer.com
   rating: 95
   tasting: $40 for Public Tasting, $75 for Private Tasting
+  price: $75
+  tasting_type: Private Tasting
+  accepts_reservations: "Yes"
   reservation: No for Public Tasting, Yes for Private Tasting
 ---
 It's fitting that Beringer was my very first winery membership.  Although the brand has been bought/sold a few times, it is the oldest continuously operating winery in the Napa Valley (established in 1876).  Over the past 140+ years, it's been responsible for many "firsts" in Napa as well as the US Wine Industry at large, and has grown into a true powerhouse.  I had been to several Napa wineries before, but this was the first one that really left me in awe and raised my expectations for quality wine.  If you are like me, your first foray into wine came from the shelves of Trader Joes and other grocery store chains.  One of those $7 bottles I brought home was Beringer, so when I first saw that there was a tasting for $40, I thought to myself that they were crazy.  Little did I know.  
 
 While large producers like Beringer and Robert Mondavi may produce and sell large amounts of ~$7-$20 wine, they also produce some fantastic top quality wines because of all the land and capital they have access to.  Imagine if you had enough grapes to produce 1,000,000 bottles of wine and could save your best grapes for 1,000 bottles - how good do you think those 1,000 bottles could be?  Answer: Really good...
 
-![](/assets/beringer/1.jpg "It was very bright outside"){: .center-image }
+{% picture beringer/1.jpg alt="" title="It was very bright outside" class="center-image" %}
 ***Caption Title:*** *The Rhine House garden and fountain at Beringer*
 {: .center-caption }
 
 When arriving at their winery just north of St. Helena, my first impression was that it was actually a campus.  And sure enough, there are multiple buildings that house different tasting menus.  We arrived a bit earlier, so we took some time to wander through the beautiful back gardens that also had some vines planted.  Back toward the entrance you drove through, you'll find the Rhine House: a building from the 1800s that still has its original stained glass windows, a rustic but polished interior that matches the house, and the ethos of the founder carved/painted around the ceiling of the main room.  
 
-![](/assets/beringer/2.jpg "I still wish I had my sunglasses"){: .center-image }
+{% picture beringer/2.jpg alt="" title="I still wish I had my sunglasses" class="center-image" %}
 ***Caption Title:*** *The entrance to the Rhine House, where the higher quality (and priced) tastings take place*
 {: .center-caption }
 
@@ -51,13 +60,13 @@ Ok, enough reminiscing from me.  Here is what you can expect between the two tas
 * [**2014 Private Reserve Cabernet Sauvignon**](https://www.beringer.com/wines/private-reserve/cabernet-napa-valley/2014) ($170)
   * Not quite as huge as the 2013, there is a bit more nuance and freshness to the wine, making it more approachable earlier in its life.  Similar tasting notes as the 2013, drink this while waiting for that vintage to come around
 
-![](/assets/beringer/3.jpg "Blind tasting is hard"){: .center-image }
+{% picture beringer/3.jpg alt="" title="Blind tasting is hard" class="center-image" %}
 ***Caption Title:*** *The private tasting room in the top floor of the Rhine House.  Did I mention that it was a blind tasting?  And in case you were wondering, I didn't get the four of them correct...*
 {: .center-caption }
 
 For those that like oaked Chardonnays but want less butter and more complexity, the Private Reserve is my go-to.  Well balanced between the intensity and high acidity plus the hints of nut from the barrel aging is really captivating.  The Private Reserves need more time for aging as the tannins are still a bit aggressive but the potential is obvious and the fruit+weight on the palate feel sooo good.  If you are an impatient drinker like me, the Bancroft Ranch Merlot and Knights Valley Cab are ready right now and can be almost as pleasurable as the Private Reserves in good vintages.  
 
-![](/assets/beringer/4.jpg "Nothing better than wine and nature in the morning"){: .center-image }
+{% picture beringer/4.jpg alt="" title="Nothing better than wine and nature in the morning" class="center-image" %}
 ***Caption Title:*** *The patio of the Rhine House - It would've been great to hold the tasting here too*
 {: .center-caption }
 

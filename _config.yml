@@ -19,8 +19,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   Wines by Jeremy offers an educative and enjoyable personalized wine experience.
   Located in the DC metro area, Wines by Jeremy provides a number of services including in-home
   exclusive tastings, highly curated event tastings, educational events, and wine cellar consulting.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.winesbyjeremy.com" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: ''
+url: https://www.winesbyjeremy.com
 
 # Social Accounts
 facebook_username: winesbyjeremy
@@ -34,10 +34,11 @@ markdown: kramdown
 #theme: jekyll-theme-architect
 plugins:
   - jekyll-feed
-#  - jekyll-maps
+  - jekyll-maps
   - jekyll-paginate
   - jekyll-sitemap
-#  - jekyll-auto-image
+  - jekyll-auto-image
+  - jekyll-picture-tag
 
 google_analytics: UA-123384548-1
 mailchimp-list: //winesbyjeremy.us18.list-manage.com/subscribe/post?u=b22a07e976dd2efd7490276f9&amp;id=1e062452b6
@@ -45,6 +46,44 @@ maps:
   google:
     api_key: AIzaSyBGVILhPMYqclKhtLj2UKlORo40CnQp6wo
 paginate: 10
+picture:
+  source: assets/images/_fullsize
+  output: assets/images
+  markup: picture
+  presets:
+    # Full width pictures
+    default:
+      ppi: [1, 1.5]
+      attr:
+        alt: 'image'
+      source_lrg:
+        media: "(min-width: 40em)"
+        width: 700
+      source_med:
+        media: "(min-width: 30em)"
+        width: 450
+      source_default:
+        width: 350
+    # Half width pictures
+    half:
+      ppi: [1, 1.5]
+      attr:
+        alt: 'image'
+      source_lrg:
+        media: "(min-width: 40em)"
+        width: 400
+      source_med:
+        media: "(min-width: 30em)"
+        width: 250
+      source_default:
+        width: 350
+    # 250px width pictures
+    thumbnail:
+      attr:
+        alt: 'image'
+      source_default:
+        width: 250
+        height: 250
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -54,6 +93,7 @@ exclude:
   - vendor
   - Gemfile
   - Gemfile.lock
-  - CNAME
   - README.md
-  - locations.md
+  - assets/images/_fullsize
+
+show_excerpts: true
