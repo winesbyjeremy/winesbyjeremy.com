@@ -1,6 +1,6 @@
 ---
 layout: review
-title:  "The Cristom Experience" Private Tasting
+title: Cristom's "The Cristom Experience" Private Tasting
 author: Jeremy Myers
 date:   2018-11-17 15:20:00 -0400
 tags: review winery tasting oregon willamette-valley eola-amity-hills
