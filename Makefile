@@ -19,7 +19,7 @@ build: install
 update: $(PROJECT_DEPS)
 	$(BUNDLE) update
 
-run: clean install
+run: install
 	$(JEKYLL) serve --incremental
 
 test: build

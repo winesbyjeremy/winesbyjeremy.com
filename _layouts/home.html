@@ -25,7 +25,7 @@ layout: default
         </div>
         {%- if post.image -%}
         <a href="{{ post.url | relative_url }}">
-          <img class="post-thumbnail" src="{{ post.image | relative_url }}" />
+          {% picture thumbnail {{ post.image }} %}
         </a>
         {%- endif -%}
         <div class="post-excerpt">
