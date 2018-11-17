@@ -24,7 +24,7 @@ layout: default
           </h3>
           <span>
             {%- if post.image -%}
-              <img class="thumbnail-image" src="{{ post.image | relative_url }}" />
+              {% picture thumbnail {{ post.image }} %}
             {%- endif -%}
           </span>
           {%- if site.show_excerpts -%}

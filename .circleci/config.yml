@@ -5,22 +5,21 @@ jobs:
       - image: circleci/ruby:2.5
     environment:
       BUNDLE_DEPLOYMENT: 'true'
+      BUNDLE_PATH: ./vendor/bundle
       JEKYLL_ENV: production
       NOKOGIRI_USE_SYSTEM_LIBRARIES: 'true'
     steps:
       - checkout
       - restore_cache:
           keys:
-            - rubygems-v1-{{ checksum "Gemfile.lock" }}
-            - rubygems-v1-fallback
+            - v1-rubygems-{{ checksum "Gemfile.lock" }}
       - run:
           name: Make Install
           command: make install
       - save_cache:
-          key: rubygems-v1-{{ checksum "Gemfile.lock" }}
+          key: v1-rubygems-{{ checksum "Gemfile.lock" }}
           paths:
             - vendor/bundle
-            - /usr/local/bundle
       - run:
           name: Make Build
           command: make build
