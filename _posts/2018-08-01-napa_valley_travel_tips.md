@@ -7,7 +7,7 @@ tags: travel-tips tour california napa
 ---
 First, I'd like to thank you, the readers, for joining me on my journey through the wine world.  We are first starting out with some Napa wineries, but will soon see reviews on wineries/wine bars from Virginia, Oregon, and other locations.  In the meantime, I wanted to take some time to touch on putting together a wine trip itinerary, as I hope you will feel inspired to take your own trips after reading my reviews.  What follows is an analysis on my recent Napa Valley trip with friends and advice I'd give my past self.  
 
-![](/assets/wine-travel-tips/1.jpg "every post needs a pretty picture"){: .center-image }
+{% picture wine-travel-tips/1.jpg alt="" title="Every post needs a pretty picture" class="center-image" %}
 ***Caption Title:*** *It wouldn't be a post about wine without a picture of a winery or vineyard in it.  I decided to include one of my favorite shots that wasn't used in another post!*
 {: .center-caption }
 

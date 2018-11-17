@@ -4,6 +4,7 @@ title:  Tom Eddy Private Barrel Tasting
 author: Jeremy Myers
 date:   2018-08-11 15:20:00 -0400
 tags: review winery tasting california napa calistoga
+image: tom_eddy/1.jpg
 location:
   latitude: 38.604856
   longitude: -122.643010
@@ -26,13 +27,13 @@ UC Davis, Class of ’74.  That’s really all you need to know.  Alright, a lit
 
 Although he still consults for several other places, you need to try the wines that bears Tom Eddy’s name.  Tastings are by appointment only and I recommend that you go for the barrel tasting.  At $100, it is an investment, though the return is well worth it.  Driving up to the winery, you get the sense you are actually driving up to someone’s house.  
 
-![](/assets/tom_eddy/1.jpg "I wish my backyard looked like this"){: .center-image }
+{% picture tom_eddy/1.jpg alt="" title="I wish my backyard looked like this" class="center-image" %}
 ***Caption Title:*** *The vast preserved lands surrounding Tom Eddy's vineyards*
 {: .center-caption }
 
 And that's exactly the hospitality you get during the tasting.  I really enjoyed it – Tom Eddy is a 3 person operation: Tom, his wife, and their brand ambassador / membership director.  The experience is 1-on-1, though I happened to pick the weekend that Tom was traveling (we were still greeted by his wife with the NZ Sauvignon Blanc on arrival).  The view from the property to the valley below is gorgeous (100+ acres of untouched grasslands and hills) and the wine cellar door makes you think you’ve stumbled into Hobbiton (LOTR).  
 
-![](/assets/tom_eddy/2.jpg "The door to vast treasures"){: .center-image }
+{% picture tom_eddy/2.jpg alt="" title="The door to vast treasures" class="center-image" %}
 ***Caption Title:*** *The door to Hobbiton or Tom Eddy's cellars?  Either way, treasures lie within...*
 {: .center-caption }
 
@@ -63,6 +64,6 @@ Their membership program is very flexible and can be tailored to you, so get out
 
 And nothing beats enjoy some great wine while enjoying great views.
 
-![](/assets/tom_eddy/3.jpg "Nature is special"){: .center-image }
+{% picture tom_eddy/3.jpg alt="" title="Nature is special" class="center-image" %}
 ***Caption Title:*** *Enjoying great views with great wines feels like true harmony*
 {: .center-caption }
