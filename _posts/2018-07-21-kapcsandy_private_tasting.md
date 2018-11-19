@@ -4,6 +4,7 @@ title:  Kapcsandy Private Tour and Tasting
 author: Jeremy Myers
 date:   2018-07-21 15:20:00 -0400
 tags: review winery tasting california napa yountville
+image: kapcsandy/1.jpg
 location:
   latitude: 38.422735
   longitude: -122.348862

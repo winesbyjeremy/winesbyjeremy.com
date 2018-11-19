@@ -4,6 +4,7 @@ title:  Gandona Private Tasting
 author: Jeremy Myers
 date:   2018-09-22 15:20:00 -0400
 tags: review winery tasting california napa pritchard-hill
+image: gandona/1.jpg
 location:
   latitude: 38.477043
   longitude: -122.346078
