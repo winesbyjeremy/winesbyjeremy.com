@@ -1,28 +1,37 @@
 ---
 layout: review
-title:  Larkmead Public Tasting
+title: Larkmead Public Tasting
 author: Jeremy Myers
-date:   2018-XX-XX 15:20:00 -0400
+date:   2018-11-24 15:20:00 -0400
 tags: review winery tasting california napa calistoga
+image: larkmead/2.jpg
 location:
   latitude: 38.558724
   longitude: -122.524599
+  street: 1100 Larkmead Ln
+  city: Calistoga
+  state: CA
+  zip: 94515
+  country: US
 winery_details:
   name: Larkmead
   url: https://www.larkmead.com/
   rating: 95
   tasting: $75
+  price: $75
+  tasting_type: Public Tasting
+  accepts_reservations: "Yes"
   reservation: Yes
 ---
 Another winery with a storied history longer than most (dating back to the late 1800s) and which continues to produce top notch wines is Larkmead.  Though unlike many others with the same length of history, Larkmead continues to be a small production winery, choosing to concentrate on quality over quantity as its 2013 The Lark (100pt by Wine Advocate) demonstrates.  Its smaller size and simple-but-bright tasting room provides quite the contrast to Frank Family, which is right across the street.  Both are located in Calistoga off the main highway though, so there's no reason not to visit either or both.
 
-![](/assets/larkmead/1.jpg "Peaceful, but not for long"){: .center-image }
+{% picture larkmead/1.jpg title="Peaceful, but not for long" class="center-image" %}
 ***Caption Title:*** *The winery getting ready to start the day.  The winemaking facilty is on the right and the wine tasting building is on the left.  You can take the wine tour and visit both buildings.*
 {: .center-caption }
 
 There's a reason why both wineries are so close together.  Larkmead sold its original winery building to Frank Family back in the day, but kept the land and continued to produce great wine, later constructing its new tasting room that I had the pleasure of visiting.  There are many reasons why this small family winery produces excellent wines, but I think the level of interaction with their vines is the most important one.  They hand prune and hand harvest everything in addition to walking the vineyards every day observing their development and making adjustments as needed.  As it was close to harvest time, I got to wander the vineyards with them and tasted some of the grapes - their Sauvignon Blanc in front of the winery was on point...
 
-![](/assets/larkmead/2.jpg "Wine loves Art"){: .center-image }
+{% picture larkmead/2.jpg title="Wine loves Art" class="center-image" %}
 ***Caption Title:*** *The private tasting room for larger reservations.  The family loves (and creates) art, which makes for great decorations around a tasting table.*
 {: .center-caption }
 
