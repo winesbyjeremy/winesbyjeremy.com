@@ -1,17 +1,16 @@
 ---
 layout: post
-title:  "Wine Memberships"
-author: "Jeremy Myers"
-date:   2018-11-22 19:20:00 -0400
+title:  Wine Membership Discussion
+author: Jeremy Myers
+date:   2018-11-22 10:20:00 -0400
 image: wine-memberships/1.jpg
 tags: tips
 ---
-
 Happy Thanksgiving everyone!!!  I hope everyone is with family and/or friends celebrating over a nice, hot meal and a good bottle of wine.  Since this is a time for giving thanks, thank you, the readers, for following along on this deep dive into Napa wineries with a dose of Willamette Valley as well.  Soon, we will have a look at some in France, in case anyone is thinking of vacationing there at some point.  Some topics have continuously come up in feedback from you, so I'd like to take some time to write about one of them today: Wine Memberships.  Wine memberships is a broad topic and could be discussed in the context of several different segments of the wine industry - e.g. Wine Bars, Distributors/Wine Stores, Wineries.  Today we will focus the conversation on memberships as they pertain to wineries, but much of the same logic applies for other membership types.
 
 Full discloser: I have been or recently became a member at several of the wineries I've written about so far.  This is not a coincidence - what better way to start writing than to write about things you really like?  My situation is a bit unusual though - I consume wine at a faster rate than most and use some of my membership wines for tastings with customers as well.  The normal consumer can likely handle around 3 memberships for various reasons discussed below, though if you handle 7 or more, I'd love to hear from you!!  We'll discuss the pros/cons below.
 
-{% picture wine-memberships/1.jpg title="I'd live here" class="center-image" %}
+{% picture wine-memberships/1.jpg alt="" title="I would live here" class="center-image" %}
 ***Caption Title:*** *It wouldn’t be a post about wine without a picture of a winery or vineyard in it. I decided to include one of my favorite shots of the Douro Valley in Portugal that wasn’t used in another post!  Don't worry - we will discuss the wineries of the Douro at some point.*
 {: .center-caption }
 
@@ -32,7 +31,7 @@ Ok, that's enough background from me - I always seem to excitedly dig into the h
 * **Invitation to Winery Events** - No event is more exciting at a winery than the annual release party.  It's a chance to thank the wine gods for a good harvest, thank all of the winery's employees for their hard work, and thank the consumers for purchasing the wine and making this annual cycle possible.  Access to this and other events (e.g. Some may host a summer bbq, a birthday party for the winery, etc.) is one of the lesser celebrated perks of being a winery member.  What I would give to not just get a picture with my winemaking idols, but to get one at a party with unbridled joy on both of our faces.
 * **Less Thinking, More Drinking** - Do you have a problem choosing new wines every time you go to the store?  Do you just want to drink your favorite wine whenever you feel like it?  Do you forget to purchase that wine or find it's not in your local stores?  A winery membership takes care of those problems.
 
-## List of Potential Drawbacks from a Winery Membership
+### List of Potential Drawbacks from a Winery Membership
 * **Commitment to Purchasing Bottles** - Remember, the reward for the winery is that you purchase a minimum amount of their wine.  While many winery memberships can be cancelled at any given time, if you want to continue to enjoy the perks, you will need to continue buying.
 * **Winery Co-Location** - If you don't live close to the winery, taking advantage of a majority of the membership benefits can be tough.  Living in DC, I can only take advantage of my membership benefits a couple times a year (e.g. free/discounted tastings), and some not at all (e.g. winery events).
 * **Decreased Desire/Ability to Explore** - Some people might not consider this a drawback but I do.  Part of what I love about the wine world is you never know what amazing wine you might drink tomorrow.  But if you are always going to the same wineries to take advantage of your membership benefits, you may not ever discover the amazing wine that is just down the street.  If you keep getting their shipments too, you may not have the money nor space in your wine rack to explore other places either...
