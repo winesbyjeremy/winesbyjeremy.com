@@ -2,7 +2,7 @@
 layout: post
 title:  Wine Membership Discussion
 author: Jeremy Myers
-date:   2018-11-22 19:20:00 -0400
+date:   2018-11-22 10:20:00 -0400
 image: wine-memberships/1.jpg
 tags: tips
 ---
