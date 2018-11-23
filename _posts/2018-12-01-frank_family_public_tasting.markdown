@@ -1,22 +1,31 @@
 ---
 layout: review
-title:  Frank Family Public Tasting
+title: Frank Family Public Tasting
 author: Jeremy Myers
-date:   2018-XX-XX 15:20:00 -0400
+date:   2018-12-01 15:20:00 -0400
 tags: review winery tasting california napa calistoga
+image: frank-family/1.jpg
 location:
   latitude: 38.559116
   longitude: -122.521725
+  street: 1091 Larkmead Lane
+  city: Calistoga
+  state: CA
+  zip: 94515
+  country: US
 winery_details:
-  name: Frank Family
-  url: https://www.frankfamilyvineyards.com/
+  name: Frank Family Vineyards
+  url: https://www.frankfamilyvineyards.com/ 
   rating: 91
-  tasting: $40
+  tasting: $40 for Public Tasting, $85 for the Elevated Experience
+  price: $40
+  tasting_type: Public Tasting
+  accepts_reservations: "Yes"
   reservation: Yes
 ---
 Frank Family is one of those vineyards that aren't hyped by the major wine reviewers, but you continue to hear its name talked about in the social circles around Napa.  I finally had enough and decided to find out for myself what the fuss was all about.  Like many other wineries, it was founded with capital earned in another industry.  In the case of Frank Family, it was Hollywood.  But not as actors - the owner was President of Disney and the son is currently the President of Dreamworks Studios.  And what person in the movie business wouldn't appreciate good vino?  Just kidding, but you get my point.
 
-![](/assets/frank-family/1.jpg "Where's Waldo?"){: .center-image }
+{% picture frank-family/1.jpg alt="" title="Where's Waldo" class="center-image" %}
 ***Caption Title:*** *It's a little hard to miss Frank Family while driving by...*
 {: .center-caption }
 
@@ -24,7 +33,7 @@ Found off Highway 29 in Calistoga, the Frank Family winery is very traditional i
 
 The five others that were seated with me at the tasting were relatively new to wine, so the hostess adjusted the tasting to their experience level.  While she also hadn't had any formal training or wine background, she was very engaging and very good at remembering her facts!  It's nice to enjoy tastings like this because it serves as a reminder that not everyone will develop a passion or an intellectual curiosity for all things wine.  But that doesn't mean that they can't enjoy it for what it is as much as I do.  
 
-![](/assets/frank-family/2.jpg "Storytelling and Laughs"){: .center-image }
+{% picture frank-family/2.jpg alt="" title="Storytelling and Laughs" class="center-image" %}
 ***Caption Title:*** *Sharing some stories and some laughs over sparkling wine in the tasting room.*
 {: .center-caption }
 
