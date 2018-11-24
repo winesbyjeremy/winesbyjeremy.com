@@ -1,28 +1,37 @@
 ---
 layout: review
-title:  Brian Arden Public Tasting
+title: Brian Arden Public Tasting
 author: Jeremy Myers
-date:   XXXX-XX-XX 15:20:00 -0400
+date:   2018-12-08 15:20:00 -0400
 tags: review winery tasting california napa calistoga
+image: brian-arden/1.jpg
 location:
   latitude: 38.583062
   longitude: -122.565383
+  street: 331 Silverado Trail
+  city: Calistoga
+  state: CA
+  zip: 94515
+  country: US
 winery_details:
   name: Brian Arden
   url: http://brianardenwines.com/
-  rating: 94
-  tasting: $30
-  reservation: No
+  rating: 93
+  tasting: $30 for Public Tasting, $50 for Reserve Tasting
+  price: $30
+  tasting_type: Public Tasting
+  accepts_reservations: "Yes"
+  reservation: No for Public Tasting, Yes for Reserve Tasting
 ---
 As more investment pours into Napa Valley and the large conglomerates (e.g. Constellation Brands) purchase more property to consolidate the industry, it's getting harder to find quality smaller wineries that aren't all about the dollars.  Luckily, there is one right off the Silverado Trail that has been growing slowly, but surely these past 5-10 years.  This recent visit to Brian Arden was a coming of age for both of us - the last time I visited several years ago, they had just opened their facility on the Silverado Trail and I was just discovering how amazing wine could be.  It may have been my second-ever trip to Napa.  
 
-![](/assets/brian-arden/1.jpg "beautiful winery"){: .center-image }
+{% picture brian-arden/1.jpg alt="" title="beautiful winery" class="center-image" %}
 ***Caption Title:*** *I really do like the architecture of the winery.  If I had to design one for myself, I hope it comes out looking as good as this one.*
 {: .center-caption }
 
 Even after some years, Brian Arden still looks like an architectural novelty as you enter the driveway.  Though, it isn't like Hall where the novelty seems artistically driven - the novelty here is they aimed for a clean design that seems classy and homely at the same time.  The abundance of windows makes the tasting room a little warm during the afternoon, but also allows you to enjoy the incredible views from inside the tasting room unimpeded.  The same goes for inside the tasting room - there was constant traffic, but it was never crowded or too loud.  The owner (who is also the winemaker) made it a point to come inside and thank every party for their patronage and get their feedback on the wines.  This wasn't an easy thing for him to do as he was also receiving delivery of the bottles that will be used for this upcoming vintage - a lot of delicate work to balance, for sure.  
 
-![](/assets/brian-arden/2.jpg "peaceful tasting"){: .center-image }
+{% picture brian-arden/2.jpg alt="" title="peaceful tasting" class="center-image" %}
 ***Caption Title:*** *There's nothing like sitting a table enjoying good wine and people watching...  Well, the view outside those windows might have been more captivating.*
 {: .center-caption }
 
