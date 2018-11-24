@@ -21,7 +21,7 @@ winery_details:
   price: $40
   tasting_type: Public Tasting
   accepts_reservations: "Yes"
-  reservation: Yes
+  reservation: Yes for the Elevated Experience, No for Public Tasting
 ---
 Frank Family is one of those vineyards that aren't hyped by the major wine reviewers, but you continue to hear its name talked about in the social circles around Napa.  I finally had enough and decided to find out for myself what the fuss was all about.  Like many other wineries, it was founded with capital earned in another industry.  In the case of Frank Family, it was Hollywood.  But not as actors - the owner was President of Disney and the son is currently the President of Dreamworks Studios.  And what person in the movie business wouldn't appreciate good vino?  Just kidding, but you get my point.
 
