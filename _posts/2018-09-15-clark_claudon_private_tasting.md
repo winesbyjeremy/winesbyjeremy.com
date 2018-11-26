@@ -4,35 +4,42 @@ title:  Clark-Claudon Private Tour and Tasting
 author: Jeremy Myers
 date:   2018-09-15 15:20:00 -0400
 tags: review winery tasting california napa howell-mountain
+image: clark_claudon/1.jpg
 location:
-  latitude: 38.615967
-  longitude: -122.445332
+  latitude: 38.616627
+  longitude: -122.445133
+  street: 6189 Pope Valley Rd
+  city: Pope Valley
+  state: CA
+  zip: 94567
+  country: US
 winery_details:
   name: Clark Claudon
   url: https://www.clarkclaudon.com/
   rating: 97
   tasting: $50 or Free with Purchases
+  price: $50
+  tasting_type: Private Tasting
+  accepts_reservations: "Yes"  
   reservation: Yes
 ---
-Not all of the best places in Napa are the highly rated (e.g. Lokoya), produced by someone famous (e.g. Michel Rolland) or have a well-established pedigree (e.g. Opus One).  Some are family businesses that truly enjoy making good wine and sharing it with others.  Add unassuming, hard-to-find, and approachable to that mix, and you have Clark-Claudon.
+Not all of the best places in Napa are the highly rated (e.g. Lokoya), produced by someone famous (e.g. Michel Rolland) or have a well-established pedigree (e.g. Opus One).  Some are family businesses that truly enjoy making good wine and sharing it with others.  Add unassuming, hard-to-find, and approachable to that mix, and you have Clark-Claudon.  I first had a bottle of Clark-Claudon Cabernet Sauvignon after seeing it ranked fairly high on Vivino.  As soon as I poured myself a glass, I was hooked.  Deep inky color, a very fresh nose of blue/black fruit, and crushed rocks in the palate profile - it was one of my first Cabernets where the fruit and secondary/tertiary flavor characteristics truly harmonized for me.  So I looked them up on the internet, sent an email requesting a tasting and set off on my journey to pay homage.
 
-I first had a bottle of Clark-Claudon Cabernet Sauvignon after seeing it ranked fairly high on Vivino.  As soon as I poured myself a glass, I was hooked.  Deep inky color, a very fresh nose of blue/black fruit, and crushed rocks in the palate profile - it was one of my first Cabernets where the fruit and secondary/tertiary flavor characteristics truly harmonized for me.  So I looked them up on the internet, sent an email requesting a tasting and set off on my journey to pay homage.
-
-![](/assets/clark_claudon/1.jpg "Not the best lighting..."){: .center-image }
+{% picture clark_claudon/1.jpg alt="" title="Not the best lighting..." class="center-image" %}
 ***Caption Title:*** *Taking a quick photo outside their Howell Mountain vineyard before we dig into the tasting*
 {: .center-caption }
 
-![](/assets/clark_claudon/2.jpg "He looks surprised"){: .center-image }
+{% picture clark_claudon/2.jpg alt="" title="He looks surprised" class="center-image" %}
 ***Caption Title:*** *Getting an explanation of the wine's flavors.  The meat and cheese plate they served was a perfect match for the wine...*
 {: .center-caption }
 
 First off, I want to say that Laurie Claudon may be one of the nicest, most generous people in the Wine Industry.  During the course of our tasting, we spilled water and broke a glass, yet she was gracious through it all.  And the passion she showed for their wine was just truly inspiring.  There are two places that you can schedule the tasting: 1) at Alpha Omega as Clark Claudon borrows AO's facilities for their wine production process; or 2) at their vineyard just behind Howell Mountain in the Pope Valley.  While the Alpha Omega campus is beautiful, Laurie recommends conducting the wine tasting at their vineyard and I wholeheartedly agree with that recommendation.  I will warn you - it's a trek to get up there (25min from the Route 29), so try to schedule some other wine tastings up there as well or make it your first or last tasting of the day for travel time purposes.    
 
-![](/assets/clark_claudon/3.jpg "No sweat, we had wine with us"){: .center-image }
+{% picture clark_claudon/3.jpg alt="" title="No sweat, we had wine with us" class="center-image" %}
 ***Caption Title:*** *Walking up into the vineyards after the tasting.  No one told us there would be exercise involved...*
 {: .center-caption }
 
-![](/assets/clark_claudon/4.jpg "Such a good time"){: .center-image }
+{% picture clark_claudon/4.jpg alt="" title="Such a good time" class="center-image" %}
 ***Caption Title:*** *Talking about the terroir's effect on the wine.  That and the owner's beekeeping and birdhouse hobby*
 {: .center-caption }
 
@@ -51,7 +58,7 @@ Their tasting room on Howell Mountain is actually an small house that has been c
 
 In summary, the Estate Cabernets are exactly as I remember them with the 2013 having a bit more strength and tannin.  The Eternities add layers of richness and depth to the attractive parts of the Estate Cabernet.  Many of the people who visited with me also chose the 2011 Eternity over the 2013 despite knowing the 2013 had a higher score and possible potential.  But when you drink something great, you want more of that greatness tomorrow, not 5-10 years from now.  That immediate gratification mentality may be indicative of my generation's wine drinker, but I don't think its wrong (see: Heidi Barrett's style, Barolo production changes, etc.)
 
-![](/assets/clark_claudon/5.jpg "Why so serious"){: .center-image }
+{% picture clark_claudon/5.jpg alt="" title="Why so serious" class="center-image" %}
 ***Caption Title:*** *It was going to be a great picture, but then someone had to crack a joke.  I couldn't help myself.*
 {: .center-caption }
 
