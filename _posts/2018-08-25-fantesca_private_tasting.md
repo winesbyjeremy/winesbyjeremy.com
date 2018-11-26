@@ -4,25 +4,34 @@ title:  Fantesca Private Tasting
 author: Jeremy Myers
 date:   2018-08-25 15:20:00 -0400
 tags: review winery tasting california napa spring-mountain
+image: fantesca/1.jpg
 location:
   latitude: 38.512611
   longitude: -122.495192
+  street: 2920 Spring Mountain Rd
+  city: St Helena
+  state: CA
+  zip: 94574
+  country: US
 winery_details:
   name: Fantesca
   url: https://fantesca.com
   rating: 98
   tasting: $100 or Free with Purchase
+  price: $100
+  tasting_type: Private Tasting
+  accepts_reservations: "Yes"
   reservation: Yes
 ---
 As you dive deeper into the world of wine, you start to build a mental portfolio of wines that you've liked and attempt to correlate them, hoping that it will give you an indication of whether you'll like another wine or not.  One of those correlation factors is the winemaker as many have a distinct and profound influence on the wines they produce.  One of my favorites is [Heidi Barrett](https://en.wikipedia.org/wiki/Heidi_Barrett), the First Lady of Wine.  For those who are unfamiliar with the legend of Heidi Barrett, please do yourself a favor and look her up.  She was the first winemaker at Screaming Eagle (new releases retail at $3000 a bottle) and has worked with several highly-acclaimed wineries during her time in Napa.  Currently, there are only a few that still count her as their winemaker/partner.  Fantesca is one of those lucky few and currently home to her only Chardonnay (until she releases another under her personal "La Sirena" label later this year).
 
-![](/assets/fantesca/1.jpg "not much foliage yet in the spring"){: .center-image }
+{% picture fantesca/1.jpg alt="" title="not much foliage yet in the spring" class="center-image" %}
 ***Caption Title:*** *The rolling hillside vineyard of Fantesca on Spring Mountain*
 {: .center-caption }
 
 Located between Spring Mountain Winery and Lokoya, Fantesca is also situated where you can’t hear or see anything except the rustling fields of Pinot Noir, Chardonnay and Cabernet Sauvignon.  Tastings are private, by appointment only, and they may require that you have a certain number of people in your party since they are opening up the place just for you.  And although the tasting fee appears steep, they usually waive the fee if you purchase some bottles.  The quality of the wine makes this easy, though the shipping costs per bottle are noticeably higher than other places (even if you get a case).  If it ships to DC though, there's no Sales Tax which helps balance it out.  
 
-![](/assets/fantesca/2.jpg "Don't worry, we finished all that wine"){: .center-image }
+{% picture fantesca/2.jpg alt="" title="Don't worry, we finished all that wine" class="center-image" %}
 ***Caption Title:*** *Seated tasting of the Fantesca Wines as experienced from the head of the table*
 {: .center-caption }
 
@@ -42,7 +51,7 @@ All of these wines are excellent and different than anything else you’ll exper
 
 And although you can’t taste the Estate Cab this year, this is Heidi’s only Spring Mountain Cabernet in her portfolio.  This wine is for the savvy consumer that has some disposable income available and doesn’t mind spending it on wine that is worth its price point.  Serve it only for special occasions and hoard the rest for yourself.  Most of the wines that Heidi produces are ready for immediate consumption, but I would put the Estate Cabernet away for a few years since its approaching a hibernation state, where it becomes less fragrant and harder to suss out the flavors for a few years.  
 
-![](/assets/fantesca/3.jpg "Praise be to the vines"){: .center-image }
+{% picture fantesca/3.jpg alt="" title="Praise be to the vines" class="center-image" %}
 ***Caption Title:*** *Although that isn't me in the picture, I felt similarly after the tasting*
 {: .center-caption }
 

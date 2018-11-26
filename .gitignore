@@ -1,3 +1,22 @@
-_site
-.sass-cache
-.jekyll-metadata
+#################
+# Global Ignore #
+#################
+
+# OSX
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+###################
+# Project Ignores #
+###################
+
+/.jekyll-metadata
+/_site
+/.sass-cache
+/vendor
