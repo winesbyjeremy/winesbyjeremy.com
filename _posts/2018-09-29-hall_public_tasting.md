@@ -4,27 +4,36 @@ title:  Hall Public Tasting
 author: Jeremy Myers
 date:   2018-09-29 15:20:00 -0400
 tags: review winery tasting california napa st-helena
+image: hall/1.jpg
 location:
   latitude: 38.489082
   longitude: -122.451963
+  street: 401 St Helena Hwy
+  city: St Helena
+  state: CA
+  zip: 94574
+  country: US
 winery_details:
   name: Hall
   url: https://www.hallwines.com/
   rating: 93
   tasting: $40 for Public Tasting, $150 for Ultimate Cabernet Experience
+  price: $40
+  tasting_type: Public Tasting
+  accepts_reservations: "Yes"
   reservation: No for Public Tasting, Yes for Special Experiences
 ---
 As I mentioned in earlier articles, Napa can be both the ultimate educational experience and ultimate relaxation getaway - it all depends on what you are looking for.  Hall Winery is predominantly for those that are looking for the later, though you can definitely purchase 100 point quality wine there too if you wish.  For being both a purveyor of fine wine and tastings with a beautiful landscape, it's surprisingly easy to find.  Right off the main highway (Route 29), the giant metal rabbit out in front of the winery is hard to miss.
 
 As you park and approach this St. Helena winery, you'll see both the beautiful, neo-architectural winery and the 1800s historic barn next to it.  Prepare yourself, because the inside is just another level compared to the exterior.  You may feel like you are entering a blend of a futuristic winery and art gallery.  If you are brave enough to take the Ultimate Cabernet Experience instead of the traditional tasting, you will be led to the barn where all of the technology and art fade away and all that is left is you and amazing wine.  If you are feeling especially fancy, you can arrange for a special personalized tasting at their Rutherford Estate as well.  
 
-![](/assets/hall/1.jpg "The Vineyards of Hall"){: .center-image }
+{% picture hall/1.jpg alt="" title="The Vineyards of Hall" class="center-image" %}
 ***Caption Title:*** *The Vineyards at Hall after a spring rain in the morning*
 {: .center-caption }
 
 I personally think that the public tasting is a great deal that exposes you to some really high quality wine without a $75+ tasting fee; two of the wines are over $130 each and scored 98 Points or better with The Wine Advocate.  So if powerful and ageable wines are your preference, you are going to be very happy here.  In addition, while you are tasting the wine in the main area, you'll get a glimpse of the gorgeous view behind the winery.  But best of all, there is no reservation required for the regular tasting!  So if you happen to find yourself in Napa with no plan, feel free to drop by here.
 
-![](/assets/hall/2.jpg "Makeup is hard"){: .center-image }
+{% picture hall/2.jpg alt="" title="Makeup is hard" class="center-image" %}
 ***Caption Title:*** *Getting ready for my close up.  Or maybe caught getting caught off-guard during it?*
 {: .center-caption }
 
@@ -34,9 +43,9 @@ As for the wines, the tasting list generally looks like this:
 * [**2014 Kathryn Hall**](http://www.hallwines.com/shop-90-point-wines-14/2014-hall-kathryn-hall-cabernet-sauvignon.html) ($175)
 * [**2014 Bergfeld**](http://www.hallwines.com/shop-90-point-wines-14/2014-hall-bergfeld-st-helena-cabernet-sauvignon.html) ($175)
   * Almost as important as the flavors of this wine (floral, fruitcake, sweet spice, tea, with bright red fruit) is the texture and weight on the palate.  How wine feels in your mouth is obviously important, but until you have a wine that blows you away, you won't truly appreciate how important it is.  This wine was one of those that opened my eyes to what amazing texture and weight feel like.
-* Their choice of any two of the [Mt. Veeder](http://www.hallwines.com/shop-90-point-wines-14/2014-hall-mount-veeder-cabernet-sauvignon.html), [Howell Mountain](http://www.hallwines.com/winery-exclusive-wines/2014-hall-howell-mountain-cabernet-sauvignon.html), [Stag's Leap](http://www.hallwines.com/winery-exclusive-wines/2014-hall-stags-leap-cabernet-sauvignon.html), or [Diamond Mountain](http://www.hallwines.com/winery-exclusive-wines/2015-hall-diamond-mountain-cabernet-sauvignon.html) ($175 each)
+* Their choice of any two of the [**Mt. Veeder**](http://www.hallwines.com/shop-90-point-wines-14/2014-hall-mount-veeder-cabernet-sauvignon.html), [**Howell Mountain**](http://www.hallwines.com/winery-exclusive-wines/2014-hall-howell-mountain-cabernet-sauvignon.html), [**Stag's Leap**](http://www.hallwines.com/winery-exclusive-wines/2014-hall-stags-leap-cabernet-sauvignon.html), or [**Diamond Mountain**](http://www.hallwines.com/winery-exclusive-wines/2015-hall-diamond-mountain-cabernet-sauvignon.html) ($175 each)
   * Unfortunately, I misplaced my notes for the wines I tasted, but do remember that the tasting notes were pretty much what I got from the wines.  In addition to Beringer, Hall is another great location to taste single AVA Cabernets and observe the nuances.  The wines here are a bit riper and warmer in style, but are also more accessible earlier in their life.  They also score very well with Robert Parker on a consistent basis.
-* One of the 2014 Platinum Collection: [Bishop](http://www.hallwines.com/2014-the-bishop), [Rainin](http://www.hallwines.com/2014-rainin), or [Sacrashe](http://www.hallwines.com/2014-sacrashe) ($325 each)
+* One of the 2014 Platinum Collection: [**Bishop**](http://www.hallwines.com/2014-the-bishop), [**Rainin**](http://www.hallwines.com/2014-rainin), or [**Sacrashe**](http://www.hallwines.com/2014-sacrashe) ($325 each)
   * I'm partial to Howell Mountain wines (The Bishop) and Rainin gets near 100pt scores, so of course we got the Sacrashe at our tasting.  Although I was initially disappointed, that feeling disappeared as quickly as the wine from my glass.  Really great integration of black fruit, creme de cassis, cedar and terroir notes.  The difference between Hall's Platinum Series and their Signature wines is an additional degree of purity and complexity.  That might sound like a contradiction on the surface, but once you taste these wines, it will make sense.  The price point and rarity make it hard to obtain bottles, so tasting at the winery is recommended.
 
 # Normal Tasting ($40)
@@ -51,13 +60,13 @@ As for the wines, the tasting list generally looks like this:
 * [**2014 Kathryn Hall**](http://www.hallwines.com/shop-90-point-wines-14/2014-hall-kathryn-hall-cabernet-sauvignon.html) ($175)
   * If the Jack's reminded me of Howell Mountain, then the Kathryn Hall reminded me of Rutherford.  This wine is richer and bigger in body, but the detail that grabbed me was a dustiness that you see a lot in Rutherford.  Still, this wine is so smooth and approachable, even in its youth, but it could definitely age 10-20 years effortlessly.  This is another one of those wines that you can enjoy without thinking, but then drink again while paying attention and point out 4-6 distinct flavors.  
 
-![](/assets/hall/3.jpg "Picnic Time"){: .center-image }
+{% picture hall/3.jpg alt="" title="Picnic Time" class="center-image" %}
 ***Caption Title:*** *The outdoor picnic area available to winery members.  Who wouldn't want to enjoy a bottle out here?*
 {: .center-caption }
 
-I really like the membership benefits of Hall.  There is a separate area where wine club members can conduct their tasting (much quieter) and you can purchase bottles, go outside, and enjoy the view of the mountains from a lawn chair.  They even have fire pits for the fall time!  The lawn in the back is well manicured as well, leaving you with the impression that you are a member of a high class country club.  Definitely one of the best views from the valley floor. 
+I really like the membership benefits of Hall.  There is a separate area where wine club members can conduct their tasting (much quieter) and you can purchase bottles, go outside, and enjoy the view of the mountains from a lawn chair.  They even have fire pits for the fall time!  The lawn in the back is well manicured as well, leaving you with the impression that you are a member of a high class country club.  Definitely one of the best views from the valley floor.
 
-![](/assets/hall/4.jpg "Napa scenery is always beautiful"){: .center-image }
+{% picture hall/4.jpg alt="" title="Napa scenery is always beautiful" class="center-image" %}
 ***Caption Title:*** *Another angle of the picnic area from nature's point of view.*
 {: .center-caption }
 

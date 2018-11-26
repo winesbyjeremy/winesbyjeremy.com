@@ -3,9 +3,14 @@ layout: post
 title:  Wine Travel Tips
 author: Jeremy Myers
 date:   2018-08-01 19:20:00 -0400
-tags: travel-tips tour california napa
+image: wine-travel-tips/1.jpg
+tags: tips tour california napa
 ---
 First, I'd like to thank you, the readers, for joining me on my journey through the wine world.  We are first starting out with some Napa wineries, but will soon see reviews on wineries/wine bars from Virginia, Oregon, and other locations.  In the meantime, I wanted to take some time to touch on putting together a wine trip itinerary, as I hope you will feel inspired to take your own trips after reading my reviews.  What follows is an analysis on my recent Napa Valley trip with friends and advice I'd give my past self.  
+
+{% picture wine-travel-tips/1.jpg alt="" title="Every post needs a pretty picture" class="center-image" %}
+***Caption Title:*** *It wouldn't be a post about wine without a picture of a winery or vineyard in it.  I decided to include one of my favorite shots that wasn't used in another post!*
+{: .center-caption }
 
 Regarding Napa specifically, there seems to be a dichotomy to how it is perceived and experienced.  Some people see it as the ultimate wine getaway where enthusiasts gather and enjoy the paradise created by many large properties (e.g. V. Sattui, Hall, etc.).  Others see it as a microcosm of different terroirs, people, and methodologies that produce a culture almost as diverse and yet tightly knit as an entire country.  Although I have enjoyed trips to Napa in the spirit of the former, this past pilgrimage was about taking some friends through the latter.
 
