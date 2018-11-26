@@ -1,26 +1,35 @@
 ---
 layout: review
-title:  Romeo Vineyards Public Tasting
+title: Romeo Vineyards Public Tasting
 author: Jeremy Myers
-date:   2018-XX-XX 15:20:00 -0400
+date:   2018-12-22 15:20:00 -0400
 tags: review winery tasting california napa calistoga
+image: romeo/1.jpg
 location:
   latitude: 38.576419
   longitude: -122.579694
+  street: 1224 Lincoln Ave
+  city: Calistoga
+  state: CA
+  zip: 94515
+  country: US
 winery_details:
-  name: Romeo
+  name: Romeo Vineyards 
   url: http://www.romeovineyards.com/
   rating: 99
   tasting: $30 a Flight or Free with Bottle Purchase
-  reservation: Yes
+  price: $30
+  tasting_type: Public Tasting
+  accepts_reservations: "Yes"
+  reservation: Yes for Groups of 6 or More
 ---
 50-51 degrees storing the wine temperature.  Nate ran the amazing tasting that allowed me to taste basically everything.  He was one of the most knowledgeable tasters (I could swear he is an Advanced Somm) I have tasted with and super excited about sharing how amazing their wines are and how mispriced they are compared to their quality.  I am seriously in love with their juicy, approachable style for wine that seemingly ages forever even for a lot of them it seems like they don’t need to.  Some of the wines are a little closed down (2004 Old Vines) that requires a decanter to coax out.  But for the most part, every wine seems like its at its perfect drinking window.  The entrance to the winery is hard to find as there aren’t really any signs and the building is unassuming.  But once you find the terrace entrance, be prepared to have every preconception that you’ve had about good wine and expensive wine flipped on its head.  Amazing wine does not need to be expensive.  So take advantage while you can!!
 
-![](/assets/romeo/1.jpg "Gateway to a hidden treasure"){: .center-image }
+{% picture romeo/1.jpg alt="" title="Gateway to a hidden treasure" class="center-image" %}
 ***Caption Title:*** *Romeo is difficult to find in Calistoga.  It took me walking around the block a couple times to find the place.  But trust me, the search is worth it.  Through this passage lies a great tasting experience that will surprise you.*
 {: .center-caption }
 
-![](/assets/romeo/2.jpg "Tank-powered Coravin!!!"){: .center-image }
+{% picture romeo/2.jpg alt="" title="Tank-powered Coravin!!!" class="center-image" %}
 ***Caption Title:*** *A shot inside Romeo's tasting room.  There are so many great things about this picture.  The tasting room is small (fits at most 10 people), the wine ambassador (Nate) is amazing, the fact that he's using a coravin connected to an Argon tank is awesome, and he was pouring me a 2004 Old Vine Cabernet Sauvignon.  I was so happy when I took this photo, haha.*
 {: .center-caption }
 
