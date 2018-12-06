@@ -1,22 +1,31 @@
 ---
 layout: review
-title:  Round Pond Private Tasting
+title: Round Pond Private Tasting
 author: Jeremy Myers
-date:   2018-XX-XX 15:20:00 -0400
+date:   2019-01-12 15:20:00 -0400
 tags: review winery tasting california napa rutherford
+image: round-pond/1.jpg
 location:
   latitude: 38.464285
   longitude: -122.404429
+  street: 875 Rutherford Road
+  city: Rutherford
+  state: CA
+  zip: 94573
+  country: US
 winery_details:
   name: Round Pond
-  url: https://www.roundpond.com/
-  rating: 94
+  url: https://www.roundpond.com
+  rating: 93
   tasting: $75 for Cabernet Tasting, $40 for Regular Tasting
-  reservation: Yes
+  price: $40
+  tasting_type: Private Tasting
+  accepts_reservations: "Yes"
+  reservation: Yes for Specialized Tastings
 ---
 462 acres contiguous in Rutherford.  Family owned.  The owners and the children (that now run the winery) all live on the property.  Not Italian but loved their wines and Tuscany – so grows Sangiovese, Nebbiolo too.  Also grows 13 acres Olives (old tasting room is now Olivery).  House was old horticultural school for boys.  Erin was our wine hostess.  Originally owned some land on Pritchard Hill, would come up on the weekends and grow grapes on the land and camp there to live with the land.  They then realized they wanted to do this and moved their family to Rutherford.  Cabernet Tasting.  $15 flat rate 2-day shipping for a case, $25 flat rate 2-day shipping for 6-bottles or more.
 
-![](/assets/round-pond/1.jpg "outdoor drinkin"){: .center-image }
+{% picture round-pond/1.jpg alt="" title="outdoor drinkin" class="center-image" %}
 ***Caption Title:*** *The view of Round Pond's patio that they use for tastings.  If you don't make a reservation, there is a standing tasting table indoors that you can go to.  But why wouldn't you want to sit outdoors while enjoying good wine?*
 {: .center-caption }
 
@@ -37,6 +46,6 @@ NOTE: For the Cabernet tasting, they will only pour you one of the gravel series
 * [**2014 The Vow**](https://shop.roundpond.com/store/index.cfm?fuseaction=productdetail&product_id=1452) ($225)
   * The nose is very similar to the Reserve Cabernet – less intensity due to the better integration (or less amount) of alcohol and acid.  On the palate, I don’t perceive the alcohol as much and the flavors stay predominantly in the realm of fruit.  There are some spices (though muted) and the tannins are more fine than the other two gravel series.  It’s a tie between the Scholar’s Gate and this as to which I liked best, but I think the Reserve Cabernet is the best QPR purchase.  Biggest of the three gravels extremely porous.  Similar to the Scholar's Gate in style, but even more ripeness.
 
-![](/assets/round-pond/2.jpg "Through the looking glass"){: .center-image }
+{% picture round-pond/2.jpg alt="" title="Through the looking glass" class="center-image" %}
 ***Caption Title:*** *The view out of their fancy window behind the staircase to the second floor.  It made for a good shot, but you can also see the vineyards through the window if you look closely.*
 {: .center-caption }
