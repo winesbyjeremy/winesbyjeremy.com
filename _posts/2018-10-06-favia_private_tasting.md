@@ -7,11 +7,19 @@ tags: review winery tasting california napa coombsville
 location:
   latitude: 38.293494
   longitude: -122.249806
+  street: 2031 Coombsville Rd
+  city: Napa
+  state: CA
+  zip: 94558
+  country: US
 winery_details:
   name: Favia
   url: https://www.faviawine.com
   rating: 93
-  tasting: None, but they require each person to purchase at least 2 bottles
+  tasting: None, but each person is required to purchase 2 bottles
+  price: $0
+  tasting_type: Private Tasting
+  accepts_reservations: "Yes"
   reservation: Yes
 ---
 Besides Bo and Heidi Barrett, there may not be another couple in the valley that has the background, experience and reputation of Annie and Andy Erickson.  Both have worked for their share of cult wineries that produced highly acclaimed wines wines and the price tags that go along with them.  But now, they work for themselves at their family winery in Coombsville.  The new up-and-coming AVA of the Napa Valley, Coombsville is still not on many people's radar and wasn't on mine until this visit.  Though, knowing Annie and Andy, I knew this was going to be an incredible experience.  I later found out that Coombsville winemakers like the make the anology of Coombsville is to Napa as Brooklyn is to NYC.  

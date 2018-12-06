@@ -1,0 +1,25 @@
+<!-- Load font awesome icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/css/social/social_sidebar.css">
+
+<!-- The social media icon bar -->
+<div class="social-sidebar">
+    {%- if site.twitter_username -%}
+        <a
+            href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}{% if page.description %}&text={{ page.description | url_escape }}{% else %}{{ page.title | url_escape }}{% endif %}{% if site.twitter %}&via={{ site.twitter }}{% endif %}"
+            class="twitter"
+            title="Share on Twitter"
+        >
+            <i class="fa fa-twitter"></i>
+        </a>
+    {%- endif -%}
+    {%- if site.facebook_username -%}
+        <a
+            href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}{% if page.description %}&t={{ page.description | url_escape }}{% else %}{{ page.title | url_escape }}{% endif %}"
+            class="facebook"
+            title="Share on Facebook"
+        >
+            <i class="fa fa-facebook"></i>
+        </a>
+    {%- endif -%}
+</div>
