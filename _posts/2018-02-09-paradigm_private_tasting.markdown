@@ -1,22 +1,31 @@
----
+--
 layout: review
-title:  Paradigm Private Tasting
+title: Paradigm Private Tasting
 author: Jeremy Myers
-date:   2018-XX-XX 15:20:00 -0400
+date:   2018-02-09 15:20:00 -0400
 tags: review winery tasting california napa oakville
+image: paradigm/1.jpg
 location:
   latitude: 38.420564
   longitude: -122.393788
+  street: 1277 Dwyer Rd
+  city: Oakville
+  state: CA
+  zip: 94562
+  country: US
 winery_details:
   name: Paradigm
   url: http://paradigmwinery.com/
   rating: 95
   tasting: $25
+  price: $25
+  tasting_type: Private Tasting
+  accepts_reservations: "Yes"
   reservation: Yes
 ---
 Heidi’s first winery.  Her father (Richard Peterson) help the owners build out the business plan to pitch to financial institutions for loans and when it came time to make the wine, he asked that they give Heidi the job (who was just out of school but had lots of promise).  They agreed and they never looked back.  When Heidi left the industry for a spell for family (raising the daughters), it was Paradigm that was the first to offer her a job again to get back into the swing of things.  There is loyalty and a sense of family here which matches the size of the winery and the staffing (only the brother of the owner was working the Sunday afternoon I visited).  The tastings are one group at a time and you can’t hear anything except for the trains that pass by every so often.  They have some equipment from UC Davis (e.g. measuring aspiration to figure out how often to put out sulfur for protection in the vineyards).  The guy who owns Paradigm – he was in the real estate business and his partner Gene (female) also bought a winery and she called it Screaming Eagle.  She had a stuck fermentation, came over and asked for help and he referred her to Heidi and that’s how Heidi became Screaming Eagle’s first winemaker.  They paid the winery off 14 years ago and how the tax laws work is that you are taxed based on how much you paid for the land/winery.  Since they bought it back when there was only 30 wineries in Napa, their taxes are low, meaning they can pass the savings along to you.  Harlan is just up the hill within sight of the outside table where your tasting is conducted.  
 
-![](/assets/paradigm/1.jpg "Getting lost in the vines"){: .center-image }
+{% picture paradigm/1.jpg alt="" title="Getting lost in the vines" class="center-image" %}
 ***Caption Title:*** *We had a chance to walk through the vineyard and see what is responsible for the great wine.  Since it was the brother-in-law on duty that day, we got to hear some great stories about the early history of the winery.*
 {: .center-caption }
 
