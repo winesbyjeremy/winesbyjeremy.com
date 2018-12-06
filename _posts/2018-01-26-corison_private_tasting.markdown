@@ -1,36 +1,45 @@
 ---
 layout: review
-title:  Corison Private Tasting
+title: Corison Private Tasting
 author: Jeremy Myers
-date:   2018-XX-XX 15:20:00 -0400
+date:   2019-01-26 15:20:00 -0400
 tags: review winery tasting california napa st-helena
+image: corison/1.jpg
 location:
   latitude: 38.484965
   longitude: -122.447364
+  street: 987 St Helena Hwy
+  city: St Helena
+  state: CA
+  zip: 94574
+  country: US
 winery_details:
   name: Corison
   url: https://corison.com/
   rating: 95
   tasting: $50
+  price: $50
+  tasting_type: Private Tasting
+  accepts_reservations: "Yes"
   reservation: Yes
 ---
 One of the very first female winemakers and at 5'1", Cathy was laughed off by her female professors when she said she wanted to make wine.  But thanks to fortunate circumstances, she got her start at Freemark Abbey, transitioned to working at Chappellet after a while and eventually worked with the vines that became Lokoya on Spring Mountain.  After she accumulated enough experience and capital, she found some great land that spoke to her in St. Helena and the rest is history.  She produces a Gewurztraminer and three different Cabernets at Corison, whose fruit comes from the valley floor are all dry farmed.  
 
-![](/assets/corison/1.jpg "Where are my sunglasses?"){: .center-image }
+{% picture corison/1.jpg alt="" title="Where are my sunglasses?" class="center-image" %}
 ***Caption Title:*** *Getting ready for my first tasting of the day!  I must have been facing east for the picture because I look like I needed some sunglasses.*
 {: .center-caption }
 
-![](/assets/corison/2.jpg "So much wine..."){: .center-image }
+{% picture corison/2.jpg alt="" title="So much wine..." class="center-image" %}
 ***Caption Title:*** *The view from the entrance to the Corison Winery.  I dare only imagine how many bottles of excellent wine they will turn into*
 {: .center-caption }
 
 Kronos is her old vine Cabernet that grows on unique loam that is basically gravel after a 1-2 foot layer of clay.  The Napa Valley and Sunbasket wines are old cabernets (planted in the 90s) that don’t quite meet the "old vine" definition, but are also high quality.  In addition to the dry farming and earlier harvest date, the spacing between the vines is huge because they were planted back in the day when machinery was bulkier and require more spacing between vines.  All of these circumstances combine to produce wines that are very complex, elegant, higher in acidity, and consistenly have an ABV below 14%, which is almost blasphemy for Napa Cabernet.  Cathy also makes sure to soften the tannins so consumers can drink the wines earlier in their life as well.
 
-![](/assets/corison/3.jpg "Paradise"){: .center-image }
+{% picture corison/3.jpg alt="" title="Paradise" class="center-image" %}
 ***Caption Title:*** *The view of the vineyards from the winery.  I wish my backyard looked like this*
 {: .center-caption }
 
-![](/assets/corison/4.jpg "Old Vines"){: .center-image }
+{% picture corison/4.jpg alt="" title="Old Vines" class="center-image" %}
 ***Caption Title:*** *A look into the Chronos Vineyard.  You can see that the Cabernets are all old vines and the rootstock is extremely knarled.  They also utilize dry farming and wide spacing for their vines which increases the quality even further.*
 {: .center-caption }
 
