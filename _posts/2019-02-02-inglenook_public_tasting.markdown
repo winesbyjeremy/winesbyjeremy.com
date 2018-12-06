@@ -1,22 +1,31 @@
 ---
 layout: review
-title:  Inglenook Public Tasting
+title: Inglenook Public Tasting
 author: Jeremy Myers
-date:   2018-XX-XX 15:20:00 -0400
+date:   2019-02-02 15:20:00 -0400
 tags: review winery tasting california napa rutherford
+image: inglenook/1.jpg
 location:
   latitude: 38.454675
   longitude: -122.430925
+  street: 1991 St Helena Hwy
+  city: Rutherford
+  state: CA
+  zip: 94573
+  country: US
 winery_details:
   name: Inglenook
   url: https://www.inglenook.com/
   rating: 94
   tasting: $45
-  reservation: Yes
+  price: $45
+  tasting_type: Public Tasting
+  accepts_reservations: "Yes"
+  reservation: Recommended but not required
 ---
 I've had (the very affordable) Francis Coppola wines before and was skeptical of Inglenook even before reading the reviews by the major wine publications.  But I think you can officially change my status from skeptic to believer, because everything about this winery is impressive.  For example, when you make your way to the winery, Google Maps bring you to a small building that turns out to be the check-in desk where they confirm your reservation, give you a ticket to scan at the estate gate, and send you on your way.
 
-![](/assets/inglenook/1.jpg "Where are you taking me?"){: .center-image }
+{% picture inglenook/1.jpg alt="" title="Where are you taking me?" class="center-image" %}
 ***Caption Title:*** *For a while there, it seemed like the road would go on forever.  That's definitely one way to heighten the expectations of visitors.*
 {: .center-caption }
 
@@ -24,7 +33,7 @@ The driveway is quite long and leads you to a large parking lot that is next to 
 
 Inglenook, or more accurately the winery that existed before it was purchased and named Inglenook, was founded by a Finnish animal fur trader in the 1850s, who had been responsibe for a vast amount of charting along the west coast.  He was a wine conneiseur, his wife a SF socialite.  It's no surprise that they compromised and moved from fur trading to operating a winery in Napa.  And it certainly wasn't about the money - he wanted to show the world that he could make wines that could rival the world’s best in France.  This, a 100+ years before the Judgement of Paris.  Just hearing about the passion and history is enough to get you excited about the wines.
 
-![](/assets/inglenook/2.jpg "There was none left for me..."){: .center-image }
+{% picture inglenook/2.jpg alt="" title="There was none left for me..." class="center-image" %}
 ***Caption Title:*** *I feel like I needed to include a picture of this bottle in the post.  If you are wondering why, I'd recommend doing some research on the older Niebaum-Coppola wines that were released.  Then, you will understand...*
 {: .center-caption }
 
