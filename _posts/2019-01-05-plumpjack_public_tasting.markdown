@@ -1,25 +1,34 @@
 ---
 layout: review
-title:  Plumpjack Public Tasting
+title: Plumpjack Public Tasting
 author: Jeremy Myers
-date:   2018-XX-XX 15:20:00 -0400
+date:   2019-01-05 15:20:00 -0400
 tags: review winery tasting california napa oakville
+image: plumpjack/1.jpg
 location:
   latitude: 38.455435
   longitude: -122.374152
+  street: 620 Oakville Cross Rd
+  city: Napa
+  state: CA
+  zip: 94558
+  country: US
 winery_details:
   name: Plumpjack
   url: https://plumpjackwinery.com/
   rating: 94
   tasting: $40
-  reservation: Recommended
+  price: $30
+  tasting_type: Public Tasting
+  accepts_reservations: "Yes"
+  reservation: Recommended but not required
 ---
 
-![](/assets/plumpjack/1.jpg "PJW!"){: .center-image }
+{% picture plumpjack/1.jpg alt="" title="PJW!" class="center-image" %}
 ***Caption Title:*** *The entrance to the Plumpjack Winery!  As we arrived close to 10:30, we were the only visitors at the winery which made for a nice experience.*
 {: .center-caption }
 
-![](/assets/plumpjack/2.jpg "Wine Ambassadors!!"){: .center-image }
+{% picture plumpjack/2.jpg alt="" title="First-Class Wine Ambassadors" class="center-image" %}
 ***Caption Title:*** *Another benefit of going to the winery early in the day - everyone is available for a photograph!!  Everyone was very nice and opened a couple extra wines for our tasting, for which we were very grateful.*
 {: .center-caption }
 
