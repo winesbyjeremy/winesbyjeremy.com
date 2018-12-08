@@ -18,7 +18,7 @@ winery_details:
   url: https://plumpjackwinery.com/
   rating: 94
   tasting: $40
-  price: $30
+  price: $40
   tasting_type: Public Tasting
   accepts_reservations: "Yes"
   reservation: Recommended but not required
