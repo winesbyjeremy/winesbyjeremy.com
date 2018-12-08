@@ -31,11 +31,15 @@ I've had (the very affordable) Francis Coppola wines before and was skeptical of
 
 The driveway is quite long and leads you to a large parking lot that is next to the largest campus I have seen in the Napa Valley so far.  What's more, it contrasts wineries like Hall in that everything about the campus looks and feels historic.  The backstory of this land seems surreal when you hear about it, but once you explore and read the signs that are everywhere, you really start to understand that this land is special.
 
-Inglenook, or more accurately the winery that existed before it was purchased and named Inglenook, was founded by a Finnish animal fur trader in the 1850s, who had been responsibe for a vast amount of charting along the west coast.  He was a wine conneiseur, his wife a San Francisco socialite.  It's no surprise that they compromised and moved from fur trading to operating a winery in Napa.  And it certainly wasn't about the money - he wanted to show the world that he could make wines that could rival the world’s best in France.  This, a 100+ years before the Judgement of Paris.  Just hearing about the passion and history is enough to get you excited about the wines.
-
-{% picture inglenook/2.jpg alt="" title="There was none left for me..." class="center-image" %}
-***Caption Title:*** *I feel like I needed to include a picture of this bottle in the post.  If you are wondering why, I'd recommend doing some research on the older Niebaum-Coppola wines that were released.  Then, you will understand...*
+{% picture inglenook/2.jpg alt="" title="So bright outside..." class="center-image" %}
+***Caption Title:*** *After parking in the large lot they have, you'll walk past a large veranda on the way to the main winery building.  I know why that veranda exists now - it gets really bright outside and makes selfies tough.  And yes, those are grapevines over my shoulder.*
 {: .center-caption }
+
+{% picture inglenook/3.jpg alt="" title="Too much shade..." class="center-image" %}
+***Caption Title:*** *I feel like Goldilocks; this angle has too much shade.  That shade is caused by the massive winery building, while behind me is the large open area that is perfect for mini-picnincs and enjoying bottles outside.  The resolution on my camera phone may be bad, but the view is really nice.*
+{: .center-caption }
+
+Inglenook, or more accurately the winery that existed before it was purchased and named Inglenook, was founded by a Finnish animal fur trader in the 1850s, who had been responsibe for a vast amount of charting along the west coast.  He was a wine conneiseur, his wife a San Francisco socialite.  It's no surprise that they compromised and moved from fur trading to operating a winery in Napa.  And it certainly wasn't about the money - he wanted to show the world that he could make wines that could rival the world’s best in France.  This, a 100+ years before the Judgement of Paris.  Just hearing about the passion and history is enough to get you excited about the wines.
 
 When Francis Coppola purchased the land, Robert Mondavi immediately called him to setup a dinner.  At this dinner, Mondavi proceeded to explain the history and potential to Francis, practically charging Coppola that he had the moral responsibility to restore Inglenook to its former glory.  After digging some 50+ year old wines out of the Inglenook cellar and tasting them with Mondavi, Coppola was convinced and so the dream was born.  And if that isn't enough to get you excited, the current consulting winemaker (Philippe Bascaules) happens to be the President of Chateau Margaux, who now flies back to California every few months to make sure that Inglenook is producing amazing wines, as nature intended.  Coppola is also Italian – that’s why there is a Zindandel (known in Italy as Primitivo) here.  If you want French styled wine that just has great balance and takes avantage of Napa's strengths, you need to try these wines:
 
@@ -52,7 +56,19 @@ When Francis Coppola purchased the land, Robert Mondavi immediately called him t
 * [**2014 Rubicon**](https://www.inglenook.com/Purchase/Details/RB14) ($210)
   * Wow, this really does remind me of a First Growth Bordeaux in so many ways.  The lower alcohol, the significant amount of tertiary notes on the mid-to-late palate and the nose that just hints at it.  This wine will probably peak in 20-30 years according to the Advanced Somm, though it can be aged well into its 40s.  It's hard for me to see that though as it's just so smooth right now and very approachable while showing off all the characteristics that you might expect from an aged wine.  Insider Tip for the wine collectors out there - the best vintages to look for (in order of greatness) 78, 79, 91, 95, 96, 01, 03, 04.  The Rubicon has a higher price point than many other wineries' flagship wine, but I think it deserves it due to its complexity.  Though, the wine becomes more affordable with a Winery Membership (20% off!)
 
+{% picture inglenook/4.jpg alt="" title="There was none left for me..." class="center-image" %}
+***Caption Title:*** *I feel like I needed to include a picture of this bottle in the post.  If you are wondering why, I'd recommend doing some research on the older Niebaum-Coppola wines that were released.  Then, you will understand...*
+{: .center-caption }
+
 After tasting the wines and regaining my bearings, I also started to notice details of the amazing building I was sitting in.  The building's exterior sets your expectations high and the inside does not disappoint.  Before or after the tasting, you can navigate the cellars of the building and take a look at more history.  The tasting room itself feels 200+ years old and is staffed by professional Sommeliers who are dressed as if they were working in a three-star Michelin restaurant.  Their demeanor aside, you can tell that each one doesn't just consider Inglenook a job - they sincerely believe that each wine is world-class and represents the best its varietal has to offer (e.g. Zinfandel, Cabernet, and the Northern Rhone white blend).  After all, one of the benefits of working at the winery is tasting the wines!
+
+{% picture inglenook/5.jpg alt="" title="So many barrels" class="center-image" %}
+***Caption Title:*** *The view down the hallway inside their winery building.  As you can see from the walls in the picture, this building has been around for a very long time.  It's impressive how aligned the doorways were as technology was very different back in the day.*
+{: .center-caption }
+
+{% picture inglenook/6.jpg alt="" title="For the bigshots" class="center-image" %}
+***Caption Title:*** *If you are a real big shot, maybe you get to hold your tasting in one of these private rooms off the main hallway.  What interests me even more is do you get to try the bottles that are aging in there?  I wasn't able to go inside to see, but I can guess they are not recent vintages.*
+{: .center-caption }
 
 This is a fantastic location to bring friends and possibly enjoy a picnic outside on the lawn with a bottle or two of their wines.  Though, I think it was nearly as fulfilling to go alone and really take the time to enjoy each one of these unique wines.  Each had a different expression than most Napa wines I've had of the same varietal and the value is solid, especially if you become a member and save 20% on each of the wines that you purchase!  The wines also all had an old world vibe to them, without any flaws from being underripe.  If a friend visitng Napa were to ask me for European-styled wines that weren't all Cabernets, this is where I would send them.
 
