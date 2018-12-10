@@ -31,9 +31,13 @@ Frank Family is one of those vineyards that aren't hyped by the major wine revie
 
 Found off Highway 29 in Calistoga, the Frank Family winery is very traditional in the design of its buildings and landscape.  After all, the winery portion was purchased from Larkmead some years back.  The interior is very polished with a darker, old fashioned wood theme.  After taking a picture on their red carpet (of course they had one), I was led inside and joined by two other groups for the tasting.  
 
+{% picture frank-family/2.jpg alt="" title="Red Carpet Rollin" class="center-image" %}
+***Caption Title:*** *Enjoying my time on the red carpet.  I must admit, I look very asian in this photograph, but definitely not up to the crazy rich asian standard.  That movie changed the game.*
+{: .center-caption }
+
 The five others that were seated with me at the tasting were relatively new to wine, so the hostess adjusted the tasting to their experience level.  And though she didn't have any formal training or a wine background, she was very engaging and very good at recalling her facts!  It's nice to enjoy tastings like this because it serves as a reminder that not everyone will develop a passion or an intellectual curiosity for all things wine.  But that doesn't mean that they can't enjoy it for what it is as much as I do.  And instead of serious talk about wine chemistry, we enjoyed sharing stories about the biggest bloopers we've all made with wine.
 
-{% picture frank-family/2.jpg alt="" title="Storytelling and Laughs" class="center-image" %}
+{% picture frank-family/3.jpg alt="" title="Storytelling and Laughs" class="center-image" %}
 ***Caption Title:*** *Sharing some stories and some laughs over sparkling wine in the tasting room.*
 {: .center-caption }
 
