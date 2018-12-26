@@ -3,7 +3,7 @@ layout: review
 title: Boutique Famille Perrin Public Tasting
 author: Jeremy Myers
 date:   2019-XX-XX 15:20:00 -0400
-tags: review winery tasting france rhone-valley chateauneuf-du-pape 
+tags: review winery tasting france southern-rhone chateauneuf-du-pape 
 image: famille-perrin/1.jpg
 location:
   latitude: 44.055740
