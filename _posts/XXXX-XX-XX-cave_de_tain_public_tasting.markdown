@@ -1,24 +1,23 @@
 ---
 layout: review
-title: Inglenook Public Tasting
+title: Cave de Tain Public Tasting
 author: Jeremy Myers
-date:   2019-02-02 15:20:00 -0400
-tags: review winery tasting california napa rutherford
-image: inglenook/1.jpg
+date:   2019-XX-XX 15:20:00 -0400
+tags: review winery tasting france northern-rhone hermitage
+image: cave-de-tain/1.jpg
 location:
-  latitude: 38.454675
-  longitude: -122.430925
-  street: 1991 St Helena Hwy
-  city: Rutherford
-  state: CA
-  zip: 94573
-  country: US
+  latitude: 45.071782
+  longitude: 4.845820
+  street: 22 Route de Larnage
+  city: Tain-l'Hermitage
+  zip: 26600
+  country: FR
 winery_details:
-  name: Inglenook
-  url: https://www.inglenook.com/
+  name: Cave de Tain
+  url: https://www.cavedetain.com/en/
   rating: 94
-  tasting: $45
-  price: $45
+  tasting: $0
+  price: $0
   tasting_type: Public Tasting
   accepts_reservations: "Yes"
   reservation: Recommended but not required
