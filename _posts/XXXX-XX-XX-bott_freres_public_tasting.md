@@ -3,25 +3,24 @@ layout: review
 title: Bott Freres Public Tasting
 author: Jeremy Myers
 date:   XXXX-XX-XX 15:20:00 -0400
-tags: review winery tasting alsace
+tags: review winery tasting france alsace ribeauville
 image: bott-freres/1.jpg
 location:
-  latitude: 
-  longitude: 
-  street: 
-  city: 
-  state: 
-  zip: 
-  country: 
+  latitude: 48.189305
+  longitude: 7.325353
+  street: 13 Avenue du Gén de Gaulle
+  city: Ribeauville
+  zip: 68150
+  country: FR
 winery_details:
   name: Bott Freres
-  url: 
-  rating: 
-  tasting: $50 for someign
-  price: $15
+  url: https://www.bott-freres.fr/en/
+  rating: 96
+  tasting: $0
+  price: $0
   tasting_type: Public Tasting
   accepts_reservations: "No"
-  reservation: , No for Traditional Tastings
+  reservation: No
 ---
 There are many exciting wineries 
 
