@@ -3,25 +3,24 @@ layout: review
 title: Domaine Rhone 2 Vallees Private Tasting
 author: Jeremy Myers
 date:   XXXX-XX-XX 15:20:00 -0400
-tags: review winery tasting alsace
+tags: review winery tasting france northern-rhone cote-rotie
 image: rhone-2-vallees/1.jpg
 location:
-  latitude: 
-  longitude: 
-  street: 
-  city: 
-  state: 
-  zip: 
-  country: 
+  latitude: 45.487270
+  longitude: 4.800151
+  street: 41 Route de la Taquière
+  city: Ampuis
+  zip: 69420
+  country: FR
 winery_details:
   name: Domaine Rhone 2 Vallees
-  url: 
-  rating: 
-  tasting: $50 for the Cristom Experience
-  price: $15
+  url: https://domaine-des-vignes.com/
+  rating: 96
+  tasting: $0
+  price: $0
   tasting_type: Private Tasting
   accepts_reservations: "Yes"
-  reservation: Yes for the Cristom Experience
+  reservation: Yes
 ---
 There are many exciting wineries to visit in 
 
