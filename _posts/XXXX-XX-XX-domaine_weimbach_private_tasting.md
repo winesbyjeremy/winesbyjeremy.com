@@ -1,27 +1,26 @@
 ---
 layout: review
-title: Domaine Weimbach Private Tasting
+title: Domaine Weinbach Private Tasting
 author: Jeremy Myers
 date:   XXXX-XX-XX 15:20:00 -0400
-tags: review winery tasting alsace
-image: domaine-weimbach/1.jpg
+tags: review winery tasting france alsace kaysersberg
+image: domaine-weinbach/1.jpg
 location:
-  latitude: 
-  longitude: 
-  street: 
-  city: 
-  state: 
-  zip: 
-  country: 
+  latitude: 48.136243
+  longitude: 7.273176
+  street: 25 Route du Vin
+  city: Kaysersberg-Vignoble
+  zip: 68240
+  country: FR
 winery_details:
-  name: Dmaine Weimbach
-  url: 
-  rating: 
-  tasting: $50 for the Cristom Experience
-  price: $15
+  name: Domaine Weinbach
+  url: http://www.domaineweinbach.com/
+  rating: 95
+  tasting: Free with Purchases
+  price: $0
   tasting_type: Private Tasting
   accepts_reservations: "Yes"
-  reservation: Yes for the Cristom Experience
+  reservation: Yes
 ---
 There are many exciting wineries to visit in 
 
