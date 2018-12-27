@@ -1,22 +1,21 @@
 ---
 layout: review
-title: Marc Kreydenweiss Private Tasting
+title: Domaine Marc Kreydenweiss Private Tasting
 author: Jeremy Myers
 date:   XXXX-XX-XX 15:20:00 -0400
-tags: review winery tasting alsace ?????????/
-image: cristom/1.jpg
+tags: review winery tasting france alsace andlau
+image: marc-kreydenweiss/1.jpg
 location:
-  latitude: 
-  longitude: 
-  street: 
-  city: 
-  state: 
-  zip: 
-  country: 
+  latitude: 48.388356
+  longitude: 7.415507
+  street: 12 Rue Deharbe
+  city: Andlau
+  zip: 67140
+  country: FR
 winery_details:
-  name: Marc Kreydenweiss
-  url: 
-  rating: 92
+  name: Domaine Marc Kreydenweiss
+  url: http://www.kreydenweiss.com/
+  rating: 94
   tasting: Free with Purchases
   price: $0
   tasting_type: Private Tasting
