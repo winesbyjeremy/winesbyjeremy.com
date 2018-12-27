@@ -3,22 +3,21 @@ layout: review
 title: Cave du Ribeauville Public Tasting
 author: Jeremy Myers
 date:   XXXX-XX-XX 15:20:00 -0400
-tags: review winery tasting alsace
+tags: review winery tasting france alsace ribeauville
 image: cave-du-ribeauville/1.jpg
 location:
-  latitude: 
-  longitude: 
-  street: 
-  city: 
-  state: 
-  zip: 
-  country: 
+  latitude: 48.191907
+  longitude: 7.327104
+  street: 2 Route de Colmar
+  city: Ribeauville
+  zip: 68150
+  country: FR
 winery_details:
   name: Cave du Ribeauville
-  url: 
-  rating: 
-  tasting: $50 for the Cristom Experience
-  price: $15
+  url: https://www.vins-ribeauville.com/en/
+  rating: 94
+  tasting: $0
+  price: $0
   tasting_type: Public Tasting
   accepts_reservations: "No"
   reservation: No
