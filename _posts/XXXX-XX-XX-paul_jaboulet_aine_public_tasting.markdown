@@ -1,24 +1,23 @@
 ---
 layout: review
-title: Inglenook Public Tasting
+title: Paul Jaboulet Aîné Public Tasting
 author: Jeremy Myers
-date:   2019-02-02 15:20:00 -0400
-tags: review winery tasting california napa rutherford
-image: inglenook/1.jpg
+date:   2019-XX-XX 15:20:00 -0400
+tags: review winery tasting france northern-rhone hermitage
+image: paul-jaboulet-aine/1.jpg
 location:
-  latitude: 38.454675
-  longitude: -122.430925
-  street: 1991 St Helena Hwy
-  city: Rutherford
-  state: CA
-  zip: 94573
-  country: US
+  latitude: 45.070717
+  longitude: 4.837031
+  street: 25 Place du Taurobole
+  city: Tain-l'Hermitage
+  zip: 26600
+  country: FR
 winery_details:
-  name: Inglenook
-  url: https://www.inglenook.com/
-  rating: 94
-  tasting: $45
-  price: $45
+  name: Paul Jaboulet Aîné
+  url: http://www.jaboulet.com/Website/site/fra_prehome.htm
+  rating: 96
+  tasting: 25€
+  price: 25€
   tasting_type: Public Tasting
   accepts_reservations: "Yes"
   reservation: Recommended but not required
