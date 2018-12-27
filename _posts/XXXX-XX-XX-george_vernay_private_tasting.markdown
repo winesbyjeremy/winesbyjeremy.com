@@ -1,27 +1,26 @@
 ---
 layout: review
-title: Inglenook Public Tasting
+title: Domaine Georges Vernay Private Tasting
 author: Jeremy Myers
-date:   2019-02-02 15:20:00 -0400
-tags: review winery tasting california napa rutherford
-image: inglenook/1.jpg
+date:   2019-XX-XX 15:20:00 -0400
+tags: review winery tasting france northern-rhone cote-rotie
+image: georges-vernay/1.jpg
 location:
-  latitude: 38.454675
-  longitude: -122.430925
-  street: 1991 St Helena Hwy
-  city: Rutherford
-  state: CA
-  zip: 94573
-  country: US
+  latitude: 45.465577
+  longitude: 4.771807
+  street: 1 Rue Nationale
+  city: Condrieu
+  zip: 69420
+  country: FR
 winery_details:
-  name: Inglenook
-  url: https://www.inglenook.com/
+  name: Domaine Georges Vernay
+  url: https://www.domaine-georges-vernay.fr/en
   rating: 94
-  tasting: $45
-  price: $45
-  tasting_type: Public Tasting
+  tasting: $0
+  price: $0
+  tasting_type: Private Tasting
   accepts_reservations: "Yes"
-  reservation: Recommended but not required
+  reservation: Yes
 ---
 I've had (the very affordable) Francis Coppola wines before and was skeptical of Inglenook even before reading the reviews by the major wine publications.  But I think you can officially change my status from skeptic to believer, because everything about this winery is impressive.  For example, when you make your way to the winery, Google Maps bring you to a small building that turns out to be the check-in desk where they confirm your reservation, give you a ticket to scan at the estate gate, and send you on your way.
 
