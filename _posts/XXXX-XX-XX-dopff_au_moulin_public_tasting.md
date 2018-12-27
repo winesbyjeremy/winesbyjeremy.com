@@ -3,25 +3,24 @@ layout: review
 title: Dopff au Moulin Public Tasting
 author: Jeremy Myers
 date:   XXXX-XX-XX 15:20:00 -0400
-tags: review winery tasting alsace
+tags: review winery tasting france alsace riquewihr
 image: dopff-au-moulin/1.jpg
 location:
-  latitude: 
-  longitude: 
-  street: 
-  city: 
-  state: 
-  zip: 
-  country: 
+  latitude: 48.166198
+  longitude: 7.304243
+  street: 2 Avenue Jacques Preiss
+  city: Riquewihr
+  zip: 68340
+  country: FR
 winery_details:
   name: Dopff au Moulin
-  url: 
-  rating: 
-  tasting: $50 for the Cristom
-  price: $15
+  url: http://www.dopff-au-moulin.fr/
+  rating: 91
+  tasting: 10€
+  price: 10€
   tasting_type: Public Tasting
   accepts_reservations: "Yes"
-  reservation: Yes for the Cristom 
+  reservation: No
 ---
 There are many exciting wineries to
 
