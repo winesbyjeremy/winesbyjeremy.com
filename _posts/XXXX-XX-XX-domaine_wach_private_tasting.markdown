@@ -3,25 +3,24 @@ layout: review
 title: Domaine Wach Private Tasting
 author: Jeremy Myers
 date:   XXXX-XX-XX 15:20:00 -0400
-tags: review winery tasting alsace
+tags: review winery tasting france alsace andlau
 image: domaine-wach/1.jpg
 location:
-  latitude: 
-  longitude: 
-  street: 
-  city: 
-  state: 
-  zip: 
-  country: 
+  latitude: 48.386020
+  longitude: 7.423286
+  street: 5 Rue de la Commanderie
+  city: Andlau
+  zip: 67140
+  country: FR
 winery_details:
   name: Domaine Wach
-  url: 
-  rating: 
-  tasting: 
-  price: $75
+  url: http://www.vins-wach.fr/
+  rating: 92
+  tasting: Free with Purchase
+  price: $0
   tasting_type: Public Tasting
   accepts_reservations: "Yes"
-  reservation: Yes for the Cristom Experience
+  reservation: Recommended but not required
 ---
 There are many exciting wineries 
 
