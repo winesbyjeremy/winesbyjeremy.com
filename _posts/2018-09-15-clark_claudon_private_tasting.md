@@ -23,9 +23,7 @@ winery_details:
   accepts_reservations: "Yes"  
   reservation: Yes
 ---
-Not all of the best places in Napa are the highly rated (e.g. Lokoya), produced by someone famous (e.g. Michel Rolland) or have a well-established pedigree (e.g. Opus One).  Some are family businesses that truly enjoy making good wine and sharing it with others.  Add unassuming, hard-to-find, and approachable to that mix, and you have Clark-Claudon.
-
-I first had a bottle of Clark-Claudon Cabernet Sauvignon after seeing it ranked fairly high on Vivino.  As soon as I poured myself a glass, I was hooked.  Deep inky color, a very fresh nose of blue/black fruit, and crushed rocks in the palate profile - it was one of my first Cabernets where the fruit and secondary/tertiary flavor characteristics truly harmonized for me.  So I looked them up on the internet, sent an email requesting a tasting and set off on my journey to pay homage.
+Not all of the best places in Napa are the highly rated (e.g. Lokoya), produced by someone famous (e.g. Michel Rolland) or have a well-established pedigree (e.g. Opus One).  Some are family businesses that truly enjoy making good wine and sharing it with others.  Add unassuming, hard-to-find, and approachable to that mix, and you have Clark-Claudon.  I first had a bottle of Clark-Claudon Cabernet Sauvignon after seeing it ranked fairly high on Vivino.  As soon as I poured myself a glass, I was hooked.  Deep inky color, a very fresh nose of blue/black fruit, and crushed rocks in the palate profile - it was one of my first Cabernets where the fruit and secondary/tertiary flavor characteristics truly harmonized for me.  So I looked them up on the internet, sent an email requesting a tasting and set off on my journey to pay homage.
 
 {% picture clark_claudon/1.jpg alt="" title="Not the best lighting..." class="center-image" %}
 ***Caption Title:*** *Taking a quick photo outside their Howell Mountain vineyard before we dig into the tasting*
