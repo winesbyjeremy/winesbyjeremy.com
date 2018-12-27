@@ -3,25 +3,24 @@ layout: review
 title: Hugel et Fils Public Tasting
 author: Jeremy Myers
 date:   XXXX-XX-XX 15:20:00 -0400
-tags: review winery tasting alsace
+tags: review winery tasting france alsace riquewihr
 image: hugel/1.jpg
 location:
-  latitude: 
-  longitude: 
-  street: 
-  city: 
-  state: 
-  zip: 
-  country: 
+  latitude: 48.166588
+  longitude: 7.297217
+  street: 3 Rue de la 1E Armée
+  city: Riquewihr
+  zip: 68340
+  country: FR
 winery_details:
   name: Hugel et Fils
-  url: 
-  rating: 
-  tasting: $50 for the Cristom Experience
-  price: $15
+  url: http://www.hugel.com/
+  rating: 96
+  tasting: $0
+  price: $0
   tasting_type: Public Tasting
   accepts_reservations: "Yes"
-  reservation: Yes for the Cristom Experience
+  reservation: No
 ---
 There are many exciting wineries to visit in
 
