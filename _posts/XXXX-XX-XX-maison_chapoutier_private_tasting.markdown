@@ -1,24 +1,23 @@
 ---
 layout: review
-title: Inglenook Public Tasting
+title: Maison M. Chapoutier Public Tasting
 author: Jeremy Myers
-date:   2019-02-02 15:20:00 -0400
-tags: review winery tasting california napa rutherford
-image: inglenook/1.jpg
+date:   2019-XX-XX 15:20:00 -0400
+tags: review winery tasting france northern-rhone hermitage
+image: chapoutier/1.jpg
 location:
-  latitude: 38.454675
-  longitude: -122.430925
-  street: 1991 St Helena Hwy
-  city: Rutherford
-  state: CA
-  zip: 94573
-  country: US
+  latitude: 45.070852
+  longitude: 4.839715
+  street: 18 Avenue Dr Paul Durand
+  city: Tain-l'Hermitage
+  zip: 26600
+  country: FR
 winery_details:
-  name: Inglenook
-  url: https://www.inglenook.com/
-  rating: 94
-  tasting: $45
-  price: $45
+  name: Maison M. Chapoutier
+  url: http://www.chapoutier.fr/index-gb.cfm
+  rating: 95
+  tasting: $0
+  price: $0
   tasting_type: Public Tasting
   accepts_reservations: "Yes"
   reservation: Recommended but not required
