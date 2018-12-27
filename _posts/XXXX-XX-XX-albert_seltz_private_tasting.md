@@ -1,18 +1,26 @@
 ---
 layout: review
-title:  Albert Seltz Private Tasting
+title: Domaine Albert Seltz Private Tasting
 author: Jeremy Myers
-date:   XXXX-XX-XX 15:20:00 -0400
+date:   2019-XX-XX 15:20:00 -0400
 tags: review winery tasting france alsace mittelbergheim
+image: albert-seltz/1.jpg
 location:
   latitude: 48.395793
   longitude: 7.443637
+  street: 
+  city: 
+  zip: 
+  country: FR
 winery_details:
   name: Domaine Albert Seltz
-  url: http://www.albert-seltz.fr/
-  rating: 92
-  tasting: Free with Purchase
-  reservation: Yes
+  url: http://www.albert-seltz.fr/#
+  rating: 94
+  tasting: $0
+  price: $0
+  tasting_type: Public Tasting
+  accepts_reservations: "Yes"
+  reservation: Recommended but not required
 ---
 The first stop on my Alsace + Rhone wine vacation.  Straight off the train from Strasbourg, I walked half a mile with all of my luggage to get here.  The backwoods path was beautiful but carrying three bags will put a damper on enjoying that.  I was sad to find that there was (literally) no one home upon my arrival.  After waiting 30 minutes in the shade with their dog, a woman returning from the field was startled to discover me standing there - I had not called ahead for an appointment.  After collecting herself and learning I was an American on an Alsacian Wine Crusade, she guided me inside for a tasting.  Their tasting room doubled as their office, which had several desks and a small 4-stool tasting bar where we broke out some of the wines in their inventory.  NOTE: This was a family-run winery and didn't have the infrastructure of a larger establishment.  It soon didn't matter to me as the wines were very good and all I could think about.
 
