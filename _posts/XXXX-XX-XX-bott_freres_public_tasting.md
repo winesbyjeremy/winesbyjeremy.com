@@ -22,23 +22,21 @@ winery_details:
   accepts_reservations: "No"
   reservation: No
 ---
-There are many exciting wineries 
+The thing I love about Alsace is that most of the production comes from small, family-owned wineries.  This can be seen as a double-edged sword because while the styles and varieties on the market can be very different, the quality of production can be very different too.  Luckily, that isn't an issue with Alsace as the quality is consistently very high across the board.  Though you do find some wineries that just seem to be on another level.  Bott Freres may be my favorite winery in all of Alsace in the 10-20 Euro range.  I know that is a strong statement and I truly hope that gets you to visit the winery if you ever find yourself in the Alsace region.
 
-{% picture bott-freres/2.jpg title="TV Antennae" class="center-image" %}
+I got super lucky in that my waiter at lunch was the one who recommended I stop by.  I was confused because I hadn't seen the winery during my earlier walk through the city.  Unlike most wineries in the Alsace region, the storefront for Bott Freres isn't in town along the main street, nor does it have a huge building like Cave du Ribeauville.  You need to walk a little ways (e.g. .5-1 mile) off the main stret to find the storefront.  I was unlucky because as I was walking there, the skies opened up and it felt like the city was going to flood.
+
+After receiving a towel from their wine ambassador and telling them my story (and why I had no vehicle with me), we started the tasting.  There are times when my palate is a little off after a meal and wine (especially sparkling / white wine) is not as enjoyable as they usually are.  I had no issues with that at all during this tasting, which I think is further proof to how good these wines were.  
+
+{% picture bott-freres/2.jpg title="" class="center-image" %}
 ***Caption Title:*** **
 {: .center-caption }
 
-I don't know if this was the actual lineup, or I got a few extra bottles because of the picture above, but I got to taste basically the entire inventory that Cristom had available at the time:
+NOTE: I don't know if this was the actual tasting lineup, or if I got a few extra bottles to try because of the kind wine ambassador, but I think I had the opportunity to try most of their portfolio, with maybe a few exceptions (e.g. Their reserve wines).  :
 
-* [**2015 Estate Viognier**](https://www.cristomvineyards.com/product/2016-Estate-Viognier) ($30)
+o Wine Universe – Distributor in New York.  DB Wine Selection.  Based in the Northeast US is an Importer and a Distributor.  They may be able to get the wines I want for me.  To ship a case to the USA directly from the winery, it’s 202 Euros for shipping and taxes on shipping.  Their muscat was something to write home about.  So is their Reserve Personnelle Gewurztraminer.  So is their Riesling Vendages Tardives.  But I bought their Kirchberg de Ribeauville.  Also, I think I love Gladys – she was very nice and went out of her way many times to either give me information or let me taste extra.
 
-o	Not allowed to do irrigation in Alsace – only exception is when you plant the vine until its 3 years old and ready to produce grapes.  The Black forest and the Vosges mountains were actually connected many years ago.  Ribeauville is actually a point where that connection happened, so when it collapsed and former the Rhine Valley as the two spread apart, it opened many different layers of soil / many types of terroir that Ribeauville now has all around its area.
-
-Maybe my favorite small producer in Alsace?
-
-o	Wine Universe – Distributor in New York.  DB Wine Selection.  Based in the Northeast US is an Importer and a Distributor.  They may be able to get the wines I want for me.  To ship a case to the USA directly from the winery, it’s 202 Euros for shipping and taxes on shipping.  Their muscat was something to write home about.  So is their Reserve Personnelle Gewurztraminer.  So is their Riesling Vendages Tardives.  But I bought their Kirchberg de Ribeauville.  Also, I think I love Gladys – she was very nice and went out of her way many times to either give me information or let me taste extra.
-
-o	Style is definitely more purity / straightforwardness in their wine.  Also its definitely terroir driven – even more so than Cave de Ribeauville.  The hostess is around 21 years old (been in the wine business for 3 years and couldn’t go to a high school that specialized in it, so went into it right after).  Her parents own a vineyard, but they sell the fruit they cultivate to very big wineries.
+o Style is definitely more purity / straightforwardness in their wine.  Also its definitely terroir driven – even more so than Cave de Ribeauville.  The hostess is around 21 years old (been in the wine business for 3 years and couldn’t go to a high school that specialized in it, so went into it right after).  Her parents own a vineyard, but they sell the fruit they cultivate to very big wineries.
 
 * [**2017 Muscat**]() (9.60 Euros)
   * 50/50 Muscat d’Alsace and Muscat Ottonel.  Really fragrant on the nose with the usual aromas.  The mouthfeel is very nice with med+/high acid but with some body and a lingering finish with white flowers and honeysuckle.  The finish goes on for quite a long period of time.  The dryness and high acid makes the flower and honeysuckle very pronounced on the palate.  If you don’t like the finish, that’s the only drawback.
