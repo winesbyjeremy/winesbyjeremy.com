@@ -15,29 +15,29 @@ location:
 winery_details:
   name: Domaine de Beaurenard
   url: http://www.beaurenard.fr/indexgb.htm
-  rating: 88
+  rating: 86
   tasting: $0
   price: $0
   tasting_type: Public Tasting
   accepts_reservations: "Yes"
   reservation: No
 ---
-I've had (the very affordable) Francis Coppola wines before and was skeptical of Inglenook even before reading the reviews by the major wine publications.  But I think you can officially change my status from skeptic to believer, because everything about this winery is impressive.  For example, when you make your way to the winery, Google Maps bring you to a small building that turns out to be the check-in desk where they confirm your reservation, give you a ticket to scan at the estate gate, and send you on your way.
+All things considered, I think Domaine de Beaurenard was my least favorite tasting in Châteauneuf-du-Pape.  Granted, I did not make an appointment, but I was the only person at the winery when I arrived.  There was also a tasting tour group (one of those that you can purchase/schedule online that originates from Avignon) that came in 30 minutes after me, but the person behind the counter treated me with a mild neglect each time she poured a wine and didn't show any interest.
 
-{% picture inglenook/1.jpg alt="" title="Where are you taking me?" class="center-image" %}
-***Caption Title:*** *For a while there, it seemed like the road would go on forever.  That's definitely one way to heighten the expectations of visitors.*
+I don't think it was the language barrier either as I am pretty sure that she spoke English well.  If the wines had been fantastic, then I would've been glad to be left to my own devices.  But while the Blanc was entertaining, the other two reds felt too young and not ready for tasting.  I understand the 2016 vintage was excellent and these two could be excellent in a few years, but for someone not involved in the wine world, I don't think it was the best Châteauneuf-du-Pape has to offer.  
+
+
+{% picture beaurenard/1.jpg alt="" title="" class="center-image" %}
+***Caption Title:*** **
 {: .center-caption }
-
-* [**2016 Blancaneaux**](https://www.inglenook.com/Purchase/Details/BL16) ($65)
-  * A northern Rhone blend of Viognier, Marsanne, and Roussanne.  The fruit comes from Pritchet Hill (knob / giant hill), which is not to be confused with Pritchard Hill.  Pritchet Hill is the shadiest place in the Napa Valley (I know how that sounds), which is important for these varietals to shine.  There is almost no color at all to the wine and the nose is very light, reminiscent of French wine.  The palate has screaming high minerality, which makes the perception of the acidity maybe higher than it actually is.  There's also decent fruit and a nice clean finish of yellow fruit (apple) and some stonefruit.  A really nice alternative to the Chardonnay/Sauvignon Blanc typically grown in the Napa Valley.
 
 Domaine de Beaunrenard – Established 1880 (Demeter certified as Biodynamic since 2012).  
 
-* [**2017 Chateauneuf-du-Pape Blanc**]() (35 Euros)
-o	Majority of Clairette and Rousanne but have all 6 varietals.  White peaches and white flowers (bright), and there are some wood aromas in the nose as well.  Same on the palate except there is definitely a zestiness that I think comes from the minerality.  Med+ acid with a shorter finish.  Good for a hot day and food pairing because of that zest, but is lacking on its own.
-o	2016 Chateauneuf-du-Pape Rouge (35 Euros)
-o	GSM majority with the rest of the 13 grapes in the wine in lower qualities (clay/sand/stone terroirs in the bottle).  Need to aerate for 3 hours before drinking or laying down for 3-5 years.  Red fruit on the nose (cherry/strawberry) but med intensity and med brightness.  The palate has a lot of tannin still and is hard to diagnose, but there is a spice that is more red than black pepper.  The red fruit is a little light
-o	2016 Chateauneuf-du-Pape Boisrenard (55 Euros)
-o	Low quality production wine made from vines that are over 100 years old – so the distributions are unknown because everything is co-planted together in that vineyard (as it was in the olden days).  The nose is bigger, more complex and jammy than the first red wine.  Same on the palate – there red fruit, but more complexity from earth, old wood, thyme, and some slight spice notes.  Again, needs some time to age and integrate more, but there is definitely potential, especially if you prefer lighter styled wines that reflect the terroir more than anything.
+* [**2017 Chateauneuf-du-Pape Blanc**]() (35€)
+  * Majority of Clairette and Rousanne but have all 6 varietals.  White peaches and white flowers (bright), and there are some wood aromas in the nose as well.  Same on the palate except there is definitely a zestiness that I think comes from the minerality.  Med+ acid with a shorter finish.  Good for a hot day and food pairing because of that zest, but is lacking on its own.
+* [**2016 Chateauneuf-du-Pape Rouge**]() (35€)
+  * GSM majority with the rest of the 13 grapes in the wine in lower qualities (clay/sand/stone terroirs in the bottle).  Need to aerate for 3 hours before drinking or laying down for 3-5 years.  Red fruit on the nose (cherry/strawberry) but med intensity and med brightness.  The palate has a lot of tannin still and is hard to diagnose, but there is a spice that is more red than black pepper.  The red fruit is a little light
+* [**2016 Chateauneuf-du-Pape Boisrenard**]() (55€)
+  * Low quality production wine made from vines that are over 100 years old – so the distributions are unknown because everything is co-planted together in that vineyard (as it was in the olden days).  The nose is bigger, more complex and jammy than the first red wine.  Same on the palate – there red fruit, but more complexity from earth, old wood, thyme, and some slight spice notes.  Again, needs some time to age and integrate more, but there is definitely potential, especially if you prefer lighter styled wines that reflect the terroir more than anything.
 
-
+I personally would pass on this winery if given a chance to taste here again.  There are so many other estates in the Châteauneuf-du-Pape region, some even down the street from here (e.g. Roger SABON).  But I am also willing to admit that they winery could have just been having a bad day and serving the 2017 Reds next year might do better than the 2016s served this year.  Cheers!
