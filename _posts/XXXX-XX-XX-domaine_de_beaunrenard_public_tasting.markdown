@@ -33,7 +33,7 @@ I've had (the very affordable) Francis Coppola wines before and was skeptical of
 
 Domaine de Beaunrenard – Established 1880 (Demeter certified as Biodynamic since 2012).  
 
-o	2017 Chateauneuf-du-Pape Blanc (35 Euros)
+* [**2017 Chateauneuf-du-Pape Blanc**]() (35 Euros)
 o	Majority of Clairette and Rousanne but have all 6 varietals.  White peaches and white flowers (bright), and there are some wood aromas in the nose as well.  Same on the palate except there is definitely a zestiness that I think comes from the minerality.  Med+ acid with a shorter finish.  Good for a hot day and food pairing because of that zest, but is lacking on its own.
 o	2016 Chateauneuf-du-Pape Rouge (35 Euros)
 o	GSM majority with the rest of the 13 grapes in the wine in lower qualities (clay/sand/stone terroirs in the bottle).  Need to aerate for 3 hours before drinking or laying down for 3-5 years.  Red fruit on the nose (cherry/strawberry) but med intensity and med brightness.  The palate has a lot of tannin still and is hard to diagnose, but there is a spice that is more red than black pepper.  The red fruit is a little light
