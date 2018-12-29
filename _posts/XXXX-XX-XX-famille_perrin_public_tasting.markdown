@@ -22,18 +22,20 @@ winery_details:
   accepts_reservations: "No"
   reservation: No
 ---
-I've had (the very affordable) Francis Coppola wines before and was skeptical of Inglenook even before reading the reviews by the major wine publications.  But I think you can officially change my status from skeptic to believer, because everything about this winery is impressive.  For example, when you make your way to the winery, Google Maps bring you to a small building that turns out to be the check-in desk where they confirm your reservation, give you a ticket to scan at the estate gate, and send you on your way.
+Unfortunately, I was not able to visit the Beaucastel Estate, even though I tried to make a reservation...  So if anyone reading this article does manage to make it onsite and get the full treatment, please send me some pictures and let me know how it was!  If you are like me and are told to visit the wine shop in Châteauneuf-du-Pape, you'll likely experience something similar to me!  Luckily, finding the Famille Perrin wine shop is not hard.  In fact, if you head toward the circle in the city center, you cannot miss it.  The shop is literally right next to one of the main restaurants in the circle and is open most of the day (except during lunch time).
 
 {% picture inglenook/1.jpg alt="" title="Where are you taking me?" class="center-image" %}
 ***Caption Title:*** *For a while there, it seemed like the road would go on forever.  That's definitely one way to heighten the expectations of visitors.*
 {: .center-caption }
+
+
 
 * [**2016 Blancaneaux**](https://www.inglenook.com/Purchase/Details/BL16) ($65)
   * A northern Rhone blend of Viognier, Marsanne, and Roussanne.  The fruit comes from Pritchet Hill (knob / giant hill), which is not to be confused with Pritchard Hill.  Pritchet Hill is the shadiest place in the Napa Valley (I know how that sounds), which is important for these varietals to shine.  There is almost no color at all to the wine and the nose is very light, reminiscent of French wine.  The palate has screaming high minerality, which makes the perception of the acidity maybe higher than it actually is.  There's also decent fruit and a nice clean finish of yellow fruit (apple) and some stonefruit.  A really nice alternative to the Chardonnay/Sauvignon Blanc typically grown in the Napa Valley.
 
 Chateau Beaucastel (Wine Shop)
 
-o	2016 Chateauneuf-Du-Pape AOC (White) (74 Euros)
+* [**2016 Chateauneuf-Du-Pape AOC White**]() (74)
 o	80% Roussane (+3 of the others), there’s a hint of MLF in the wine (some popcorn on the nose) with some mellow stonefruit, med+/high acid, med body, with flavors of popcorn, butter, minerality that tingles the edge of the tongue on the finish.  The finish is nice and long – the alcohol is already hidden well, but warms you up from the inside.  
 o	2015 Coudoulet de Beaucastel AOC (Red) (21 Euros)
 o	Their table Cote du Rhone wine.  The nose was a little closed with some lighter red fruit notes with black pepper.  High acid, high chewy tannin, med body.  The flavors on the palate are pretty clear though – cranberry, black pepper, slight garrigue.  Pretty mouthwatering and the fruit flavor isn’t quite ripe as I was expecting, but for the 20 Euro price range, that’s about right / what you would expect.  
