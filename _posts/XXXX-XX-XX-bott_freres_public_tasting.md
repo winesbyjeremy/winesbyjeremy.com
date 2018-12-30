@@ -34,9 +34,7 @@ After receiving a towel from their wine ambassador and telling them my story (an
 
 NOTE: I don't know if this was the actual tasting lineup, or if I got a few extra bottles to try because of the kind wine ambassador, but I think I had the opportunity to try most of their portfolio, with maybe a few exceptions (e.g. Their reserve wines).  :
 
-o Wine Universe – Distributor in New York.  DB Wine Selection.  Based in the Northeast US is an Importer and a Distributor.  They may be able to get the wines I want for me.  To ship a case to the USA directly from the winery, it’s 202 Euros for shipping and taxes on shipping.  Their muscat was something to write home about.  So is their Reserve Personnelle Gewurztraminer.  So is their Riesling Vendages Tardives.  But I bought their Kirchberg de Ribeauville.  Also, I think I love Gladys – she was very nice and went out of her way many times to either give me information or let me taste extra.
 
-o Style is definitely more purity / straightforwardness in their wine.  Also its definitely terroir driven – even more so than Cave de Ribeauville.  The hostess is around 21 years old (been in the wine business for 3 years and couldn’t go to a high school that specialized in it, so went into it right after).  Her parents own a vineyard, but they sell the fruit they cultivate to very big wineries.
 
 * [**2017 Muscat**]() (9.60 Euros)
   * 50/50 Muscat d’Alsace and Muscat Ottonel.  Really fragrant on the nose with the usual aromas.  The mouthfeel is very nice with med+/high acid but with some body and a lingering finish with white flowers and honeysuckle.  The finish goes on for quite a long period of time.  The dryness and high acid makes the flower and honeysuckle very pronounced on the palate.  If you don’t like the finish, that’s the only drawback.
@@ -52,4 +50,10 @@ o Style is definitely more purity / straightforwardness in their wine.  Also its
   * Aromatic, strong nose and flavors, but sooo smooth.  Full range of flavors (up to orange marmalade).  You can’t really feel the acidity until the finish, but it helps shapes the very round body.  You can kinda feel the white spice on the 20 second finish.  This thing is just so well balanced…
 * [**2011 Riesling Vendanges Tardives**]() ()
   * Wow, this is really, really good.  I would say that this surpasses the other VT and SGM Rieslings that I have had in terms of intensity of ripe peach / other stonefruit flavors and its acidity.  Its acid is definitely prominent at the end and leaves you will a nice tingling mouthfeel, along with the finish that goes on for 30+ seconds.  No petrol notes or at least they take a back seat to the fruit.
+
+
+o Style is definitely more purity / straightforwardness in their wine.  Also its definitely terroir driven – even more so than Cave de Ribeauville.  The hostess is around 21 years old (been in the wine business for 3 years and couldn’t go to a high school that specialized in it, so went into it right after).  Her parents own a vineyard, but they sell the fruit they cultivate to very big wineries.
+
+o Wine Universe – Distributor in New York.  DB Wine Selection.  Based in the Northeast US is an Importer and a Distributor.  They may be able to get the wines I want for me.  To ship a case to the USA directly from the winery, it’s 202 Euros for shipping and taxes on shipping.  Their muscat was something to write home about.  So is their Reserve Personnelle Gewurztraminer.  So is their Riesling Vendages Tardives.  But I bought their Kirchberg de Ribeauville.  Also, I think I love Gladys – she was very nice and went out of her way many times to either give me information or let me taste extra.
+
 
