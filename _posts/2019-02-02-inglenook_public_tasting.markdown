@@ -72,4 +72,4 @@ After tasting the wines and regaining my bearings, I also started to notice deta
 
 This is a fantastic location to bring friends and possibly enjoy a picnic outside on the lawn with a bottle or two of their wines.  Though, I think it was nearly as fulfilling to go alone and really take the time to enjoy each one of these unique wines.  Each had a different expression than most Napa wines I've had of the same varietal and the value is solid, especially if you become a member and save 20% on each of the wines that you purchase!  The wines also all had an old world vibe to them, without any flaws from being underripe.  If a friend visitng Napa were to ask me for European-styled wines that weren't all Cabernets, this is where I would send them.
 
-I will absolutely be visiting again and hopefully will find a way to pick up and lay down a bottle of Rubicon for a future First Growth blind tasting or for a celebration.  Cheers!! 
+I will absolutely be visiting again and hopefully will find a way to pick up and lay down a bottle of Rubicon for a future First Growth blind tasting or for a celebration.  Cheers!!
