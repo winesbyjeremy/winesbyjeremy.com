@@ -2,15 +2,15 @@
 layout: review
 title: Domaine Albert Seltz Private Tasting
 author: Jeremy Myers
-date:   2019-XX-XX 15:20:00 -0400
+date:   2019-02-16 15:20:00 -0400
 tags: review winery tasting france alsace mittelbergheim
 image: albert-seltz/1.jpg
 location:
   latitude: 48.395793
   longitude: 7.443637
-  street: 
-  city: 
-  zip: 
+  street: 21 Rue Principale
+  city: Mittelbergheim
+  zip: 67140
   country: FR
 winery_details:
   name: Domaine Albert Seltz
@@ -30,21 +30,21 @@ The website has a quote from the owner: "The Sylvaner is a pretty girl from a po
 
 Their speciality is Sylvaner as they are the only winery that has it classified as a Grand Cru or it is growing in Grand Cru land?  
 
-* [**2016 Sylvaner de Mittelbergheim**]() ($)
+* [**2016 Sylvaner de Mittelbergheim**](http://www.albert-seltz.fr/fiche.php?id=32) ($)
   * Like a Sauvignon Blanc with its lemon/lime flavor and some minerality, but this is much stronger with the minerality and there is spice too.  The aromas are a touch riper than the palate, but this makes a great summertime wine.  Does not have any negative green aromas – very fresh with spice
-* [**2012 Sylvaner Zotzenberg Grand Cru Sono Contento**]() ($)
+* **2012 Sylvaner Zotzenberg Grand Cru Sono Contento** ($)
   * There is definitely some petrol on the nose.  Served at the same temperature as a red wine.  Less spice than the last one but there is definitely more complexity with the undertones and a much less reliance on fruit character.  All of the notes are very subtle – either I should try this a little cooler to accentuate some things or I should get a better palate, haha.  Still great acidity and a little more body.
-* [**2015 Sylvaner Grand Cru Zotzenberg**]() ($)
+* [**2015 Sylvaner Grand Cru Zotzenberg**](http://www.albert-seltz.fr/fiche.php?id=31) ($)
   * Like the last except much more fruit/floral fragrance on the nose.  In the honey/honeysuckle range.  Nose alcohol/acid burn on the nose at all.  Wow…  that is so good.  Really ripe white fruit (peach, honeysuckle) on the palate with great acidity that isn’t too strong or soft.  I am in love with this wine as someone that doesn’t like sweet wine but likes fruit (my American palate) and balance.  
-* [**2013 Riesling Rebbuehl granite d’Andlau**]() ($)
+* **2013 Riesling Rebbuehl granite d’Andlau** ($)
   * Definitely getting petrol and rubber on the nose.  The yellow fruit is a bit light and the acidity is strong.  Served a little more than I am used to.  But I would definitely use this as an example of a terroir driven wine from Alsace.  
-* [**2013 Riesling Grand Cru Zotzenberg**]() ($)
+* [**2013 Riesling Grand Cru Zotzenberg**](http://www.albert-seltz.fr/fiche.php?id=24) ($)
   * Definitely more fruit on the nose than the last.  Almost a bit juicier and more ripe than the Sylvaner Grand Cru.  The palate is not as ripe as the nose, but there is definitely fruit and the finish is quite peculiar.  I wouldn’t say its flint but there is something terroir-related happening at the end.  Adds a complexity that is good.  
-* [**2007 Sylvaner Veilles Vignes Colline aux Poiriers**]() ($)
+* [**2007 Sylvaner Veilles Vignes Colline aux Poiriers**](http://www.albert-seltz.fr/fiche.php?id=29) ($)
   * Honey, ripe honeysuckle, beeswax, honeycomb, orange marmalade.  Not overly heavy on the finish like I was expecting – much more acidity to keep the balance in tact.  The balance with the sweetness is really something – it doesn’t go over the top like I was expecting.  It still may be a little much for friends that don’t like sweet wine, but this is not a dessert wine.  I could pair this in a meal.  
-* [**2013 Pinot Gris Grand Cru Zotzenberg**]() ($)
+* [**2013 Pinot Gris Grand Cru Zotzenberg**](http://www.albert-seltz.fr/fiche.php?id=14) ($)
   * The nose is not quite as honey/honeysuckle as the other Grand Crus (from different varietals) and lighter on the nose, but it is definitely the smoothest out of all them.  The finish just goes on but there is no burn to the palate whatsoever and you don’t really feel the acidity either.  I could drink 2 bottles of this easily.
-* [**2013 Gewurztraminer Mon Ruisseau de Zanzibar**]() ($)
+* [**2013 Gewurztraminer Mon Ruisseau de Zanzibar**](http://www.albert-seltz.fr/fiche.php?id=10) ($)
   * Very different from other Gewurztraminer in Alsace.  Not too much marmalade, not too heavy.  The nose is a little less intense than the normal varietal flavor, but in a good way.  There is almost a tickle of lemon zest too.  The body and finish have a flint-like character to them as well.  Don’t finish over the top, the fruit is still bright and finishes wonderfully.  Pineapple flavor with other stonefruit.  This is also super easy drinking without the feel of a sugar spike.  
 
 It's a shame that I could not taste with the owner.  The online reviews tell of an intimate experience, including touring their cellars and getting more into the philosophy of wine making.  I am not the biodynamic purist that the owner is, but I would've really been interested in getting his thoughts on the matter.  Since there wasn't much to the winery experience except the wine, the rating is what it is.  Then again, I was fine with the wine doing all of the talking.
