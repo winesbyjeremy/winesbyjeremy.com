@@ -27,13 +27,17 @@ For those who have not yet been to Tuscany (Italy), you need to make plans to vi
 
 Like the Tuscan estates, Round Pond is family owned, everyone (the owners and the children that now run the winery) lives on the property, they produce their own olive oil from their 13 acres of olives (the old tasting room is now their olivery), and it's very easy to sit outside on their veranda and drink/eat all day long...  The only thing is the family is not Italian!  Though one vacation to Tuscany is all that is needed to fall in love with everything about it.  It's also the reason why they grow Italian varietals such as Sangiovese and Nebbiolo and not just the traditional Napa varietals.
 
-But before they started Round Pond, the owners originally owned some land on Pritchard Hill and used that experience to determine whether they would go all in on a winery or not.  They would come up every weekend to take care of their plot of land and camp outside in the vineyard after each long Saturday and Sunday of hard work.  After many months of working in San Francisco during the week and then traveling to Napa every weekend to work in their vineyard, they decided that they wanted to go all-in and moved their family to Rutherford.  Another family that answered its calling to contribute to the great world of wine...  
-
 {% picture round-pond/1.jpg alt="" title="outdoor drinkin" class="center-image" %}
 ***Caption Title:*** *The view of Round Pond's patio that they use for tastings.  If you don't make a reservation, there is a standing tasting table indoors that you can go to.  But why wouldn't you want to sit outdoors while enjoying good wine?*
 {: .center-caption }
 
+But before they started Round Pond, the owners originally owned some land on Pritchard Hill and used that experience to determine whether they would go all in on a winery or not.  They would come up every weekend to take care of their plot of land and camp outside in the vineyard after each long Saturday and Sunday of hard work.  After many months of working in San Francisco during the week and then traveling to Napa every weekend to work in their vineyard, they decided that they wanted to go all-in and moved their family to Rutherford.  Another family that answered its calling to contribute to the great world of wine...  
+
 Our wine hostess (Erin) was great.  In addition to talking through all of the history I described above, we talked about the old horticultural school they had for boys, how the style of wine seems to blend the fruit and structure of Napa with the rusticity of Tuscany, and why Thomas Rivers Brown is one of the premier celebrity winemakers in the valley.  Looking back, Round Pond would have been a great place to order some food, but we had to get up Pritchard Hill to Chappellet afterwards, so I'll need to revisit the food another time.  Still, the ambiance of the winery was great - fun, not too crowded or loud, relaxing seating, and no rush through the tasting.  
+
+{% picture round-pond/2.jpg alt="" title="indoor drinkin" class="center-image" %}
+***Caption Title:*** *The view of Round Pond's indoor wine tasting area.  Though you can stop by this tasting table without a reservation, wouldn't you rather sit outside instead (like in the first picture above)?*
+{: .center-caption }
 
 We went for the Cabernet Tasting ($75), so the menu will be slightly different if you choose the regular tasting instead.  Also, you normally get to choose one of the Gravel Series wines for your tasting (Secret Garden, Scholar's Gate, or the Vow), but since I was there with two other friends, we each picked a different wine from the Gravel Series and shared with each other, hence why I have notes for all three.  The wines:
 
@@ -54,7 +58,7 @@ We went for the Cabernet Tasting ($75), so the menu will be slightly different i
 
 The pours of the wines (especially the Gravel Series) were a bit smaller than other places and the tasting was also only four wines (the Petit Verdot is not normally a part of the tasting).  $75 was a pretty steep price to pay for that experience, hence the lower experience score.  Besides that note, the wines were all very good and different compared to a lot of places in the valley.  Although I didn't get to taste the Sangiovese, nor their Super Tuscan, I really appreciated the different wines that had on the menu (e.g. Nebbiolo Rose, Petit Verdot).  The wines of the Gravel Series were a great pleasure to taste too and would make a great addition to any wine collection.
 
-{% picture round-pond/2.jpg alt="" title="Through the looking glass" class="center-image" %}
+{% picture round-pond/3.jpg alt="" title="Through the looking glass" class="center-image" %}
 ***Caption Title:*** *The view out of their fancy window behind the staircase to the second floor.  It made for a good shot, but you can also see the vineyards through the window if you look closely.*
 {: .center-caption }
 
