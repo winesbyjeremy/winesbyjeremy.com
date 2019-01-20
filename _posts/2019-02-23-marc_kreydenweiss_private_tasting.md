@@ -2,7 +2,7 @@
 layout: review
 title: Domaine Marc Kreydenweiss Private Tasting
 author: Jeremy Myers
-date:   XXXX-XX-XX 15:20:00 -0400
+date:   2019-02-23 15:20:00 -0400
 tags: review winery tasting france alsace andlau
 image: marc-kreydenweiss/1.jpg
 location:
@@ -28,6 +28,21 @@ His oldest son takes care of the Alsace vineyards since 2007.  Marc lives in the
 ***Caption Title:*** **
 {: .center-caption }
 
+{% picture marc-kreydenweiss/2.jpg title="" class="center-image" %}
+***Caption Title:*** **
+{: .center-caption }
+
+{% picture marc-kreydenweiss/3.jpg title="" class="center-image" %}
+***Caption Title:*** **
+{: .center-caption }
+
+{% picture marc-kreydenweiss/4.jpg title="" class="center-image" %}
+***Caption Title:*** **
+{: .center-caption }
+
+{% picture marc-kreydenweiss/5.jpg title="" class="center-image" %}
+***Caption Title:*** **
+{: .center-caption }
 
 * [**2016 Kritt Pinot Blanc**]() ($)
   * Ripe fruit on the nose.  Almost hits pineapple.  Lots of yellow cooked fruit too (apples).  Meant to be a simple wine for a simple meal.  High acidity, refreshing, Pinot Blanc is 30% of the production that they make.  Kritt is a very stoney place with lots of quartz in the ground.  Gets cool wind.  That acidity is crazy for the amount of ripe fruit in the wine, plus there is some minerality too.  I can see this is why it is their best-seller / why they produce so much of it.
