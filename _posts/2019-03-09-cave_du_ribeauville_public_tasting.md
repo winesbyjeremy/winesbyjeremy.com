@@ -2,7 +2,7 @@
 layout: review
 title: Cave du Ribeauville Public Tasting
 author: Jeremy Myers
-date:   XXXX-XX-XX 15:20:00 -0400
+date:   2019-03-09 15:20:00 -0400
 tags: review winery tasting france alsace ribeauville
 image: cave-du-ribeauville/1.jpg
 location:
