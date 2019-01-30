@@ -1,61 +1,56 @@
 --
 layout: review
-title: Paradigm Private Tasting
+title: Bevan Cellars Private Tasting
 author: Jeremy Myers
 date:   2019-XX-XX 15:20:00 -0400
-tags: review winery tasting california napa
-image: paradigm/1.jpg
+tags: review winery tasting california napa st-helena
+image: bevan-cellars/1.jpg
 location:
-  latitude: 38.420564
-  longitude: -122.393788
-  street: 1277 Dwyer Rd
-  city: Oakville
+  latitude: 38.528076
+  longitude: -122.500854
+  street: 3111 St Helena Hwy
+  city: St Helena
   state: CA
-  zip: 94562
+  zip: 94574
   country: US
 winery_details:
-  name: Paradigm
-  url: http://paradigmwinery.com/
-  rating: 95
-  tasting: $25
-  price: $25
+  name: Bevan Cellars
+  url: https://www.bevancellars.com/
+  rating: 99
+  tasting: $100 or Free with purchase of a $100+ bottle
+  price: $100
   tasting_type: Private Tasting
   accepts_reservations: "Yes"
   reservation: Yes
 ---
-I know many of you have never heard of Paradigm before, nor seen any of their bottles or signage in Napa.  But what if I said that Paradigm was the first winery that Heidi Barrett ever worked at and even after her long and illustrious career, she is still their winemaker?  If you follow winemakers like me, I hope that grabbed your attention.  If you need more background, read my article on La Sirena (Heidi's personal label).  To sum up Paradigm, it is a small Oakville-based operation that owns 55 acres of vines and makes very compelling wines by allowing the varietals to express their quality and terroir influences with minimal winemaker intervention, which is only possible when you have great land, vines, and someone who is confident in what they are doing.
+Wines are very focused on texture.  Russell selling dental equipment.  His wife worked in the industry.  Victoria had an interest in wine from the Italian heritage.  They blind tasted wine and they just started to name what flavors they liked and didn’t luike.  Those early years of enjoying Napa wines.  He studied a lot while doing his job still.  Finally gave it up and (Wine Blog) and posted on Wine Spectator in 98-99 and got selected to get published.  2001 move here and 01-03 every weekend 2003 Garage wine.  Their curiosity and obsession and focus is what allows them to make amazing wine.  Texture is an obsession for Russell in his wines.  Not going for certification, but they are going for Biodynamic / Organic farming practices.  
 
-Paradigm got started around the time Heidi was in school.  Her father Richard Peterson was (and still is) a famous winemaker specializing in Pinot Noir who worked with several wineries and did consultation work for others.  At the time, Ren (the owner) and Gene (his business partner) ran a lucrative vineyard real estate business together.  After enough time, they both decided to start their own wineries.  Ren called up Richard Peterson and asked for help getting the winery going.  Everything from building the business plan, to pitching financial institutions for the loans he needed, to designing the vineyard and equipping the facility, to being his winemaking consultant.  When you visit Paradigm, you'll see that the building and winemaking facility are small and non-descript in comparison to others in the area.  They may be small but are very efficiently structured (everything is tight and compact) and isn't lacking in any equipment.  As the other wineries grew and expanded around them, Paradigm has stayed relatively the same, which includes its small quantity, great quality, and very affordable prices.  
+
+2016 Ontongeny ($95)
+•	Observes the development of an organism throughout its lifecycle.  Wanted to shape the wine so that after a year, you would see the change.  Oakville (Stag/Howell), 76CS, 20M, CF/PV.  Blended from 5 AVAs in Napa.  Very pretty (white flower and violet – but not candied) and powerful on the nose.  Balance, texture, ripeness, 
+
+2016 Sugarloaf ($195)
+•	Proprietary Blend.  Similar nose to the Ontogeny but a little less pretty, but more rich.  Merlot and Franc (60/40).  Some much structure that is layered – like a deck of cards.  I can’t believe this has no Cab Sauv in it.  So much red fruit and Cab Franc Cassis.  This is a fantastic wine that leaves you 
+
+2016 Wildfoote Cabernet Sauvignon ($195)
+•	100% Cabernet from Stag’s Leap, right next to Shafer.  Blueberry pie baked in a French barrel.  The most fruit driven wine in the portfolio.  Also a pretty nose but much more depth than the other two before it.  Volcanic soil, two tons of fruit per acre – not a lot of yield.  There’s just so much depth and integration with the soil driven flavors, it’s really hard to elaborate.  I just don’t know how to put this into words – this is near perfect for me.  
+
+2016 Tench Cabernet Sauvignon
+•	Eastern Oakville, possess a consistent reflection of “what is Oakville”.  Pretty, elegant, nose indicative of the Beckstoffer of the world.  92% CS, 8%M.  The nose isn’t as bright as the others, but it has deep red fruit (not cherry) that is consistent all the way through, but the acid here is the show-stopper.  A constant zap (like a tuning fork) to the back of the palate that just keeps stimulating the mouth throughout the entire experience.  
+
+2016 Tench EE Cabernet Sauvignon
+•	The wine is similar to the Tench, but the nose is a bit more reserved and the tannin is a bit more present.  The fruit is also more pretty and fresh than the Tench.  This is definitely a wine that can age longer and probably has more potential, but I prefer the Tench to drink now.  
+
+2011 Tench EE Cabernet Sauvignon
+•	I literally stopped in my tracks when I tasted this wine.  This is not a California wine.  This must be a Bordeaux 1st or 2nd growth.  The pyrazines from the Cab Franc are still there but it is very complementary to the wine.  And doesn’t fight it – you can smell it on the nose.  This wine is such an outlier from the rest of the portfolio and it is so good.  I can’t believe this is from this vineyard.  I asked for a second glass and he obliged.  
+
+
 
 {% picture paradigm/1.jpg alt="" title="The entrance to the winery" class="center-image" %}
 ***Caption Title:*** *I told you that the winery was non-descript on the outside.  Yes, this is the entrance as seen from the parking lot.  But don't let this exterior fool you.  The wine quality will pleasantly surprise you.*
 {: .center-caption }
 
-After helping out with the design and getting the winery close to the finish line, it was Richard's turn to ask a favor.  At about this time, Heidi was just graduating school and needed a job in the winemaking world.  Getting your first gig is always the hardest, but Richard vouched for her skills and asked that she be given a shot as a favor to him.  After the first couple vintages, Ren realized that he actually owed Richard another favor because the wines Heidi was making were more than he could have hoped for.  Soon after, Ren got a call from his old partner Gene, asking if he knew of anyone that could help her with a stuck fermentation (it's when the yeast doesn't convert all the grape sugar into alcohol, leaving you with a 11% sweet red wine that you can't sell).  Naturally, he talked about his rockstar winemaker and so Heidi went and got her first consulting gig fixing the fermentation.  Afterwards, Gene was so impressed that she hired Heidi to be their first full-time winemaker too.  Did I mention that Gene's winery was called Screaming Eagle (now the most expensive wine made in America)?  
-
-Ren paid off the final loans of the winery 10+ years ago and how the tax laws work in Napa is that you are taxed each year based on how much you paid for the land/winery at the time of purchase.  Since Ren purchased the land back when there were only 30 wineries in Napa and land prices were dirt cheap compared to today, their taxes are very low by comparison to others, meaning they can pass the savings along to the consumer.  And that's a pro-tip for visiting Napa - the next time you go, try to visit a winery that has been around for a long time and hasn't changed hands.  They will nearly always be cheaper than everyone else; not because they wines aren't as good, but because the cost to produce them is lower (and therefore they need to charge less to keep operations going).  
-
-{% picture paradigm/2.jpg alt="" title="Getting lost in the vines" class="center-image" %}
-***Caption Title:*** *We had a chance to walk through the vineyard and see what is responsible for the great wine.  Since it was the brother-in-law on duty that day, we got to hear some great stories about the early history of the winery that I shared earlier in the article.*
-{: .center-caption }
-
-When Heidi left the industry for a spell for family (raising her young daughters), it was Paradigm that was the first to offer her a job again to get back into the swing of things.  There is loyalty and a sense of family here which matches the size of the winery and the staffing (only the brother of the owner was working the Sunday afternoon I visited).  The tastings are one group at a time and you can’t hear anything except for the Napa Wine train that pass by every so often.  They have some equipment from UC Davis interleaved in the winery too (e.g. measuring aspiration to figure out how often to put out sulfur for protection in the vineyards).
-
-After walking through the vineyards, we settled out on a picnic table outside and dug into the wines.
-
-* **2017 Rose of Merlot** ($29)
-  * Produced via the vin gris method – you press off the rosé once it has the right amount of color that they want, so it has more tannin, fruit and body.  This is different from the free run method of pulling off the wine from the bottom of the tank after crush.  Cold fermentation that lasts for 6 weeks until it reaches bone dry.  Beautiful salmon pink color with a medium+ intensity nose of strawberry and cranberry with a tickle of alcohol.  The palate is high intensity with medium+ acid and medium alcohol, but very little tannic influence.  There are no underripe notes at all.  A very smooth rosé with a little more body and the right amount of acid that can make a red wine lover happy.  
 * [**2014 Oakville Merlot**](https://store.paradigmwinery.com/product/2014-Merlot) ($53)
   * Rich red fruit on the nose with some spices and very little alcohol.  The same red fruit on the palate that still has medium+ acidity, the smallest green character, lots of plum, medium tannin that could soften a bit more with time, and alcohol/spice you can feel a bit.  It is a strange sensation drinking this wine - the more I sample, the more I want to drink it.  The acidity has a most peculiar mouth-watering effect (it almost feels like a craving) that is very pleasant.  Still, silky mouthfeel with some oak notes and a finish that goes on for quite a while.  
-* [**2014 Paravines**](https://store.paradigmwinery.com/product/2014-Paravines) ($73)
-  * 80% Merlot, 20% Petit Verdot.  Right off the bat, you can feel the deep juicy/jammy red fruit on the nose.  I don't get any caramel on the nose like the tasting notes indicate, but that intertwined spruce/cedar is definitely present.  There is more tannin than the Merlot thanks to the Petit Verdot, but a similar level of acidity, though not quite the same sensation as the Merlot.  Really enjoyable red wine that has solid intensity of flavors and body all the way through the palate.  Some spices and tertiary characteristics make this a thinking wine instead of just bright fruit with acid and tannins.  
-* [**2014 Cabernet Sauvignon**](https://store.paradigmwinery.com/product/2014-Cabernet-Sauvignon) ($84)
-  * Contrasting the Paravines, the Cabernet Sauvignon is much brighter on the nose, with predominantly red and black fruit.  There is some alcohol/spice sensation, but it complements the fruit well to create a warming effect.  The palate is medium bodied with medium tannin that feels very smooth but does dry the mouth slightly.  The acidity isn't as present as the Merlot or Paravines, which makes this an easy drinking, really enjoyable Cabernet.  The intensity nor flavors aren't anything unusual that will strike you as unique – it's just very cohesive, well-balanced, and has no negatives to complain about.  At $84, this is a steal compared to a lot of other wines grown on the valley floor.  
-* [**2015 Cabernet Franc**](https://store.paradigmwinery.com/product/2015-Cabernet-Franc) ($71)
-  * Only available to wine club members.  The color on this wine is incredibly deep and the nose is so fragrant with cool red cherry and raspberry that has slight candied notes.  The body is juicy with a medium body, medium tannin and medium acid with good length at the end.  If you like more fruit driven wines, this will blow you away, especially if you like the varietal character of Cabernet Franc.  Cabernet Francs are getting more popular in Napa, but this is definitely on the upper-end of quality for the Napa Valley region.  
-* [**2011 Cabernet Sauvignon**](https://store.paradigmwinery.com/product/2011-Cabernet-Sauvignon) ($113)
-  * Paradigm did not pick early when the rains came during harvest time in 2011.  Instead they blow-dried the vines and let the last bit of sun get captured by the vines.  This resulted in a deeper richness in the 2011 that isn’t there on the 2014.  That additional hangtime also resulted in more black fruit than red fruit.  The wine definitely warms you up more than the 2014 too, though the higher alcohol is very subtle.  2011 wines gets a bad rap in the valley but those who didn't panic and picked to early were rewarded for their patience and additional effort.
 
-Again, the quality-price ratio (QPR) on these wines is very good and I highly recommend you visit.  After all, it's in Oakville, which is one of the most expensive AVAs, and you can see Harlan just up the hill from your picnic table tasting (Harlan's Cabernet goes for ~$800).  You can taste the quality of the terroir in these wines.  They have other wines that are not on the tasting menu as well - the Cabernet Franc isn't normally available for tasting and I hear the Zinfandel is among the best in the entire valley!
 
-The tasting fee is among the cheapest in the valley too, so if you've read my other reviews and wish you had the capital to try them out, you can start by going here.  Though, once you taste the wines here, it may be very hard to go back to drinking other wines, haha.  Cheers!!
