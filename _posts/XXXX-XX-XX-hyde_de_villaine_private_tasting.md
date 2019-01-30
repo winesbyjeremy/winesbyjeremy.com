@@ -3,7 +3,7 @@ layout: review
 title: Hyde de Villaine Private Tasting
 author: Jeremy Myers
 date:   2019-XX-XX 15:20:00 -0400
-tags: review winery tasting california napa oakville
+tags: review winery tasting california napa carneros
 image: hyde-de-villaine/1.jpg
 location:
   latitude: 38.325728
