@@ -2,7 +2,7 @@
 layout: review
 title: Paradigm Private Tasting
 author: Jeremy Myers
-date:   2018-02-09 15:20:00 -0400
+date:   2019-02-09 15:20:00 -0400
 tags: review winery tasting california napa oakville
 image: paradigm/1.jpg
 location:
