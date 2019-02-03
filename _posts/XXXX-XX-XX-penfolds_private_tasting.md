@@ -4,7 +4,7 @@ title: Penfolds Private Tasting
 author: Jeremy Myers
 date:   2019-XX-XX 15:20:00 -0400
 tags: review winery tasting california napa st-helena
-image: penfolds/1.jpg
+image: penfolds/4.jpg
 location:
   latitude: 38.510802
   longitude: -122.480443
@@ -25,8 +25,25 @@ winery_details:
 ---
 
 
-{% picture paradigm/1.jpg alt="" title="The entrance to the winery" class="center-image" %}
-***Caption Title:*** *I told you that the winery was non-descript on the outside.  Yes, this is the entrance as seen from the parking lot.  But don't let this exterior fool you.  The wine quality will pleasantly surprise you.*
+
+{% picture penfolds/1.jpg alt="" title="???" class="center-image" %}
+***Caption Title:*** **
+{: .center-caption }
+
+{% picture penfolds/2.jpg alt="" title="???" class="center-image" %}
+***Caption Title:*** **
+{: .center-caption }
+
+{% picture penfolds/3.jpg alt="" title="???" class="center-image" %}
+***Caption Title:*** **
+{: .center-caption }
+
+{% picture penfolds/4.jpg alt="" title="???" class="center-image" %}
+***Caption Title:*** **
+{: .center-caption }
+
+{% picture penfolds/5.jpg alt="" title="???" class="center-image" %}
+***Caption Title:*** **
 {: .center-caption }
 
 * [**2014 Oakville Merlot**](https://store.paradigmwinery.com/product/2014-Merlot) ($53)
