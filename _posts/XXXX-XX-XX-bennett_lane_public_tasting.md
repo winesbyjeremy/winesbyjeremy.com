@@ -28,14 +28,22 @@ winery_details:
 * [**2016 Reserve Chardonnay**]() ($53)
 •	Sourced fruit from the Carneros (southmost of Napa).  10% MLF to round out the acid rather than to add too much butter.  Fresh, lemon (but not too ripe), yellow apple on the nose.  The palate is med body, med+ acid, a little salinity, but good ripeness of yellow fruit that is nice and crisp. 90Pts Wine Advocate.  For the lighter drinking crowd – not as much minerality, but really good varietal character.  
 
+Honey, melon, pineapple.  Rich, mouthwatering, pear, vanilla, nutmeg.  Weight and acidity
+
 * [**2011 Cabernet Sauvignon Reserve**]() ($105)
 •	Another that reminds me of Left-Bank, balanced deeper red fruit, a bit of green, some tertiary notes on the nose.  Definitely want to decant for an hour or open/cork it back up and leave overnight.  The acid is more prevalent than the tannin, which makes this very drinkable right now.  Med(-) body and the flavors are a bit more earthy and feels that its at is optimum.  Doesn’t feel underdeveloped, but just very light.  Very left-bank but I’m glad they were able to produce something this drinkable from 2011.  
+
+Aromas of Blackberry and cherry, with cocoa and rose petal.  Palate ripe cherries and dark chocolate.  Balanced, rich mouthfeel and bright cherry.
 
 * [**2012 Cabernet Sauvignon Reserve**]() ($105)
 •	Dark cherry and berries, mocha, cocoa, and a caramel sensation.  There is still a bright sensation on the nose.  The palate is very mellow but lots of layers and good complexity.  The 2012 are soft on tannins, so they are ready now, but they won’t hold on for too long (must finish the same day you open it).  Still lighter bodied, ready to drink now, fruit-forward.  Just a darn good bottle of wine
 
+Cassis and cherry, with coca and cinnamon.  Palate is big and rich with ripe cherries, plum and dark chocolate.  Full, balanced, rich mouthfeel, velvet tannin, and bright charry
+
 * [**2013 Lynch Family Vineyard Cabernet Sauvignon**]() ($125)
 •	There is this weird note that feels like Denorex Shampoo in the wine.  I don’t know if it’s a flaw with this wine or the wine glass, but once you get past that, the wine is pretty nice.  There is this cherry cola piece in addition to the high acid/tannin but med- body that makes it feel light.  Still, really good and easy drinking that has complexity in it too.
+
+Family estate in Calistoga, true gem in the lineup as only single vineyard cabernet sauvignon.  Complex, cherry, vanilla, star anise, white pepper, less than 100 cases.
 
 * [**2013 Cabernet Sauvignon**]() ($62)
 Cherry and cocoa on the nose and similar structure on the body.  Just a little less intense and concentrated than the Reserve, but still a really nice wine that I would drink right now.  Soft and balanced – the rare 2013 that is ready to drink now versus needing to let it age for some years.  Medium bodied, the tannin/acid are med+ but very integrated.  A bottle that I would serve at any dinner.  Really good value buy.
