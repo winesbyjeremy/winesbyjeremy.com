@@ -2,9 +2,9 @@
 layout: review
 title: Bott Freres Public Tasting
 author: Jeremy Myers
-date:   XXXX-XX-XX 15:20:00 -0400
+date:   2019-03-09 15:20:00 -0400
 tags: review winery tasting france alsace ribeauville
-image: bott-freres/1.jpg
+image: bott-freres/2.jpg
 location:
   latitude: 48.189305
   longitude: 7.325353
@@ -28,9 +28,18 @@ I got super lucky in that my waiter at lunch was the one who recommended I stop 
 
 After receiving a towel from their wine ambassador and telling them my story (and why I had no vehicle with me), we started the tasting.  There are times when my palate is a little off after a meal and wine (especially sparkling / white wine) is not as enjoyable as they usually are.  I had no issues with that at all during this tasting, which I think is further proof to how good these wines were.  
 
-{% picture bott-freres/2.jpg title="" class="center-image" %}
-***Caption Title:*** **
+{% picture bott-freres/1.jpg title="Bott Freres!!" class="center-image" %}
+***Caption Title:*** *Bott Freres is a short walk outside of the main area in Ribeauville, but you need to make it here.  Like I said earlier, Bott Freres may be my favorite small producer in Alsace, so be sure to stop by if you are in order around town.  The large sign helps it stick out once you get on the correct street!*
 {: .center-caption }
+
+{% picture bott-freres/2.jpg title="The wine ambassador" class="center-image" %}
+***Caption Title:*** *The wine ambassador with a really instructive map of the region.  As you can see, there are many wineries along the Vosges Mountain range.  Unfortunately, I did not spend enough time in Alsace, nor did I have a car to explore the smaller towns that didn't have train stations nearby.  I will be back...*
+{: .center-caption }
+
+{% picture bott-freres/3.jpg title="Selfie Time!" class="center-image" %}
+***Caption Title:*** *It was raining most of the day in Ribeauville, which was a little unusual...  Most of the townspeople were excited for it, so I didn't mind walking through it.  It's really hard not to smile when you drink great wine, meet nice people, and just see beautiful history and nature all around you...*
+{: .center-caption }
+
 
 NOTE: I don't know if this was the actual tasting lineup, or if I got a few extra bottles to try because of the kind wine ambassador, but I think I had the opportunity to try most of their portfolio, with maybe a few exceptions (e.g. Their reserve wines).  :
 
