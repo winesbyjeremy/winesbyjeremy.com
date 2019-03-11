@@ -2,7 +2,7 @@
 layout: review
 title: Domaine Weinbach Private Tasting
 author: Jeremy Myers
-date:   XXXX-XX-XX 15:20:00 -0400
+date:   2019-04-06 15:20:00 -0400
 tags: review winery tasting france alsace kaysersberg
 image: domaine-weinbach/1.jpg
 location:
@@ -15,7 +15,7 @@ location:
 winery_details:
   name: Domaine Weinbach
   url: http://www.domaineweinbach.com/
-  rating: 95
+  rating: 97
   tasting: Free with Purchases
   price: $0
   tasting_type: Private Tasting
@@ -24,15 +24,40 @@ winery_details:
 ---
 There are many exciting wineries to visit in 
 
-{% picture domaine-weimbach/1.jpg title="Chainsaw Massacre" class="center-image" %}
-***Caption Title:*** **
+{% picture domaine-weinbach/1.jpg alt="The Faller Family" title="The Gate to Dopff" class="center-image" %}
+***Caption Title:*** *Although the winery is named Domaine Weinbach, it is purchased by the Faller brother in 1898 and has remained in their family's possession ever since, hence the name on the wall surrounding their estate.  You can see their home / estate just above the the vines in the picture.  There was a lot of constuction on the road and sidewalks when I visited, so be careful if going on foot!*
 {: .center-caption }
 
-* [**2015 Estate Viognier**](https://www.cristomvineyards.com/product/2016-Estate-Viognier) ($30)
+{% picture domaine-weinbach/2.jpg alt="" title="The View in Reverse" class="center-image" %}
+***Caption Title:*** *Once you make it to the estate and turnaround, you'll see a gorgeous view of Schlossberg and all of the vines that are planted on it.  Unfortunately, the pixelation on my camera in selfie-mode is kinda bad, but I maintain that you truly cannot appreciate the view unless you are their in person, similar to the Douro and Cote Rotie.  You need to see it to believe it...*
+{: .center-caption }
+
+{% picture domaine-weinbach/3.jpg alt="" title="A room all to myself" class="center-image" %}
+***Caption Title:*** *The gorgeous living room I was invited to for the tasting.  My tasting was at 10AM, so you can see the morning sun was very strong coming through the windows behind me.  There were other groups tasting in different parts of the house through the morning (I took a little longer than others).  Being the only person in the room tasting defintely made me feel special, but the singular quality of the wines also played a huge part in the experience.*
+{: .center-caption }
+
+{% picture domaine-weinbach/4.jpg alt="" title="A map of the area" class="center-image" %}
+***Caption Title:*** *Some pieces of the map are hard to read - that morning sun made it difficult to even see my computer screen!  Domaine Weinbach owns a large portion of the vineyards in the area.  In fact, I believe they are the largest family producer in all of Alsace!  While a large portion of the terrain is in Mambourg and Marckrain, the majority of the wines I tasted were from their vines in Schlossberg and Altenbourg.  Many of which were Grand Crus.  The variety of wines and their uniqueness even when compared to each other made this seem like a day-long tasting.  In fact, it was so good, I didn't tasting anything else the rest of the day...*
+{: .center-caption }
+
+{% picture domaine-weinbach/5.jpg alt="" title="Selfie Time, Part 2" class="center-image" %}
+***Caption Title:*** *The entrance to the winery.  Again, not the most impressive on the outside, but the inside is a 180.  This picture was after my tasting, hence the wider grin than normal.  It was a decent walk back into town, but so worth it...  I highly recommend you visit if you are ever in the area.  In my Top 3 of Alsace!!*
+{: .center-caption }
+
+{% picture domaine-weinbach/6.jpg alt="" title="Again, the VIEW!!!" class="center-image" %}
+***Caption Title:*** *I still can't say enough about the view of Schlossberg.  This was taken around noon, two hours after the second picture.  You can see the sky has evened out a bit.  What's also impressive is the stone wall that runs parallel to the vines all the way down to the main road.  Please bring a better camera than I did and send me some copies of your photos, please!*
+{: .center-caption }
+
 
 Kayserberg.  There are actually three villages that are close together that are walkable if you do not have 80 pounds of luggage to drag around with you (the sidewalks are non-existant).  Kientzheim, Sigolsheim and Ammerschwihr are all close together and have their own wineries / vineyards.  I just couldn’t do it with my limited time and no car / too much luggage.  
 
 o	For as a large as the winery and its holdings are, the wine tasting room itself is like the study room in their home – because I actually think it is.  I think the advertising of this place is spot on – although the production is large for a winery in this region, this is all family run and I may have interrupted their breakfast.  The family chemistry is also that of a sitcom TV show.  The oldest son who is very knowledgeable, the daughter who is Type-A personality, and the loving mother (I think the father was out cutting the grass).    I also love the reversal of percentages on their wines – it makes them so distinct and unique from other wines in the area (see the Pinot Blanc and the Muscat).  Lost 50% of Gewurz and 25% of Riesling/Pinot Gris in 2017 because of a spring frost and then the growing season went super quickly, resulting in lower yield but great/intense quality.  Although it is a huge estate, they don’t really have the capacity to handle that many visitors – this is a mansion, not a winery with a tasting room.  With as small an operation that they have, how do they handle the capacity and the many different wines that they produced (the portfolio is so big each year!)
+
+ At the foot of the majestic hill going by the name of Schlossberg, surrounded by vines and roses, lies Domaine Weinbach. Named after the little stream which runs through the property and planted with vines since the IXth century. It was established as a winery in 1612 by Capuchin friars. These vineyards, to this day surrounded by ancient walls, are specifically named Clos des Capucins. In addition to this, the estate’s history is well remembered through the image of a monk which fittingly adorns our labels.
+
+After being sold as national property during the French revolution, it was acquired by the Faller brothers in 1898 who then left it to their son and nephew, Théo. Théo Faller was a prominent figure in Alsace winegrowing and an ardent defender of quality wine production. He developed, expanded and enhanced Domaine Weinbach. In 1979, Colette -Théo’s wife-, Catherine, Laurence Faller and their team pursued the family’s passion for the great wines of Alsace and its unrelenting commitment to delivering excellence.
+
+
 
 o	Starting with Pinot Noir – Unusual to start with red wines, but the reds are dry, so that is the recommended course for the tasting.  15% new barriques, rest old oak.  
 
