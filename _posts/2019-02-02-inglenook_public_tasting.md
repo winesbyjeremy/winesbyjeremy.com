@@ -4,7 +4,7 @@ title: Inglenook Public Tasting
 author: Jeremy Myers
 date:   2019-02-02 15:20:00 -0400
 tags: review winery tasting california napa rutherford
-image: inglenook/1.jpg
+image: inglenook/4.jpg
 location:
   latitude: 38.454675
   longitude: -122.430925
