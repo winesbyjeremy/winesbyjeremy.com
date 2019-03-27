@@ -59,25 +59,25 @@ The wine expert (conseiller en vins) that did my tasting was Julien Dreveton who
 ***Caption Title:*** *Of course, I needed my turn in the spotlight.  These slopes are southfacing toward the west-east bend of the river, making it really bright out for most of the day and even necessitating the use of sunblock.*
 {: .center-caption }
 
-[**2017 St. Peray**]() (14 Euros)
+[**2017 St. Peray**](http://www.chapoutier.fr/saint-peray,les-tanneurs,white,wine,98.html) (14€)
   * 95% Marsanne, 5% Roussane.  50% demi-muit (400L) 50% Steel Tank.  The nose is very light with crisp yellow and green fruit notes.  Has a med/med+ mouthfeel with med+ acid and med+/high intensity of flavors on the palate.  It is very impressive how balanced this wine is, even when served a little warmer.  The palate flavors are a softer stonefruit that has no residual pyrazines.  Really nice white wine.  
-[**2017 Les Meysonniers**]() (16 Euros)
+[**2017 Les Meysonniers**](http://www.chapoutier.fr/crozes-hermitage,les-meysonniers,white,wine,12.html) (16€)
   * 100% Marsanne.  Croze-Hermitage.  Less minerality than St. Peray, but more bitterness on the end.  A brighter, riper nose than the St. Peray.  Similar mouthfeel, but slightly less acidity.  Even riper flavors on the palate than approach that of Viognier and a finishing acidity and bitterness that are similar as well.  This is just a bit more balanced though than a ripe Condrieu and less intense.  The finish goes on a bit in nice, light tropical way
-[**2015 St. Joseph Les Granilites**]() (28 Euros)
+[**2015 St. Joseph Les Granilites**](http://www.chapoutier.fr/saint-joseph,les-granits,white,wine,30.html) (28€)
   * 100% Marsanne.  80% aging in barrels.  20% in tank.  More butter because of the MLF and barrels.  2015 was a super hot year here too, so more ripeness and less acidity than normal.  High pitched floral notes that also have some tropical notes on it.  Lighter body than the other two and med- acidity.  There is a rich, creamy butter than integrates really well with the ripe stonefruit and tropical notes.  But it still finishes cleanly at the end.  
-[**2016 Chante-Alouette (Hermitage)**]() (48 Euros)
+[**2016 Chante-Alouette (Hermitage)**](http://www.chapoutier.fr/hermitage,chante-alouette,white,wine,22.html) (48€)
   * 18 months in barrels (20% new oak).  100% Marsanne – Hermitage means it’s a blend of different plots.  (L’Ermitage means that single plot).  A little bit more reserved on the nose.  Med+ acid and med+ body.  The palate has really nice balanced yellow fruit and stone fruit flavors and finishes very cleanly.  This one is a bit hard to describe, which I consider a good thing.  Just very well integrated and balanced.  The acid also tingles a bit on the finish in a fun way.  
-[**2016 Invitare (Condrieu)**]() (34 Euros)
+[**2016 Invitare (Condrieu)**](http://www.chapoutier.fr/condrieu,invitare,white,wine,9.html) (34€)
   * 100% Viognier, 8 months in barrels, fermentation happens directly in the bottles.  Still very fruity because of that.  Med body, with med+ acid, the flavors also range closer to stone fruit.  Lighter in intensity than a lot of the other wines from Condrieu, but it has balance.  Always something to sacrifice when creating Condrieu if you want them to be drinkable. 
-[**2017 Les Meysonniers**]() (13.45 Euros)
+[**2017 Les Meysonniers**](http://www.chapoutier.fr/crozes-hermitage,les-meysonniers,red,wine,11.html) (13.45€)
   * 100% Syrah from Croze-Hermitage.  20% aging in barrels and 80% aged in concrete Foudre.  Deep red fruit with some black fruit and just a bit of spiciness and smoke on it.  Med- body, med+ acid, med+ tannin with a ton of black pepper on the palate.  It sticks with you through the finish.  It’s still drinkable now, but can still lay down a year or two.  The fruit is still there on the palate, but its definitely secondary.  
-[**2015 Les Granilites**]() (22 Euros)
+[**2015 Les Granilites**](http://www.chapoutier.fr/saint-joseph,les-granits,red,wine,29.html) (22€)
   * St. Joseph, 100% Syrah. 50/50 barrels and concrete.  2015 power – the fruit is towards the black spectrum rather than the red.  Med+ acid and really high tannins than grip the gums through the finish.  The body is med, though its hard to tell through the tannin.  This can age forever, but I think I would prefer a different vintage of this wine.  
-[**2015 Les Arenes**]() (28 Euros)
+[**2015 Les Arenes**](http://www.chapoutier.fr/cornas,les-arenes,red,wine,10.html) (28€)
   * Grown in Cornas, just south of St. Joseph.  Very fragrant with raspberry jam as the dominant aroma.  Med- body, med+ tannin, med+ acid.  The palate is a continuation of the nose, but there is also a lot of wood character – cedar, earth, and other pieces.  This is probably the most complete red I’ve tasted so far RE: characteristics across the spectrum.  Still could age a little bit, but very nice.  I choose to bring a bottle of this back.
-[**2016 Les Becasses**]() (44 Euros)
+[**2016 Les Becasses**](http://www.chapoutier.fr/cote-rotie,les-becasses,red,wine,17.html) (44€)
   * Cote Rotie.  100% Syrah.  12 months in barrels.  Softer red fruits on the nose.  Med+ acid, med- body, med+ tannin.  Garrigue and black pepper, with red fruit playing a background role.  Well integrated though and soft even earlier on in its life, but make no mistake, you can definitely feel the wild animal fur.  
-[**2012 Sizeranne**]() (54 Euros)
+[**2012 Sizeranne**](http://www.chapoutier.fr/hermitage,monier-de-la-sizeranne,red,wine,23.html) (54€)
   * Hermitage.  85% in barrels and 15% in concrete.  100% Syrah again.  The nose some aged aspects (earth, mushroom) in addition to the normal notes.  The palate has a balance of all of those taste characteristics as well but the acid/tannin are noticeably softer than all of the other reds that we have had so far.  The garrigue is also integrated well with the tertiary character – this is a really nice wine to drink right now…
 
 ttracol@sera-wines.com (646-630-4540) – the POC for Chapoutier wines distributed in the USA
