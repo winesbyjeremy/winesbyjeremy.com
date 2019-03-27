@@ -2,7 +2,7 @@
 layout: review
 title: Bott Freres Public Tasting
 author: Jeremy Myers
-date:   2019-03-09 15:20:00 -0400
+date:   2019-03-16 15:20:00 -0400
 tags: review winery tasting france alsace ribeauville
 image: bott-freres/2.jpg
 location:
