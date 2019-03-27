@@ -4,7 +4,7 @@ title: Corison Private Tasting
 author: Jeremy Myers
 date:   2019-01-26 15:20:00 -0400
 tags: review winery tasting california napa st-helena
-image: corison/1.jpg
+image: corison/4.jpg
 location:
   latitude: 38.484965
   longitude: -122.447364
@@ -54,10 +54,10 @@ Visiting the winery is very personal.  There are no more than 2-3 groups of visi
 * [**2008 Kronos Cabernet Sauvignon**](https://store.corison.com/store/index.cfm?fuseaction=productdetail&product_id=104) ($260)
   * The nose resembles the Sunbasket, but with a little more depth, black fruit, and integration.  The wine is also less bright with lower levels of blue fruit and cocoa.  The palate reminds me of a great Bordeaux – present red/black fruit, tertiary characteristics with some salinity and less spice, but with a finish just goes on forever at a solid intensity.  The lingering feeling of the acidity and integrated alcohol feels amazing too...  At 10 years old, it trades the bright nose for a great mouthfeel and more intense/present flavors on the palate that continues to last.  Similar, but slightly different than other Bordeaux-like reds from the valley, such as the Inglenook Rubicon.
 
-![](/assets/corison/5.jpg "Tasting is hard"){: .center-image }
+{% picture corison/5.jpg alt="" title="Tasting is hard" class="center-image" %}
 ***Caption Title:*** *Evaluating these wines was so fun and difficult at the same time.  A part of me just wanted to enjoy them with friends, but the other part wanted to give the respect these wines deserved.  And boy did they deserve it.*
 {: .center-caption }
 
-If you are a little tired of the intensity and huge fruit of many Napa wineries, you owe it to yourself to give Corison a try.  It is definitely smaller than many other wineries off the main highway and does not have the lavish look or branding of others, but there is some much energy and care put into these wines.  It would be so easy to let these wines be 15% ABV, black fruit, heavy wood spice powerhouses; it takes much more effort, finesse, and expertise to craft wines that are so complex and enjoyable.  
+If you are a little tired of the intensity and huge fruit of many Napa wineries, you owe it to yourself to give Corison a try.  It is definitely smaller than many other wineries off the main highway and does not have the lavish look or branding of others, but there is some much energy and care put into these wines.  It would be so easy to let these wines be 15% ABV, black fruit, heavy wood spice powerhouses; it takes much more effort, finesse, and expertise to craft wines that are so complex and enjoyable. 
 
 Although I did not purchase wines on my first visit, I definitely plan on acquiring some in the future to serve as a contrast to other Napa Cabernets at future tastings.  Their library vintages are also available for purchase by non-members which is a pleasant surprise and will definitely have me considering paying $25-$50 more to try the wines after they've undergone sufficient aging.  In a way, you need to taste these wines to believe it.  So the next time you are driving up Highway 29 into Napa, consider giving Corison a try.  I guarantee it will be worth your while and may start you along the path to trying Bordeaux Super-Second Growth wines.  Cheers!!
