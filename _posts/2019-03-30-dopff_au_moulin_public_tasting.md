@@ -28,13 +28,13 @@ Before visiting Alsace, I had not heard of Domaine Dopff au Moulin.  I have now.
 ***Caption Title:*** *The front gate to Dopff Au Moulin.  Funny enough, the building straight behind the gate isn't where the tastings are held.  I know, that totally threw me off too.  Thought I would just warn the reader to not make the same mistake I did (haha) while also showing off their fancy gate.*
 {: .center-caption }
 
-% picture dopff-au-moulin/2.jpg alt="" title="The Real Entrance" class="center-image" %}
+{% picture dopff-au-moulin/2.jpg alt="" title="The Real Entrance" class="center-image" %}
 ***Caption Title:*** *The real entrance to Dopff Au Moulin - you can see the door through the hedges.  I did not think it was the entrance either, but I should have probably known to follow the large contingent of people entering and exiting the facility.  Domaine Dopff Au Moulin is at the bottom of the hill at the edge of town, so if you are driving to Riquewihr by car, this is the easiest winery to access.  It does get more foot traffic than any other winery I saw in town...*
 {: .center-caption }
 
 Searching for the entrance to the wine shop, I thought to myself that they had to have been around for a long time to get such a premium location for their storefront.  That is an understatement.  It all started in 1574 for the Dopff family, who now have three generations (including the 13th generation) of their family operating the winery.  At 70 hectares, they are the second largest family-owned winery in all of Alsace (behind Domaine Weimbach I believe), producing around a million bottles of sparkling wine and still wines.  I appreciate how they consider themselves wine growers rather than winemakers as it emphasizes their dedication in the vineyards to ensuring that they are producing natural wines, with traditional means, that meet their high standards.  
 
-% picture dopff-au-moulin/3.jpg alt="" title="Spill the dirt!" class="center-image" %}
+{% picture dopff-au-moulin/3.jpg alt="" title="Spill the dirt!" class="center-image" %}
 ***Caption Title:*** *Not the greatest photo of the soil samples from each Grand Cru terroir nearby - the sun was very bright even inside the winery.  Even so, you should still be able to pick out the differences in the glass bottles.  The soil types are also noted on the pieces of slate in each glass.  Schoenenbourg, Sporen and Vorbourg are the places where you see most wine in the region from.*
 {: .center-caption }
 
@@ -42,7 +42,7 @@ In addition to being part of the fabric of Riquewihr for so long, Dopff au Mouli
 
 Julien Dopff was also the first person in the region to begin commercially selling their wines in the long stemmed bottles.  Today, these bottles (known as Flûte d'Alsace) are part of the region's branding effort and is mandatory for all still wines bottled in the region!  As a student of wine history (for my WSET Diploma), I was a bit ashamed that I had not heard of them or their achievements before arriving.  But observing their sheer throughput throughout the day, it all makes sense now.  I also feel like this winery really tailors itself to Germans as much as the French; a vast majority of their wines are varietally named (as is tradition in Germany) and the wine ambassadors speak German fluently (if not also English).  The wine ambassador pouring for me received her French wine certification, which is a three year joint school + internship program, so you know they hire the best people too.
 
-% picture dopff-au-moulin/4.jpg alt="" title="The Tasting Counter" class="center-image" %}
+{% picture dopff-au-moulin/4.jpg alt="" title="The Tasting Counter" class="center-image" %}
 ***Caption Title:*** *Again, I visited during the peak afternoon sun, which impacted all of my photos.  The lit countertops did not help either...  You can still tell that I got to taste and check out the bottles of many different wines and that the people behind the bar were very busy.  There was a lot of customer turnover as I sat in the corner, enjoying each of the wines.  But hey, if you know what you want, buy quick and head to the next stop!*
 {: .center-caption }
 
@@ -71,7 +71,7 @@ Because the tasting room had a high throughput of customers, I was generally lef
 
 As you can tell, there were many wines to taste and I only scratched the surface!  I think I tried maybe a third of the wines on their menu, though I did get to try many of their Grand Crus, which was a real treat.  I love that the portfolio is balanced between classical renditions of varietals and what effects aging, barrels and intervention by the winemaker might have on the wines.  The wines were also not overtly fruit-driven for the most part, letting the wood and terroir do more of the talking, which was very different than many of the places I visited in the area (especially Hugel et Fils, which was right up the hill).
 
-% picture dopff-au-moulin/5.jpg alt="" title="Obligatory Selfie" class="center-image" %}
+{% picture dopff-au-moulin/5.jpg alt="" title="Obligatory Selfie" class="center-image" %}
 ***Caption Title:*** *The pixelation on my selfie is pretty bad, but the picture is still good enough to communicate what the vineyards were like.  They just kept going for miles over my back shoulder, which the higher quality grapes coming from the mid-to-top of the slope.  Everything was just so green and lively.  It's hard not to be happy here, even without a car!*
 {: .center-caption }
 
