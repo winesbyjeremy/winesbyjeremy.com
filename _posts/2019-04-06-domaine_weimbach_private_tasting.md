@@ -4,7 +4,7 @@ title: Domaine Weinbach Private Tasting
 author: Jeremy Myers
 date:   2019-04-06 15:20:00 -0400
 tags: review winery tasting france alsace kaysersberg
-image: domaine-weinbach/1.jpg
+image: domaine-weinbach/6.jpg
 location:
   latitude: 48.136243
   longitude: 7.273176
