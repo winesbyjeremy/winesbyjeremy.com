@@ -1,4 +1,4 @@
---
+---
 layout: review
 title: Chappellet Private Tasting
 author: Jeremy Myers
