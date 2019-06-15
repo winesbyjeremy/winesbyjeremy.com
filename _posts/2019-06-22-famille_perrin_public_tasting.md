@@ -14,7 +14,7 @@ location:
   country: FR
 winery_details:
   name: Famille Perrin
-  url: https://perrindirect.com/
+  url: http://familleperrin.com/en/
   rating: 92
   tasting: $0
   price: $0
@@ -32,15 +32,15 @@ To provide a little background, Chateau Beaucastel is one of the premium brands 
 
 The selection within the store is pretty broad and most of the wines are of very good quality, meaning you can find some interesting wines for great prices if you don't need your wine to have international branding or acclaim.  Of note too is the fact that while they do serve the Chateau Beaucastel rouge as part of the tasting, the menu is predominantly geared toward exposing the consumer to other wines within the family's portfolio.  This is exactly what I was hoping for...  Just note that the store and the two people running it can normally handle only two tasting groups at a time near the counter.  So be prepared to window shop for a few minutes if others are in line to taste before you:
 
-* [**2016 Chateauneuf-Du-Pape AOC White**]() (€)
+* [**2016 Chateauneuf-Du-Pape AOC White**](http://m.familleperrin.com/8W92WE/web)
   * 80% Roussane with the other 20% coming from three other white varietals.  There's a hint of MLF on the nose (ie. some popcorn) with mellow stonefruit.  Structure of medium(+) acid and medium body.  The palate had medium(+) intensity flavors of yellow fruit, popcorn, butter, and minerality that tingles the edge of the tongue on the finish.  The finish is nice and long with well integrated alcohol providing weight on the palate and a warming sensation.  This is a big white that can compete with Napa Valley Chardonnays in a blind tasting.
-* [**2015 Coudoulet de Beaucastel AOC Red**]() (21€)
+* [**2015 Coudoulet de Beaucastel AOC Red**](http://m.familleperrin.com/FM9LVE/web) (21€)
   * Their Cotes du Rhone table wine.  The nose was a little closed but displayed some lighter red fruit notes with black pepper.  High acid, high chewy tannins, a medium body.  The flavors on the palate are pretty clear: cranberry, black pepper, and a slight garrigue character.  The acid is mouthwatering and the fruit flavor isn't quite as ripe as I was expecting, but for the 20€ price range, that's about what you would expect.  I prefer the Paul Jaboulet Aine, but would be happy with this at my table.
-* [**2015 Hermitage Maison Les Alexandrins**]() (38€)
+* [**2015 Hermitage Maison Les Alexandrins**](http://lesalexandrins.com/en/wine/?vincod=9A7V7E&winecolor=) (38€)
   * Medium(+) acid, medium(-) body, and high tannins.  This wine already has a well integrated nose with dried red fruit, garrigue, and black pepper on the nose in medium(-) intensity.  The tannins are still present on the finish, but the intensity of flavors on the palate makes it work.  This wine needs a year or two to round everything out and to allow the tertiary character to emerge and balance the red fruit.  Still, this wine is already drinking pretty well.  I'm surprised how light this wine was considering 2015 was a ripe harvest.  One of the rare 2015s that offers more balance than weight and power.  
-* [**2010 Les Chapouins Veilles Vignes**]() (50€)
+* [**2010 Les Chapouins Veilles Vignes**](http://m.familleperrin.com/HGKBKE/web) (50€)
   * Chateauneuf-du-Pape AOC wine.  100% old vine Grenache aged for 5 years in large, neutral oak foudres.  Medium(+) acid, medium body, and medium(+) tannins.  For a single variety wine, it has really good complexity with tertiary flavors already integrated with the red fruit.  The finish goes on for 30+ seconds and the tannins are fairly smooth.  Value wise, I think this wine was the best I tasted at the shop (I purchased a bottle) and should be drunk within the next 3 years.  The earth and cedar show more than the pepper, which is a twist I liked.  
-* [**2012 Chateau de Beaucastel**]() (69€)
+* [**2012 Chateau de Beaucastel**](http://m.familleperrin.com/517LSE/web) (69€)
   * The flagship GSM blend.  The nose is less bright and a little deeper than its Cote du Rhone brethren, but it still emphasizes its red fruit.  The palate leans toward the tertiary flavors at this point (earth, wood, black pepper) with dried red fruit layered underneath.  It's still full bodied and could age a fair number of years, but I think it's just about at its peak.  Serve this wine a little cool to accentuate the acid a bit.
 
 One of the interesting this about the store is how the wines are transported in and eventually put on sale.  Most of the pricier wines (e.g. the 2010 Les Chapouins Veilles Vignes that I purchased) are shipped to the store in the 6-pack OWC (Original Wood Case) from the winery.  When the store sells the wine in increments other than 6, they must break open the OWC (ie. remove the nails with a hammer), to take out the bottles they sell and give it to the consumer.  This was very different to see as someone who is always used to the bottles being out of the OWC in wineries/stores in the USA.  It adds additional labor, but I think its a nice show to put on for customers.
