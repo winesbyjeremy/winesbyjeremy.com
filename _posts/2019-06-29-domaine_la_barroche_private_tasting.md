@@ -1,6 +1,6 @@
 ---
 layout: review
-title:  Domaine La Barroche Public Tasting
+title:  Domaine La Barroche Private Tasting
 author: Jeremy Myers
 date:   2019-06-29 15:20:00 -0400
 tags: review winery tasting france southern-rhone chateauneuf-du-pape
@@ -20,7 +20,7 @@ winery_details:
   price: $0
   tasting_type: Private Tasting
   accepts_reservations: "Yes"
-  reservation: No
+  reservation: Yes
 ---
 If there is one winery in Châteauneuf-du-Pape that reminds me of Napa Valley, it's Domaine la Barroche.  And when I say "Napa Valley", I don't mean the large wineries that host hundreds of people for walk-in tastings each day.  I mean the top quality estates where you are the only people on the tour, everything about the winery is dedicated to making great wine, and the wine is fantastic...  In addition, the wine here is more fruit driven and pure than many other estates in the area, so it will greatly please the Napa lovers out there.  If Clos Des Papes was my favorite tasting experience, this may have been my favorite overall experience.  Do NOT miss Domaine la Barroche during your exploration of the area.
 
