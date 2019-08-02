@@ -1,4 +1,4 @@
---
+---
 layout: review
 title: Paradigm Private Tasting
 author: Jeremy Myers
