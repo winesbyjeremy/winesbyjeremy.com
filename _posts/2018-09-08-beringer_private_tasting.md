@@ -4,7 +4,7 @@ title:  Beringer Private Tasting
 author: Jeremy Myers
 date:   2018-09-08 15:20:00 -0400
 tags: review winery tasting california napa st-helena
-image: beringer/1.jpg
+image: beringer/2.jpg
 location:
   latitude: 38.510169
   longitude: -122.479882
