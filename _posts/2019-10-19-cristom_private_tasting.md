@@ -23,7 +23,7 @@ winery_details:
   accepts_reservations: "Yes"
   reservation: Yes for the Cristom Experience, No for Traditional Tastings
 ---
-This is actually my second time visiting Cristom.  The first made such an impression on me, I signed up for a membership and will try to visit once a year.  Looking back at my first post on the winery, I noticed that my pictures and wine reviews were lacking.  So if you want to read up on the background of Cristom, read my previous post at [https://www.winesbyjeremy.com/2018/11/17/cristom_private_tasting.html](https://www.winesbyjeremy.com/2018/11/17/cristom_private_tasting.html).  Below, you'll find new pictures of the estate and my reviews of the latest vintage.
+This is actually my second time visiting Cristom.  The first made such an impression on me, I signed up for a membership and will try to visit once a year.  Looking back at my first post on the winery, I noticed that my pictures and wine reviews were lacking.  So if you want to read up on the background of Cristom, read my previous post at [**HERE**](https://www.winesbyjeremy.com/2018/11/17/cristom_private_tasting.html).  In this post, you'll find new pictures of the estate (they've expanded it a bit thanks to their continuing success) and my reviews of the latest vintage.
 
 My suggestion, get to Cristom sooner rather than later.  If you look between the two posts, you'll notice that that 2016 vintage is more expensive than the 2015 vintage.  And if you look on their website at their newly posted 2017 vintages, you'll notice the prices have gone up again.  Everyone is catching on to the fact that their wines are of great quality and are starting to buy more and more.  Don't miss your chance to pick up bottles before the bottles hit $100+ in 5-10 years.
 
