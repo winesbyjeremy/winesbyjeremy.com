@@ -46,9 +46,9 @@
     
         <meta content="chateauneuf-du-pape" property="article:tag">
     
-<!-- Begin Jekyll SEO tag v2.5.0 -->
+<!-- Begin Jekyll SEO tag v2.6.1 -->
 <title>Clos Des Papes Public Tasting | Wines By Jeremy</title>
-<meta name="generator" content="Jekyll v3.8.5" />
+<meta name="generator" content="Jekyll v3.8.6" />
 <meta property="og:title" content="Clos Des Papes Public Tasting" />
 <meta name="author" content="Jeremy Myers" />
 <meta property="og:locale" content="en_US" />
@@ -61,7 +61,7 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2019-06-08T19:20:00+00:00" />
 <script type="application/ld+json">
-{"image":"https://www.winesbyjeremy.com/clos-des-papes/3.jpg","url":"https://www.winesbyjeremy.com/2019/06/08/clos_des_papes_public_tasting.html","headline":"Clos Des Papes Public Tasting","dateModified":"2019-06-08T19:20:00+00:00","datePublished":"2019-06-08T19:20:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.winesbyjeremy.com/2019/06/08/clos_des_papes_public_tasting.html"},"author":{"@type":"Person","name":"Jeremy Myers"},"description":"Clos Des Papes was my favorite wine tasting in Châteauneuf-du-Pape. If you trust me at all, that should be enough to get you to put it at the top-of-your-list. But in case you don’t trust me, trust the wine critics. Jeb Dunnuck cannot stop talking about their wines (scored the 2016 rouge 100PTS) and Wine Advocate also continues to rate it highly. But best of all, it’s free to taste (though I would expect them to start charging soon), they normally pour the current vintage and the one previous, and they also have their white wines to taste! When I visited, I couldn’t believe it. I spent more time here than I intended tasting the wines and speaking with their wine ambassador. But I have no regrets and enjoyed every minute of it.","@type":"BlogPosting","@context":"http://schema.org"}</script>
+{"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.winesbyjeremy.com/2019/06/08/clos_des_papes_public_tasting.html"},"image":"https://www.winesbyjeremy.com/clos-des-papes/3.jpg","url":"https://www.winesbyjeremy.com/2019/06/08/clos_des_papes_public_tasting.html","author":{"@type":"Person","name":"Jeremy Myers"},"description":"Clos Des Papes was my favorite wine tasting in Châteauneuf-du-Pape. If you trust me at all, that should be enough to get you to put it at the top-of-your-list. But in case you don’t trust me, trust the wine critics. Jeb Dunnuck cannot stop talking about their wines (scored the 2016 rouge 100PTS) and Wine Advocate also continues to rate it highly. But best of all, it’s free to taste (though I would expect them to start charging soon), they normally pour the current vintage and the one previous, and they also have their white wines to taste! When I visited, I couldn’t believe it. I spent more time here than I intended tasting the wines and speaking with their wine ambassador. But I have no regrets and enjoyed every minute of it.","headline":"Clos Des Papes Public Tasting","dateModified":"2019-06-08T19:20:00+00:00","datePublished":"2019-06-08T19:20:00+00:00","@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/css/main.css"><link type="application/atom+xml" rel="alternate" href="https://www.winesbyjeremy.com/feed.xml" title="Wines By Jeremy" /><script>
 if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1")) {
@@ -162,6 +162,7 @@ var jekyllMaps = (function() {
         position: position,
         title: location.title,
         image: location.image,
+        popup_html: location.popup_html,
         icon: location.icon || mapOptions.markerIcon,
         url: markerUrl(mapOptions.baseUrl, location.url),
         url_text: location.url_text,
@@ -180,14 +181,19 @@ var jekyllMaps = (function() {
 
     function markerPopup() {
       var content = '<div class="map-info-window"><h5>' + this.title + '</h5>'
-      var imageTag =
-        this.image.length > 0 &&
-        '<img src="' + this.image + '" alt="' + this.title + '"/>'
-      if (this.url.length > 0) {
-        var linkContent = imageTag || this.url_text || 'View'
-        content += '<a href="' + this.url + '">' + linkContent + '</a>'
-      } else if (imageTag) {
-        content += imageTag
+      if (this.popup_html.length > 0) {
+        content += this.popup_html
+      }
+      else {
+        var imageTag =
+          this.image.length > 0 &&
+          '<img src="' + this.image + '" alt="' + this.title + '"/>'
+        if (this.url.length > 0) {
+          var linkContent = imageTag || this.url_text || 'View'
+          content += '<a href="' + this.url + '">' + linkContent + '</a>'
+        } else if (imageTag) {
+          content += imageTag
+        }
       }
       content += '</div>'
       infoWindow.setContent(content)
@@ -305,11 +311,11 @@ if (typeof Object.assign !== 'function') {
       <meta itemprop="addressCountry" content="FR" />
     </div>
   </div>
-    <div id='eadafde3-6691-4071-82af-9488a22bc2e1' style='width:600px;height:400px;'></div>
+    <div id='64d39a40-c668-42c8-8fb9-de63480c7632' style='width:600px;height:400px;'></div>
 <script type='text/javascript'>
   jekyllMaps.register(
-    'eadafde3-6691-4071-82af-9488a22bc2e1',
-    [{"latitude":44.051794,"longitude":4.835299,"title":"Clos Des Papes Public Tasting","icon":null,"url":"/2019/06/08/clos_des_papes_public_tasting.html","url_text":null,"image":"clos-des-papes/3.jpg"}],
+    '64d39a40-c668-42c8-8fb9-de63480c7632',
+    [{"latitude":44.051794,"longitude":4.835299,"title":"Clos Des Papes Public Tasting","icon":null,"url":"/2019/06/08/clos_des_papes_public_tasting.html","url_text":null,"image":"clos-des-papes/3.jpg","popup_html":""}],
     {"baseUrl":"","useCluster":true,"showMarker":true,"showMarkerPopup":true,"markerIcon":null,"customZoom":16}
   );
 </script>
@@ -321,43 +327,19 @@ if (typeof Object.assign !== 'function') {
   <span itemprop="reviewBody">
     <p>Clos Des Papes was my favorite wine tasting in Châteauneuf-du-Pape.  If you trust me at all, that should be enough to get you to put it at the top-of-your-list.  But in case you don’t trust me, trust the wine critics.  Jeb Dunnuck cannot stop talking about their wines (scored the 2016 rouge 100PTS) and Wine Advocate also continues to rate it highly.  But best of all, it’s free to taste (though I would expect them to start charging soon), they normally pour the current vintage and the one previous, and they also have their white wines to taste!  When I visited, I couldn’t believe it.  I spent more time here than I intended tasting the wines and speaking with their wine ambassador.  But I have no regrets and enjoyed every minute of it.</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/clos-des-papes/1-1050by788-d45266.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/clos-des-papes/1-700by525-d45266.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/clos-des-papes/1-675by506-d45266.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/clos-des-papes/1-450by338-d45266.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/clos-des-papes/1-525by394-d45266.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/clos-des-papes/1-350by263-d45266.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/clos-des-papes/1-350by263-d45266.jpg" alt="" title="The entrance to the best tasting in Châteauneuf" class="center-image" />
-  </picture>
+<p><img title="The entrance to the best tasting in Châteauneuf" class="center-image" src="/assets/images/clos-des-papes/1-800-d45266.jpg" srcset="/assets/images/clos-des-papes/1-400-d45266.jpg 400w, /assets/images/clos-des-papes/1-600-d45266.jpg 600w, /assets/images/clos-des-papes/1-800-d45266.jpg 800w, /assets/images/clos-des-papes/1-1000-d45266.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>It took me a while to find the place and that was while using Google Maps on my phone.  Hopefully this picture will help in that you now know what you are looking for when you are walking along the street.</em></p>
 
 <p>Although the tasting room for Clos Des Papes is based out of a large house that doubles as their winery, it is actually quite easy to miss.  In fact, I missed it a couple times until I saw their sign on the gate to the house (see above).  As you walk up the driveway, it’s still pretty easy to think that you are in the wrong place and are in fact trespassing on someone’s private property.  Once you make it to the building though, there are signs with the Clos Des Papes brand and operating hours posted that reassure you.  You can head inside for a tasting once you have had your fill of staring at the vines (see my selfie at the bottom).</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/clos-des-papes/2-1050by788-183e98.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/clos-des-papes/2-700by525-183e98.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/clos-des-papes/2-675by506-183e98.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/clos-des-papes/2-450by338-183e98.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/clos-des-papes/2-525by394-183e98.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/clos-des-papes/2-350by263-183e98.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/clos-des-papes/2-350by263-183e98.jpg" alt="" title="The Tasting room" class="center-image" />
-  </picture>
+<p><img title="The Tasting room" class="center-image" src="/assets/images/clos-des-papes/2-800-183e98.jpg" srcset="/assets/images/clos-des-papes/2-400-183e98.jpg 400w, /assets/images/clos-des-papes/2-600-183e98.jpg 600w, /assets/images/clos-des-papes/2-800-183e98.jpg 800w, /assets/images/clos-des-papes/2-1000-183e98.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>Unlike some other wineries in Châteauneuf, their tasting room is nothing special.  What it lacks in aesthetics though, it makes up in the number of wines to taste, the quality of the wines, the price to taste, and the well-versed wine ambassador who will guide your tasting.  Since there were other guests, I made myself comfortable at her desk in the corner.</em></p>
 
 <p>As you can see above, their tasting room is a little underwhelming compared to some of the other wineries I’ve written about in Châteauneuf.  Have no fear.  The first thing you’ll notice besides the look of the room is the temperature - they keep it at a cool 65 degrees, hence why their wine ambassador is wearing a sweater even though it’s 95 outside.  The second is that there are several bottles of wine on the table and some interesting artwork nearby as well.  If you’re like me, you’ll take a minute to compose yourself from the heat outside.  Next, you’ll walk right up to the table and confidently ask for a tasting!</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/clos-des-papes/3-1050by788-d01518.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/clos-des-papes/3-700by525-d01518.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/clos-des-papes/3-675by506-d01518.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/clos-des-papes/3-450by338-d01518.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/clos-des-papes/3-525by394-d01518.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/clos-des-papes/3-350by263-d01518.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/clos-des-papes/3-350by263-d01518.jpg" alt="" title="Wine and Wine Ambassador" class="center-image" />
-  </picture>
+<p><img title="Wine and Wine Ambassador" class="center-image" src="/assets/images/clos-des-papes/3-800-d01518.jpg" srcset="/assets/images/clos-des-papes/3-400-d01518.jpg 400w, /assets/images/clos-des-papes/3-600-d01518.jpg 600w, /assets/images/clos-des-papes/3-800-d01518.jpg 800w, /assets/images/clos-des-papes/3-1000-d01518.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>After the other two gentlemen left, I had the tasting room all to myself.  As I mentioned earlier, I did linger and take my time evaluating the wines (she even brought me some 2014 that they had open in the back).  We both talked about our journey through the world of wine (her English was very good) and what we look for when we explore new regions.  I am still kicking myself for not asking to buy a case of wine on the spot - it was all really good and better than market price.</em></p>
 
@@ -395,15 +377,7 @@ if (typeof Object.assign !== 'function') {
 
 <p>I must say, the dried/cooked red fruit plus baking spice character is so distinctive in their red wines that I think I can pick it out of a Châteauneuf-du-Pape lineup.  And I do not type those words lightly…  Yet another reason that I am drawn to this wine.  Afterwards, I had to go clear my head outside in the vineyards (see below).</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/clos-des-papes/4-1050by788-7ae775.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/clos-des-papes/4-700by525-7ae775.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/clos-des-papes/4-675by506-7ae775.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/clos-des-papes/4-450by338-7ae775.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/clos-des-papes/4-525by394-7ae775.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/clos-des-papes/4-350by263-7ae775.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/clos-des-papes/4-350by263-7ae775.jpg" alt="" title="The clos-des-papes vineyards!" class="center-image" />
-  </picture>
+<p><img title="The clos-des-papes vineyards!" class="center-image" src="/assets/images/clos-des-papes/4-800-7ae775.jpg" srcset="/assets/images/clos-des-papes/4-400-7ae775.jpg 400w, /assets/images/clos-des-papes/4-600-7ae775.jpg 600w, /assets/images/clos-des-papes/4-800-7ae775.jpg 800w, /assets/images/clos-des-papes/4-1000-7ae775.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>After the tasting was over, I meandered outside and made sure to take a selfie with their vines.  I don’t remember if these are the red or white varietals, but I do remember that they are co-planted, which is why you get all of the varietals in each blend - they literally take what the land gives them.  And since co-planting was originally done to protect against the elements and disease a long time ago, you can imagine how old the vines are.</em></p>
 

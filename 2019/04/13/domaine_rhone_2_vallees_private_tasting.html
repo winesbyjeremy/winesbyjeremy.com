@@ -46,9 +46,9 @@
     
         <meta content="cote-rotie" property="article:tag">
     
-<!-- Begin Jekyll SEO tag v2.5.0 -->
+<!-- Begin Jekyll SEO tag v2.6.1 -->
 <title>Domaine Rhone 2 Vallees Private Tasting | Wines By Jeremy</title>
-<meta name="generator" content="Jekyll v3.8.5" />
+<meta name="generator" content="Jekyll v3.8.6" />
 <meta property="og:title" content="Domaine Rhone 2 Vallees Private Tasting" />
 <meta name="author" content="Jeremy Myers" />
 <meta property="og:locale" content="en_US" />
@@ -61,7 +61,7 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2019-04-13T19:20:00+00:00" />
 <script type="application/ld+json">
-{"image":"https://www.winesbyjeremy.com/rhone-2-vallees/3.jpg","url":"https://www.winesbyjeremy.com/2019/04/13/domaine_rhone_2_vallees_private_tasting.html","headline":"Domaine Rhone 2 Vallees Private Tasting","dateModified":"2019-04-13T19:20:00+00:00","datePublished":"2019-04-13T19:20:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.winesbyjeremy.com/2019/04/13/domaine_rhone_2_vallees_private_tasting.html"},"author":{"@type":"Person","name":"Jeremy Myers"},"description":"Although you hear about the sublime character and quality of Cote Rotie wines, you may not have had one before. And even if you have, it was likely from Guigal or another large producer such as Chapoutier. Even I have never had Cote Rotie wines from a small producer before this tasting. And as luck would have it, I struck gold in Rhone 2 Vallees. Not because their wines scored 100 points in a magazine, but because the wines expressed the terroir well, they were approachable, they were affordable, and their producer was one of the nicest people I have met. Did I mention that I was also staying at their hotel? If Guigal is the reason you visit Cote Rotie, you must make sure to stay here overnight.","@type":"BlogPosting","@context":"http://schema.org"}</script>
+{"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.winesbyjeremy.com/2019/04/13/domaine_rhone_2_vallees_private_tasting.html"},"image":"https://www.winesbyjeremy.com/rhone-2-vallees/3.jpg","url":"https://www.winesbyjeremy.com/2019/04/13/domaine_rhone_2_vallees_private_tasting.html","author":{"@type":"Person","name":"Jeremy Myers"},"description":"Although you hear about the sublime character and quality of Cote Rotie wines, you may not have had one before. And even if you have, it was likely from Guigal or another large producer such as Chapoutier. Even I have never had Cote Rotie wines from a small producer before this tasting. And as luck would have it, I struck gold in Rhone 2 Vallees. Not because their wines scored 100 points in a magazine, but because the wines expressed the terroir well, they were approachable, they were affordable, and their producer was one of the nicest people I have met. Did I mention that I was also staying at their hotel? If Guigal is the reason you visit Cote Rotie, you must make sure to stay here overnight.","headline":"Domaine Rhone 2 Vallees Private Tasting","dateModified":"2019-04-13T19:20:00+00:00","datePublished":"2019-04-13T19:20:00+00:00","@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/css/main.css"><link type="application/atom+xml" rel="alternate" href="https://www.winesbyjeremy.com/feed.xml" title="Wines By Jeremy" /><script>
 if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1")) {
@@ -162,6 +162,7 @@ var jekyllMaps = (function() {
         position: position,
         title: location.title,
         image: location.image,
+        popup_html: location.popup_html,
         icon: location.icon || mapOptions.markerIcon,
         url: markerUrl(mapOptions.baseUrl, location.url),
         url_text: location.url_text,
@@ -180,14 +181,19 @@ var jekyllMaps = (function() {
 
     function markerPopup() {
       var content = '<div class="map-info-window"><h5>' + this.title + '</h5>'
-      var imageTag =
-        this.image.length > 0 &&
-        '<img src="' + this.image + '" alt="' + this.title + '"/>'
-      if (this.url.length > 0) {
-        var linkContent = imageTag || this.url_text || 'View'
-        content += '<a href="' + this.url + '">' + linkContent + '</a>'
-      } else if (imageTag) {
-        content += imageTag
+      if (this.popup_html.length > 0) {
+        content += this.popup_html
+      }
+      else {
+        var imageTag =
+          this.image.length > 0 &&
+          '<img src="' + this.image + '" alt="' + this.title + '"/>'
+        if (this.url.length > 0) {
+          var linkContent = imageTag || this.url_text || 'View'
+          content += '<a href="' + this.url + '">' + linkContent + '</a>'
+        } else if (imageTag) {
+          content += imageTag
+        }
       }
       content += '</div>'
       infoWindow.setContent(content)
@@ -305,11 +311,11 @@ if (typeof Object.assign !== 'function') {
       <meta itemprop="addressCountry" content="FR" />
     </div>
   </div>
-    <div id='fa061f97-d5f5-439a-8d7f-1bc2a5cd11c3' style='width:600px;height:400px;'></div>
+    <div id='a30fcde9-8781-43d2-9a97-4fe252c4a3ea' style='width:600px;height:400px;'></div>
 <script type='text/javascript'>
   jekyllMaps.register(
-    'fa061f97-d5f5-439a-8d7f-1bc2a5cd11c3',
-    [{"latitude":45.48727,"longitude":4.800151,"title":"Domaine Rhone 2 Vallees Private Tasting","icon":null,"url":"/2019/04/13/domaine_rhone_2_vallees_private_tasting.html","url_text":null,"image":"rhone-2-vallees/3.jpg"}],
+    'a30fcde9-8781-43d2-9a97-4fe252c4a3ea',
+    [{"latitude":45.48727,"longitude":4.800151,"title":"Domaine Rhone 2 Vallees Private Tasting","icon":null,"url":"/2019/04/13/domaine_rhone_2_vallees_private_tasting.html","url_text":null,"image":"rhone-2-vallees/3.jpg","popup_html":""}],
     {"baseUrl":"","useCluster":true,"showMarker":true,"showMarkerPopup":true,"markerIcon":null,"customZoom":16}
   );
 </script>
@@ -321,71 +327,31 @@ if (typeof Object.assign !== 'function') {
   <span itemprop="reviewBody">
     <p>Although you hear about the sublime character and quality of Cote Rotie wines, you may not have had one before.  And even if you have, it was likely from Guigal or another large producer such as Chapoutier.  Even I have never had Cote Rotie wines from a small producer before this tasting.  And as luck would have it, I struck gold in Rhone 2 Vallees.  Not because their wines scored 100 points in a magazine, but because the wines expressed the terroir well, they were approachable, they were affordable, and their producer was one of the nicest people I have met.  Did I mention that I was also staying at their hotel?  If Guigal is the reason you visit Cote Rotie, you must make sure to stay here overnight.</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/rhone-2-vallees/1-1050by788-214e32.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/rhone-2-vallees/1-700by525-214e32.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/rhone-2-vallees/1-675by506-214e32.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/rhone-2-vallees/1-450by338-214e32.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/rhone-2-vallees/1-525by394-214e32.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/rhone-2-vallees/1-350by263-214e32.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/rhone-2-vallees/1-350by263-214e32.jpg" alt="image" title="Wine Hotels Rock" class="center-image" />
-  </picture>
+<p><img title="Wine Hotels Rock" class="center-image" src="/assets/images/rhone-2-vallees/1-800-214e32.jpg" srcset="/assets/images/rhone-2-vallees/1-400-214e32.jpg 400w, /assets/images/rhone-2-vallees/1-600-214e32.jpg 600w, /assets/images/rhone-2-vallees/1-800-214e32.jpg 800w, /assets/images/rhone-2-vallees/1-1000-214e32.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>Entrance to the hotel.  I have stayed at winery / hotels before, but rarely have they been run by only two people.  If you are looking for a more classic place to stay in the area, I recommend the Le Beau Rivage, but you will miss out on an opportunity to try some great wines and meeting two of the nicest people in Ampuis.</em></p>
 
 <p>I found it odd that as much as I’d heard about Cote Rotie wines, it would be so difficult to plan a few days in the region.  There weren’t many hotels to choose from and not that many wineries to contact for tastings (many had outdated or non-functional websites).  But since I had heard so much about the region in my wine classes and have had more than a few impressive wines from Guigal before, I decided to book a room in the area for a few days and make it work.  My stay may not have worked out in the way I had hoped, but thanks to Rhone 2 Vallees, I still made some great memories.</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/rhone-2-vallees/2-1050by788-7efdd6.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/rhone-2-vallees/2-700by525-7efdd6.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/rhone-2-vallees/2-675by506-7efdd6.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/rhone-2-vallees/2-450by338-7efdd6.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/rhone-2-vallees/2-525by394-7efdd6.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/rhone-2-vallees/2-350by263-7efdd6.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/rhone-2-vallees/2-350by263-7efdd6.jpg" alt="image" title="Beautiful..." class="center-image" />
-  </picture>
+<p><img title="Beautiful..." class="center-image" src="/assets/images/rhone-2-vallees/2-800-7efdd6.jpg" srcset="/assets/images/rhone-2-vallees/2-400-7efdd6.jpg 400w, /assets/images/rhone-2-vallees/2-600-7efdd6.jpg 600w, /assets/images/rhone-2-vallees/2-800-7efdd6.jpg 800w, /assets/images/rhone-2-vallees/2-1000-7efdd6.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>My pictures only capture a small portion of Cote Rotie’s beauty.  It is not an area that is equipped to handle much tourism (there aren’t that many wineries open for tastings), but it’s still worth visiting for a day, just to admire the vines and the human effort put into maintaining them.  Because of the slopes, it’s impossible to use machinery like in other parts of the world - so everything is done back-breakingly by hand.</em></p>
 
 <p>As you can see from the picture above, Cote Rotie is a gorgeous area.  It just does not have the visibility, tourism, or infrastructure of a place like Hermitage or Chateauneuf-du-Pape.  And with a single producer owning most of the land / purchasing most of the grapes (Guigal), there aren’t many producers that can afford a dedicated tasting room, especially when it would remain empty most of the time.  I hope that this changes for the Ampuis area, but also would not want added attention to change what makes Cote Rotie unique.</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/rhone-2-vallees/3-1050by788-4bf5e7.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/rhone-2-vallees/3-700by525-4bf5e7.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/rhone-2-vallees/3-675by506-4bf5e7.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/rhone-2-vallees/3-450by338-4bf5e7.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/rhone-2-vallees/3-525by394-4bf5e7.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/rhone-2-vallees/3-350by263-4bf5e7.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/rhone-2-vallees/3-350by263-4bf5e7.jpg" alt="image" title="Guigal!!" class="center-image" />
-  </picture>
+<p><img title="Guigal!!" class="center-image" src="/assets/images/rhone-2-vallees/3-800-4bf5e7.jpg" srcset="/assets/images/rhone-2-vallees/3-400-4bf5e7.jpg 400w, /assets/images/rhone-2-vallees/3-600-4bf5e7.jpg 600w, /assets/images/rhone-2-vallees/3-800-4bf5e7.jpg 800w, /assets/images/rhone-2-vallees/3-1000-4bf5e7.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>Only the views in the Douro Valley can match the sights that Cote Rotie offers, though I hear Alto Adige give both a run for their money.  Though only Cote Rotie has a cult following for their wines and with good reason.  Many of the wines by Guigal from the region (e.g. the La-Las) score 100 points or close to it each year.  Because Guigal owns a majority of the land in the region (somewhere between 2/3 and 3/4), wines by small producers is rarer and harder to come by, especially outside the region.</em></p>
 
 <p>After arriving by train on the outskirts of town, searching the internet for a taxi in the areai, and calling it, I arrived at my hotel Le Domaine Des Vignes, ready to taste some wines.  Because the hotel was a working winery, I was given windows when they would be available to check me in.  After spending the day walking around the area and taking many pictures, I checked in and proceeded to ask about wine tourism in the area.  After receiving the briefing about town (many people were on their summer vacations and there weren’t many places open to begin with), I asked for a tasting and they obliged.</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/rhone-2-vallees/4-1050by788-b94ec9.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/rhone-2-vallees/4-700by525-b94ec9.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/rhone-2-vallees/4-675by506-b94ec9.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/rhone-2-vallees/4-450by338-b94ec9.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/rhone-2-vallees/4-525by394-b94ec9.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/rhone-2-vallees/4-350by263-b94ec9.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/rhone-2-vallees/4-350by263-b94ec9.jpg" alt="image" title="The town of Ampuis" class="center-image" />
-  </picture>
+<p><img title="The town of Ampuis" class="center-image" src="/assets/images/rhone-2-vallees/4-800-b94ec9.jpg" srcset="/assets/images/rhone-2-vallees/4-400-b94ec9.jpg 400w, /assets/images/rhone-2-vallees/4-600-b94ec9.jpg 600w, /assets/images/rhone-2-vallees/4-800-b94ec9.jpg 800w, /assets/images/rhone-2-vallees/4-1000-b94ec9.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>A view of the town from up in the vineyards.  Pascal was kind enough to take some time out of his day to drive up into the vineyards, show me his vines, let me taste from a cluster, and grab some photos of the town below.  There are no Ubers or much public transportation in the area, so bring a car with you or hope you meet someone as nice as Pascal who can show you the beauty of Cote Rotie.</em></p>
 
 <p>I need to call out here the amazing service they provided.  Pascal drove me to and from dinner in Vienne (15-20 minute drive by car), drove me into the mountains to look at the vineyards (which is when most of my best pictures were taken), and even drove me to my next hotel (I decided to stay at Le Beau Rivage for a night).  So even though the hotel room seemed pricey compared to Alsace, I guarantee I saved 50 Euros from his driving alone.  And it’s hard to put a price on waking up in the morning and seeing the sun come over the hills of Cote Rotie from just outside my window.  Just gorgeous…</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/rhone-2-vallees/5-1050by788-0be04d.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/rhone-2-vallees/5-700by525-0be04d.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/rhone-2-vallees/5-675by506-0be04d.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/rhone-2-vallees/5-450by338-0be04d.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/rhone-2-vallees/5-525by394-0be04d.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/rhone-2-vallees/5-350by263-0be04d.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/rhone-2-vallees/5-350by263-0be04d.jpg" alt="image" title="Pascal is awesome!" class="center-image" />
-  </picture>
+<p><img title="Pascal is awesome!" class="center-image" src="/assets/images/rhone-2-vallees/5-800-0be04d.jpg" srcset="/assets/images/rhone-2-vallees/5-400-0be04d.jpg 400w, /assets/images/rhone-2-vallees/5-600-0be04d.jpg 600w, /assets/images/rhone-2-vallees/5-800-0be04d.jpg 800w, /assets/images/rhone-2-vallees/5-1000-0be04d.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>A picture of the man himself!  I just want to reiterate how amazing Pascal was.  He didn’t speak much English, I didn’t speak much French, but he was patient with me, offered to drive me to a restaurant for dinner since I didn’t have a car, and was just genuinely enthusiastic to show off the region to me.  There is no doubt I will be staying with them the next time I visit the area!</em></p>
 
@@ -419,15 +385,7 @@ if (typeof Object.assign !== 'function') {
   </li>
 </ul>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/rhone-2-vallees/6-1050by788-04feb7.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/rhone-2-vallees/6-700by525-04feb7.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/rhone-2-vallees/6-675by506-04feb7.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/rhone-2-vallees/6-450by338-04feb7.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/rhone-2-vallees/6-525by394-04feb7.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/rhone-2-vallees/6-350by263-04feb7.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/rhone-2-vallees/6-350by263-04feb7.jpg" alt="image" title="Happy man right there" class="center-image" />
-  </picture>
+<p><img title="Happy man right there" class="center-image" src="/assets/images/rhone-2-vallees/6-800-04feb7.jpg" srcset="/assets/images/rhone-2-vallees/6-400-04feb7.jpg 400w, /assets/images/rhone-2-vallees/6-600-04feb7.jpg 600w, /assets/images/rhone-2-vallees/6-800-04feb7.jpg 800w, /assets/images/rhone-2-vallees/6-1000-04feb7.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>Me with a cluster of grapes that Pascal gave to me from his vines.  Normally, grapes used for winemaking don’t taste that great, but these were sublime and translated equally well to his wines.  And at the prices these wines were going for, I dare say they are a QPR darling as well!</em></p>
 

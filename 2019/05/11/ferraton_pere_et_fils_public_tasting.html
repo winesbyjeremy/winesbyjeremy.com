@@ -46,9 +46,9 @@
     
         <meta content="hermitage" property="article:tag">
     
-<!-- Begin Jekyll SEO tag v2.5.0 -->
+<!-- Begin Jekyll SEO tag v2.6.1 -->
 <title>Ferraton Pere et Fils Public Tasting | Wines By Jeremy</title>
-<meta name="generator" content="Jekyll v3.8.5" />
+<meta name="generator" content="Jekyll v3.8.6" />
 <meta property="og:title" content="Ferraton Pere et Fils Public Tasting" />
 <meta name="author" content="Jeremy Myers" />
 <meta property="og:locale" content="en_US" />
@@ -61,7 +61,7 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2019-05-11T19:20:00+00:00" />
 <script type="application/ld+json">
-{"image":"https://www.winesbyjeremy.com/ferraton/1.jpg","url":"https://www.winesbyjeremy.com/2019/05/11/ferraton_pere_et_fils_public_tasting.html","headline":"Ferraton Pere et Fils Public Tasting","dateModified":"2019-05-11T19:20:00+00:00","datePublished":"2019-05-11T19:20:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.winesbyjeremy.com/2019/05/11/ferraton_pere_et_fils_public_tasting.html"},"author":{"@type":"Person","name":"Jeremy Myers"},"description":"One of the first things you learn about marketing is placement of product. If customers can see it, that’s a big part of the battle. Unlike Jaboulet and Chapoutier, which both have ideal placements for their storefronts (next to the main square and train station, respectively), Ferraton is a short walk to a beautiful spot on the river. But because it isn’t along the path of most foot traffic, it gets significantly less visitors than the other two. And it’s a real shame - Ferraton’s store feels like the ideal balance between chic and classic, their wines are some of the better values in town, and you’ll likely get a much more personal experience because of the reduced foot traffic. You are making a mistake if you do not visit Ferraton during your stay in Hermitage.","@type":"BlogPosting","@context":"http://schema.org"}</script>
+{"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.winesbyjeremy.com/2019/05/11/ferraton_pere_et_fils_public_tasting.html"},"image":"https://www.winesbyjeremy.com/ferraton/1.jpg","url":"https://www.winesbyjeremy.com/2019/05/11/ferraton_pere_et_fils_public_tasting.html","author":{"@type":"Person","name":"Jeremy Myers"},"description":"One of the first things you learn about marketing is placement of product. If customers can see it, that’s a big part of the battle. Unlike Jaboulet and Chapoutier, which both have ideal placements for their storefronts (next to the main square and train station, respectively), Ferraton is a short walk to a beautiful spot on the river. But because it isn’t along the path of most foot traffic, it gets significantly less visitors than the other two. And it’s a real shame - Ferraton’s store feels like the ideal balance between chic and classic, their wines are some of the better values in town, and you’ll likely get a much more personal experience because of the reduced foot traffic. You are making a mistake if you do not visit Ferraton during your stay in Hermitage.","headline":"Ferraton Pere et Fils Public Tasting","dateModified":"2019-05-11T19:20:00+00:00","datePublished":"2019-05-11T19:20:00+00:00","@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/css/main.css"><link type="application/atom+xml" rel="alternate" href="https://www.winesbyjeremy.com/feed.xml" title="Wines By Jeremy" /><script>
 if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1")) {
@@ -162,6 +162,7 @@ var jekyllMaps = (function() {
         position: position,
         title: location.title,
         image: location.image,
+        popup_html: location.popup_html,
         icon: location.icon || mapOptions.markerIcon,
         url: markerUrl(mapOptions.baseUrl, location.url),
         url_text: location.url_text,
@@ -180,14 +181,19 @@ var jekyllMaps = (function() {
 
     function markerPopup() {
       var content = '<div class="map-info-window"><h5>' + this.title + '</h5>'
-      var imageTag =
-        this.image.length > 0 &&
-        '<img src="' + this.image + '" alt="' + this.title + '"/>'
-      if (this.url.length > 0) {
-        var linkContent = imageTag || this.url_text || 'View'
-        content += '<a href="' + this.url + '">' + linkContent + '</a>'
-      } else if (imageTag) {
-        content += imageTag
+      if (this.popup_html.length > 0) {
+        content += this.popup_html
+      }
+      else {
+        var imageTag =
+          this.image.length > 0 &&
+          '<img src="' + this.image + '" alt="' + this.title + '"/>'
+        if (this.url.length > 0) {
+          var linkContent = imageTag || this.url_text || 'View'
+          content += '<a href="' + this.url + '">' + linkContent + '</a>'
+        } else if (imageTag) {
+          content += imageTag
+        }
       }
       content += '</div>'
       infoWindow.setContent(content)
@@ -305,11 +311,11 @@ if (typeof Object.assign !== 'function') {
       <meta itemprop="addressCountry" content="FR" />
     </div>
   </div>
-    <div id='e26ce8fe-5d8e-4b43-82f6-e1d20d3fc7b7' style='width:600px;height:400px;'></div>
+    <div id='d75aa470-0e44-46c8-ba90-3aa352519499' style='width:600px;height:400px;'></div>
 <script type='text/javascript'>
   jekyllMaps.register(
-    'e26ce8fe-5d8e-4b43-82f6-e1d20d3fc7b7',
-    [{"latitude":45.068452,"longitude":4.840127,"title":"Ferraton Pere et Fils Public Tasting","icon":null,"url":"/2019/05/11/ferraton_pere_et_fils_public_tasting.html","url_text":null,"image":"ferraton/1.jpg"}],
+    'd75aa470-0e44-46c8-ba90-3aa352519499',
+    [{"latitude":45.068452,"longitude":4.840127,"title":"Ferraton Pere et Fils Public Tasting","icon":null,"url":"/2019/05/11/ferraton_pere_et_fils_public_tasting.html","url_text":null,"image":"ferraton/1.jpg","popup_html":""}],
     {"baseUrl":"","useCluster":true,"showMarker":true,"showMarkerPopup":true,"markerIcon":null,"customZoom":16}
   );
 </script>
@@ -323,15 +329,7 @@ if (typeof Object.assign !== 'function') {
 
 <p>I was lucky enough to have heard of Ferraton before my trip, so it was always on my itinerary.  Although I wanted to arrive right around their opening, I ended up taking my time walking along the riverfront, enjoying the gorgeous view of Hermitage along the way.  I passed several people that were headed to the Chocolate factory further up along the river, but they did not intend to stop Ferraton later to enjoy their chocolate with wine.  Their loss I guess…  When I finally arrived at Ferraton, they were still closed.  I had to call the number on their website to get ahold of someone.  Apparently, they were all in the office above the wine shop.  They don’t get many walk-in visitors like me.  I hope that changes for them soon, but until then, make sure you call ahead before dropping in.  Because if you do, you may get to enjoy the entire shop by yourself, like I did below.</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/ferraton/1-1050by788-3e428e.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/ferraton/1-700by525-3e428e.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/ferraton/1-675by506-3e428e.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/ferraton/1-450by338-3e428e.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/ferraton/1-525by394-3e428e.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/ferraton/1-350by263-3e428e.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/ferraton/1-350by263-3e428e.jpg" alt="" title="Gorgeous Tasting Room" class="center-image" />
-  </picture>
+<p><img title="Gorgeous Tasting Room" class="center-image" src="/assets/images/ferraton/1-800-3e428e.jpg" srcset="/assets/images/ferraton/1-400-3e428e.jpg 400w, /assets/images/ferraton/1-600-3e428e.jpg 600w, /assets/images/ferraton/1-800-3e428e.jpg 800w, /assets/images/ferraton/1-1000-3e428e.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>I love their tasting room.  Clean, rustic, and just gorgeous.  It is a bit of a walk from the center of town, which is why they may get less foot traffic than the other larger producers in town.  Do not sleep on Ferraton just because its not well known - in fact, take advantage while you can because they are the real deal.  The QPR is very solid and I wouldn’t mind hanging out with a group inside or outside, next to the river.</em></p>
 
@@ -340,15 +338,7 @@ provide some complexity in the wines, but these Syrahs are varietally driven on 
 
 <p>The wine ambassador for the day was younger than me but extremely sharp.  We had a delightful conversation through the tasting and it was clear that he went above and beyond to show me the majority of their portfolio.  I only wish I had more room in my luggage to purchase more of their wines - like many other shops, their shipping prices were fairly costly, leaving the customer to pack wines in their luggage or search for their US Distributor.  The tasting was free, but I felt obligated to tip the gentleman because of the experience I had.  One would easily pay $30+ for a similar experience back home.</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/ferraton/2-1050by788-ee1220.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/ferraton/2-700by525-ee1220.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/ferraton/2-675by506-ee1220.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/ferraton/2-450by338-ee1220.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/ferraton/2-525by394-ee1220.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/ferraton/2-350by263-ee1220.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/ferraton/2-350by263-ee1220.jpg" alt="" title="My Wine Ambassador" class="center-image" />
-  </picture>
+<p><img title="My Wine Ambassador" class="center-image" src="/assets/images/ferraton/2-800-ee1220.jpg" srcset="/assets/images/ferraton/2-400-ee1220.jpg 400w, /assets/images/ferraton/2-600-ee1220.jpg 600w, /assets/images/ferraton/2-800-ee1220.jpg 800w, /assets/images/ferraton/2-1000-ee1220.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>My wine ambassador who was very knowledge about all of the wines, tasted them with me to talk about them, and was very helpful in picking a bottle to bring back to the states.  I’m just sad that I couldn’t bring back more in my luggage because every wine in the lineup was solid.  It was also generous of them to let me taste 10 bottles without a fee.  Many thanks!!</em></p>
 

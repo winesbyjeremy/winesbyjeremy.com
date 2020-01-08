@@ -46,9 +46,9 @@
     
         <meta content="pritchard-hill" property="article:tag">
     
-<!-- Begin Jekyll SEO tag v2.5.0 -->
+<!-- Begin Jekyll SEO tag v2.6.1 -->
 <title>Chappellet Private Tasting | Wines By Jeremy</title>
-<meta name="generator" content="Jekyll v3.8.5" />
+<meta name="generator" content="Jekyll v3.8.6" />
 <meta property="og:title" content="Chappellet Private Tasting" />
 <meta name="author" content="Jeremy Myers" />
 <meta property="og:locale" content="en_US" />
@@ -61,7 +61,7 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2019-01-19T19:20:00+00:00" />
 <script type="application/ld+json">
-{"image":"https://www.winesbyjeremy.com/chappellet/1.jpg","url":"https://www.winesbyjeremy.com/2019/01/19/chappellet_private_tasting.html","headline":"Chappellet Private Tasting","dateModified":"2019-01-19T19:20:00+00:00","datePublished":"2019-01-19T19:20:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.winesbyjeremy.com/2019/01/19/chappellet_private_tasting.html"},"author":{"@type":"Person","name":"Jeremy Myers"},"description":"One of the first ten wineries established in the Napa Valley, Chappellet has a long and storied history - from Wine Spectator mentioning one of its wines in the top ten of the past century, to naming and copyrighting the location that people think of when they hear Bryant Family, Colgin, etc. (Chappellet copyrighted “Pritchard Hill”), to producing a consistent 97+ pt wine in the Wine Advocate (their Pritchard Hill Cabernet Sauvignon). Chappellet has a fantastic reputation and for good reason - the quality of their wine is very good. I just had to visit Chappellet on my most recent trip, though the reasonable tasting fee also helped. Note that like many other owners in Napa, the proprietar of Chappellet made his money before coming out to Napa and buying land. In his case, he invented the first coffee vending machines, where you would pay to get a cup of coffee automatically dispensed for you. No disrespect to coffee lovers, but I am glad he transitioned to wine!","@type":"BlogPosting","@context":"http://schema.org"}</script>
+{"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.winesbyjeremy.com/2019/01/19/chappellet_private_tasting.html"},"image":"https://www.winesbyjeremy.com/chappellet/1.jpg","url":"https://www.winesbyjeremy.com/2019/01/19/chappellet_private_tasting.html","author":{"@type":"Person","name":"Jeremy Myers"},"description":"One of the first ten wineries established in the Napa Valley, Chappellet has a long and storied history - from Wine Spectator mentioning one of its wines in the top ten of the past century, to naming and copyrighting the location that people think of when they hear Bryant Family, Colgin, etc. (Chappellet copyrighted “Pritchard Hill”), to producing a consistent 97+ pt wine in the Wine Advocate (their Pritchard Hill Cabernet Sauvignon). Chappellet has a fantastic reputation and for good reason - the quality of their wine is very good. I just had to visit Chappellet on my most recent trip, though the reasonable tasting fee also helped. Note that like many other owners in Napa, the proprietar of Chappellet made his money before coming out to Napa and buying land. In his case, he invented the first coffee vending machines, where you would pay to get a cup of coffee automatically dispensed for you. No disrespect to coffee lovers, but I am glad he transitioned to wine!","headline":"Chappellet Private Tasting","dateModified":"2019-01-19T19:20:00+00:00","datePublished":"2019-01-19T19:20:00+00:00","@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/css/main.css"><link type="application/atom+xml" rel="alternate" href="https://www.winesbyjeremy.com/feed.xml" title="Wines By Jeremy" /><script>
 if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1")) {
@@ -162,6 +162,7 @@ var jekyllMaps = (function() {
         position: position,
         title: location.title,
         image: location.image,
+        popup_html: location.popup_html,
         icon: location.icon || mapOptions.markerIcon,
         url: markerUrl(mapOptions.baseUrl, location.url),
         url_text: location.url_text,
@@ -180,14 +181,19 @@ var jekyllMaps = (function() {
 
     function markerPopup() {
       var content = '<div class="map-info-window"><h5>' + this.title + '</h5>'
-      var imageTag =
-        this.image.length > 0 &&
-        '<img src="' + this.image + '" alt="' + this.title + '"/>'
-      if (this.url.length > 0) {
-        var linkContent = imageTag || this.url_text || 'View'
-        content += '<a href="' + this.url + '">' + linkContent + '</a>'
-      } else if (imageTag) {
-        content += imageTag
+      if (this.popup_html.length > 0) {
+        content += this.popup_html
+      }
+      else {
+        var imageTag =
+          this.image.length > 0 &&
+          '<img src="' + this.image + '" alt="' + this.title + '"/>'
+        if (this.url.length > 0) {
+          var linkContent = imageTag || this.url_text || 'View'
+          content += '<a href="' + this.url + '">' + linkContent + '</a>'
+        } else if (imageTag) {
+          content += imageTag
+        }
       }
       content += '</div>'
       infoWindow.setContent(content)
@@ -305,11 +311,11 @@ if (typeof Object.assign !== 'function') {
       <meta itemprop="addressCountry" content="US" />
     </div>
   </div>
-    <div id='e237dd45-35f3-43d4-ae0e-98a42605da06' style='width:600px;height:400px;'></div>
+    <div id='f51c529f-2547-470d-aaeb-1fefc8360a18' style='width:600px;height:400px;'></div>
 <script type='text/javascript'>
   jekyllMaps.register(
-    'e237dd45-35f3-43d4-ae0e-98a42605da06',
-    [{"latitude":38.481846,"longitude":-122.335478,"title":"Chappellet Private Tasting","icon":null,"url":"/2019/01/19/chappellet_private_tasting.html","url_text":null,"image":"chappellet/1.jpg"}],
+    'f51c529f-2547-470d-aaeb-1fefc8360a18',
+    [{"latitude":38.481846,"longitude":-122.335478,"title":"Chappellet Private Tasting","icon":null,"url":"/2019/01/19/chappellet_private_tasting.html","url_text":null,"image":"chappellet/1.jpg","popup_html":""}],
     {"baseUrl":"","useCluster":true,"showMarker":true,"showMarkerPopup":true,"markerIcon":null,"customZoom":16}
   );
 </script>
@@ -321,55 +327,23 @@ if (typeof Object.assign !== 'function') {
   <span itemprop="reviewBody">
     <p>One of the first ten wineries established in the Napa Valley, Chappellet has a long and storied history - from Wine Spectator mentioning one of its wines in the top ten of the past <strong>century</strong>, to naming and copyrighting the location that people think of when they hear Bryant Family, Colgin, etc. (Chappellet copyrighted “Pritchard Hill”), to producing a consistent 97+ pt wine in the Wine Advocate (their Pritchard Hill Cabernet Sauvignon).  Chappellet has a fantastic reputation and for good reason - the quality of their wine is very good.  I just had to visit Chappellet on my most recent trip, though the reasonable tasting fee also helped.  Note that like many other owners in Napa, the proprietar of Chappellet made his money before coming out to Napa and buying land.  In his case, he invented the first coffee vending machines, where you would pay to get a cup of coffee automatically dispensed for you.  No disrespect to coffee lovers, but I am glad he transitioned to wine!</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chappellet/1-1050by788-9d7e78.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chappellet/1-700by525-9d7e78.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chappellet/1-675by506-9d7e78.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chappellet/1-450by338-9d7e78.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chappellet/1-525by394-9d7e78.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chappellet/1-350by263-9d7e78.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/chappellet/1-350by263-9d7e78.jpg" alt="" title="Like the pyramids of old" class="center-image" />
-  </picture>
+<p><img title="Like the pyramids of old" class="center-image" src="/assets/images/chappellet/1-800-9d7e78.jpg" srcset="/assets/images/chappellet/1-400-9d7e78.jpg 400w, /assets/images/chappellet/1-600-9d7e78.jpg 600w, /assets/images/chappellet/1-800-9d7e78.jpg 800w, /assets/images/chappellet/1-1000-9d7e78.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>Inside the Chappellet winery.  It’s too bad that we couldn’t explore it any further.  Maybe next time…</em></p>
 
 <p>Our visit to Chappellet was a little more epic than normal because of a sulphur leakage inside the winery.  Scary, I know, but it was easy to smell that something was wrong in the storage/tasting area.  Instead of cancelling reservation for the day, the owners approved us to have our wine tasting at a great alternative location - their private outdoor tent in the vineyard.  For those that don’t know, many wineries have a special area that is designated for use only by the winery owners, where they can host close friends, VIPs, and others in a more secluded, relaxed setting that is even more beautiful than inside the winery.  Very rarely do common visitors like us get a chance to enjoy their private oasis.</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chappellet/2-1050by788-f6e3bc.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chappellet/2-700by525-f6e3bc.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chappellet/2-675by506-f6e3bc.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chappellet/2-450by338-f6e3bc.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chappellet/2-525by394-f6e3bc.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chappellet/2-350by263-f6e3bc.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/chappellet/2-350by263-f6e3bc.jpg" alt="" title="What a power couple" class="center-image" />
-  </picture>
+<p><img title="What a power couple" class="center-image" src="/assets/images/chappellet/2-800-f6e3bc.jpg" srcset="/assets/images/chappellet/2-400-f6e3bc.jpg 400w, /assets/images/chappellet/2-600-f6e3bc.jpg 600w, /assets/images/chappellet/2-800-f6e3bc.jpg 800w, /assets/images/chappellet/2-1000-f6e3bc.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>Getting ready to hop in the Swiss Pinzgauer and head up into the vineyards.  Don’t drink and drive but it’s ok to drink and ride in a winery.  Also, don’t these two make quite the power couple?</em></p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chappellet/3-1050by788-4902ca.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chappellet/3-700by525-4902ca.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chappellet/3-675by506-4902ca.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chappellet/3-450by338-4902ca.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chappellet/3-525by394-4902ca.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chappellet/3-350by263-4902ca.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/chappellet/3-350by263-4902ca.jpg" alt="" title="First-class seat" class="center-image" />
-  </picture>
+<p><img title="First-class seat" class="center-image" src="/assets/images/chappellet/3-800-4902ca.jpg" srcset="/assets/images/chappellet/3-400-4902ca.jpg 400w, /assets/images/chappellet/3-600-4902ca.jpg 600w, /assets/images/chappellet/3-800-4902ca.jpg 800w, /assets/images/chappellet/3-1000-4902ca.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>The view out of the back of the Swiss Pinzgauer heading up to the owner’s tent.  It was quite the view the whole way up, but the kicked-up dust was a bit much at times.</em></p>
 
 <p>They didn’t tell us that we were heading to the owner’s tent though - we were told it was a surprise where we were heading.  We were lead to what looked like a miniature version of a military transport truck.  After we all managed to climb in the back, we took off into the winery.  Although it did get dusty (and some people forgot to protect their glass of Chardonnay), we finally made it to the owner’s private tent in the back-left portion of the winery.  We dusted ourselves off, took many pictures of the tent and the surrounding area, then proceeded to sit at the table and enjoy the wines.</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chappellet/4-1050by788-71a69c.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chappellet/4-700by525-71a69c.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chappellet/4-675by506-71a69c.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chappellet/4-450by338-71a69c.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chappellet/4-525by394-71a69c.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chappellet/4-350by263-71a69c.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/chappellet/4-350by263-71a69c.jpg" alt="" title="Owner's Box" class="center-image" />
-  </picture>
+<p><img title="Owner's Box" class="center-image" src="/assets/images/chappellet/4-800-71a69c.jpg" srcset="/assets/images/chappellet/4-400-71a69c.jpg 400w, /assets/images/chappellet/4-600-71a69c.jpg 600w, /assets/images/chappellet/4-800-71a69c.jpg 800w, /assets/images/chappellet/4-1000-71a69c.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>Heading into the owner’s tent for the tasting.  I must say - I really hope to befriend some winery owners at some point in my life, haha.  Now that I’ve been to one, I really want to spend the day or have a dinner at another!</em></p>
 
@@ -401,15 +375,7 @@ if (typeof Object.assign !== 'function') {
   </li>
 </ul>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chappellet/5-1050by788-bc0fe3.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chappellet/5-700by525-bc0fe3.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chappellet/5-675by506-bc0fe3.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chappellet/5-450by338-bc0fe3.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chappellet/5-525by394-bc0fe3.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chappellet/5-350by263-bc0fe3.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/chappellet/5-350by263-bc0fe3.jpg" alt="" title="What a sight" class="center-image" />
-  </picture>
+<p><img title="What a sight" class="center-image" src="/assets/images/chappellet/5-800-bc0fe3.jpg" srcset="/assets/images/chappellet/5-400-bc0fe3.jpg 400w, /assets/images/chappellet/5-600-bc0fe3.jpg 600w, /assets/images/chappellet/5-800-bc0fe3.jpg 800w, /assets/images/chappellet/5-1000-bc0fe3.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>The view of the vineyards from the owner’s tent.  I know, it is quite a sight…  Why doesn’t my backyard look like that I wonder?</em></p>
 

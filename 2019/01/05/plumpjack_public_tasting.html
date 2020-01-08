@@ -46,9 +46,9 @@
     
         <meta content="oakville" property="article:tag">
     
-<!-- Begin Jekyll SEO tag v2.5.0 -->
+<!-- Begin Jekyll SEO tag v2.6.1 -->
 <title>Plumpjack Public Tasting | Wines By Jeremy</title>
-<meta name="generator" content="Jekyll v3.8.5" />
+<meta name="generator" content="Jekyll v3.8.6" />
 <meta property="og:title" content="Plumpjack Public Tasting" />
 <meta name="author" content="Jeremy Myers" />
 <meta property="og:locale" content="en_US" />
@@ -61,7 +61,7 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2019-01-05T19:20:00+00:00" />
 <script type="application/ld+json">
-{"image":"https://www.winesbyjeremy.com/plumpjack/1.jpg","url":"https://www.winesbyjeremy.com/2019/01/05/plumpjack_public_tasting.html","headline":"Plumpjack Public Tasting","dateModified":"2019-01-05T19:20:00+00:00","datePublished":"2019-01-05T19:20:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.winesbyjeremy.com/2019/01/05/plumpjack_public_tasting.html"},"author":{"@type":"Person","name":"Jeremy Myers"},"description":"Plumpjack is a great example of a newer winery on historic land that is producing fantastic wines. Many people in my social wine circle have heard the name, but not much else other than it supposedly makes great wines. As you may know by now, that is alone is enough to pique my curiosity and schedule a visit. It turns out that the legend of Plumpjack started in 1992, when the Lt. Governor of California and a music composer got together and opened a wine store in San Francisco. Those who are Shakespeare lovers may also get the reference to Sir John “Plumpjack” Falstaff from Henry V. When someone told me the reference, I knew I was really going to like this place because the personality of Sir “Plumpjack” is pretty close to my own.","@type":"BlogPosting","@context":"http://schema.org"}</script>
+{"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.winesbyjeremy.com/2019/01/05/plumpjack_public_tasting.html"},"image":"https://www.winesbyjeremy.com/plumpjack/1.jpg","url":"https://www.winesbyjeremy.com/2019/01/05/plumpjack_public_tasting.html","author":{"@type":"Person","name":"Jeremy Myers"},"description":"Plumpjack is a great example of a newer winery on historic land that is producing fantastic wines. Many people in my social wine circle have heard the name, but not much else other than it supposedly makes great wines. As you may know by now, that is alone is enough to pique my curiosity and schedule a visit. It turns out that the legend of Plumpjack started in 1992, when the Lt. Governor of California and a music composer got together and opened a wine store in San Francisco. Those who are Shakespeare lovers may also get the reference to Sir John “Plumpjack” Falstaff from Henry V. When someone told me the reference, I knew I was really going to like this place because the personality of Sir “Plumpjack” is pretty close to my own.","headline":"Plumpjack Public Tasting","dateModified":"2019-01-05T19:20:00+00:00","datePublished":"2019-01-05T19:20:00+00:00","@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/css/main.css"><link type="application/atom+xml" rel="alternate" href="https://www.winesbyjeremy.com/feed.xml" title="Wines By Jeremy" /><script>
 if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1")) {
@@ -162,6 +162,7 @@ var jekyllMaps = (function() {
         position: position,
         title: location.title,
         image: location.image,
+        popup_html: location.popup_html,
         icon: location.icon || mapOptions.markerIcon,
         url: markerUrl(mapOptions.baseUrl, location.url),
         url_text: location.url_text,
@@ -180,14 +181,19 @@ var jekyllMaps = (function() {
 
     function markerPopup() {
       var content = '<div class="map-info-window"><h5>' + this.title + '</h5>'
-      var imageTag =
-        this.image.length > 0 &&
-        '<img src="' + this.image + '" alt="' + this.title + '"/>'
-      if (this.url.length > 0) {
-        var linkContent = imageTag || this.url_text || 'View'
-        content += '<a href="' + this.url + '">' + linkContent + '</a>'
-      } else if (imageTag) {
-        content += imageTag
+      if (this.popup_html.length > 0) {
+        content += this.popup_html
+      }
+      else {
+        var imageTag =
+          this.image.length > 0 &&
+          '<img src="' + this.image + '" alt="' + this.title + '"/>'
+        if (this.url.length > 0) {
+          var linkContent = imageTag || this.url_text || 'View'
+          content += '<a href="' + this.url + '">' + linkContent + '</a>'
+        } else if (imageTag) {
+          content += imageTag
+        }
       }
       content += '</div>'
       infoWindow.setContent(content)
@@ -305,11 +311,11 @@ if (typeof Object.assign !== 'function') {
       <meta itemprop="addressCountry" content="US" />
     </div>
   </div>
-    <div id='a75e5662-4b8d-4a16-8e87-8506431dcbf5' style='width:600px;height:400px;'></div>
+    <div id='6bac8b04-2266-4c97-9623-c1f2f8e14df2' style='width:600px;height:400px;'></div>
 <script type='text/javascript'>
   jekyllMaps.register(
-    'a75e5662-4b8d-4a16-8e87-8506431dcbf5',
-    [{"latitude":38.455435,"longitude":-122.374152,"title":"Plumpjack Public Tasting","icon":null,"url":"/2019/01/05/plumpjack_public_tasting.html","url_text":null,"image":"plumpjack/1.jpg"}],
+    '6bac8b04-2266-4c97-9623-c1f2f8e14df2',
+    [{"latitude":38.455435,"longitude":-122.374152,"title":"Plumpjack Public Tasting","icon":null,"url":"/2019/01/05/plumpjack_public_tasting.html","url_text":null,"image":"plumpjack/1.jpg","popup_html":""}],
     {"baseUrl":"","useCluster":true,"showMarker":true,"showMarkerPopup":true,"markerIcon":null,"customZoom":16}
   );
 </script>
@@ -321,15 +327,7 @@ if (typeof Object.assign !== 'function') {
   <span itemprop="reviewBody">
     <p>Plumpjack is a great example of a newer winery on historic land that is producing fantastic wines.  Many people in my social wine circle have heard the name, but not much else other than it supposedly makes great wines.  As you may know by now, that is alone is enough to pique my curiosity and schedule a visit.  It turns out that the legend of Plumpjack started in 1992, when the Lt. Governor of California and a music composer got together and opened a wine store in San Francisco.  Those who are Shakespeare lovers may also get the reference to Sir John “Plumpjack” Falstaff from Henry V.  When someone told me the reference, I knew I was really going to like this place because the personality of Sir “Plumpjack” is pretty close to my own.</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/plumpjack/1-1050by788-4fc29d.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/plumpjack/1-700by525-4fc29d.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/plumpjack/1-675by506-4fc29d.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/plumpjack/1-450by338-4fc29d.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/plumpjack/1-525by394-4fc29d.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/plumpjack/1-350by263-4fc29d.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/plumpjack/1-350by263-4fc29d.jpg" alt="" title="PJW!" class="center-image" />
-  </picture>
+<p><img title="PJW!" class="center-image" src="/assets/images/plumpjack/1-800-4fc29d.jpg" srcset="/assets/images/plumpjack/1-400-4fc29d.jpg 400w, /assets/images/plumpjack/1-600-4fc29d.jpg 600w, /assets/images/plumpjack/1-800-4fc29d.jpg 800w, /assets/images/plumpjack/1-1000-4fc29d.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>The entrance to the Plumpjack Winery!  We arrived close to 10:15 and somehow were the first visitors to the winery that day.  I will admit, sometimes it’s nice to be the only people at a winery and hog all of the attention of the staff…</em></p>
 
@@ -337,15 +335,7 @@ if (typeof Object.assign !== 'function') {
 
 <p>Plumpjack made for a great start to the day.  The drive, entrance and the tasting room all had a relaxing effect, as if to say it was ok to show up in a T-shirt and jeans.  Since we arrived close to opening at 1000, we were also the only people at the winery and received lots of attention from everyone there.  We missed Aaron Miller (their winemaker since 2012 and a UC Davis graduate), but were able to share some stories with the wine ambassadors about studying for the WSET exams and wishing we were all just a little smarter…  The Plumpjack group now owns two other wineries: CADE Winery on Howell Mountain and Odette Winery in Stags Leap.  What’s nice is that at each of the wineries, they will serve a wine from one of the other wineries as part of your tasting so you get an idea of the different styles and taste profiles of each place.  It also gives you a nice incentive to visit and try the rest of their portfolio, because as you can imagine those wines are also delicious!</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/plumpjack/2-1050by788-c4d299.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/plumpjack/2-700by525-c4d299.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/plumpjack/2-675by506-c4d299.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/plumpjack/2-450by338-c4d299.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/plumpjack/2-525by394-c4d299.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/plumpjack/2-350by263-c4d299.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/plumpjack/2-350by263-c4d299.jpg" alt="" title="First-Class Wine Ambassadors" class="center-image" />
-  </picture>
+<p><img title="First-Class Wine Ambassadors" class="center-image" src="/assets/images/plumpjack/2-800-c4d299.jpg" srcset="/assets/images/plumpjack/2-400-c4d299.jpg 400w, /assets/images/plumpjack/2-600-c4d299.jpg 600w, /assets/images/plumpjack/2-800-c4d299.jpg 800w, /assets/images/plumpjack/2-1000-c4d299.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>Another benefit of going to the winery early in the day - everyone is available for a photograph!!  Everyone was very nice and they opened a couple extra wines for our tasting, for which we were very grateful.</em></p>
 

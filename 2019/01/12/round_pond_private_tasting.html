@@ -46,9 +46,9 @@
     
         <meta content="rutherford" property="article:tag">
     
-<!-- Begin Jekyll SEO tag v2.5.0 -->
+<!-- Begin Jekyll SEO tag v2.6.1 -->
 <title>Round Pond Private Tasting | Wines By Jeremy</title>
-<meta name="generator" content="Jekyll v3.8.5" />
+<meta name="generator" content="Jekyll v3.8.6" />
 <meta property="og:title" content="Round Pond Private Tasting" />
 <meta name="author" content="Jeremy Myers" />
 <meta property="og:locale" content="en_US" />
@@ -61,7 +61,7 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2019-01-12T19:20:00+00:00" />
 <script type="application/ld+json">
-{"image":"https://www.winesbyjeremy.com/round-pond/1.jpg","url":"https://www.winesbyjeremy.com/2019/01/12/round_pond_private_tasting.html","headline":"Round Pond Private Tasting","dateModified":"2019-01-12T19:20:00+00:00","datePublished":"2019-01-12T19:20:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.winesbyjeremy.com/2019/01/12/round_pond_private_tasting.html"},"author":{"@type":"Person","name":"Jeremy Myers"},"description":"For those who have not yet been to Tuscany (Italy), you need to make plans to visit ASAP. The gorgeous scenery aside, the wineries of Tuscany feel like you are visiting distant relatives. In addition to growing grapes and making wine, the Tuscan estates will also grow olives onsite and make olive oil / balsamic vinagrette. Combined with the family restaurants on the property and it’s easy to see why you could spend an entire day at a winery eating great food and drinking great wine with the families that own the estates. Of all the current Napa estates that I have been to, Round Pond is the one that reminds me most of Tuscany. Its 462 continguous acres in Rutherford can also make you feel like you have been transported somewhere else.","@type":"BlogPosting","@context":"http://schema.org"}</script>
+{"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.winesbyjeremy.com/2019/01/12/round_pond_private_tasting.html"},"image":"https://www.winesbyjeremy.com/round-pond/1.jpg","url":"https://www.winesbyjeremy.com/2019/01/12/round_pond_private_tasting.html","author":{"@type":"Person","name":"Jeremy Myers"},"description":"For those who have not yet been to Tuscany (Italy), you need to make plans to visit ASAP. The gorgeous scenery aside, the wineries of Tuscany feel like you are visiting distant relatives. In addition to growing grapes and making wine, the Tuscan estates will also grow olives onsite and make olive oil / balsamic vinagrette. Combined with the family restaurants on the property and it’s easy to see why you could spend an entire day at a winery eating great food and drinking great wine with the families that own the estates. Of all the current Napa estates that I have been to, Round Pond is the one that reminds me most of Tuscany. Its 462 continguous acres in Rutherford can also make you feel like you have been transported somewhere else.","headline":"Round Pond Private Tasting","dateModified":"2019-01-12T19:20:00+00:00","datePublished":"2019-01-12T19:20:00+00:00","@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/css/main.css"><link type="application/atom+xml" rel="alternate" href="https://www.winesbyjeremy.com/feed.xml" title="Wines By Jeremy" /><script>
 if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1")) {
@@ -162,6 +162,7 @@ var jekyllMaps = (function() {
         position: position,
         title: location.title,
         image: location.image,
+        popup_html: location.popup_html,
         icon: location.icon || mapOptions.markerIcon,
         url: markerUrl(mapOptions.baseUrl, location.url),
         url_text: location.url_text,
@@ -180,14 +181,19 @@ var jekyllMaps = (function() {
 
     function markerPopup() {
       var content = '<div class="map-info-window"><h5>' + this.title + '</h5>'
-      var imageTag =
-        this.image.length > 0 &&
-        '<img src="' + this.image + '" alt="' + this.title + '"/>'
-      if (this.url.length > 0) {
-        var linkContent = imageTag || this.url_text || 'View'
-        content += '<a href="' + this.url + '">' + linkContent + '</a>'
-      } else if (imageTag) {
-        content += imageTag
+      if (this.popup_html.length > 0) {
+        content += this.popup_html
+      }
+      else {
+        var imageTag =
+          this.image.length > 0 &&
+          '<img src="' + this.image + '" alt="' + this.title + '"/>'
+        if (this.url.length > 0) {
+          var linkContent = imageTag || this.url_text || 'View'
+          content += '<a href="' + this.url + '">' + linkContent + '</a>'
+        } else if (imageTag) {
+          content += imageTag
+        }
       }
       content += '</div>'
       infoWindow.setContent(content)
@@ -305,11 +311,11 @@ if (typeof Object.assign !== 'function') {
       <meta itemprop="addressCountry" content="US" />
     </div>
   </div>
-    <div id='58d5b4a9-b138-4ce8-879c-178f52ad1c2f' style='width:600px;height:400px;'></div>
+    <div id='94b51a32-f615-4cea-a733-ba2e7fa35dc8' style='width:600px;height:400px;'></div>
 <script type='text/javascript'>
   jekyllMaps.register(
-    '58d5b4a9-b138-4ce8-879c-178f52ad1c2f',
-    [{"latitude":38.464285,"longitude":-122.404429,"title":"Round Pond Private Tasting","icon":null,"url":"/2019/01/12/round_pond_private_tasting.html","url_text":null,"image":"round-pond/1.jpg"}],
+    '94b51a32-f615-4cea-a733-ba2e7fa35dc8',
+    [{"latitude":38.464285,"longitude":-122.404429,"title":"Round Pond Private Tasting","icon":null,"url":"/2019/01/12/round_pond_private_tasting.html","url_text":null,"image":"round-pond/1.jpg","popup_html":""}],
     {"baseUrl":"","useCluster":true,"showMarker":true,"showMarkerPopup":true,"markerIcon":null,"customZoom":16}
   );
 </script>
@@ -323,15 +329,7 @@ if (typeof Object.assign !== 'function') {
 
 <p>Like the Tuscan estates, Round Pond is family owned, everyone (the owners and the children that now run the winery) lives on the property, they produce their own olive oil from their 13 acres of olives (the old tasting room is now their olivery), and it’s very easy to sit outside on their veranda and drink/eat all day long…  The only thing is the family is not Italian!  Though one vacation to Tuscany is all that is needed to fall in love with everything about it.  It’s also the reason why they grow Italian varietals such as Sangiovese and Nebbiolo and not just the traditional Napa varietals.</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/round-pond/1-1050by788-16bee3.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/round-pond/1-700by525-16bee3.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/round-pond/1-675by506-16bee3.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/round-pond/1-450by338-16bee3.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/round-pond/1-525by394-16bee3.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/round-pond/1-350by263-16bee3.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/round-pond/1-350by263-16bee3.jpg" alt="" title="outdoor drinkin" class="center-image" />
-  </picture>
+<p><img title="outdoor drinkin" class="center-image" src="/assets/images/round-pond/1-800-16bee3.jpg" srcset="/assets/images/round-pond/1-400-16bee3.jpg 400w, /assets/images/round-pond/1-600-16bee3.jpg 600w, /assets/images/round-pond/1-800-16bee3.jpg 800w, /assets/images/round-pond/1-1000-16bee3.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>The view of Round Pond’s patio that they use for tastings.  If you don’t make a reservation, there is a standing tasting table indoors that you can go to.  But why wouldn’t you want to sit outdoors while enjoying good wine?</em></p>
 
@@ -339,15 +337,7 @@ if (typeof Object.assign !== 'function') {
 
 <p>Our wine hostess (Erin) was great.  In addition to talking through all of the history I described above, we talked about the old horticultural school they had for boys, how the style of wine seems to blend the fruit and structure of Napa with the rusticity of Tuscany, and why Thomas Rivers Brown is one of the premier celebrity winemakers in the valley.  Looking back, Round Pond would have been a great place to order some food, but we had to get up Pritchard Hill to Chappellet afterwards, so I’ll need to revisit the food another time.  Still, the ambiance of the winery was great - fun, not too crowded or loud, relaxing seating, and no rush through the tasting.</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/round-pond/2-1050by788-2d53fa.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/round-pond/2-700by525-2d53fa.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/round-pond/2-675by506-2d53fa.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/round-pond/2-450by338-2d53fa.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/round-pond/2-525by394-2d53fa.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/round-pond/2-350by263-2d53fa.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/round-pond/2-350by263-2d53fa.jpg" alt="" title="indoor drinkin" class="center-image" />
-  </picture>
+<p><img title="indoor drinkin" class="center-image" src="/assets/images/round-pond/2-800-2d53fa.jpg" srcset="/assets/images/round-pond/2-400-2d53fa.jpg 400w, /assets/images/round-pond/2-600-2d53fa.jpg 600w, /assets/images/round-pond/2-800-2d53fa.jpg 800w, /assets/images/round-pond/2-1000-2d53fa.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>The view of Round Pond’s indoor wine tasting area.  Though you can stop by this tasting table without a reservation, wouldn’t you rather sit outside instead (like in the first picture above)?</em></p>
 
@@ -393,15 +383,7 @@ if (typeof Object.assign !== 'function') {
 
 <p>The pours of the wines (especially the Gravel Series) were a bit smaller than other places and the tasting was also only four wines (the Petit Verdot is not normally a part of the tasting).  $75 was a pretty steep price to pay for that experience, hence the lower experience score.  Besides that note, the wines were all very good and different compared to a lot of places in the valley.  Although I didn’t get to taste the Sangiovese, nor their Super Tuscan, I really appreciated the different wines that had on the menu (e.g. Nebbiolo Rose, Petit Verdot).  The wines of the Gravel Series were a great pleasure to taste too and would make a great addition to any wine collection.</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/round-pond/3-1050by1400-688aa7.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/round-pond/3-700by933-688aa7.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/round-pond/3-675by900-688aa7.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/round-pond/3-450by600-688aa7.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/round-pond/3-525by700-688aa7.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/round-pond/3-350by467-688aa7.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/round-pond/3-350by467-688aa7.jpg" alt="" title="Through the looking glass" class="center-image" />
-  </picture>
+<p><img title="Through the looking glass" class="center-image" src="/assets/images/round-pond/3-800-688aa7.jpg" srcset="/assets/images/round-pond/3-400-688aa7.jpg 400w, /assets/images/round-pond/3-600-688aa7.jpg 600w, /assets/images/round-pond/3-800-688aa7.jpg 800w, /assets/images/round-pond/3-1000-688aa7.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>The view out of their fancy window behind the staircase to the second floor.  It made for a good shot, but you can also see the vineyards through the window if you look closely.</em></p>
 

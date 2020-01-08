@@ -46,9 +46,9 @@
     
         <meta content="st-helena" property="article:tag">
     
-<!-- Begin Jekyll SEO tag v2.5.0 -->
+<!-- Begin Jekyll SEO tag v2.6.1 -->
 <title>Corison Private Tasting | Wines By Jeremy</title>
-<meta name="generator" content="Jekyll v3.8.5" />
+<meta name="generator" content="Jekyll v3.8.6" />
 <meta property="og:title" content="Corison Private Tasting" />
 <meta name="author" content="Jeremy Myers" />
 <meta property="og:locale" content="en_US" />
@@ -61,7 +61,7 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2019-01-26T19:20:00+00:00" />
 <script type="application/ld+json">
-{"image":"https://www.winesbyjeremy.com/corison/4.jpg","url":"https://www.winesbyjeremy.com/2019/01/26/corison_private_tasting.html","headline":"Corison Private Tasting","dateModified":"2019-01-26T19:20:00+00:00","datePublished":"2019-01-26T19:20:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.winesbyjeremy.com/2019/01/26/corison_private_tasting.html"},"author":{"@type":"Person","name":"Jeremy Myers"},"description":"One of the very first female winemakers and at 5’1”, Cathy was laughed off by her female professors when she said she wanted to make wine. But thanks to fortunate circumstances, she got her start at Freemark Abbey, transitioned to working at Chappellet after a while and eventually worked with the vines that became Lokoya on Spring Mountain. After she accumulated enough experience and capital, she found some great land that spoke to her in St. Helena and the rest is history. She produces a Gewurztraminer and three different Cabernets at Corison, whose fruit comes from the valley floor and are all dry farmed.","@type":"BlogPosting","@context":"http://schema.org"}</script>
+{"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.winesbyjeremy.com/2019/01/26/corison_private_tasting.html"},"image":"https://www.winesbyjeremy.com/corison/4.jpg","url":"https://www.winesbyjeremy.com/2019/01/26/corison_private_tasting.html","author":{"@type":"Person","name":"Jeremy Myers"},"description":"One of the very first female winemakers and at 5’1”, Cathy was laughed off by her female professors when she said she wanted to make wine. But thanks to fortunate circumstances, she got her start at Freemark Abbey, transitioned to working at Chappellet after a while and eventually worked with the vines that became Lokoya on Spring Mountain. After she accumulated enough experience and capital, she found some great land that spoke to her in St. Helena and the rest is history. She produces a Gewurztraminer and three different Cabernets at Corison, whose fruit comes from the valley floor and are all dry farmed.","headline":"Corison Private Tasting","dateModified":"2019-01-26T19:20:00+00:00","datePublished":"2019-01-26T19:20:00+00:00","@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/css/main.css"><link type="application/atom+xml" rel="alternate" href="https://www.winesbyjeremy.com/feed.xml" title="Wines By Jeremy" /><script>
 if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1")) {
@@ -162,6 +162,7 @@ var jekyllMaps = (function() {
         position: position,
         title: location.title,
         image: location.image,
+        popup_html: location.popup_html,
         icon: location.icon || mapOptions.markerIcon,
         url: markerUrl(mapOptions.baseUrl, location.url),
         url_text: location.url_text,
@@ -180,14 +181,19 @@ var jekyllMaps = (function() {
 
     function markerPopup() {
       var content = '<div class="map-info-window"><h5>' + this.title + '</h5>'
-      var imageTag =
-        this.image.length > 0 &&
-        '<img src="' + this.image + '" alt="' + this.title + '"/>'
-      if (this.url.length > 0) {
-        var linkContent = imageTag || this.url_text || 'View'
-        content += '<a href="' + this.url + '">' + linkContent + '</a>'
-      } else if (imageTag) {
-        content += imageTag
+      if (this.popup_html.length > 0) {
+        content += this.popup_html
+      }
+      else {
+        var imageTag =
+          this.image.length > 0 &&
+          '<img src="' + this.image + '" alt="' + this.title + '"/>'
+        if (this.url.length > 0) {
+          var linkContent = imageTag || this.url_text || 'View'
+          content += '<a href="' + this.url + '">' + linkContent + '</a>'
+        } else if (imageTag) {
+          content += imageTag
+        }
       }
       content += '</div>'
       infoWindow.setContent(content)
@@ -305,11 +311,11 @@ if (typeof Object.assign !== 'function') {
       <meta itemprop="addressCountry" content="US" />
     </div>
   </div>
-    <div id='5c4166fb-1660-4de6-9f9b-d4e134a48731' style='width:600px;height:400px;'></div>
+    <div id='bd3b7677-cbed-4ba7-8475-31b395f3119f' style='width:600px;height:400px;'></div>
 <script type='text/javascript'>
   jekyllMaps.register(
-    '5c4166fb-1660-4de6-9f9b-d4e134a48731',
-    [{"latitude":38.484965,"longitude":-122.447364,"title":"Corison Private Tasting","icon":null,"url":"/2019/01/26/corison_private_tasting.html","url_text":null,"image":"corison/4.jpg"}],
+    'bd3b7677-cbed-4ba7-8475-31b395f3119f',
+    [{"latitude":38.484965,"longitude":-122.447364,"title":"Corison Private Tasting","icon":null,"url":"/2019/01/26/corison_private_tasting.html","url_text":null,"image":"corison/4.jpg","popup_html":""}],
     {"baseUrl":"","useCluster":true,"showMarker":true,"showMarkerPopup":true,"markerIcon":null,"customZoom":16}
   );
 </script>
@@ -321,53 +327,21 @@ if (typeof Object.assign !== 'function') {
   <span itemprop="reviewBody">
     <p>One of the very first female winemakers and at 5’1”, Cathy was laughed off by her female professors when she said she wanted to make wine.  But thanks to fortunate circumstances, she got her start at Freemark Abbey, transitioned to working at Chappellet after a while and eventually worked with the vines that became Lokoya on Spring Mountain.  After she accumulated enough experience and capital, she found some great land that spoke to her in St. Helena and the rest is history.  She produces a Gewurztraminer and three different Cabernets at Corison, whose fruit comes from the valley floor and are all dry farmed.</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/corison/1-1050by788-0995c1.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/corison/1-700by525-0995c1.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/corison/1-675by506-0995c1.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/corison/1-450by338-0995c1.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/corison/1-525by394-0995c1.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/corison/1-350by263-0995c1.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/corison/1-350by263-0995c1.jpg" alt="" title="Where are my sunglasses?" class="center-image" />
-  </picture>
+<p><img title="Where are my sunglasses?" class="center-image" src="/assets/images/corison/1-800-0995c1.jpg" srcset="/assets/images/corison/1-400-0995c1.jpg 400w, /assets/images/corison/1-600-0995c1.jpg 600w, /assets/images/corison/1-800-0995c1.jpg 800w, /assets/images/corison/1-1000-0995c1.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>Getting ready for my first tasting of the day!  I must have been facing east for the picture because I look like I needed some sunglasses.  The half-asian definitely comes out in this picture…</em></p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/corison/2-1050by788-6168ea.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/corison/2-700by525-6168ea.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/corison/2-675by506-6168ea.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/corison/2-450by338-6168ea.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/corison/2-525by394-6168ea.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/corison/2-350by263-6168ea.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/corison/2-350by263-6168ea.jpg" alt="" title="So much wine..." class="center-image" />
-  </picture>
+<p><img title="So much wine..." class="center-image" src="/assets/images/corison/2-800-6168ea.jpg" srcset="/assets/images/corison/2-400-6168ea.jpg 400w, /assets/images/corison/2-600-6168ea.jpg 600w, /assets/images/corison/2-800-6168ea.jpg 800w, /assets/images/corison/2-1000-6168ea.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>The view from the entrance to the Corison Winery.  I dare only imagine how many bottles of excellent wine those barrels will turn into</em></p>
 
 <p>Kronos is her old vine Cabernet that grows on unique loam that is basically gravel after a 1-2 foot layer of clay.  The Napa Valley and Sunbasket wines are old cabernets (planted in the 90s) that don’t quite meet the unofficial “old vine” definition, but are also high quality.  In addition to the dry farming and earlier harvest date, the spacing between the vines is huge because they were planted back in the day when machinery was bulkier and require more spacing between vines.  All of these circumstances combine to produce wines that are very complex, concentrated, intense, elegant, higher in acidity, and consistently have an ABV below 14%, which is almost blasphemy for Napa Cabernet.  No need to worry as there is no residual sugar in the wines.  Cathy also makes sure to soften the tannins so consumers can drink the wines earlier in their life too.</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/corison/3-1050by788-0fd629.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/corison/3-700by525-0fd629.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/corison/3-675by506-0fd629.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/corison/3-450by338-0fd629.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/corison/3-525by394-0fd629.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/corison/3-350by263-0fd629.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/corison/3-350by263-0fd629.jpg" alt="" title="Paradise" class="center-image" />
-  </picture>
+<p><img title="Paradise" class="center-image" src="/assets/images/corison/3-800-0fd629.jpg" srcset="/assets/images/corison/3-400-0fd629.jpg 400w, /assets/images/corison/3-600-0fd629.jpg 600w, /assets/images/corison/3-800-0fd629.jpg 800w, /assets/images/corison/3-1000-0fd629.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>The view of the vineyards from the winery.  Although not the glamourous view of some wineries, those old vine cabernet vines are a beautiful thing to a wine lover.</em></p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/corison/4-1050by788-0a9429.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/corison/4-700by525-0a9429.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/corison/4-675by506-0a9429.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/corison/4-450by338-0a9429.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/corison/4-525by394-0a9429.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/corison/4-350by263-0a9429.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/corison/4-350by263-0a9429.jpg" alt="" title="Old Vines" class="center-image" />
-  </picture>
+<p><img title="Old Vines" class="center-image" src="/assets/images/corison/4-800-0a9429.jpg" srcset="/assets/images/corison/4-400-0a9429.jpg 400w, /assets/images/corison/4-600-0a9429.jpg 600w, /assets/images/corison/4-800-0a9429.jpg 800w, /assets/images/corison/4-1000-0a9429.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>A look into the Chronos Vineyard.  You can see that the Cabernets are all old vines and the rootstock is extremely knarled.  They also utilize dry farming and wide spacing for their vines which increases the quality even further.  The only negative is the small quantity of grapes those vines produce.</em></p>
 
@@ -396,15 +370,7 @@ if (typeof Object.assign !== 'function') {
   </li>
 </ul>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/corison/5-1050by788-55966e.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/corison/5-700by525-55966e.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/corison/5-675by506-55966e.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/corison/5-450by338-55966e.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/corison/5-525by394-55966e.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/corison/5-350by263-55966e.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/corison/5-350by263-55966e.jpg" alt="" title="Tasting is hard" class="center-image" />
-  </picture>
+<p><img title="Tasting is hard" class="center-image" src="/assets/images/corison/5-800-55966e.jpg" srcset="/assets/images/corison/5-400-55966e.jpg 400w, /assets/images/corison/5-600-55966e.jpg 600w, /assets/images/corison/5-800-55966e.jpg 800w, /assets/images/corison/5-1000-55966e.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>Evaluating these wines was so fun and difficult at the same time.  A part of me just wanted to enjoy them with friends, but the other part wanted to give the respect these wines deserved.  And boy did they deserve it.</em></p>
 

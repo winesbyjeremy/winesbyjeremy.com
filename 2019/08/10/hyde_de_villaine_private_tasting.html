@@ -46,9 +46,9 @@
     
         <meta content="carneros" property="article:tag">
     
-<!-- Begin Jekyll SEO tag v2.5.0 -->
+<!-- Begin Jekyll SEO tag v2.6.1 -->
 <title>Hyde de Villaine Private Tasting | Wines By Jeremy</title>
-<meta name="generator" content="Jekyll v3.8.5" />
+<meta name="generator" content="Jekyll v3.8.6" />
 <meta property="og:title" content="Hyde de Villaine Private Tasting" />
 <meta name="author" content="Jeremy Myers" />
 <meta property="og:locale" content="en_US" />
@@ -61,7 +61,7 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2019-08-10T19:20:00+00:00" />
 <script type="application/ld+json">
-{"image":"https://www.winesbyjeremy.com/hyde-de-villaine/4.jpg","url":"https://www.winesbyjeremy.com/2019/08/10/hyde_de_villaine_private_tasting.html","headline":"Hyde de Villaine Private Tasting","dateModified":"2019-08-10T19:20:00+00:00","datePublished":"2019-08-10T19:20:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.winesbyjeremy.com/2019/08/10/hyde_de_villaine_private_tasting.html"},"author":{"@type":"Person","name":"Jeremy Myers"},"description":"What is in a name? Well, for some it’s the most effective branding possible. The name “Villaine” is enough to grab any wine collector’s attention. Though, they normally associate it with a Burgundian winery that just happens to produce some of the most expensive wine on Earth (Aubert de Villaine of Domaine de la Romanee-Conti). Though, that association is exactly what the owners don’t want, even though the winery is related to that Villaine! The character of the terroir between the Cote de Nuit in Burgundy and Carneros in Napa are very different and you should expect very different wine because of that. And while the wine isn’t as good as DRC, it also doesn’t cost $20K+ a bottle either. I think what you do get with these wines is old world elegance, finesse, minerality, and a complexity that doesn’t over-index on the fruit character, thanks to the Burgundian traditions applied to Carneros fruit and terroir. Do I recommend you visit? You bet I do…","@type":"BlogPosting","@context":"http://schema.org"}</script>
+{"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.winesbyjeremy.com/2019/08/10/hyde_de_villaine_private_tasting.html"},"image":"https://www.winesbyjeremy.com/hyde-de-villaine/4.jpg","url":"https://www.winesbyjeremy.com/2019/08/10/hyde_de_villaine_private_tasting.html","author":{"@type":"Person","name":"Jeremy Myers"},"description":"What is in a name? Well, for some it’s the most effective branding possible. The name “Villaine” is enough to grab any wine collector’s attention. Though, they normally associate it with a Burgundian winery that just happens to produce some of the most expensive wine on Earth (Aubert de Villaine of Domaine de la Romanee-Conti). Though, that association is exactly what the owners don’t want, even though the winery is related to that Villaine! The character of the terroir between the Cote de Nuit in Burgundy and Carneros in Napa are very different and you should expect very different wine because of that. And while the wine isn’t as good as DRC, it also doesn’t cost $20K+ a bottle either. I think what you do get with these wines is old world elegance, finesse, minerality, and a complexity that doesn’t over-index on the fruit character, thanks to the Burgundian traditions applied to Carneros fruit and terroir. Do I recommend you visit? You bet I do…","headline":"Hyde de Villaine Private Tasting","dateModified":"2019-08-10T19:20:00+00:00","datePublished":"2019-08-10T19:20:00+00:00","@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/css/main.css"><link type="application/atom+xml" rel="alternate" href="https://www.winesbyjeremy.com/feed.xml" title="Wines By Jeremy" /><script>
 if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1")) {
@@ -162,6 +162,7 @@ var jekyllMaps = (function() {
         position: position,
         title: location.title,
         image: location.image,
+        popup_html: location.popup_html,
         icon: location.icon || mapOptions.markerIcon,
         url: markerUrl(mapOptions.baseUrl, location.url),
         url_text: location.url_text,
@@ -180,14 +181,19 @@ var jekyllMaps = (function() {
 
     function markerPopup() {
       var content = '<div class="map-info-window"><h5>' + this.title + '</h5>'
-      var imageTag =
-        this.image.length > 0 &&
-        '<img src="' + this.image + '" alt="' + this.title + '"/>'
-      if (this.url.length > 0) {
-        var linkContent = imageTag || this.url_text || 'View'
-        content += '<a href="' + this.url + '">' + linkContent + '</a>'
-      } else if (imageTag) {
-        content += imageTag
+      if (this.popup_html.length > 0) {
+        content += this.popup_html
+      }
+      else {
+        var imageTag =
+          this.image.length > 0 &&
+          '<img src="' + this.image + '" alt="' + this.title + '"/>'
+        if (this.url.length > 0) {
+          var linkContent = imageTag || this.url_text || 'View'
+          content += '<a href="' + this.url + '">' + linkContent + '</a>'
+        } else if (imageTag) {
+          content += imageTag
+        }
       }
       content += '</div>'
       infoWindow.setContent(content)
@@ -305,11 +311,11 @@ if (typeof Object.assign !== 'function') {
       <meta itemprop="addressCountry" content="US" />
     </div>
   </div>
-    <div id='7160e108-ba0b-4bca-afaa-46952b041322' style='width:600px;height:400px;'></div>
+    <div id='168d44b1-1103-4fe9-ba06-57b75da537f2' style='width:600px;height:400px;'></div>
 <script type='text/javascript'>
   jekyllMaps.register(
-    '7160e108-ba0b-4bca-afaa-46952b041322',
-    [{"latitude":38.325728,"longitude":-122.283105,"title":"Hyde de Villaine Private Tasting","icon":null,"url":"/2019/08/10/hyde_de_villaine_private_tasting.html","url_text":null,"image":"hyde-de-villaine/4.jpg"}],
+    '168d44b1-1103-4fe9-ba06-57b75da537f2',
+    [{"latitude":38.325728,"longitude":-122.283105,"title":"Hyde de Villaine Private Tasting","icon":null,"url":"/2019/08/10/hyde_de_villaine_private_tasting.html","url_text":null,"image":"hyde-de-villaine/4.jpg","popup_html":""}],
     {"baseUrl":"","useCluster":true,"showMarker":true,"showMarkerPopup":true,"markerIcon":null,"customZoom":16}
   );
 </script>
@@ -321,57 +327,25 @@ if (typeof Object.assign !== 'function') {
   <span itemprop="reviewBody">
     <p>What is in a name?  Well, for some it’s the most effective branding possible.  The name “Villaine” is enough to grab any wine collector’s attention.  Though, they normally associate it with a Burgundian winery that just happens to produce some of the most expensive wine on Earth (Aubert de Villaine of Domaine de la Romanee-Conti).  Though, that association is exactly what the owners don’t want, even though the winery is related to that Villaine!  The character of the terroir between the Cote de Nuit in Burgundy and Carneros in Napa are very different and you should expect very different wine because of that.  And while the wine isn’t as good as DRC, it also doesn’t cost $20K+ a bottle either.  I think what you do get with these wines is old world elegance, finesse, minerality, and a complexity that doesn’t over-index on the fruit character, thanks to the Burgundian traditions applied to Carneros fruit and terroir.  Do I recommend you visit?  You bet I do…</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/hyde-de-villaine/1-1050by788-afcd6f.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/hyde-de-villaine/1-700by525-afcd6f.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/hyde-de-villaine/1-675by506-afcd6f.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/hyde-de-villaine/1-450by338-afcd6f.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/hyde-de-villaine/1-525by394-afcd6f.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/hyde-de-villaine/1-350by263-afcd6f.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/hyde-de-villaine/1-350by263-afcd6f.jpg" alt="" title="Springtime" class="center-image" />
-  </picture>
+<p><img title="Springtime" class="center-image" src="/assets/images/hyde-de-villaine/1-800-afcd6f.jpg" srcset="/assets/images/hyde-de-villaine/1-400-afcd6f.jpg 400w, /assets/images/hyde-de-villaine/1-600-afcd6f.jpg 600w, /assets/images/hyde-de-villaine/1-800-afcd6f.jpg 800w, /assets/images/hyde-de-villaine/1-1000-afcd6f.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>A look at the vineyard before spring officially starts.  While it’s the mountains in the background that may grab your attention, just wait for these Chardonnay vines to bloom and grow their fruit.  These vines produce some of the best white wine in the Napa area today.  And don’t underestimate their red wines either…</em></p>
 
 <p>The families of Villaine and Hyde each got their start in wine separately.  Larry Hyde has worked in the vineyards since the 70s and you can likely find multiple books on Aubert’s life story in Burgundy.  So what would bring two very different families together?  Love, of course!  Aubert married Larry’s cousin (Pamela Fairbanks) in 1970 and after 30 years of pursuing their own craft, Larry and Aubert decided to start a venture together in Carneros.  In 2002, they brought onboard their current winemaker (Stéphane Vivier) who studied at the the Université de Bourgogne.  And with a vision in mind, they built HdV!</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/hyde-de-villaine/2-1050by788-000b44.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/hyde-de-villaine/2-700by525-000b44.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/hyde-de-villaine/2-675by506-000b44.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/hyde-de-villaine/2-450by338-000b44.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/hyde-de-villaine/2-525by394-000b44.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/hyde-de-villaine/2-350by263-000b44.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/hyde-de-villaine/2-350by263-000b44.jpg" alt="" title="Not the Prettiest Building" class="center-image" />
-  </picture>
+<p><img title="Not the Prettiest Building" class="center-image" src="/assets/images/hyde-de-villaine/2-800-000b44.jpg" srcset="/assets/images/hyde-de-villaine/2-400-000b44.jpg 400w, /assets/images/hyde-de-villaine/2-600-000b44.jpg 600w, /assets/images/hyde-de-villaine/2-800-000b44.jpg 800w, /assets/images/hyde-de-villaine/2-1000-000b44.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>Never judge a book by its cover, especially in the wine world.  Similar to other great wineries like Kapcsandy, you won’t find a grand estate waiting for you at the property.  The facility is 100% tailored to making wine.  And when you are searching for the best wine, isn’t that what you want to see out of a winery?</em></p>
 
 <p>HdV is primarily focused on Chardonnay which represents over 60% of their production.  Since the expertise of both Aubert and Stéphane lay in Burgundian wines, it makes sense that HdV is focused on the cooler Carneros, allowing them to produce higher acid wines that are similar to what is produced in Burgundy in contrast to the typical ripe Napa Chardonnay.  And because the Chardonnay is sourced from older-vine blocks at the Hyde Vineyard (30+ year old vines), each bottle contains character and concentration.  They produce a Merlot / Cabernet Sauvignon blend (Belle Cousine) and Syrah onsite as well.  It wasn’t until 2012 that they started making Pinot Noir here (remember, they don’t want that “diet-DRC” comparison), but the Burgundian winemaker wanted to make Pinot, so here we are!</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/hyde-de-villaine/3-1050by788-ee6575.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/hyde-de-villaine/3-700by525-ee6575.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/hyde-de-villaine/3-675by506-ee6575.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/hyde-de-villaine/3-450by338-ee6575.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/hyde-de-villaine/3-525by394-ee6575.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/hyde-de-villaine/3-350by263-ee6575.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/hyde-de-villaine/3-350by263-ee6575.jpg" alt="" title="I Spy a Concrete Egg" class="center-image" />
-  </picture>
+<p><img title="I Spy a Concrete Egg" class="center-image" src="/assets/images/hyde-de-villaine/3-800-ee6575.jpg" srcset="/assets/images/hyde-de-villaine/3-400-ee6575.jpg 400w, /assets/images/hyde-de-villaine/3-600-ee6575.jpg 600w, /assets/images/hyde-de-villaine/3-800-ee6575.jpg 800w, /assets/images/hyde-de-villaine/3-1000-ee6575.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>A look inside the facility.  Again, besides the office to the right of the concrete egg, everything in the place is for making wine.  It was hard to imagine how and where they move the tanks and barrels during harvest and crush.  Maybe some magical elves take care of everything?  That might explain why the Chardonnay is so delicious!</em></p>
 
 <p>The funniest thing we talked about during the tasting was that Aubert didn’t take the idea of co-founding an American winery seriously until he participated in a blind tasting where one of the wines revealed was a Ramey Chardonnay that was made with fruit from the Hyde Vineyard.  After that tasting, he finally gave the co-venture some serious thought.  Since Aubert is half-the-world away running DRC, he doesn’t have much influence on the day-to-day.  He does make a couple trips to California each year where his biggest contribution is helping decide when to pick the grapes, since that is always the most important decision for a winery.  Where many wineries index on the brix (sugar) level of the grapes, HdV focuses on picking when the Total Acidity (TA) is just right.  And like Burgundy, there is no fining, filtration or additions to any of the wines, ever.  What the land offers is what they use in the winery.</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/hyde-de-villaine/4-1050by788-d6ca41.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/hyde-de-villaine/4-700by525-d6ca41.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/hyde-de-villaine/4-675by506-d6ca41.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/hyde-de-villaine/4-450by338-d6ca41.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/hyde-de-villaine/4-525by394-d6ca41.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/hyde-de-villaine/4-350by263-d6ca41.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/hyde-de-villaine/4-350by263-d6ca41.jpg" alt="" title="Their Red Wines" class="center-image" />
-  </picture>
+<p><img title="Their Red Wines" class="center-image" src="/assets/images/hyde-de-villaine/4-800-d6ca41.jpg" srcset="/assets/images/hyde-de-villaine/4-400-d6ca41.jpg 400w, /assets/images/hyde-de-villaine/4-600-d6ca41.jpg 600w, /assets/images/hyde-de-villaine/4-800-d6ca41.jpg 800w, /assets/images/hyde-de-villaine/4-1000-d6ca41.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>Most people are only familiar with the Chardonnay of HdV.  From the background of the co-owners, it is easy to see why.  But do not discount the red wines here.  The Syrahs were both very good and the Vine Cliff Cabernet was really special - it reminded me of the best French wines that have some Brett in their profile and are better / more complex wines for it.</em></p>
 

@@ -46,9 +46,9 @@
     
         <meta content="andlau" property="article:tag">
     
-<!-- Begin Jekyll SEO tag v2.5.0 -->
+<!-- Begin Jekyll SEO tag v2.6.1 -->
 <title>Domaine des Marronniers Public Tasting | Wines By Jeremy</title>
-<meta name="generator" content="Jekyll v3.8.5" />
+<meta name="generator" content="Jekyll v3.8.6" />
 <meta property="og:title" content="Domaine des Marronniers Public Tasting" />
 <meta name="author" content="Jeremy Myers" />
 <meta property="og:locale" content="en_US" />
@@ -61,7 +61,7 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2019-03-02T19:20:00+00:00" />
 <script type="application/ld+json">
-{"image":"https://www.winesbyjeremy.com/domaine-wach/1.jpg","url":"https://www.winesbyjeremy.com/2019/03/02/domaine_wach_private_tasting.html","headline":"Domaine des Marronniers Public Tasting","dateModified":"2019-03-02T19:20:00+00:00","datePublished":"2019-03-02T19:20:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.winesbyjeremy.com/2019/03/02/domaine_wach_private_tasting.html"},"author":{"@type":"Person","name":"Jeremy Myers"},"description":"Andlau may be a small town, but its vineyards and views are second to none in the Alsace region. In addition, it is home to some of the most interesting Grand Crus of Alsace, which make it a must visit when traveling through Alsace. There are a few wineries to possibly visit for a tasting in Andlau, but none have as comprehensive of a wine tasting menu as Domaine des Marronniers. Their social media presence and website are also more up-to-date and accessible than many of its peers. As luck would have it, I was staying in a hotel next door to the winery, so it only made sense for me to arrange a tasting and talk through their portfolio.","@type":"BlogPosting","@context":"http://schema.org"}</script>
+{"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.winesbyjeremy.com/2019/03/02/domaine_wach_private_tasting.html"},"image":"https://www.winesbyjeremy.com/domaine-wach/1.jpg","url":"https://www.winesbyjeremy.com/2019/03/02/domaine_wach_private_tasting.html","author":{"@type":"Person","name":"Jeremy Myers"},"description":"Andlau may be a small town, but its vineyards and views are second to none in the Alsace region. In addition, it is home to some of the most interesting Grand Crus of Alsace, which make it a must visit when traveling through Alsace. There are a few wineries to possibly visit for a tasting in Andlau, but none have as comprehensive of a wine tasting menu as Domaine des Marronniers. Their social media presence and website are also more up-to-date and accessible than many of its peers. As luck would have it, I was staying in a hotel next door to the winery, so it only made sense for me to arrange a tasting and talk through their portfolio.","headline":"Domaine des Marronniers Public Tasting","dateModified":"2019-03-02T19:20:00+00:00","datePublished":"2019-03-02T19:20:00+00:00","@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/css/main.css"><link type="application/atom+xml" rel="alternate" href="https://www.winesbyjeremy.com/feed.xml" title="Wines By Jeremy" /><script>
 if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1")) {
@@ -162,6 +162,7 @@ var jekyllMaps = (function() {
         position: position,
         title: location.title,
         image: location.image,
+        popup_html: location.popup_html,
         icon: location.icon || mapOptions.markerIcon,
         url: markerUrl(mapOptions.baseUrl, location.url),
         url_text: location.url_text,
@@ -180,14 +181,19 @@ var jekyllMaps = (function() {
 
     function markerPopup() {
       var content = '<div class="map-info-window"><h5>' + this.title + '</h5>'
-      var imageTag =
-        this.image.length > 0 &&
-        '<img src="' + this.image + '" alt="' + this.title + '"/>'
-      if (this.url.length > 0) {
-        var linkContent = imageTag || this.url_text || 'View'
-        content += '<a href="' + this.url + '">' + linkContent + '</a>'
-      } else if (imageTag) {
-        content += imageTag
+      if (this.popup_html.length > 0) {
+        content += this.popup_html
+      }
+      else {
+        var imageTag =
+          this.image.length > 0 &&
+          '<img src="' + this.image + '" alt="' + this.title + '"/>'
+        if (this.url.length > 0) {
+          var linkContent = imageTag || this.url_text || 'View'
+          content += '<a href="' + this.url + '">' + linkContent + '</a>'
+        } else if (imageTag) {
+          content += imageTag
+        }
       }
       content += '</div>'
       infoWindow.setContent(content)
@@ -305,11 +311,11 @@ if (typeof Object.assign !== 'function') {
       <meta itemprop="addressCountry" content="FR" />
     </div>
   </div>
-    <div id='8e398d3c-7279-49b1-951e-20501a997bab' style='width:600px;height:400px;'></div>
+    <div id='2ef13b73-4eed-449f-a09d-08f633ff386e' style='width:600px;height:400px;'></div>
 <script type='text/javascript'>
   jekyllMaps.register(
-    '8e398d3c-7279-49b1-951e-20501a997bab',
-    [{"latitude":48.38602,"longitude":7.423286,"title":"Domaine des Marronniers Public Tasting","icon":null,"url":"/2019/03/02/domaine_wach_private_tasting.html","url_text":null,"image":"domaine-wach/1.jpg"}],
+    '2ef13b73-4eed-449f-a09d-08f633ff386e',
+    [{"latitude":48.38602,"longitude":7.423286,"title":"Domaine des Marronniers Public Tasting","icon":null,"url":"/2019/03/02/domaine_wach_private_tasting.html","url_text":null,"image":"domaine-wach/1.jpg","popup_html":""}],
     {"baseUrl":"","useCluster":true,"showMarker":true,"showMarkerPopup":true,"markerIcon":null,"customZoom":16}
   );
 </script>
@@ -321,15 +327,7 @@ if (typeof Object.assign !== 'function') {
   <span itemprop="reviewBody">
     <p>Andlau may be a small town, but its vineyards and views are second to none in the Alsace region.  In addition, it is home to some of the most interesting Grand Crus of Alsace, which make it a must visit when traveling through Alsace.  There are a few wineries to possibly visit for a tasting in Andlau, but none have as comprehensive of a wine tasting menu as Domaine des Marronniers.  Their social media presence and website are also more up-to-date and accessible than many of its peers.  As luck would have it, I was staying in a hotel next door to the winery, so it only made sense for me to arrange a tasting and talk through their portfolio.</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-wach/1-1050by788-5d4bbd.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-wach/1-700by525-5d4bbd.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-wach/1-675by506-5d4bbd.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-wach/1-450by338-5d4bbd.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-wach/1-525by394-5d4bbd.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-wach/1-350by263-5d4bbd.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/domaine-wach/1-350by263-5d4bbd.jpg" alt="image" title="Obligatory Selfie" class="center-image" />
-  </picture>
+<p><img title="Obligatory Selfie" class="center-image" src="/assets/images/domaine-wach/1-800-5d4bbd.jpg" srcset="/assets/images/domaine-wach/1-400-5d4bbd.jpg 400w, /assets/images/domaine-wach/1-600-5d4bbd.jpg 600w, /assets/images/domaine-wach/1-800-5d4bbd.jpg 800w, /assets/images/domaine-wach/1-1000-5d4bbd.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>An obligatory selfie with some of vines.  The landscape of the Andlau region is quite something to behold.  Many of the vines in the region are planted on a southernly slope to maximize the amount of sunlight they capture with cool temperatures still keeping the acidity high.</em></p>
 
@@ -337,15 +335,7 @@ if (typeof Object.assign !== 'function') {
 
 <p>To make sure that my palate was in top shape to enjoy the experience, I made a morning appointment.  Jessica, the wine ambassador, was very generous to open a little early for me so that I could catch my scheduled taxi to Ribeauville.  Jessica is a certified sommelier from Montreal, meaning that she is fluent in English and French.  This of course meant that in addition to talking about our shared love of wine and her chance meeting with the winemaker while working in New Zealand (which is how she ended up in Alsace), we had to talk about my love of hockey.</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-wach/2-1050by788-ea8a96.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-wach/2-700by525-ea8a96.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-wach/2-675by506-ea8a96.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-wach/2-450by338-ea8a96.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-wach/2-525by394-ea8a96.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-wach/2-350by263-ea8a96.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/domaine-wach/2-350by263-ea8a96.jpg" alt="image" title="The Wine Ambassador" class="center-image" />
-  </picture>
+<p><img title="The Wine Ambassador" class="center-image" src="/assets/images/domaine-wach/2-800-ea8a96.jpg" srcset="/assets/images/domaine-wach/2-400-ea8a96.jpg 400w, /assets/images/domaine-wach/2-600-ea8a96.jpg 600w, /assets/images/domaine-wach/2-800-ea8a96.jpg 800w, /assets/images/domaine-wach/2-1000-ea8a96.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>The tasting bar at Domaine Wach.  Just to the side, there is a large room with a grand dinner table that seems like it could hold 8-10 guests for a tasting and meal pairing.  I came in the morning, but the Wine Ambassador was happy to host me and opened a great array of wines that left me more thirsty than when I had arrived!</em></p>
 

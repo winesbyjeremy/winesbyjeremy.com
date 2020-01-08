@@ -46,9 +46,9 @@
     
         <meta content="st-helena" property="article:tag">
     
-<!-- Begin Jekyll SEO tag v2.5.0 -->
+<!-- Begin Jekyll SEO tag v2.6.1 -->
 <title>Beringer Private Tasting | Wines By Jeremy</title>
-<meta name="generator" content="Jekyll v3.8.5" />
+<meta name="generator" content="Jekyll v3.8.6" />
 <meta property="og:title" content="Beringer Private Tasting" />
 <meta name="author" content="Jeremy Myers" />
 <meta property="og:locale" content="en_US" />
@@ -61,7 +61,7 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2018-09-08T19:20:00+00:00" />
 <script type="application/ld+json">
-{"image":"https://www.winesbyjeremy.com/beringer/2.jpg","url":"https://www.winesbyjeremy.com/2018/09/08/beringer_private_tasting.html","headline":"Beringer Private Tasting","dateModified":"2018-09-08T19:20:00+00:00","datePublished":"2018-09-08T19:20:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.winesbyjeremy.com/2018/09/08/beringer_private_tasting.html"},"author":{"@type":"Person","name":"Jeremy Myers"},"description":"It’s fitting that Beringer was my very first winery membership. Although the brand has been bought/sold a few times, it is the oldest continuously operating winery in the Napa Valley (established in 1876). Over the past 140+ years, it’s been responsible for many “firsts” in Napa as well as the US Wine Industry at large, and has grown into a true powerhouse. I had been to several Napa wineries before, but this was the first one that really left me in awe and raised my expectations for quality wine. If you are like me, your first foray into wine came from the shelves of Trader Joes and other grocery store chains. One of those $7 bottles I brought home was Beringer, so when I first saw that there was a tasting for $40, I thought to myself that they were crazy. Little did I know.","@type":"BlogPosting","@context":"http://schema.org"}</script>
+{"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.winesbyjeremy.com/2018/09/08/beringer_private_tasting.html"},"image":"https://www.winesbyjeremy.com/beringer/2.jpg","url":"https://www.winesbyjeremy.com/2018/09/08/beringer_private_tasting.html","author":{"@type":"Person","name":"Jeremy Myers"},"description":"It’s fitting that Beringer was my very first winery membership. Although the brand has been bought/sold a few times, it is the oldest continuously operating winery in the Napa Valley (established in 1876). Over the past 140+ years, it’s been responsible for many “firsts” in Napa as well as the US Wine Industry at large, and has grown into a true powerhouse. I had been to several Napa wineries before, but this was the first one that really left me in awe and raised my expectations for quality wine. If you are like me, your first foray into wine came from the shelves of Trader Joes and other grocery store chains. One of those $7 bottles I brought home was Beringer, so when I first saw that there was a tasting for $40, I thought to myself that they were crazy. Little did I know.","headline":"Beringer Private Tasting","dateModified":"2018-09-08T19:20:00+00:00","datePublished":"2018-09-08T19:20:00+00:00","@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/css/main.css"><link type="application/atom+xml" rel="alternate" href="https://www.winesbyjeremy.com/feed.xml" title="Wines By Jeremy" /><script>
 if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1")) {
@@ -162,6 +162,7 @@ var jekyllMaps = (function() {
         position: position,
         title: location.title,
         image: location.image,
+        popup_html: location.popup_html,
         icon: location.icon || mapOptions.markerIcon,
         url: markerUrl(mapOptions.baseUrl, location.url),
         url_text: location.url_text,
@@ -180,14 +181,19 @@ var jekyllMaps = (function() {
 
     function markerPopup() {
       var content = '<div class="map-info-window"><h5>' + this.title + '</h5>'
-      var imageTag =
-        this.image.length > 0 &&
-        '<img src="' + this.image + '" alt="' + this.title + '"/>'
-      if (this.url.length > 0) {
-        var linkContent = imageTag || this.url_text || 'View'
-        content += '<a href="' + this.url + '">' + linkContent + '</a>'
-      } else if (imageTag) {
-        content += imageTag
+      if (this.popup_html.length > 0) {
+        content += this.popup_html
+      }
+      else {
+        var imageTag =
+          this.image.length > 0 &&
+          '<img src="' + this.image + '" alt="' + this.title + '"/>'
+        if (this.url.length > 0) {
+          var linkContent = imageTag || this.url_text || 'View'
+          content += '<a href="' + this.url + '">' + linkContent + '</a>'
+        } else if (imageTag) {
+          content += imageTag
+        }
       }
       content += '</div>'
       infoWindow.setContent(content)
@@ -305,11 +311,11 @@ if (typeof Object.assign !== 'function') {
       <meta itemprop="addressCountry" content="US" />
     </div>
   </div>
-    <div id='37f48ceb-8aa2-4295-95f3-0666479eb881' style='width:600px;height:400px;'></div>
+    <div id='ed8e035e-56ff-4e25-a85e-c87abb40d646' style='width:600px;height:400px;'></div>
 <script type='text/javascript'>
   jekyllMaps.register(
-    '37f48ceb-8aa2-4295-95f3-0666479eb881',
-    [{"latitude":38.510169,"longitude":-122.479882,"title":"Beringer Private Tasting","icon":null,"url":"/2018/09/08/beringer_private_tasting.html","url_text":null,"image":"beringer/2.jpg"}],
+    'ed8e035e-56ff-4e25-a85e-c87abb40d646',
+    [{"latitude":38.510169,"longitude":-122.479882,"title":"Beringer Private Tasting","icon":null,"url":"/2018/09/08/beringer_private_tasting.html","url_text":null,"image":"beringer/2.jpg","popup_html":""}],
     {"baseUrl":"","useCluster":true,"showMarker":true,"showMarkerPopup":true,"markerIcon":null,"customZoom":16}
   );
 </script>
@@ -323,29 +329,13 @@ if (typeof Object.assign !== 'function') {
 
 <p>While large producers like Beringer and Robert Mondavi may produce and sell large amounts of ~$7-$20 wine, they also produce some fantastic top quality wines because of all the land and capital they have access to.  Imagine if you had enough grapes to produce 1,000,000 bottles of wine and could save your best grapes for 1,000 bottles - how good do you think those 1,000 bottles could be?  Answer: Really good…</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/beringer/1-1050by700-2aac0d.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/beringer/1-700by467-2aac0d.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/beringer/1-675by450-2aac0d.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/beringer/1-450by300-2aac0d.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/beringer/1-525by350-2aac0d.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/beringer/1-350by233-2aac0d.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/beringer/1-350by233-2aac0d.jpg" alt="" title="It was very bright outside" class="center-image" />
-  </picture>
+<p><img title="It was very bright outside" class="center-image" src="/assets/images/beringer/1-800-2aac0d.jpg" srcset="/assets/images/beringer/1-400-2aac0d.jpg 400w, /assets/images/beringer/1-600-2aac0d.jpg 600w, /assets/images/beringer/1-800-2aac0d.jpg 800w, /assets/images/beringer/1-1000-2aac0d.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>The Rhine House garden and fountain at Beringer</em></p>
 
 <p>When arriving at their winery just north of St. Helena, my first impression was that it was actually a campus.  And sure enough, there are multiple buildings that house different tasting menus.  We arrived a bit earlier, so we took some time to wander through the beautiful back gardens that also had some vines planted.  Back toward the entrance you drove through, you’ll find the Rhine House: a building from the 1800s that still has its original stained glass windows, a rustic but polished interior that matches the house, and the ethos of the founder carved/painted around the ceiling of the main room.</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/beringer/2-1050by911-e92993.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/beringer/2-700by608-e92993.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/beringer/2-675by586-e92993.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/beringer/2-450by391-e92993.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/beringer/2-525by456-e92993.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/beringer/2-350by304-e92993.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/beringer/2-350by304-e92993.jpg" alt="" title="I still wish I had my sunglasses" class="center-image" />
-  </picture>
+<p><img title="I still wish I had my sunglasses" class="center-image" src="/assets/images/beringer/2-800-e92993.jpg" srcset="/assets/images/beringer/2-400-e92993.jpg 400w, /assets/images/beringer/2-600-e92993.jpg 600w, /assets/images/beringer/2-800-e92993.jpg 800w, /assets/images/beringer/2-1000-e92993.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>The entrance to the Rhine House, where the higher quality (and priced) tastings take place</em></p>
 
@@ -391,29 +381,13 @@ if (typeof Object.assign !== 'function') {
   </li>
 </ul>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/beringer/3-1050by788-41c282.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/beringer/3-700by525-41c282.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/beringer/3-675by506-41c282.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/beringer/3-450by338-41c282.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/beringer/3-525by394-41c282.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/beringer/3-350by263-41c282.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/beringer/3-350by263-41c282.jpg" alt="" title="Blind tasting is hard" class="center-image" />
-  </picture>
+<p><img title="Blind tasting is hard" class="center-image" src="/assets/images/beringer/3-800-41c282.jpg" srcset="/assets/images/beringer/3-400-41c282.jpg 400w, /assets/images/beringer/3-600-41c282.jpg 600w, /assets/images/beringer/3-800-41c282.jpg 800w, /assets/images/beringer/3-1000-41c282.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>The private tasting room in the top floor of the Rhine House.  Did I mention that it was a blind tasting?  And in case you were wondering, I didn’t get the four of them correct…</em></p>
 
 <p>For those that like oaked Chardonnays but want less butter and more complexity, the Private Reserve is my go-to.  Well balanced between the intensity and high acidity plus the hints of nut from the barrel aging is really captivating.  The Private Reserves need more time for aging as the tannins are still a bit aggressive but the potential is obvious and the fruit+weight on the palate feel sooo good.  If you are an impatient drinker like me, the Bancroft Ranch Merlot and Knights Valley Cab are ready right now and can be almost as pleasurable as the Private Reserves in good vintages.</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/beringer/4-1050by700-60ee70.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/beringer/4-700by467-60ee70.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/beringer/4-675by450-60ee70.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/beringer/4-450by300-60ee70.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/beringer/4-525by350-60ee70.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/beringer/4-350by233-60ee70.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/beringer/4-350by233-60ee70.jpg" alt="" title="Nothing better than wine and nature in the morning" class="center-image" />
-  </picture>
+<p><img title="Nothing better than wine and nature in the morning" class="center-image" src="/assets/images/beringer/4-800-60ee70.jpg" srcset="/assets/images/beringer/4-400-60ee70.jpg 400w, /assets/images/beringer/4-600-60ee70.jpg 600w, /assets/images/beringer/4-800-60ee70.jpg 800w, /assets/images/beringer/4-1000-60ee70.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>The patio of the Rhine House - It would’ve been great to hold the tasting here too</em></p>
 

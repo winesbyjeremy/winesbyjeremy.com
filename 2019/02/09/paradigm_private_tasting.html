@@ -46,9 +46,9 @@
     
         <meta content="oakville" property="article:tag">
     
-<!-- Begin Jekyll SEO tag v2.5.0 -->
+<!-- Begin Jekyll SEO tag v2.6.1 -->
 <title>Paradigm Private Tasting | Wines By Jeremy</title>
-<meta name="generator" content="Jekyll v3.8.5" />
+<meta name="generator" content="Jekyll v3.8.6" />
 <meta property="og:title" content="Paradigm Private Tasting" />
 <meta name="author" content="Jeremy Myers" />
 <meta property="og:locale" content="en_US" />
@@ -61,7 +61,7 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2019-02-09T19:20:00+00:00" />
 <script type="application/ld+json">
-{"image":"https://www.winesbyjeremy.com/paradigm/1.jpg","url":"https://www.winesbyjeremy.com/2019/02/09/paradigm_private_tasting.html","headline":"Paradigm Private Tasting","dateModified":"2019-02-09T19:20:00+00:00","datePublished":"2019-02-09T19:20:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.winesbyjeremy.com/2019/02/09/paradigm_private_tasting.html"},"author":{"@type":"Person","name":"Jeremy Myers"},"description":"I know many of you have never heard of Paradigm before, nor seen any of their bottles or signage in Napa. But what if I said that Paradigm was the first winery that Heidi Barrett ever worked at and even after her long and illustrious career, she is still their winemaker? If you follow winemakers like me, I hope that grabbed your attention. If you need more background, read my article on La Sirena (Heidi’s personal label). To sum up Paradigm, it is a small Oakville-based operation that owns 55 acres of vines and makes very compelling wines by allowing the varietals to express their quality and terroir influences with minimal winemaker intervention, which is only possible when you have great land, vines, and someone who is confident in what they are doing.","@type":"BlogPosting","@context":"http://schema.org"}</script>
+{"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.winesbyjeremy.com/2019/02/09/paradigm_private_tasting.html"},"image":"https://www.winesbyjeremy.com/paradigm/1.jpg","url":"https://www.winesbyjeremy.com/2019/02/09/paradigm_private_tasting.html","author":{"@type":"Person","name":"Jeremy Myers"},"description":"I know many of you have never heard of Paradigm before, nor seen any of their bottles or signage in Napa. But what if I said that Paradigm was the first winery that Heidi Barrett ever worked at and even after her long and illustrious career, she is still their winemaker? If you follow winemakers like me, I hope that grabbed your attention. If you need more background, read my article on La Sirena (Heidi’s personal label). To sum up Paradigm, it is a small Oakville-based operation that owns 55 acres of vines and makes very compelling wines by allowing the varietals to express their quality and terroir influences with minimal winemaker intervention, which is only possible when you have great land, vines, and someone who is confident in what they are doing.","headline":"Paradigm Private Tasting","dateModified":"2019-02-09T19:20:00+00:00","datePublished":"2019-02-09T19:20:00+00:00","@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/css/main.css"><link type="application/atom+xml" rel="alternate" href="https://www.winesbyjeremy.com/feed.xml" title="Wines By Jeremy" /><script>
 if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1")) {
@@ -162,6 +162,7 @@ var jekyllMaps = (function() {
         position: position,
         title: location.title,
         image: location.image,
+        popup_html: location.popup_html,
         icon: location.icon || mapOptions.markerIcon,
         url: markerUrl(mapOptions.baseUrl, location.url),
         url_text: location.url_text,
@@ -180,14 +181,19 @@ var jekyllMaps = (function() {
 
     function markerPopup() {
       var content = '<div class="map-info-window"><h5>' + this.title + '</h5>'
-      var imageTag =
-        this.image.length > 0 &&
-        '<img src="' + this.image + '" alt="' + this.title + '"/>'
-      if (this.url.length > 0) {
-        var linkContent = imageTag || this.url_text || 'View'
-        content += '<a href="' + this.url + '">' + linkContent + '</a>'
-      } else if (imageTag) {
-        content += imageTag
+      if (this.popup_html.length > 0) {
+        content += this.popup_html
+      }
+      else {
+        var imageTag =
+          this.image.length > 0 &&
+          '<img src="' + this.image + '" alt="' + this.title + '"/>'
+        if (this.url.length > 0) {
+          var linkContent = imageTag || this.url_text || 'View'
+          content += '<a href="' + this.url + '">' + linkContent + '</a>'
+        } else if (imageTag) {
+          content += imageTag
+        }
       }
       content += '</div>'
       infoWindow.setContent(content)
@@ -305,11 +311,11 @@ if (typeof Object.assign !== 'function') {
       <meta itemprop="addressCountry" content="US" />
     </div>
   </div>
-    <div id='fabd412f-6618-4753-a9b5-a8eb9b16eea7' style='width:600px;height:400px;'></div>
+    <div id='1eb3fce7-6c8f-4f7c-8e12-e2ec47b2a56d' style='width:600px;height:400px;'></div>
 <script type='text/javascript'>
   jekyllMaps.register(
-    'fabd412f-6618-4753-a9b5-a8eb9b16eea7',
-    [{"latitude":38.420564,"longitude":-122.393788,"title":"Paradigm Private Tasting","icon":null,"url":"/2019/02/09/paradigm_private_tasting.html","url_text":null,"image":"paradigm/1.jpg"}],
+    '1eb3fce7-6c8f-4f7c-8e12-e2ec47b2a56d',
+    [{"latitude":38.420564,"longitude":-122.393788,"title":"Paradigm Private Tasting","icon":null,"url":"/2019/02/09/paradigm_private_tasting.html","url_text":null,"image":"paradigm/1.jpg","popup_html":""}],
     {"baseUrl":"","useCluster":true,"showMarker":true,"showMarkerPopup":true,"markerIcon":null,"customZoom":16}
   );
 </script>
@@ -323,15 +329,7 @@ if (typeof Object.assign !== 'function') {
 
 <p>Paradigm got started around the time Heidi was in school.  Her father Richard Peterson was (and still is) a famous winemaker specializing in Pinot Noir who worked with several wineries and did consultation work for others.  At the time, Ren (the owner) and Gene (his business partner) ran a lucrative vineyard real estate business together.  After enough time, they both decided to start their own wineries.  Ren called up Richard Peterson and asked for help getting the winery going.  Everything from building the business plan, to pitching financial institutions for the loans he needed, to designing the vineyard and equipping the facility, to being his winemaking consultant.  When you visit Paradigm, you’ll see that the building and winemaking facility are small and non-descript in comparison to others in the area.  They may be small but are very efficiently structured (everything is tight and compact) and isn’t lacking in any equipment.  As the other wineries grew and expanded around them, Paradigm has stayed relatively the same, which includes its small quantity, great quality, and very affordable prices.</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/paradigm/1-1050by788-4845aa.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/paradigm/1-700by525-4845aa.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/paradigm/1-675by506-4845aa.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/paradigm/1-450by338-4845aa.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/paradigm/1-525by394-4845aa.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/paradigm/1-350by263-4845aa.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/paradigm/1-350by263-4845aa.jpg" alt="" title="The entrance to the winery" class="center-image" />
-  </picture>
+<p><img title="The entrance to the winery" class="center-image" src="/assets/images/paradigm/1-800-4845aa.jpg" srcset="/assets/images/paradigm/1-400-4845aa.jpg 400w, /assets/images/paradigm/1-600-4845aa.jpg 600w, /assets/images/paradigm/1-800-4845aa.jpg 800w, /assets/images/paradigm/1-1000-4845aa.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>I told you that the winery was non-descript on the outside.  Yes, this is the entrance as seen from the parking lot.  But don’t let this exterior fool you.  The wine quality will pleasantly surprise you.</em></p>
 
@@ -339,15 +337,7 @@ if (typeof Object.assign !== 'function') {
 
 <p>Ren paid off the final loans of the winery 10+ years ago and how the tax laws work in Napa is that you are taxed each year based on how much you paid for the land/winery at the time of purchase.  Since Ren purchased the land back when there were only 30 wineries in Napa and land prices were dirt cheap compared to today, their taxes are very low by comparison to others, meaning they can pass the savings along to the consumer.  And that’s a pro-tip for visiting Napa - the next time you go, try to visit a winery that has been around for a long time and hasn’t changed hands.  They will nearly always be cheaper than everyone else; not because they wines aren’t as good, but because the cost to produce them is lower (and therefore they need to charge less to keep operations going).</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/paradigm/2-1050by788-a61dd0.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/paradigm/2-700by525-a61dd0.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/paradigm/2-675by506-a61dd0.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/paradigm/2-450by338-a61dd0.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/paradigm/2-525by394-a61dd0.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/paradigm/2-350by263-a61dd0.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/paradigm/2-350by263-a61dd0.jpg" alt="" title="Getting lost in the vines" class="center-image" />
-  </picture>
+<p><img title="Getting lost in the vines" class="center-image" src="/assets/images/paradigm/2-800-a61dd0.jpg" srcset="/assets/images/paradigm/2-400-a61dd0.jpg 400w, /assets/images/paradigm/2-600-a61dd0.jpg 600w, /assets/images/paradigm/2-800-a61dd0.jpg 800w, /assets/images/paradigm/2-1000-a61dd0.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>We had a chance to walk through the vineyard and see what is responsible for the great wine.  Since it was the brother-in-law on duty that day, we got to hear some great stories about the early history of the winery that I shared earlier in the article.</em></p>
 

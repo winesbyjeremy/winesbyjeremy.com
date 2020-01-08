@@ -46,9 +46,9 @@
     
         <meta content="eola-amity-hills" property="article:tag">
     
-<!-- Begin Jekyll SEO tag v2.5.0 -->
+<!-- Begin Jekyll SEO tag v2.6.1 -->
 <title>Evening Land Private Tasting | Wines By Jeremy</title>
-<meta name="generator" content="Jekyll v3.8.5" />
+<meta name="generator" content="Jekyll v3.8.6" />
 <meta property="og:title" content="Evening Land Private Tasting" />
 <meta name="author" content="Jeremy Myers" />
 <meta property="og:locale" content="en_US" />
@@ -61,7 +61,7 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2019-09-28T19:20:00+00:00" />
 <script type="application/ld+json">
-{"image":"https://www.winesbyjeremy.com/evening-land/3.jpg","url":"https://www.winesbyjeremy.com/2019/09/28/evening_lands_public_tasting.html","headline":"Evening Land Private Tasting","dateModified":"2019-09-28T19:20:00+00:00","datePublished":"2019-09-28T19:20:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.winesbyjeremy.com/2019/09/28/evening_lands_public_tasting.html"},"author":{"@type":"Person","name":"Jeremy Myers"},"description":"I strongly prefer tasting bottles at the winery rather than at in-town tasting rooms. Unfortunately, I was in a bit of a rush, so I gladly made an exception here because when I think of Oregon Chardonnay, I think of Evening Springs. If you’ve had a bottle of wine from Oregon (specifically around the Willamette Valley), chances are it was a Pinot Noir. There are several other varietals grown in the region, but none are known for being as good a fit with the terroir as Pinot Noir. However, once you taste the La Source here, you’ll be adding Chardonnay to that list. I would confidently put La Source in a blind tasting against the best that America has to offer and it’s not even their best bottling (Summum). I don’t care if you visit the tasting facility or not; just make sure to try these wines!","@type":"BlogPosting","@context":"http://schema.org"}</script>
+{"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.winesbyjeremy.com/2019/09/28/evening_lands_public_tasting.html"},"image":"https://www.winesbyjeremy.com/evening-land/3.jpg","url":"https://www.winesbyjeremy.com/2019/09/28/evening_lands_public_tasting.html","author":{"@type":"Person","name":"Jeremy Myers"},"description":"I strongly prefer tasting bottles at the winery rather than at in-town tasting rooms. Unfortunately, I was in a bit of a rush, so I gladly made an exception here because when I think of Oregon Chardonnay, I think of Evening Springs. If you’ve had a bottle of wine from Oregon (specifically around the Willamette Valley), chances are it was a Pinot Noir. There are several other varietals grown in the region, but none are known for being as good a fit with the terroir as Pinot Noir. However, once you taste the La Source here, you’ll be adding Chardonnay to that list. I would confidently put La Source in a blind tasting against the best that America has to offer and it’s not even their best bottling (Summum). I don’t care if you visit the tasting facility or not; just make sure to try these wines!","headline":"Evening Land Private Tasting","dateModified":"2019-09-28T19:20:00+00:00","datePublished":"2019-09-28T19:20:00+00:00","@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/css/main.css"><link type="application/atom+xml" rel="alternate" href="https://www.winesbyjeremy.com/feed.xml" title="Wines By Jeremy" /><script>
 if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1")) {
@@ -162,6 +162,7 @@ var jekyllMaps = (function() {
         position: position,
         title: location.title,
         image: location.image,
+        popup_html: location.popup_html,
         icon: location.icon || mapOptions.markerIcon,
         url: markerUrl(mapOptions.baseUrl, location.url),
         url_text: location.url_text,
@@ -180,14 +181,19 @@ var jekyllMaps = (function() {
 
     function markerPopup() {
       var content = '<div class="map-info-window"><h5>' + this.title + '</h5>'
-      var imageTag =
-        this.image.length > 0 &&
-        '<img src="' + this.image + '" alt="' + this.title + '"/>'
-      if (this.url.length > 0) {
-        var linkContent = imageTag || this.url_text || 'View'
-        content += '<a href="' + this.url + '">' + linkContent + '</a>'
-      } else if (imageTag) {
-        content += imageTag
+      if (this.popup_html.length > 0) {
+        content += this.popup_html
+      }
+      else {
+        var imageTag =
+          this.image.length > 0 &&
+          '<img src="' + this.image + '" alt="' + this.title + '"/>'
+        if (this.url.length > 0) {
+          var linkContent = imageTag || this.url_text || 'View'
+          content += '<a href="' + this.url + '">' + linkContent + '</a>'
+        } else if (imageTag) {
+          content += imageTag
+        }
       }
       content += '</div>'
       infoWindow.setContent(content)
@@ -305,11 +311,11 @@ if (typeof Object.assign !== 'function') {
       <meta itemprop="addressCountry" content="US" />
     </div>
   </div>
-    <div id='c62cadae-aa5a-4962-b0d6-567e4f504c83' style='width:600px;height:400px;'></div>
+    <div id='d8972af0-1c9a-4caa-8148-ef6d91e115ae' style='width:600px;height:400px;'></div>
 <script type='text/javascript'>
   jekyllMaps.register(
-    'c62cadae-aa5a-4962-b0d6-567e4f504c83',
-    [{"latitude":45.272482,"longitude":-123.016118,"title":"Evening Land Private Tasting","icon":null,"url":"/2019/09/28/evening_lands_public_tasting.html","url_text":null,"image":"evening-land/3.jpg"}],
+    'd8972af0-1c9a-4caa-8148-ef6d91e115ae',
+    [{"latitude":45.272482,"longitude":-123.016118,"title":"Evening Land Private Tasting","icon":null,"url":"/2019/09/28/evening_lands_public_tasting.html","url_text":null,"image":"evening-land/3.jpg","popup_html":""}],
     {"baseUrl":"","useCluster":true,"showMarker":true,"showMarkerPopup":true,"markerIcon":null,"customZoom":16}
   );
 </script>
@@ -321,69 +327,29 @@ if (typeof Object.assign !== 'function') {
   <span itemprop="reviewBody">
     <p>I strongly prefer tasting bottles at the winery rather than at in-town tasting rooms.  Unfortunately, I was in a bit of a rush, so I gladly made an exception here because when I think of Oregon Chardonnay, I think of Evening Springs.  If you’ve had a bottle of wine from Oregon (specifically around the Willamette Valley), chances are it was a Pinot Noir.  There are several other varietals grown in the region, but none are known for being as good a fit with the terroir as Pinot Noir.  However, once you taste the La Source here, you’ll be adding Chardonnay to that list.  I would confidently put La Source in a blind tasting against the best that America has to offer and it’s not even their best bottling (Summum).  I don’t care if you visit the tasting facility or not; just make sure to try these wines!</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/evening-land/1-1050by788-9d9cf1.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/evening-land/1-700by525-9d9cf1.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/evening-land/1-675by506-9d9cf1.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/evening-land/1-450by338-9d9cf1.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/evening-land/1-525by394-9d9cf1.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/evening-land/1-350by263-9d9cf1.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/evening-land/1-350by263-9d9cf1.jpg" alt="" title="The Tasting Room" class="center-image" />
-  </picture>
+<p><img title="The Tasting Room" class="center-image" src="/assets/images/evening-land/1-800-9d9cf1.jpg" srcset="/assets/images/evening-land/1-400-9d9cf1.jpg 400w, /assets/images/evening-land/1-600-9d9cf1.jpg 600w, /assets/images/evening-land/1-800-9d9cf1.jpg 800w, /assets/images/evening-land/1-1000-9d9cf1.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>Their tasting room in Dundee, right off the main highway.  There are several winery tasting room located in the same building, so it’s not a bad idea to just setup tastings with all the wineries there over the course of the afternoon.  I’m sure the location in town helps generate foot traffic.</em></p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/evening-land/2-1050by788-fd9d99.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/evening-land/2-700by525-fd9d99.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/evening-land/2-675by506-fd9d99.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/evening-land/2-450by338-fd9d99.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/evening-land/2-525by394-fd9d99.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/evening-land/2-350by263-fd9d99.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/evening-land/2-350by263-fd9d99.jpg" alt="" title="Their room in the building" class="center-image" />
-  </picture>
+<p><img title="Their room in the building" class="center-image" src="/assets/images/evening-land/2-800-fd9d99.jpg" srcset="/assets/images/evening-land/2-400-fd9d99.jpg 400w, /assets/images/evening-land/2-600-fd9d99.jpg 600w, /assets/images/evening-land/2-800-fd9d99.jpg 800w, /assets/images/evening-land/2-1000-fd9d99.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>The entrance to their room in the building.  They opened at 10am, so we needed to wait a bit before we were able to enter and start our tasting.  I’ll admit, waiting for them to open was tough, especially since you could see into the room and imagine yourself drinking wine inside it.</em></p>
 
 <p>One of the first things you’ll notice when looking up Evening Springs is that they migrated up to Eola Amity Hills from Sonoma in 2007.  The fact that both locations both produce similar varietals (e.g. Pinot Noir, Chardonnay) gives you confidence that they know what they are doing, even if they were officially established only 10+ years ago.  And even for a winery so young, all of the grapes for their wines come from their Seven Springs Vineyards.  Though, not all of the grapes are up to their desired quality level, so they maintain a secondary label (Salem Wine Company) for their declassified grapes.  I respect wineries that are picky about their grapes and the quality of their wines.</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/evening-land/3-1050by788-0010b8.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/evening-land/3-700by525-0010b8.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/evening-land/3-675by506-0010b8.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/evening-land/3-450by338-0010b8.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/evening-land/3-525by394-0010b8.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/evening-land/3-350by263-0010b8.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/evening-land/3-350by263-0010b8.jpg" alt="" title="In at Last" class="center-image" />
-  </picture>
+<p><img title="In at Last" class="center-image" src="/assets/images/evening-land/3-800-0010b8.jpg" srcset="/assets/images/evening-land/3-400-0010b8.jpg 400w, /assets/images/evening-land/3-600-0010b8.jpg 600w, /assets/images/evening-land/3-800-0010b8.jpg 800w, /assets/images/evening-land/3-1000-0010b8.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>I not generally a fan of gray but the theme works very well inside this tasting room.  Like really, really well.  There was outdoor seating through the back if you prefer it, but I highly recommend staying in the tasting room…</em></p>
 
 <p>If you have a subscription to Wine Spectator, you may recognize the Evening Land label.  After all, the 2012 La Source Pinot Noir scored 98 points and landed as #3 on Wine Spectator’s World Top 100 wines in 2015.  And not criticize, but the two wines that ranked higher both received a lower score than the La Source and were more expensive than the La Source.  So in my book and maybe others’, the 2012 La Source was the best wine in 2015 according to Wine Spectator.  They don’t quite have the cult following, and therefore the high prices, of other wineries.  So this is your chance to get excellent quality wine at reasonable prices.</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/evening-land/4-1050by1400-ddbffe.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/evening-land/4-700by933-ddbffe.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/evening-land/4-675by900-ddbffe.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/evening-land/4-450by600-ddbffe.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/evening-land/4-525by700-ddbffe.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/evening-land/4-350by467-ddbffe.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/evening-land/4-350by467-ddbffe.jpg" alt="" title="La Source Pinot" class="center-image" />
-  </picture>
+<p><img title="La Source Pinot" class="center-image" src="/assets/images/evening-land/4-800-ddbffe.jpg" srcset="/assets/images/evening-land/4-400-ddbffe.jpg 400w, /assets/images/evening-land/4-600-ddbffe.jpg 600w, /assets/images/evening-land/4-800-ddbffe.jpg 800w, /assets/images/evening-land/4-1000-ddbffe.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>The La Source Pinot Noir pictured here was really good, but it was the La Source Chardonnay that stole the show for me.  It could be that I just had a lot of good Pinot Noir from multiple producers over the weekend and this was the first surprising Chardonnay of them all.  But I don’t think you can go wrong between either of the Pinot or Chardonnay.</em></p>
 
 <p>As you can see from the pictures and my descriptions, I really liked their tasting room.  Clean, classic, good color scheme, and good background music choices.  As we started chatting with the wine ambassador, we learned that the winemaker felt the 2016s were the best chardonnays he has ever made.  That is a powerful statement and just made me thirstier.  Before we get to the tasting notes below, I do want to clarify that to have your tasting at their winery, you need to pay a $65 tasting fee per person and agree to a suggested 6-bottle purchase.  If someone does take the winery tour and enjoy it, please let me know and I may need to return!</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/evening-land/5-1050by1400-841503.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/evening-land/5-700by933-841503.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/evening-land/5-675by900-841503.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/evening-land/5-450by600-841503.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/evening-land/5-525by700-841503.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/evening-land/5-350by467-841503.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/evening-land/5-350by467-841503.jpg" alt="" title="Map on the Label" class="center-image" />
-  </picture>
+<p><img title="Map on the Label" class="center-image" src="/assets/images/evening-land/5-800-841503.jpg" srcset="/assets/images/evening-land/5-400-841503.jpg 400w, /assets/images/evening-land/5-600-841503.jpg 600w, /assets/images/evening-land/5-800-841503.jpg 800w, /assets/images/evening-land/5-1000-841503.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>I thought this was a pretty cool thing to do with their label.  They included a minature map of the Eola Amity Hills AVA region and marked the location of their vineyards.  It may take a bit of knowledge about the region to fully appreciate the information, but the label design just looks cool regardless.</em></p>
 

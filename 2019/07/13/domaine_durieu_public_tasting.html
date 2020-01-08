@@ -46,9 +46,9 @@
     
         <meta content="chateauneuf-du-pape" property="article:tag">
     
-<!-- Begin Jekyll SEO tag v2.5.0 -->
+<!-- Begin Jekyll SEO tag v2.6.1 -->
 <title>Domaine Durieu Public Tasting | Wines By Jeremy</title>
-<meta name="generator" content="Jekyll v3.8.5" />
+<meta name="generator" content="Jekyll v3.8.6" />
 <meta property="og:title" content="Domaine Durieu Public Tasting" />
 <meta name="author" content="Jeremy Myers" />
 <meta property="og:locale" content="en_US" />
@@ -61,7 +61,7 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2019-07-13T19:20:00+00:00" />
 <script type="application/ld+json">
-{"image":"https://www.winesbyjeremy.com/domaine-durieu/3.jpg","url":"https://www.winesbyjeremy.com/2019/07/13/domaine_durieu_public_tasting.html","headline":"Domaine Durieu Public Tasting","dateModified":"2019-07-13T19:20:00+00:00","datePublished":"2019-07-13T19:20:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.winesbyjeremy.com/2019/07/13/domaine_durieu_public_tasting.html"},"author":{"@type":"Person","name":"Jeremy Myers"},"description":"The tasting at Domaine Durieu provided a perfect foil to my tasting at Beaurenard in that it served as proof that the wine tasting experience can have as much impact on the customer as the quality of the wines themselves. And nothing is more important to the wine tasting experience than the quality of the wine ambassador giving it. It didn’t hurt either that he took me through their entire portfolio while rock music from the 60s set the mood in the background. And at 20€ to 30€ a bottle, the wines were nice QPR darlings. The 2012 Traditional CdP also provided a glimpse of what aging would do to these wines (spoiler alert: great times ahead). Domaine Durieu is worth the stop while in town and may end up surprising you in a great way!","@type":"BlogPosting","@context":"http://schema.org"}</script>
+{"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.winesbyjeremy.com/2019/07/13/domaine_durieu_public_tasting.html"},"image":"https://www.winesbyjeremy.com/domaine-durieu/3.jpg","url":"https://www.winesbyjeremy.com/2019/07/13/domaine_durieu_public_tasting.html","author":{"@type":"Person","name":"Jeremy Myers"},"description":"The tasting at Domaine Durieu provided a perfect foil to my tasting at Beaurenard in that it served as proof that the wine tasting experience can have as much impact on the customer as the quality of the wines themselves. And nothing is more important to the wine tasting experience than the quality of the wine ambassador giving it. It didn’t hurt either that he took me through their entire portfolio while rock music from the 60s set the mood in the background. And at 20€ to 30€ a bottle, the wines were nice QPR darlings. The 2012 Traditional CdP also provided a glimpse of what aging would do to these wines (spoiler alert: great times ahead). Domaine Durieu is worth the stop while in town and may end up surprising you in a great way!","headline":"Domaine Durieu Public Tasting","dateModified":"2019-07-13T19:20:00+00:00","datePublished":"2019-07-13T19:20:00+00:00","@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/css/main.css"><link type="application/atom+xml" rel="alternate" href="https://www.winesbyjeremy.com/feed.xml" title="Wines By Jeremy" /><script>
 if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1")) {
@@ -162,6 +162,7 @@ var jekyllMaps = (function() {
         position: position,
         title: location.title,
         image: location.image,
+        popup_html: location.popup_html,
         icon: location.icon || mapOptions.markerIcon,
         url: markerUrl(mapOptions.baseUrl, location.url),
         url_text: location.url_text,
@@ -180,14 +181,19 @@ var jekyllMaps = (function() {
 
     function markerPopup() {
       var content = '<div class="map-info-window"><h5>' + this.title + '</h5>'
-      var imageTag =
-        this.image.length > 0 &&
-        '<img src="' + this.image + '" alt="' + this.title + '"/>'
-      if (this.url.length > 0) {
-        var linkContent = imageTag || this.url_text || 'View'
-        content += '<a href="' + this.url + '">' + linkContent + '</a>'
-      } else if (imageTag) {
-        content += imageTag
+      if (this.popup_html.length > 0) {
+        content += this.popup_html
+      }
+      else {
+        var imageTag =
+          this.image.length > 0 &&
+          '<img src="' + this.image + '" alt="' + this.title + '"/>'
+        if (this.url.length > 0) {
+          var linkContent = imageTag || this.url_text || 'View'
+          content += '<a href="' + this.url + '">' + linkContent + '</a>'
+        } else if (imageTag) {
+          content += imageTag
+        }
       }
       content += '</div>'
       infoWindow.setContent(content)
@@ -305,11 +311,11 @@ if (typeof Object.assign !== 'function') {
       <meta itemprop="addressCountry" content="FR" />
     </div>
   </div>
-    <div id='bb1df974-7150-432b-acc9-06e53ae6a544' style='width:600px;height:400px;'></div>
+    <div id='1b05cf80-6f39-4227-88d8-93783c13128b' style='width:600px;height:400px;'></div>
 <script type='text/javascript'>
   jekyllMaps.register(
-    'bb1df974-7150-432b-acc9-06e53ae6a544',
-    [{"latitude":44.055454,"longitude":4.833296,"title":"Domaine Durieu Public Tasting","icon":null,"url":"/2019/07/13/domaine_durieu_public_tasting.html","url_text":null,"image":"domaine-durieu/3.jpg"}],
+    '1b05cf80-6f39-4227-88d8-93783c13128b',
+    [{"latitude":44.055454,"longitude":4.833296,"title":"Domaine Durieu Public Tasting","icon":null,"url":"/2019/07/13/domaine_durieu_public_tasting.html","url_text":null,"image":"domaine-durieu/3.jpg","popup_html":""}],
     {"baseUrl":"","useCluster":true,"showMarker":true,"showMarkerPopup":true,"markerIcon":null,"customZoom":16}
   );
 </script>
@@ -321,43 +327,19 @@ if (typeof Object.assign !== 'function') {
   <span itemprop="reviewBody">
     <p>The tasting at Domaine Durieu provided a perfect foil to my tasting at Beaurenard in that it served as proof that the wine tasting experience can have as much impact on the customer as the quality of the wines themselves.  And nothing is more important to the wine tasting experience than the quality of the wine ambassador giving it.  It didn’t hurt either that he took me through their entire portfolio while rock music from the 60s set the mood in the background.  And at 20€ to 30€ a bottle, the wines were nice QPR darlings.  The 2012 Traditional CdP also provided a glimpse of what aging would do to these wines (spoiler alert: great times ahead).  Domaine Durieu is worth the stop while in town and may end up surprising you in a great way!</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-durieu/1-1050by788-c67e12.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-durieu/1-700by525-c67e12.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-durieu/1-675by506-c67e12.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-durieu/1-450by338-c67e12.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-durieu/1-525by394-c67e12.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-durieu/1-350by263-c67e12.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/domaine-durieu/1-350by263-c67e12.jpg" alt="" title="The Storefront" class="center-image" />
-  </picture>
+<p><img title="The Storefront" class="center-image" src="/assets/images/domaine-durieu/1-800-c67e12.jpg" srcset="/assets/images/domaine-durieu/1-400-c67e12.jpg 400w, /assets/images/domaine-durieu/1-600-c67e12.jpg 600w, /assets/images/domaine-durieu/1-800-c67e12.jpg 800w, /assets/images/domaine-durieu/1-1000-c67e12.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>The entrance to Domaine Durieu’s tasting room in town and a very unflattering reflection of myself, haha.  It was amazing to me that Châteauneuf-du-Pape, the hub of amazing wines in the south-east of France, could have stores like this that were completely empty in the middle of the summer.  This area is under-appreciated as a wine tourism destination and one can only hope more people recognize that fact.</em></p>
 
 <p>Like the majority of wineries in Châteauneuf, Domaine Durieu is family-owned and managed.  It was first started by the grandmother (Lucile Avril) and grandfather (Henri Duriel) several decades ago, but today boasts 40 hectares of land in Châteauneuf-du-Pape and 9 hectares in the greater Cotes du Pape.  Although they produced mostly strict AOC blends in the past, after the two brothers took over in 2004, Domaine Durieu began to produce other blends that are more accessible earlier in the life of the wine (ie. reduced harshness of tannins).  Even still, I’d like to give everyone of their wines a few more years in bottle…  And this is not to say they’ve completely overthrown tradition - they still produce a traditional blend each vintage for those that like to emphasize ageability.</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-durieu/2-1050by788-043cc9.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-durieu/2-700by525-043cc9.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-durieu/2-675by506-043cc9.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-durieu/2-450by338-043cc9.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-durieu/2-525by394-043cc9.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-durieu/2-350by263-043cc9.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/domaine-durieu/2-350by263-043cc9.jpg" alt="" title="The Tasting Room" class="center-image" />
-  </picture>
+<p><img title="The Tasting Room" class="center-image" src="/assets/images/domaine-durieu/2-800-043cc9.jpg" srcset="/assets/images/domaine-durieu/2-400-043cc9.jpg 400w, /assets/images/domaine-durieu/2-600-043cc9.jpg 600w, /assets/images/domaine-durieu/2-800-043cc9.jpg 800w, /assets/images/domaine-durieu/2-1000-043cc9.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>Again, the wine tasting room wasn’t anything special.  I did like how the worn floor contrasted the clean walls and emaculate wine glasses.  You’ll notice that there were no spit buckets on the tasting table.  Instead, there were sinks built into the table where you could pour your wines out and it would drain into a container under the table.  But spitting was a dangerous game (#splashback).  I don’t know, I just really liked this space…</em></p>
 
 <p>Although their shop in town is quite small, the selection of wines is vast and goes back several vintages.  There is no need to make a reservation to stop by - just make sure that you go before lunch or wait until 2pm or so.  If you come with questions and curiosity, you will enjoy the tasting even more and the wine ambassador loves to talk and explain the wines.  Though if you are a white wine lover, this is not the place for you.  Like many wineries in the area, Domaine Durieu does not taste any of their white wines as they were either sold out or close to it.  Remember, 95% of the wines produced in Chateauneuf are red, so you really are in the wrong city in general for white wines.</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-durieu/3-1050by788-fcae24.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-durieu/3-700by525-fcae24.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-durieu/3-675by506-fcae24.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-durieu/3-450by338-fcae24.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-durieu/3-525by394-fcae24.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-durieu/3-350by263-fcae24.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/domaine-durieu/3-350by263-fcae24.jpg" alt="" title="The Wine Ambassador" class="center-image" />
-  </picture>
+<p><img title="The Wine Ambassador" class="center-image" src="/assets/images/domaine-durieu/3-800-fcae24.jpg" srcset="/assets/images/domaine-durieu/3-400-fcae24.jpg 400w, /assets/images/domaine-durieu/3-600-fcae24.jpg 600w, /assets/images/domaine-durieu/3-800-fcae24.jpg 800w, /assets/images/domaine-durieu/3-1000-fcae24.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>My wine ambassador with his line-up of wines.  I appreciated that we tasted not only the current vintage, but also some past vintages to give the consumer an idea of how the wines will age.  I did pick up a bottle of the 2012 to bring back with me because it had already achieved a nice roundness to the wine with a fair amount of decanting.  It was unfair that all of the wines were so affordable - I had to think of excuses on the spot why I wasn’t buying one of each for my flight home…</em></p>
 

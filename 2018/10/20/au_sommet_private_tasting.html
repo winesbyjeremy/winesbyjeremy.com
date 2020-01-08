@@ -46,9 +46,9 @@
     
         <meta content="atlas-peak" property="article:tag">
     
-<!-- Begin Jekyll SEO tag v2.5.0 -->
+<!-- Begin Jekyll SEO tag v2.6.1 -->
 <title>Au Sommet Private Tasting with Amuse Bouche and Coup de Foudre | Wines By Jeremy</title>
-<meta name="generator" content="Jekyll v3.8.5" />
+<meta name="generator" content="Jekyll v3.8.6" />
 <meta property="og:title" content="Au Sommet Private Tasting with Amuse Bouche and Coup de Foudre" />
 <meta name="author" content="Jeremy Myers" />
 <meta property="og:locale" content="en_US" />
@@ -61,7 +61,7 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2018-10-20T19:20:00+00:00" />
 <script type="application/ld+json">
-{"image":"https://www.winesbyjeremy.com/au_sommet/1.jpg","url":"https://www.winesbyjeremy.com/2018/10/20/au_sommet_private_tasting.html","headline":"Au Sommet Private Tasting with Amuse Bouche and Coup de Foudre","dateModified":"2018-10-20T19:20:00+00:00","datePublished":"2018-10-20T19:20:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.winesbyjeremy.com/2018/10/20/au_sommet_private_tasting.html"},"author":{"@type":"Person","name":"Jeremy Myers"},"description":"The last winery for one of our weekend trips to Napa and it was indeed a good one. Once you contact the winery to setup an appointment, you’ll have a couple of options for the tasting: the Amuse Bouche building in downtown Napa or the Au Sommet vineyard on Atlas Peak. We obviously chose Atlas Peak, but if you are pressed for time (it is a 20min drive from Napa) or are a nervous driver (it’s unpaved roads only 1.5 lanes wide going up a mountain), I recommend you stay in Napa. Once you do make it to the winery though, like so many others, the view is worth it.","@type":"BlogPosting","@context":"http://schema.org"}</script>
+{"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.winesbyjeremy.com/2018/10/20/au_sommet_private_tasting.html"},"image":"https://www.winesbyjeremy.com/au_sommet/1.jpg","url":"https://www.winesbyjeremy.com/2018/10/20/au_sommet_private_tasting.html","author":{"@type":"Person","name":"Jeremy Myers"},"description":"The last winery for one of our weekend trips to Napa and it was indeed a good one. Once you contact the winery to setup an appointment, you’ll have a couple of options for the tasting: the Amuse Bouche building in downtown Napa or the Au Sommet vineyard on Atlas Peak. We obviously chose Atlas Peak, but if you are pressed for time (it is a 20min drive from Napa) or are a nervous driver (it’s unpaved roads only 1.5 lanes wide going up a mountain), I recommend you stay in Napa. Once you do make it to the winery though, like so many others, the view is worth it.","headline":"Au Sommet Private Tasting with Amuse Bouche and Coup de Foudre","dateModified":"2018-10-20T19:20:00+00:00","datePublished":"2018-10-20T19:20:00+00:00","@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/css/main.css"><link type="application/atom+xml" rel="alternate" href="https://www.winesbyjeremy.com/feed.xml" title="Wines By Jeremy" /><script>
 if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1")) {
@@ -162,6 +162,7 @@ var jekyllMaps = (function() {
         position: position,
         title: location.title,
         image: location.image,
+        popup_html: location.popup_html,
         icon: location.icon || mapOptions.markerIcon,
         url: markerUrl(mapOptions.baseUrl, location.url),
         url_text: location.url_text,
@@ -180,14 +181,19 @@ var jekyllMaps = (function() {
 
     function markerPopup() {
       var content = '<div class="map-info-window"><h5>' + this.title + '</h5>'
-      var imageTag =
-        this.image.length > 0 &&
-        '<img src="' + this.image + '" alt="' + this.title + '"/>'
-      if (this.url.length > 0) {
-        var linkContent = imageTag || this.url_text || 'View'
-        content += '<a href="' + this.url + '">' + linkContent + '</a>'
-      } else if (imageTag) {
-        content += imageTag
+      if (this.popup_html.length > 0) {
+        content += this.popup_html
+      }
+      else {
+        var imageTag =
+          this.image.length > 0 &&
+          '<img src="' + this.image + '" alt="' + this.title + '"/>'
+        if (this.url.length > 0) {
+          var linkContent = imageTag || this.url_text || 'View'
+          content += '<a href="' + this.url + '">' + linkContent + '</a>'
+        } else if (imageTag) {
+          content += imageTag
+        }
       }
       content += '</div>'
       infoWindow.setContent(content)
@@ -305,11 +311,11 @@ if (typeof Object.assign !== 'function') {
       <meta itemprop="addressCountry" content="US" />
     </div>
   </div>
-    <div id='16b328c0-9cd0-4c7b-ae59-13d6007c34ad' style='width:600px;height:400px;'></div>
+    <div id='6c29e84a-f0f7-4d2f-9b82-8466b161daee' style='width:600px;height:400px;'></div>
 <script type='text/javascript'>
   jekyllMaps.register(
-    '16b328c0-9cd0-4c7b-ae59-13d6007c34ad',
-    [{"latitude":38.443124,"longitude":-122.244865,"title":"Au Sommet Private Tasting with Amuse Bouche and Coup de Foudre","icon":null,"url":"/2018/10/20/au_sommet_private_tasting.html","url_text":null,"image":"au_sommet/1.jpg"}],
+    '6c29e84a-f0f7-4d2f-9b82-8466b161daee',
+    [{"latitude":38.443124,"longitude":-122.244865,"title":"Au Sommet Private Tasting with Amuse Bouche and Coup de Foudre","icon":null,"url":"/2018/10/20/au_sommet_private_tasting.html","url_text":null,"image":"au_sommet/1.jpg","popup_html":""}],
     {"baseUrl":"","useCluster":true,"showMarker":true,"showMarkerPopup":true,"markerIcon":null,"customZoom":16}
   );
 </script>
@@ -321,41 +327,17 @@ if (typeof Object.assign !== 'function') {
   <span itemprop="reviewBody">
     <p>The last winery for one of our weekend trips to Napa and it was indeed a good one.  Once you contact the winery to setup an appointment, you’ll have a couple of options for the tasting: the Amuse Bouche building in downtown Napa or the Au Sommet vineyard on Atlas Peak.  We obviously chose Atlas Peak, but if you are pressed for time (it is a 20min drive from Napa) or are a nervous driver (it’s unpaved roads only 1.5 lanes wide going up a mountain), I recommend you stay in Napa.  Once you do make it to the winery though, like so many others, the view is worth it.</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/au_sommet/1-1050by1065-8a6559.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/au_sommet/1-700by710-8a6559.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/au_sommet/1-675by685-8a6559.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/au_sommet/1-450by457-8a6559.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/au_sommet/1-525by533-8a6559.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/au_sommet/1-350by355-8a6559.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/au_sommet/1-350by355-8a6559.jpg" alt="" title="It really was a great view" class="center-image" />
-  </picture>
+<p><img title="It really was a great view" class="center-image" src="/assets/images/au_sommet/1-800-8a6559.jpg" srcset="/assets/images/au_sommet/1-400-8a6559.jpg 400w, /assets/images/au_sommet/1-600-8a6559.jpg 600w, /assets/images/au_sommet/1-800-8a6559.jpg 800w, /assets/images/au_sommet/1-1000-8a6559.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>Enjoying the view from of the vineyards from the tower on the property</em></p>
 
 <p>As you drive up the mountain, you can still see the devastating effects of the forest fires from last year: some houses completely burnt down, others nearby amazingly unscathed, and blackened plots of land that are starting to show signs of life again.  I hope it wasn’t disrespectful, but multiple times, we slowed down to take pictures because of the impressions the sights left on us.  When we finally made it to the winery, we took a moment to reflect on the power and unpredictability of nature, then proceeded to listen to the story the wines had to tell us.</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/au_sommet/2-1050by700-98e493.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/au_sommet/2-700by467-98e493.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/au_sommet/2-675by450-98e493.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/au_sommet/2-450by300-98e493.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/au_sommet/2-525by350-98e493.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/au_sommet/2-350by233-98e493.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/au_sommet/2-350by233-98e493.jpg" alt="" title="I told you it was a great view" class="center-image" />
-  </picture>
+<p><img title="I told you it was a great view" class="center-image" src="/assets/images/au_sommet/2-800-98e493.jpg" srcset="/assets/images/au_sommet/2-400-98e493.jpg 400w, /assets/images/au_sommet/2-600-98e493.jpg 600w, /assets/images/au_sommet/2-800-98e493.jpg 800w, /assets/images/au_sommet/2-1000-98e493.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>The view of the vineyards from the watchtower as I am explaining something that is probably important</em></p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/au_sommet/3-1050by700-21d263.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/au_sommet/3-700by467-21d263.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/au_sommet/3-675by450-21d263.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/au_sommet/3-450by300-21d263.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/au_sommet/3-525by350-21d263.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/au_sommet/3-350by233-21d263.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/au_sommet/3-350by233-21d263.jpg" alt="" title="I may talk with my hands a bit" class="center-image" />
-  </picture>
+<p><img title="I may talk with my hands a bit" class="center-image" src="/assets/images/au_sommet/3-800-21d263.jpg" srcset="/assets/images/au_sommet/3-400-21d263.jpg 400w, /assets/images/au_sommet/3-600-21d263.jpg 600w, /assets/images/au_sommet/3-800-21d263.jpg 800w, /assets/images/au_sommet/3-1000-21d263.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>The view from the ground as I continue to explain something that is probably important</em></p>
 
@@ -399,15 +381,7 @@ if (typeof Object.assign !== 'function') {
   </li>
 </ul>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/au_sommet/4-1050by788-111bf5.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/au_sommet/4-700by525-111bf5.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/au_sommet/4-675by506-111bf5.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/au_sommet/4-450by338-111bf5.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/au_sommet/4-525by394-111bf5.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/au_sommet/4-350by263-111bf5.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/au_sommet/4-350by263-111bf5.jpg" alt="" title="So much good wine in the storage room" class="center-image" />
-  </picture>
+<p><img title="So much good wine in the storage room" class="center-image" src="/assets/images/au_sommet/4-800-111bf5.jpg" srcset="/assets/images/au_sommet/4-400-111bf5.jpg 400w, /assets/images/au_sommet/4-600-111bf5.jpg 600w, /assets/images/au_sommet/4-800-111bf5.jpg 800w, /assets/images/au_sommet/4-1000-111bf5.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>The wine tasting bar and inventory storage.  We did our tasting outside to enjoy the weather</em></p>
 

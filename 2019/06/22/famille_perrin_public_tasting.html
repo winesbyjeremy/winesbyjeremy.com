@@ -46,9 +46,9 @@
     
         <meta content="chateauneuf-du-pape" property="article:tag">
     
-<!-- Begin Jekyll SEO tag v2.5.0 -->
+<!-- Begin Jekyll SEO tag v2.6.1 -->
 <title>Boutique Famille Perrin Public Tasting | Wines By Jeremy</title>
-<meta name="generator" content="Jekyll v3.8.5" />
+<meta name="generator" content="Jekyll v3.8.6" />
 <meta property="og:title" content="Boutique Famille Perrin Public Tasting" />
 <meta name="author" content="Jeremy Myers" />
 <meta property="og:locale" content="en_US" />
@@ -61,7 +61,7 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2019-06-22T19:20:00+00:00" />
 <script type="application/ld+json">
-{"image":"https://www.winesbyjeremy.com/famille-perrin/1.jpg","url":"https://www.winesbyjeremy.com/2019/06/22/famille_perrin_public_tasting.html","headline":"Boutique Famille Perrin Public Tasting","dateModified":"2019-06-22T19:20:00+00:00","datePublished":"2019-06-22T19:20:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.winesbyjeremy.com/2019/06/22/famille_perrin_public_tasting.html"},"author":{"@type":"Person","name":"Jeremy Myers"},"description":"Unfortunately, I was not able to visit the Beaucastel Estate, even though I tried to make a reservation… So if anyone reading this article does manage to make it onsite and get the full treatment, please send me some pictures and let me know how it was! If you are told to visit their wine shop in Châteauneuf-du-Pape instead, you’ll likely experience something similar to me! Luckily, finding the Famille Perrin wine shop in town is not hard. In fact if you head to the circle in the city center, you cannot miss it. The shop is literally right next to one of the main restaurants there and is open most of the day (except during lunch time). Since they taste more than just their Beaucastel label, it’s worth dropping by to experience parts of their vast portfolio.","@type":"BlogPosting","@context":"http://schema.org"}</script>
+{"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.winesbyjeremy.com/2019/06/22/famille_perrin_public_tasting.html"},"image":"https://www.winesbyjeremy.com/famille-perrin/1.jpg","url":"https://www.winesbyjeremy.com/2019/06/22/famille_perrin_public_tasting.html","author":{"@type":"Person","name":"Jeremy Myers"},"description":"Unfortunately, I was not able to visit the Beaucastel Estate, even though I tried to make a reservation… So if anyone reading this article does manage to make it onsite and get the full treatment, please send me some pictures and let me know how it was! If you are told to visit their wine shop in Châteauneuf-du-Pape instead, you’ll likely experience something similar to me! Luckily, finding the Famille Perrin wine shop in town is not hard. In fact if you head to the circle in the city center, you cannot miss it. The shop is literally right next to one of the main restaurants there and is open most of the day (except during lunch time). Since they taste more than just their Beaucastel label, it’s worth dropping by to experience parts of their vast portfolio.","headline":"Boutique Famille Perrin Public Tasting","dateModified":"2019-06-22T19:20:00+00:00","datePublished":"2019-06-22T19:20:00+00:00","@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/css/main.css"><link type="application/atom+xml" rel="alternate" href="https://www.winesbyjeremy.com/feed.xml" title="Wines By Jeremy" /><script>
 if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1")) {
@@ -162,6 +162,7 @@ var jekyllMaps = (function() {
         position: position,
         title: location.title,
         image: location.image,
+        popup_html: location.popup_html,
         icon: location.icon || mapOptions.markerIcon,
         url: markerUrl(mapOptions.baseUrl, location.url),
         url_text: location.url_text,
@@ -180,14 +181,19 @@ var jekyllMaps = (function() {
 
     function markerPopup() {
       var content = '<div class="map-info-window"><h5>' + this.title + '</h5>'
-      var imageTag =
-        this.image.length > 0 &&
-        '<img src="' + this.image + '" alt="' + this.title + '"/>'
-      if (this.url.length > 0) {
-        var linkContent = imageTag || this.url_text || 'View'
-        content += '<a href="' + this.url + '">' + linkContent + '</a>'
-      } else if (imageTag) {
-        content += imageTag
+      if (this.popup_html.length > 0) {
+        content += this.popup_html
+      }
+      else {
+        var imageTag =
+          this.image.length > 0 &&
+          '<img src="' + this.image + '" alt="' + this.title + '"/>'
+        if (this.url.length > 0) {
+          var linkContent = imageTag || this.url_text || 'View'
+          content += '<a href="' + this.url + '">' + linkContent + '</a>'
+        } else if (imageTag) {
+          content += imageTag
+        }
       }
       content += '</div>'
       infoWindow.setContent(content)
@@ -305,11 +311,11 @@ if (typeof Object.assign !== 'function') {
       <meta itemprop="addressCountry" content="FR" />
     </div>
   </div>
-    <div id='cfa3448c-368f-4b5f-9ec3-6b874a93ab8e' style='width:600px;height:400px;'></div>
+    <div id='1d878e0c-2538-4a31-be00-7a789d6294d8' style='width:600px;height:400px;'></div>
 <script type='text/javascript'>
   jekyllMaps.register(
-    'cfa3448c-368f-4b5f-9ec3-6b874a93ab8e',
-    [{"latitude":44.05574,"longitude":4.831899,"title":"Boutique Famille Perrin Public Tasting","icon":null,"url":"/2019/06/22/famille_perrin_public_tasting.html","url_text":null,"image":"famille-perrin/1.jpg"}],
+    '1d878e0c-2538-4a31-be00-7a789d6294d8',
+    [{"latitude":44.05574,"longitude":4.831899,"title":"Boutique Famille Perrin Public Tasting","icon":null,"url":"/2019/06/22/famille_perrin_public_tasting.html","url_text":null,"image":"famille-perrin/1.jpg","popup_html":""}],
     {"baseUrl":"","useCluster":true,"showMarker":true,"showMarkerPopup":true,"markerIcon":null,"customZoom":16}
   );
 </script>
@@ -323,15 +329,7 @@ if (typeof Object.assign !== 'function') {
 
 <p>To provide a little background, Chateau Beaucastel is one of the premium brands of Châteauneuf that you can find at boutique wine shops in the USA.  On a quality and price level, they are on par with brands such as Domaine du Pegau and Domaine Roger SABON.  Unlike Pegau though, the production, distribution, and number of brands of Famille Perrin (which owns the Beaucastel label), is very large.  This means that given access to their full catalog, one should be able to find a bottle at the price point they desire.  Even someone like myself has trouble finding those other brands in the USA, so I had to pounce at the chance to taste these wines, even if they did not come with a tour or talk.</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/famille-perrin/1-1050by788-4c759d.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/famille-perrin/1-700by525-4c759d.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/famille-perrin/1-675by506-4c759d.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/famille-perrin/1-450by338-4c759d.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/famille-perrin/1-525by394-4c759d.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/famille-perrin/1-350by263-4c759d.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/famille-perrin/1-350by263-4c759d.jpg" alt="" title="The storefront" class="center-image" />
-  </picture>
+<p><img title="The storefront" class="center-image" src="/assets/images/famille-perrin/1-800-4c759d.jpg" srcset="/assets/images/famille-perrin/1-400-4c759d.jpg 400w, /assets/images/famille-perrin/1-600-4c759d.jpg 600w, /assets/images/famille-perrin/1-800-4c759d.jpg 800w, /assets/images/famille-perrin/1-1000-4c759d.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>The storefront for the Famille Perrin Wines.  NOTE: It does carry more than just the Chateau Beaucastel wines - these are the wines you’ve most likely encountered in the USA before.  The store also carries most of the wines produced by the Famille Perrin brand.  You may find some of those other wines to be cheaper but as high quality as the Beaucastel wines.  They just don’t have the brand recognition in the USA…</em></p>
 

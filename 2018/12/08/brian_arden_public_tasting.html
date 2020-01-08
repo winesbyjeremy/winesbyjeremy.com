@@ -46,9 +46,9 @@
     
         <meta content="calistoga" property="article:tag">
     
-<!-- Begin Jekyll SEO tag v2.5.0 -->
+<!-- Begin Jekyll SEO tag v2.6.1 -->
 <title>Brian Arden Public Tasting | Wines By Jeremy</title>
-<meta name="generator" content="Jekyll v3.8.5" />
+<meta name="generator" content="Jekyll v3.8.6" />
 <meta property="og:title" content="Brian Arden Public Tasting" />
 <meta name="author" content="Jeremy Myers" />
 <meta property="og:locale" content="en_US" />
@@ -61,7 +61,7 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2018-12-08T19:20:00+00:00" />
 <script type="application/ld+json">
-{"image":"https://www.winesbyjeremy.com/brian-arden/1.jpg","url":"https://www.winesbyjeremy.com/2018/12/08/brian_arden_public_tasting.html","headline":"Brian Arden Public Tasting","dateModified":"2018-12-08T19:20:00+00:00","datePublished":"2018-12-08T19:20:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.winesbyjeremy.com/2018/12/08/brian_arden_public_tasting.html"},"author":{"@type":"Person","name":"Jeremy Myers"},"description":"As more investment pours into Napa Valley and the large conglomerates (e.g. Constellation Brands) continue to purchase more property and consolidate the industry, it’s getting harder to find quality smaller wineries with that family feel (e.g. Clark-Claudon). Luckily, there is one right off the Silverado Trail that has been growing, slowly but surely these past 5-10 years. This recent visit to Brian Arden was a coming of age for both of us - the last time I visited several years ago, they had just opened their facility on the Silverado Trail and I was just discovering how amazing wine could be. The only thing I can say is “look at us now!”","@type":"BlogPosting","@context":"http://schema.org"}</script>
+{"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.winesbyjeremy.com/2018/12/08/brian_arden_public_tasting.html"},"image":"https://www.winesbyjeremy.com/brian-arden/1.jpg","url":"https://www.winesbyjeremy.com/2018/12/08/brian_arden_public_tasting.html","author":{"@type":"Person","name":"Jeremy Myers"},"description":"As more investment pours into Napa Valley and the large conglomerates (e.g. Constellation Brands) continue to purchase more property and consolidate the industry, it’s getting harder to find quality smaller wineries with that family feel (e.g. Clark-Claudon). Luckily, there is one right off the Silverado Trail that has been growing, slowly but surely these past 5-10 years. This recent visit to Brian Arden was a coming of age for both of us - the last time I visited several years ago, they had just opened their facility on the Silverado Trail and I was just discovering how amazing wine could be. The only thing I can say is “look at us now!”","headline":"Brian Arden Public Tasting","dateModified":"2018-12-08T19:20:00+00:00","datePublished":"2018-12-08T19:20:00+00:00","@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/css/main.css"><link type="application/atom+xml" rel="alternate" href="https://www.winesbyjeremy.com/feed.xml" title="Wines By Jeremy" /><script>
 if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1")) {
@@ -162,6 +162,7 @@ var jekyllMaps = (function() {
         position: position,
         title: location.title,
         image: location.image,
+        popup_html: location.popup_html,
         icon: location.icon || mapOptions.markerIcon,
         url: markerUrl(mapOptions.baseUrl, location.url),
         url_text: location.url_text,
@@ -180,14 +181,19 @@ var jekyllMaps = (function() {
 
     function markerPopup() {
       var content = '<div class="map-info-window"><h5>' + this.title + '</h5>'
-      var imageTag =
-        this.image.length > 0 &&
-        '<img src="' + this.image + '" alt="' + this.title + '"/>'
-      if (this.url.length > 0) {
-        var linkContent = imageTag || this.url_text || 'View'
-        content += '<a href="' + this.url + '">' + linkContent + '</a>'
-      } else if (imageTag) {
-        content += imageTag
+      if (this.popup_html.length > 0) {
+        content += this.popup_html
+      }
+      else {
+        var imageTag =
+          this.image.length > 0 &&
+          '<img src="' + this.image + '" alt="' + this.title + '"/>'
+        if (this.url.length > 0) {
+          var linkContent = imageTag || this.url_text || 'View'
+          content += '<a href="' + this.url + '">' + linkContent + '</a>'
+        } else if (imageTag) {
+          content += imageTag
+        }
       }
       content += '</div>'
       infoWindow.setContent(content)
@@ -305,11 +311,11 @@ if (typeof Object.assign !== 'function') {
       <meta itemprop="addressCountry" content="US" />
     </div>
   </div>
-    <div id='00824a5b-f26a-4430-b6bd-141ab4a4dd37' style='width:600px;height:400px;'></div>
+    <div id='829a9ad2-b49d-40a1-bbf2-e21f9722b022' style='width:600px;height:400px;'></div>
 <script type='text/javascript'>
   jekyllMaps.register(
-    '00824a5b-f26a-4430-b6bd-141ab4a4dd37',
-    [{"latitude":38.583062,"longitude":-122.565383,"title":"Brian Arden Public Tasting","icon":null,"url":"/2018/12/08/brian_arden_public_tasting.html","url_text":null,"image":"brian-arden/1.jpg"}],
+    '829a9ad2-b49d-40a1-bbf2-e21f9722b022',
+    [{"latitude":38.583062,"longitude":-122.565383,"title":"Brian Arden Public Tasting","icon":null,"url":"/2018/12/08/brian_arden_public_tasting.html","url_text":null,"image":"brian-arden/1.jpg","popup_html":""}],
     {"baseUrl":"","useCluster":true,"showMarker":true,"showMarkerPopup":true,"markerIcon":null,"customZoom":16}
   );
 </script>
@@ -321,29 +327,13 @@ if (typeof Object.assign !== 'function') {
   <span itemprop="reviewBody">
     <p>As more investment pours into Napa Valley and the large conglomerates (e.g. Constellation Brands) continue to purchase more property and consolidate the industry, it’s getting harder to find quality smaller wineries with that family feel (e.g. Clark-Claudon).  Luckily, there is one right off the Silverado Trail that has been growing, slowly but surely these past 5-10 years.  This recent visit to Brian Arden was a coming of age for both of us - the last time I visited several years ago, they had just opened their facility on the Silverado Trail and I was just discovering how amazing wine could be.  The only thing I can say is “look at us now!”</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/brian-arden/1-1050by788-27a8a2.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/brian-arden/1-700by525-27a8a2.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/brian-arden/1-675by506-27a8a2.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/brian-arden/1-450by338-27a8a2.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/brian-arden/1-525by394-27a8a2.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/brian-arden/1-350by263-27a8a2.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/brian-arden/1-350by263-27a8a2.jpg" alt="" title="beautiful winery" class="center-image" />
-  </picture>
+<p><img title="beautiful winery" class="center-image" src="/assets/images/brian-arden/1-800-27a8a2.jpg" srcset="/assets/images/brian-arden/1-400-27a8a2.jpg 400w, /assets/images/brian-arden/1-600-27a8a2.jpg 600w, /assets/images/brian-arden/1-800-27a8a2.jpg 800w, /assets/images/brian-arden/1-1000-27a8a2.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>I really do like the architecture of the winery.  If I had to design one for myself, I hope it comes out looking as good as this one.</em></p>
 
 <p>Even after some years, Brian Arden still looks like an architectural novelty as you enter the driveway.  Though, it isn’t like Hall where the novelty seems artistically driven - the novelty here is they aimed for a clean design that seems classy and homely at the same time.  The abundance of windows makes the tasting room a little warm during the afternoon, but also allows you to enjoy the incredible views from inside the tasting room.  Inside the tasting room there was constant traffic, but it never got to the point of crowded nor too loud.  The proprietor Brian Harlan, who is also the winemaker, made it a point to come inside and thank every group for their patronage and get their feedback on the wines.  This wasn’t an easy thing for him to do as he was simultaneously receiving delivery of the bottles that will be used for this upcoming vintage - a lot of delicate work to balance, for sure.</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/brian-arden/2-1050by788-c2ef70.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/brian-arden/2-700by525-c2ef70.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/brian-arden/2-675by506-c2ef70.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/brian-arden/2-450by338-c2ef70.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/brian-arden/2-525by394-c2ef70.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/brian-arden/2-350by263-c2ef70.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/brian-arden/2-350by263-c2ef70.jpg" alt="" title="peaceful tasting" class="center-image" />
-  </picture>
+<p><img title="peaceful tasting" class="center-image" src="/assets/images/brian-arden/2-800-c2ef70.jpg" srcset="/assets/images/brian-arden/2-400-c2ef70.jpg 400w, /assets/images/brian-arden/2-600-c2ef70.jpg 600w, /assets/images/brian-arden/2-800-c2ef70.jpg 800w, /assets/images/brian-arden/2-1000-c2ef70.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>There’s nothing like sitting at a table enjoying good wine and people watching…  Well, the view outside those windows might have been even more captivating…  Have to love the Napa Valley!</em></p>
 

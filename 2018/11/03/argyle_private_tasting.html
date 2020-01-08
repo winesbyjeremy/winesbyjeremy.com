@@ -46,9 +46,9 @@
     
         <meta content="dundee-hills" property="article:tag">
     
-<!-- Begin Jekyll SEO tag v2.5.0 -->
+<!-- Begin Jekyll SEO tag v2.6.1 -->
 <title>Argyle “Masters of Sparking” Private Tasting | Wines By Jeremy</title>
-<meta name="generator" content="Jekyll v3.8.5" />
+<meta name="generator" content="Jekyll v3.8.6" />
 <meta property="og:title" content="Argyle “Masters of Sparking” Private Tasting" />
 <meta name="author" content="Jeremy Myers" />
 <meta property="og:locale" content="en_US" />
@@ -61,7 +61,7 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2018-11-03T19:20:00+00:00" />
 <script type="application/ld+json">
-{"image":"https://www.winesbyjeremy.com/argyle/1.jpg","url":"https://www.winesbyjeremy.com/2018/11/03/argyle_private_tasting.html","headline":"Argyle “Masters of Sparking” Private Tasting","dateModified":"2018-11-03T19:20:00+00:00","datePublished":"2018-11-03T19:20:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.winesbyjeremy.com/2018/11/03/argyle_private_tasting.html"},"author":{"@type":"Person","name":"Jeremy Myers"},"description":"When people think of Oregon wine, they normal think of red still wine that ranges from the finesse of Burgundy Pinot Noir to the power of Russian River Valley Pinot Noir. They don’t necessarily think of Sparkling wine, which is a key product of Pinot Noir all around the world, not just Champagne. And when it comes to Oregon Sparkling Wine, there is no place more established than Argyle; heck, it’s even called out specifically in my Wine and Spirits Education Trust (WSET) Sparkling Wine Class! The reputation alone is enough to entice even seasoned wine professionals, but when I discovered there was a special Sparkling tasting that also lets you to disgorge a bottle by hand, I made Argyle my first call during my itinerary construction. I brought along my cousin and her husband for a full weekend of tastings in Willamette as their wedding gift, but this visit was definitely a gift to myself, haha.","@type":"BlogPosting","@context":"http://schema.org"}</script>
+{"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.winesbyjeremy.com/2018/11/03/argyle_private_tasting.html"},"image":"https://www.winesbyjeremy.com/argyle/1.jpg","url":"https://www.winesbyjeremy.com/2018/11/03/argyle_private_tasting.html","author":{"@type":"Person","name":"Jeremy Myers"},"description":"When people think of Oregon wine, they normal think of red still wine that ranges from the finesse of Burgundy Pinot Noir to the power of Russian River Valley Pinot Noir. They don’t necessarily think of Sparkling wine, which is a key product of Pinot Noir all around the world, not just Champagne. And when it comes to Oregon Sparkling Wine, there is no place more established than Argyle; heck, it’s even called out specifically in my Wine and Spirits Education Trust (WSET) Sparkling Wine Class! The reputation alone is enough to entice even seasoned wine professionals, but when I discovered there was a special Sparkling tasting that also lets you to disgorge a bottle by hand, I made Argyle my first call during my itinerary construction. I brought along my cousin and her husband for a full weekend of tastings in Willamette as their wedding gift, but this visit was definitely a gift to myself, haha.","headline":"Argyle “Masters of Sparking” Private Tasting","dateModified":"2018-11-03T19:20:00+00:00","datePublished":"2018-11-03T19:20:00+00:00","@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/css/main.css"><link type="application/atom+xml" rel="alternate" href="https://www.winesbyjeremy.com/feed.xml" title="Wines By Jeremy" /><script>
 if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1")) {
@@ -162,6 +162,7 @@ var jekyllMaps = (function() {
         position: position,
         title: location.title,
         image: location.image,
+        popup_html: location.popup_html,
         icon: location.icon || mapOptions.markerIcon,
         url: markerUrl(mapOptions.baseUrl, location.url),
         url_text: location.url_text,
@@ -180,14 +181,19 @@ var jekyllMaps = (function() {
 
     function markerPopup() {
       var content = '<div class="map-info-window"><h5>' + this.title + '</h5>'
-      var imageTag =
-        this.image.length > 0 &&
-        '<img src="' + this.image + '" alt="' + this.title + '"/>'
-      if (this.url.length > 0) {
-        var linkContent = imageTag || this.url_text || 'View'
-        content += '<a href="' + this.url + '">' + linkContent + '</a>'
-      } else if (imageTag) {
-        content += imageTag
+      if (this.popup_html.length > 0) {
+        content += this.popup_html
+      }
+      else {
+        var imageTag =
+          this.image.length > 0 &&
+          '<img src="' + this.image + '" alt="' + this.title + '"/>'
+        if (this.url.length > 0) {
+          var linkContent = imageTag || this.url_text || 'View'
+          content += '<a href="' + this.url + '">' + linkContent + '</a>'
+        } else if (imageTag) {
+          content += imageTag
+        }
       }
       content += '</div>'
       infoWindow.setContent(content)
@@ -305,11 +311,11 @@ if (typeof Object.assign !== 'function') {
       <meta itemprop="addressCountry" content="US" />
     </div>
   </div>
-    <div id='d2a3ec9d-64a4-4882-a7ca-64d030f0f3a8' style='width:600px;height:400px;'></div>
+    <div id='a1955c55-bd80-49d6-83fa-61612afa2f7c' style='width:600px;height:400px;'></div>
 <script type='text/javascript'>
   jekyllMaps.register(
-    'd2a3ec9d-64a4-4882-a7ca-64d030f0f3a8',
-    [{"latitude":45.278047,"longitude":-123.01018,"title":"Argyle \"Masters of Sparking\" Private Tasting","icon":null,"url":"/2018/11/03/argyle_private_tasting.html","url_text":null,"image":"argyle/1.jpg"}],
+    'a1955c55-bd80-49d6-83fa-61612afa2f7c',
+    [{"latitude":45.278047,"longitude":-123.01018,"title":"Argyle \"Masters of Sparking\" Private Tasting","icon":null,"url":"/2018/11/03/argyle_private_tasting.html","url_text":null,"image":"argyle/1.jpg","popup_html":""}],
     {"baseUrl":"","useCluster":true,"showMarker":true,"showMarkerPopup":true,"markerIcon":null,"customZoom":16}
   );
 </script>
@@ -321,29 +327,13 @@ if (typeof Object.assign !== 'function') {
   <span itemprop="reviewBody">
     <p>When people think of Oregon wine, they normal think of red still wine that ranges from the finesse of Burgundy Pinot Noir to the power of Russian River Valley Pinot Noir.  They don’t necessarily think of Sparkling wine, which is a key product of Pinot Noir all around the world, not just Champagne.  And when it comes to Oregon Sparkling Wine, there is no place more established than Argyle; heck, it’s even called out specifically in my Wine and Spirits Education Trust (WSET) Sparkling Wine Class!  The reputation alone is enough to entice even seasoned wine professionals, but when I discovered there was a special Sparkling tasting that also lets you to disgorge a bottle by hand, I made Argyle my first call during my itinerary construction.  I brought along my cousin and her husband for a full weekend of tastings in Willamette as their wedding gift, but this visit was definitely a gift to myself, haha.</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/argyle/1-1050by788-182328.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/argyle/1-700by525-182328.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/argyle/1-675by506-182328.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/argyle/1-450by338-182328.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/argyle/1-525by394-182328.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/argyle/1-350by263-182328.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/argyle/1-350by263-182328.jpg" alt="image" title="beautiful tasting room" class="center-image" />
-  </picture>
+<p><img title="beautiful tasting room" class="center-image" src="/assets/images/argyle/1-800-182328.jpg" srcset="/assets/images/argyle/1-400-182328.jpg 400w, /assets/images/argyle/1-600-182328.jpg 600w, /assets/images/argyle/1-800-182328.jpg 800w, /assets/images/argyle/1-1000-182328.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>The view of Argyle’s tasting room as your enter the winery.  Clean, rustic and just feels like a place I would want to drink good wine.</em></p>
 
 <p>The winery itself is spacious and gorgeous, polished yet rustic, and has parts from its old barrel storage facility incorporated into different aspects of the new building.  Argyle’s tasting area could hold 100 people without issue and there’s even enough room for kids to run around outside.  Upon entering the facility, we were greeted with a sparkling Riesling that resembled Deutcher Sekt (German Sparkling Wine), but was a little drier and lower in acidity.  After we finished exploring the tasting area, the manager of the winery picked us up and took us to the back for a private tour and tasting.</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/argyle/2-1050by788-a75c39.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/argyle/2-700by525-a75c39.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/argyle/2-675by506-a75c39.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/argyle/2-450by338-a75c39.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/argyle/2-525by394-a75c39.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/argyle/2-350by263-a75c39.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/argyle/2-350by263-a75c39.jpg" alt="image" title="just nod" class="center-image" />
-  </picture>
+<p><img title="just nod" class="center-image" src="/assets/images/argyle/2-800-a75c39.jpg" srcset="/assets/images/argyle/2-400-a75c39.jpg 400w, /assets/images/argyle/2-600-a75c39.jpg 600w, /assets/images/argyle/2-800-a75c39.jpg 800w, /assets/images/argyle/2-1000-a75c39.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>Learning about the unique terroir of the Willamette Valley and why Pinot Noir is so delicious here.</em></p>
 
@@ -384,43 +374,19 @@ if (typeof Object.assign !== 'function') {
   </li>
 </ul>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/argyle/4-1050by788-62224f.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/argyle/4-700by525-62224f.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/argyle/4-675by506-62224f.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/argyle/4-450by338-62224f.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/argyle/4-525by394-62224f.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/argyle/4-350by263-62224f.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/argyle/4-350by263-62224f.jpg" alt="image" title="delicious" class="center-image" />
-  </picture>
+<p><img title="delicious" class="center-image" src="/assets/images/argyle/4-800-62224f.jpg" srcset="/assets/images/argyle/4-400-62224f.jpg 400w, /assets/images/argyle/4-600-62224f.jpg 600w, /assets/images/argyle/4-800-62224f.jpg 800w, /assets/images/argyle/4-1000-62224f.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>Argyle’s linup of Sparkling Wines</em></p>
 
 <p>Yes, there are 10 wines in this tasting that are broken up into two sets, so come prepared.  The first set is purely for educational purposes - both for you and the winery.  You receive the same sparkling wine with four different dosage levels (including Zero Dosage) and are asked which is your preference.  After all, it’s important the winery produces wines that consumers like!  Next you can try to guess the dosage levels of each sparkling wine and then which of the four the Final Blend is.  Hint: It’s not the Zero Dosage wine.  But getting it right is actually much harder than you might think as they all feel pretty similar on the palate.  After discussing Argyle’s approach to sparkling wine, you’ll then taste the next set.</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/argyle/5-1050by788-6c70ba.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/argyle/5-700by525-6c70ba.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/argyle/5-675by506-6c70ba.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/argyle/5-450by338-6c70ba.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/argyle/5-525by394-6c70ba.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/argyle/5-350by263-6c70ba.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/argyle/5-350by263-6c70ba.jpg" alt="image" title="captivated" class="center-image" />
-  </picture>
+<p><img title="captivated" class="center-image" src="/assets/images/argyle/5-800-6c70ba.jpg" srcset="/assets/images/argyle/5-400-6c70ba.jpg 400w, /assets/images/argyle/5-600-6c70ba.jpg 600w, /assets/images/argyle/5-800-6c70ba.jpg 800w, /assets/images/argyle/5-1000-6c70ba.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>Discussing Argyle’s methodology when it comes to producing its Sparkling wines and how the dosage affects more than just taste.</em></p>
 
 <p>Out of all these wines, I was absolutely captivated by the 10 Year Old Sparkling Wine, which I found out later was the highest rated of the group.  Unlike Champagne where fertilization of the soil every few years is necessary, Oregon has more fertile soil by comparison, which in turn leads to wines with greater flavors.  Normally, this is greatly desired, but in Sparkling wine, you want a more neutral base wine so that the flavors which result from the lees aging are more prominent (e.g. brioche, cream).  To deal with this stronger fruit flavor in the base wine, Argyle makes a wine that ages on the lees for ~10 years to increase the strength of those flavors.  What results is a strong, but subtle wine of great flavor that seemingly could explode at any moment, favoring one flavor (fruit) or the other (lees aging).</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/argyle/6-1050by788-c59bcb.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/argyle/6-700by525-c59bcb.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/argyle/6-675by506-c59bcb.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/argyle/6-450by338-c59bcb.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/argyle/6-525by394-c59bcb.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/argyle/6-350by263-c59bcb.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/argyle/6-350by263-c59bcb.jpg" alt="image" title="every day I'm hustling" class="center-image" />
-  </picture>
+<p><img title="every day I'm hustling" class="center-image" src="/assets/images/argyle/6-800-c59bcb.jpg" srcset="/assets/images/argyle/6-400-c59bcb.jpg 400w, /assets/images/argyle/6-600-c59bcb.jpg 600w, /assets/images/argyle/6-800-c59bcb.jpg 800w, /assets/images/argyle/6-1000-c59bcb.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>You know why I am smiling right?  Guess who ranked all of the dosage levels correctly and then guessed the final blend?  This guy…</em></p>
 

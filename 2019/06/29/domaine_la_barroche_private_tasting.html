@@ -46,9 +46,9 @@
     
         <meta content="chateauneuf-du-pape" property="article:tag">
     
-<!-- Begin Jekyll SEO tag v2.5.0 -->
+<!-- Begin Jekyll SEO tag v2.6.1 -->
 <title>Domaine La Barroche Private Tasting | Wines By Jeremy</title>
-<meta name="generator" content="Jekyll v3.8.5" />
+<meta name="generator" content="Jekyll v3.8.6" />
 <meta property="og:title" content="Domaine La Barroche Private Tasting" />
 <meta name="author" content="Jeremy Myers" />
 <meta property="og:locale" content="en_US" />
@@ -61,7 +61,7 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2019-06-29T19:20:00+00:00" />
 <script type="application/ld+json">
-{"image":"https://www.winesbyjeremy.com/domaine-la-barroche/1.jpg","url":"https://www.winesbyjeremy.com/2019/06/29/domaine_la_barroche_private_tasting.html","headline":"Domaine La Barroche Private Tasting","dateModified":"2019-06-29T19:20:00+00:00","datePublished":"2019-06-29T19:20:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.winesbyjeremy.com/2019/06/29/domaine_la_barroche_private_tasting.html"},"author":{"@type":"Person","name":"Jeremy Myers"},"description":"If there is one winery in Châteauneuf-du-Pape that reminds me of Napa Valley, it’s Domaine la Barroche. And when I say “Napa Valley”, I don’t mean the large wineries that host hundreds of people for walk-in tastings each day. I mean the top quality estates where you are the only people on the tour, everything about the winery is dedicated to making great wine, and the wine is fantastic… In addition, the wine here is more fruit driven and pure than many other estates in the area, so it will greatly please the Napa lovers out there. If Clos Des Papes was my favorite tasting experience, this may have been my favorite overall experience. Do NOT miss Domaine la Barroche during your exploration of the area.","@type":"BlogPosting","@context":"http://schema.org"}</script>
+{"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.winesbyjeremy.com/2019/06/29/domaine_la_barroche_private_tasting.html"},"image":"https://www.winesbyjeremy.com/domaine-la-barroche/1.jpg","url":"https://www.winesbyjeremy.com/2019/06/29/domaine_la_barroche_private_tasting.html","author":{"@type":"Person","name":"Jeremy Myers"},"description":"If there is one winery in Châteauneuf-du-Pape that reminds me of Napa Valley, it’s Domaine la Barroche. And when I say “Napa Valley”, I don’t mean the large wineries that host hundreds of people for walk-in tastings each day. I mean the top quality estates where you are the only people on the tour, everything about the winery is dedicated to making great wine, and the wine is fantastic… In addition, the wine here is more fruit driven and pure than many other estates in the area, so it will greatly please the Napa lovers out there. If Clos Des Papes was my favorite tasting experience, this may have been my favorite overall experience. Do NOT miss Domaine la Barroche during your exploration of the area.","headline":"Domaine La Barroche Private Tasting","dateModified":"2019-06-29T19:20:00+00:00","datePublished":"2019-06-29T19:20:00+00:00","@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/css/main.css"><link type="application/atom+xml" rel="alternate" href="https://www.winesbyjeremy.com/feed.xml" title="Wines By Jeremy" /><script>
 if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1")) {
@@ -162,6 +162,7 @@ var jekyllMaps = (function() {
         position: position,
         title: location.title,
         image: location.image,
+        popup_html: location.popup_html,
         icon: location.icon || mapOptions.markerIcon,
         url: markerUrl(mapOptions.baseUrl, location.url),
         url_text: location.url_text,
@@ -180,14 +181,19 @@ var jekyllMaps = (function() {
 
     function markerPopup() {
       var content = '<div class="map-info-window"><h5>' + this.title + '</h5>'
-      var imageTag =
-        this.image.length > 0 &&
-        '<img src="' + this.image + '" alt="' + this.title + '"/>'
-      if (this.url.length > 0) {
-        var linkContent = imageTag || this.url_text || 'View'
-        content += '<a href="' + this.url + '">' + linkContent + '</a>'
-      } else if (imageTag) {
-        content += imageTag
+      if (this.popup_html.length > 0) {
+        content += this.popup_html
+      }
+      else {
+        var imageTag =
+          this.image.length > 0 &&
+          '<img src="' + this.image + '" alt="' + this.title + '"/>'
+        if (this.url.length > 0) {
+          var linkContent = imageTag || this.url_text || 'View'
+          content += '<a href="' + this.url + '">' + linkContent + '</a>'
+        } else if (imageTag) {
+          content += imageTag
+        }
       }
       content += '</div>'
       infoWindow.setContent(content)
@@ -305,11 +311,11 @@ if (typeof Object.assign !== 'function') {
       <meta itemprop="addressCountry" content="FR" />
     </div>
   </div>
-    <div id='5e4ff72c-2916-4e01-b508-665cf8bafbab' style='width:600px;height:400px;'></div>
+    <div id='849a9c2c-70ff-4bdf-b6fd-f19b4aff9052' style='width:600px;height:400px;'></div>
 <script type='text/javascript'>
   jekyllMaps.register(
-    '5e4ff72c-2916-4e01-b508-665cf8bafbab',
-    [{"latitude":44.052351,"longitude":4.834205,"title":"Domaine La Barroche Private Tasting","icon":null,"url":"/2019/06/29/domaine_la_barroche_private_tasting.html","url_text":null,"image":"domaine-la-barroche/1.jpg"}],
+    '849a9c2c-70ff-4bdf-b6fd-f19b4aff9052',
+    [{"latitude":44.052351,"longitude":4.834205,"title":"Domaine La Barroche Private Tasting","icon":null,"url":"/2019/06/29/domaine_la_barroche_private_tasting.html","url_text":null,"image":"domaine-la-barroche/1.jpg","popup_html":""}],
     {"baseUrl":"","useCluster":true,"showMarker":true,"showMarkerPopup":true,"markerIcon":null,"customZoom":16}
   );
 </script>
@@ -321,57 +327,25 @@ if (typeof Object.assign !== 'function') {
   <span itemprop="reviewBody">
     <p>If there is one winery in Châteauneuf-du-Pape that reminds me of Napa Valley, it’s Domaine la Barroche.  And when I say “Napa Valley”, I don’t mean the large wineries that host hundreds of people for walk-in tastings each day.  I mean the top quality estates where you are the only people on the tour, everything about the winery is dedicated to making great wine, and the wine is fantastic…  In addition, the wine here is more fruit driven and pure than many other estates in the area, so it will greatly please the Napa lovers out there.  If Clos Des Papes was my favorite tasting experience, this may have been my favorite overall experience.  Do NOT miss Domaine la Barroche during your exploration of the area.</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-la-barroche/1-1050by788-99cfb0.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-la-barroche/1-700by525-99cfb0.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-la-barroche/1-675by506-99cfb0.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-la-barroche/1-450by338-99cfb0.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-la-barroche/1-525by394-99cfb0.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-la-barroche/1-350by263-99cfb0.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/domaine-la-barroche/1-350by263-99cfb0.jpg" alt="" title="The entrance to the winery" class="center-image" />
-  </picture>
+<p><img title="The entrance to the winery" class="center-image" src="/assets/images/domaine-la-barroche/1-800-99cfb0.jpg" srcset="/assets/images/domaine-la-barroche/1-400-99cfb0.jpg 400w, /assets/images/domaine-la-barroche/1-600-99cfb0.jpg 600w, /assets/images/domaine-la-barroche/1-800-99cfb0.jpg 800w, /assets/images/domaine-la-barroche/1-1000-99cfb0.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>The gate to the new wine facility for Domaine La Barroche.  After operating in their existing facility for decades, the owner decided to invest in a new winery to continue his crusade of making quality wines.  Their older winery continues to operate, but produces less volume than it used to as much of the harvest is brought here now.</em></p>
 
 <p>Since the early 1700s, the Barrot family have owned the land that the Domaine is built upon in Châteauneuf.  Passed down through the generations, it wasn’t until the late 19th century that plots would be chosen to plant vines.  The motto of the family has always been that of winegrowers - that wines are made in the vineyard, not in the winery.  Finally in 2015, they decided to invest in that part of the process too and opened a new state-of-the-art production facility.  Though, I admit, “state-of-the-art” is the lazy way to describe this winery.</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-la-barroche/2-1050by788-b0906b.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-la-barroche/2-700by525-b0906b.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-la-barroche/2-675by506-b0906b.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-la-barroche/2-450by338-b0906b.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-la-barroche/2-525by394-b0906b.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-la-barroche/2-350by263-b0906b.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/domaine-la-barroche/2-350by263-b0906b.jpg" alt="" title="A better view of the building" class="center-image" />
-  </picture>
+<p><img title="A better view of the building" class="center-image" src="/assets/images/domaine-la-barroche/2-800-b0906b.jpg" srcset="/assets/images/domaine-la-barroche/2-400-b0906b.jpg 400w, /assets/images/domaine-la-barroche/2-600-b0906b.jpg 600w, /assets/images/domaine-la-barroche/2-800-b0906b.jpg 800w, /assets/images/domaine-la-barroche/2-1000-b0906b.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>A better view of the new facility.  You can tell how new it is by how clean the building and sign look.  This made it easy to spot the winery off the street.  It’s a reservation-only winery, so be sure to make one!  And I must say - I am so impressed by that rock wall.  I can only imagine how long it took to build, but it looks gorgeous walking by it…  Clean and rustic - a fair assessment of their wine as well.</em></p>
 
 <p>On the outside, it looks clean cut and simple except for the beautifully assembled stone walls on opposite sides of the main gate.  The inside reminds me of the best wineries that integrate class and function - everything has a purpose, is 100% geared toward making wine, but organized in such a way that it looks like art.  For example, they use gravity flow for moving the grapes, must and eventually wine to their destinations.  Each level has its own feel - the top floor is steel and white, with the next level a darker tan with barrels lined against the walls.  But each step is seamlessly connected to ensure a smooth production process.  This is the type of winery that everyone wants to copy.</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-la-barroche/3-1050by788-f50c4f.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-la-barroche/3-700by525-f50c4f.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-la-barroche/3-675by506-f50c4f.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-la-barroche/3-450by338-f50c4f.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-la-barroche/3-525by394-f50c4f.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-la-barroche/3-350by263-f50c4f.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/domaine-la-barroche/3-350by263-f50c4f.jpg" alt="" title="Where we had the tasting" class="center-image" />
-  </picture>
+<p><img title="Where we had the tasting" class="center-image" src="/assets/images/domaine-la-barroche/3-800-f50c4f.jpg" srcset="/assets/images/domaine-la-barroche/3-400-f50c4f.jpg 400w, /assets/images/domaine-la-barroche/3-600-f50c4f.jpg 600w, /assets/images/domaine-la-barroche/3-800-f50c4f.jpg 800w, /assets/images/domaine-la-barroche/3-1000-f50c4f.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>We conducted the tasting 1-on-1 in the cellar of their winery.  That table you see is not a table - it’s actually an authentic well that’s been there since before they built the new winery.  It was a little cool down here, but the experience was fantastic and it was fun walking through, seeing the bottles for sale and this year’s harvest in barrels.</em></p>
 
 <p>Their oldest vintage in the new facility is 2016, so all vintages before that are from the other facility.  I personally thought it was fun to compare and contrast the 2015 and 2016.  Both vintages are rated highly with the 2016 scoring slightly better, but I was convinced that the 2016 had a bit more precision to it (or maybe I talked myself into it?).  The price point on their wines is very reasonable; even their best wine (Pure) is under 80 Euros.  Though, make sure you purchase the wines at the winery as the markup is considerable back in the states where high scores and ratings drive up the price of the Pure to ~$150.</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-la-barroche/4-1050by788-890b2a.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-la-barroche/4-700by525-890b2a.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-la-barroche/4-675by506-890b2a.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-la-barroche/4-450by338-890b2a.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-la-barroche/4-525by394-890b2a.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-la-barroche/4-350by263-890b2a.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/domaine-la-barroche/4-350by263-890b2a.jpg" alt="" title="The vats!" class="center-image" />
-  </picture>
+<p><img title="The vats!" class="center-image" src="/assets/images/domaine-la-barroche/4-800-890b2a.jpg" srcset="/assets/images/domaine-la-barroche/4-400-890b2a.jpg 400w, /assets/images/domaine-la-barroche/4-600-890b2a.jpg 600w, /assets/images/domaine-la-barroche/4-800-890b2a.jpg 800w, /assets/images/domaine-la-barroche/4-1000-890b2a.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>A picture of the wine ambassador with a bottle of Pure while in front of their giant concrete foudres.  I cannot overstate how gorgeous and pristine it was inside the winery.  It would appeal to anyone’s wine and/or architectural sense.  It was also surreal to be at the winery by ourselves.  They opened up just for me - they had no other visitors that day.  Knowing how much Pure goes for in the states, I was foolish not to fill my suitcase with it on the spot…</em></p>
 

@@ -46,9 +46,9 @@
     
         <meta content="calistoga" property="article:tag">
     
-<!-- Begin Jekyll SEO tag v2.5.0 -->
+<!-- Begin Jekyll SEO tag v2.6.1 -->
 <title>Spire Collection Private Tasting | Wines By Jeremy</title>
-<meta name="generator" content="Jekyll v3.8.5" />
+<meta name="generator" content="Jekyll v3.8.6" />
 <meta property="og:title" content="Spire Collection Private Tasting" />
 <meta name="author" content="Jeremy Myers" />
 <meta property="og:locale" content="en_US" />
@@ -61,7 +61,7 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2019-08-24T19:20:00+00:00" />
 <script type="application/ld+json">
-{"image":"https://www.winesbyjeremy.com/spire-collection/5.jpg","url":"https://www.winesbyjeremy.com/2019/08/24/spire_collection_private_tasting.html","headline":"Spire Collection Private Tasting","dateModified":"2019-08-24T19:20:00+00:00","datePublished":"2019-08-24T19:20:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.winesbyjeremy.com/2019/08/24/spire_collection_private_tasting.html"},"author":{"@type":"Person","name":"Jeremy Myers"},"description":"After my visit to Lokoya a couple years ago, I started following and tasting more of Chris Carpenter’s wines. I would put him right beside Tony Arcudi as one of the winemakers I would love to work for and learn from. I highly recommend you check out his podcast interview on “The Taste” with Doug Shafer to get a feel for his career and what’s shaped his style of winemaking. One night, I happened upon his Mt. Brave and La Jota Cabernets and decided that I needed to taste the rest of the portfolio. Luckily, each of the labels are all grouped under the Spire Collection brand and can be tasted together at their estate in Calistoga. I recommend you find bottles sooner rather than later as the prices seem to rise every year…","@type":"BlogPosting","@context":"http://schema.org"}</script>
+{"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.winesbyjeremy.com/2019/08/24/spire_collection_private_tasting.html"},"image":"https://www.winesbyjeremy.com/spire-collection/5.jpg","url":"https://www.winesbyjeremy.com/2019/08/24/spire_collection_private_tasting.html","author":{"@type":"Person","name":"Jeremy Myers"},"description":"After my visit to Lokoya a couple years ago, I started following and tasting more of Chris Carpenter’s wines. I would put him right beside Tony Arcudi as one of the winemakers I would love to work for and learn from. I highly recommend you check out his podcast interview on “The Taste” with Doug Shafer to get a feel for his career and what’s shaped his style of winemaking. One night, I happened upon his Mt. Brave and La Jota Cabernets and decided that I needed to taste the rest of the portfolio. Luckily, each of the labels are all grouped under the Spire Collection brand and can be tasted together at their estate in Calistoga. I recommend you find bottles sooner rather than later as the prices seem to rise every year…","headline":"Spire Collection Private Tasting","dateModified":"2019-08-24T19:20:00+00:00","datePublished":"2019-08-24T19:20:00+00:00","@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/css/main.css"><link type="application/atom+xml" rel="alternate" href="https://www.winesbyjeremy.com/feed.xml" title="Wines By Jeremy" /><script>
 if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1")) {
@@ -162,6 +162,7 @@ var jekyllMaps = (function() {
         position: position,
         title: location.title,
         image: location.image,
+        popup_html: location.popup_html,
         icon: location.icon || mapOptions.markerIcon,
         url: markerUrl(mapOptions.baseUrl, location.url),
         url_text: location.url_text,
@@ -180,14 +181,19 @@ var jekyllMaps = (function() {
 
     function markerPopup() {
       var content = '<div class="map-info-window"><h5>' + this.title + '</h5>'
-      var imageTag =
-        this.image.length > 0 &&
-        '<img src="' + this.image + '" alt="' + this.title + '"/>'
-      if (this.url.length > 0) {
-        var linkContent = imageTag || this.url_text || 'View'
-        content += '<a href="' + this.url + '">' + linkContent + '</a>'
-      } else if (imageTag) {
-        content += imageTag
+      if (this.popup_html.length > 0) {
+        content += this.popup_html
+      }
+      else {
+        var imageTag =
+          this.image.length > 0 &&
+          '<img src="' + this.image + '" alt="' + this.title + '"/>'
+        if (this.url.length > 0) {
+          var linkContent = imageTag || this.url_text || 'View'
+          content += '<a href="' + this.url + '">' + linkContent + '</a>'
+        } else if (imageTag) {
+          content += imageTag
+        }
       }
       content += '</div>'
       infoWindow.setContent(content)
@@ -305,11 +311,11 @@ if (typeof Object.assign !== 'function') {
       <meta itemprop="addressCountry" content="US" />
     </div>
   </div>
-    <div id='f93d3fe5-44ea-4888-b925-a119c1e18825' style='width:600px;height:400px;'></div>
+    <div id='a3f46295-265a-47b4-9da0-8133bcd52ba4' style='width:600px;height:400px;'></div>
 <script type='text/javascript'>
   jekyllMaps.register(
-    'f93d3fe5-44ea-4888-b925-a119c1e18825',
-    [{"latitude":38.599485,"longitude":-122.610366,"title":"Spire Collection Private Tasting","icon":null,"url":"/2019/08/24/spire_collection_private_tasting.html","url_text":null,"image":"spire-collection/5.jpg"}],
+    'a3f46295-265a-47b4-9da0-8133bcd52ba4',
+    [{"latitude":38.599485,"longitude":-122.610366,"title":"Spire Collection Private Tasting","icon":null,"url":"/2019/08/24/spire_collection_private_tasting.html","url_text":null,"image":"spire-collection/5.jpg","popup_html":""}],
     {"baseUrl":"","useCluster":true,"showMarker":true,"showMarkerPopup":true,"markerIcon":null,"customZoom":16}
   );
 </script>
@@ -321,81 +327,33 @@ if (typeof Object.assign !== 'function') {
   <span itemprop="reviewBody">
     <p>After my visit to Lokoya a couple years ago, I started following and tasting more of Chris Carpenter’s wines.  I would put him right beside Tony Arcudi as one of the winemakers I would love to work for and learn from.  I highly recommend you check out his podcast interview on “The Taste” with Doug Shafer to get a feel for his career and what’s shaped his style of winemaking.  One night, I happened upon his Mt. Brave and La Jota Cabernets and decided that I needed to taste the rest of the portfolio.  Luckily, each of the labels are all grouped under the Spire Collection brand and can be tasted together at their estate in Calistoga.  I recommend you find bottles sooner rather than later as the prices seem to rise every year…</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/spire-collection/1-1050by788-e1003b.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/spire-collection/1-700by525-e1003b.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/spire-collection/1-675by506-e1003b.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/spire-collection/1-450by338-e1003b.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/spire-collection/1-525by394-e1003b.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/spire-collection/1-350by263-e1003b.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/spire-collection/1-350by263-e1003b.jpg" alt="" title="The tasting builiding" class="center-image" />
-  </picture>
+<p><img title="The tasting builiding" class="center-image" src="/assets/images/spire-collection/1-800-e1003b.jpg" srcset="/assets/images/spire-collection/1-400-e1003b.jpg 400w, /assets/images/spire-collection/1-600-e1003b.jpg 600w, /assets/images/spire-collection/1-800-e1003b.jpg 800w, /assets/images/spire-collection/1-1000-e1003b.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>The tasting building for the Spire Collection.  It doesn’t look like much on the outside, but the inside with surprise and impress you.  But even better than the building is the views.  See below…</em></p>
 
 <p>If you visit Calistoga, I strongly recommend that you make an appointment with the Spire Collection.  Not only will you get to taste some excellent wines from the Napa Valley, but you’ll also get to sample great wines from other countries such as Australia, South Africa, Italy, France, etc.  Even better, you can email Spire ahead of time to let them know your preferences, the $$ you are willing to pay for the tasting, and they can adjust the wines they pour to fit what you’d like.  Most of the wines chosen for our tasting came from their international portfolio, while the rest were from Mt. Brave.  The tasting for those 6 wines came in at $75 per person, so that should give you an idea of what to expect.</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/spire-collection/2-1050by788-a7fc10.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/spire-collection/2-700by525-a7fc10.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/spire-collection/2-675by506-a7fc10.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/spire-collection/2-450by338-a7fc10.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/spire-collection/2-525by394-a7fc10.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/spire-collection/2-350by263-a7fc10.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/spire-collection/2-350by263-a7fc10.jpg" alt="" title="The vines before trimming" class="center-image" />
-  </picture>
+<p><img title="The vines before trimming" class="center-image" src="/assets/images/spire-collection/2-800-a7fc10.jpg" srcset="/assets/images/spire-collection/2-400-a7fc10.jpg 400w, /assets/images/spire-collection/2-600-a7fc10.jpg 600w, /assets/images/spire-collection/2-800-a7fc10.jpg 800w, /assets/images/spire-collection/2-1000-a7fc10.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>Not to toot my own horn, but I really like this picture.  You get a glimpse of the beautiful mountain views in the background, but also what the vines look like October, after harvest but before trimming all of the vines to start the winter hibernation.  Just gorgeous…</em></p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/spire-collection/3-1050by788-c62c6d.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/spire-collection/3-700by525-c62c6d.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/spire-collection/3-675by506-c62c6d.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/spire-collection/3-450by338-c62c6d.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/spire-collection/3-525by394-c62c6d.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/spire-collection/3-350by263-c62c6d.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/spire-collection/3-350by263-c62c6d.jpg" alt="" title="So bright..." class="center-image" />
-  </picture>
+<p><img title="So bright..." class="center-image" src="/assets/images/spire-collection/3-800-c62c6d.jpg" srcset="/assets/images/spire-collection/3-400-c62c6d.jpg 400w, /assets/images/spire-collection/3-600-c62c6d.jpg 600w, /assets/images/spire-collection/3-800-c62c6d.jpg 800w, /assets/images/spire-collection/3-1000-c62c6d.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>It was cold enough that you needed a heavy coat, but the morning sun was as strong as ever.  You also get a better view of the mountains in the background.  The one other thing you notice?  Not another winery in sight.</em></p>
 
 <p>Putting aside the wines for just a moment, the presentation for the tasting is among the best I’ve experienced in the Napa Valley.  Driving to the tasting room, you drive parallel to the mountains and need to meander on a one lane road through the vines to get to your destination.  The only scary moment is when you arrive and see the building where the tasting is conducted.  It does not look like much from the outside, but once you make your way inside, everything changes.  The room is stylish, elegant, and the views of the mountains outside cannot be beat.  You can just stare at the mountainside while enjoying the wines and ignore everything else that is going on around you.  Though, if you love wine like I do, the view may actually be a distraction to enjoying the wine to their utmost.</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/spire-collection/4-1050by788-7cb309.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/spire-collection/4-700by525-7cb309.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/spire-collection/4-675by506-7cb309.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/spire-collection/4-450by338-7cb309.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/spire-collection/4-525by394-7cb309.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/spire-collection/4-350by263-7cb309.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/spire-collection/4-350by263-7cb309.jpg" alt="" title="The tasting room" class="center-image" />
-  </picture>
+<p><img title="The tasting room" class="center-image" src="/assets/images/spire-collection/4-800-7cb309.jpg" srcset="/assets/images/spire-collection/4-400-7cb309.jpg 400w, /assets/images/spire-collection/4-600-7cb309.jpg 600w, /assets/images/spire-collection/4-800-7cb309.jpg 800w, /assets/images/spire-collection/4-1000-7cb309.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>The beautiful tasting room.  Very elegant, lots of natural light (you’ll see why later), but that mirror betrays us, haha.  I loved thhe display of the different wines from the Spire Collection (though no Lokoya…).</em></p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/spire-collection/5-1050by788-7ab073.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/spire-collection/5-700by525-7ab073.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/spire-collection/5-675by506-7ab073.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/spire-collection/5-450by338-7ab073.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/spire-collection/5-525by394-7ab073.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/spire-collection/5-350by263-7ab073.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/spire-collection/5-350by263-7ab073.jpg" alt="" title="What do you think?" class="center-image" />
-  </picture>
+<p><img title="What do you think?" class="center-image" src="/assets/images/spire-collection/5-800-7ab073.jpg" srcset="/assets/images/spire-collection/5-400-7ab073.jpg 400w, /assets/images/spire-collection/5-600-7ab073.jpg 600w, /assets/images/spire-collection/5-800-7ab073.jpg 800w, /assets/images/spire-collection/5-1000-7ab073.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>We had two wines to blind taste during the visit.  The first one gave us all some trouble as you can see by the thinking faces in the room.  Needless to say, we all got the wine origins wrong (the Spire Collection has wineries all over the world).  A very fun tasting.</em></p>
 
 <p>After taking some pictures and wandering the room a bit, it was time for our 10am tasting to begin.  Not only did I appreciate the lineup, but I appreciated the order in which we tasted the wines (the first thing you want to taste in the morning isn’t a Cabernet).  The Chardonnay was especially good, though my favorite had to be the Single Block Cabernet from Mt. Brave.  Just a singular wine that will continue to age well and is very good value at $125, compared to other wines in the same price category.</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/spire-collection/6-1050by788-0c8d4d.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/spire-collection/6-700by525-0c8d4d.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/spire-collection/6-675by506-0c8d4d.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/spire-collection/6-450by338-0c8d4d.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/spire-collection/6-525by394-0c8d4d.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/spire-collection/6-350by263-0c8d4d.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/spire-collection/6-350by263-0c8d4d.jpg" alt="" title="The view outside" class="center-image" />
-  </picture>
+<p><img title="The view outside" class="center-image" src="/assets/images/spire-collection/6-800-0c8d4d.jpg" srcset="/assets/images/spire-collection/6-400-0c8d4d.jpg 400w, /assets/images/spire-collection/6-600-0c8d4d.jpg 600w, /assets/images/spire-collection/6-800-0c8d4d.jpg 800w, /assets/images/spire-collection/6-1000-0c8d4d.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>I will admit to being distracted during the tasting.  This picture is the reason why…  You might think that having a beautiful view while tasting is always a plus, but I appreciate it as much as others.  I’d rather concentrate on the wine while tasting, then enjoy the views separately before/after the tasting.  What do you think?</em></p>
 

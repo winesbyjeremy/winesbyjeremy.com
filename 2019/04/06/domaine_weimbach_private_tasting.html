@@ -46,9 +46,9 @@
     
         <meta content="kaysersberg" property="article:tag">
     
-<!-- Begin Jekyll SEO tag v2.5.0 -->
+<!-- Begin Jekyll SEO tag v2.6.1 -->
 <title>Domaine Weinbach Private Tasting | Wines By Jeremy</title>
-<meta name="generator" content="Jekyll v3.8.5" />
+<meta name="generator" content="Jekyll v3.8.6" />
 <meta property="og:title" content="Domaine Weinbach Private Tasting" />
 <meta name="author" content="Jeremy Myers" />
 <meta property="og:locale" content="en_US" />
@@ -61,7 +61,7 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2019-04-06T19:20:00+00:00" />
 <script type="application/ld+json">
-{"image":"https://www.winesbyjeremy.com/domaine-weinbach/6.jpg","url":"https://www.winesbyjeremy.com/2019/04/06/domaine_weimbach_private_tasting.html","headline":"Domaine Weinbach Private Tasting","dateModified":"2019-04-06T19:20:00+00:00","datePublished":"2019-04-06T19:20:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.winesbyjeremy.com/2019/04/06/domaine_weimbach_private_tasting.html"},"author":{"@type":"Person","name":"Jeremy Myers"},"description":"If you are talking about the quality of the wine and tasting experience, I am not sure there is any other winery in Alsace that surpasses the experience offered by Domaine Weinbach… Unlike many of the larger producers in the area (e.g. Hugel, Dopff, etc.), you do not go to a storefront for a tasting. You actually visit their estate in Kayserberg where they usher you into one of the rooms in the house to enjoy your tasting by yourself (or with your group). You do need to make a reservation for the tasting and therefore need to plan your schedule for the day a bit, but the reward for doing so is entering this sublime state after 90 minutes of tasting, after which you feel as if there is nothing more you really need to accomplish that day. I know I didn’t!","@type":"BlogPosting","@context":"http://schema.org"}</script>
+{"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.winesbyjeremy.com/2019/04/06/domaine_weimbach_private_tasting.html"},"image":"https://www.winesbyjeremy.com/domaine-weinbach/6.jpg","url":"https://www.winesbyjeremy.com/2019/04/06/domaine_weimbach_private_tasting.html","author":{"@type":"Person","name":"Jeremy Myers"},"description":"If you are talking about the quality of the wine and tasting experience, I am not sure there is any other winery in Alsace that surpasses the experience offered by Domaine Weinbach… Unlike many of the larger producers in the area (e.g. Hugel, Dopff, etc.), you do not go to a storefront for a tasting. You actually visit their estate in Kayserberg where they usher you into one of the rooms in the house to enjoy your tasting by yourself (or with your group). You do need to make a reservation for the tasting and therefore need to plan your schedule for the day a bit, but the reward for doing so is entering this sublime state after 90 minutes of tasting, after which you feel as if there is nothing more you really need to accomplish that day. I know I didn’t!","headline":"Domaine Weinbach Private Tasting","dateModified":"2019-04-06T19:20:00+00:00","datePublished":"2019-04-06T19:20:00+00:00","@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/css/main.css"><link type="application/atom+xml" rel="alternate" href="https://www.winesbyjeremy.com/feed.xml" title="Wines By Jeremy" /><script>
 if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1")) {
@@ -162,6 +162,7 @@ var jekyllMaps = (function() {
         position: position,
         title: location.title,
         image: location.image,
+        popup_html: location.popup_html,
         icon: location.icon || mapOptions.markerIcon,
         url: markerUrl(mapOptions.baseUrl, location.url),
         url_text: location.url_text,
@@ -180,14 +181,19 @@ var jekyllMaps = (function() {
 
     function markerPopup() {
       var content = '<div class="map-info-window"><h5>' + this.title + '</h5>'
-      var imageTag =
-        this.image.length > 0 &&
-        '<img src="' + this.image + '" alt="' + this.title + '"/>'
-      if (this.url.length > 0) {
-        var linkContent = imageTag || this.url_text || 'View'
-        content += '<a href="' + this.url + '">' + linkContent + '</a>'
-      } else if (imageTag) {
-        content += imageTag
+      if (this.popup_html.length > 0) {
+        content += this.popup_html
+      }
+      else {
+        var imageTag =
+          this.image.length > 0 &&
+          '<img src="' + this.image + '" alt="' + this.title + '"/>'
+        if (this.url.length > 0) {
+          var linkContent = imageTag || this.url_text || 'View'
+          content += '<a href="' + this.url + '">' + linkContent + '</a>'
+        } else if (imageTag) {
+          content += imageTag
+        }
       }
       content += '</div>'
       infoWindow.setContent(content)
@@ -305,11 +311,11 @@ if (typeof Object.assign !== 'function') {
       <meta itemprop="addressCountry" content="FR" />
     </div>
   </div>
-    <div id='e7d003ad-3169-4787-b57e-b60e8722b371' style='width:600px;height:400px;'></div>
+    <div id='565dcb1a-4e80-474c-b5de-44cf28e42551' style='width:600px;height:400px;'></div>
 <script type='text/javascript'>
   jekyllMaps.register(
-    'e7d003ad-3169-4787-b57e-b60e8722b371',
-    [{"latitude":48.136243,"longitude":7.273176,"title":"Domaine Weinbach Private Tasting","icon":null,"url":"/2019/04/06/domaine_weimbach_private_tasting.html","url_text":null,"image":"domaine-weinbach/6.jpg"}],
+    '565dcb1a-4e80-474c-b5de-44cf28e42551',
+    [{"latitude":48.136243,"longitude":7.273176,"title":"Domaine Weinbach Private Tasting","icon":null,"url":"/2019/04/06/domaine_weimbach_private_tasting.html","url_text":null,"image":"domaine-weinbach/6.jpg","popup_html":""}],
     {"baseUrl":"","useCluster":true,"showMarker":true,"showMarkerPopup":true,"markerIcon":null,"customZoom":16}
   );
 </script>
@@ -323,27 +329,11 @@ if (typeof Object.assign !== 'function') {
 
 <p>Other than Domaine Paul Blanck in Kientzheim, there aren’t really any other renowned wineries in the area, though I am sure there are some wonderful, smaller wineries nearby in Kientzheim, Sigolsheim, and Ammerschwihr.  So if you are coming to Kayserberg, you are likely betting on this experience, the views of the Schlossberg hill, and finding a couple enjoyable places afterwards.  Although the three villages are normally walkable, it’s not quite walkable when you have 80 pounds of luggage to drag around with you.  At the time of my trip (Fall 2018), the sidewalks were non-existant between the towns and there wasn’t a taxi in sight either.  Since I only had a pre-arranged car taking me to Colmar at noon, I had myself put all of my eggs in one basket.  And I was not disappointed…</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-weinbach/1-1050by788-f2552d.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-weinbach/1-700by525-f2552d.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-weinbach/1-675by506-f2552d.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-weinbach/1-450by338-f2552d.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-weinbach/1-525by394-f2552d.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-weinbach/1-350by263-f2552d.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/domaine-weinbach/1-350by263-f2552d.jpg" alt="" title="The Faller Family" class="center-image" />
-  </picture>
+<p><img title="The Faller Family" class="center-image" src="/assets/images/domaine-weinbach/1-800-f2552d.jpg" srcset="/assets/images/domaine-weinbach/1-400-f2552d.jpg 400w, /assets/images/domaine-weinbach/1-600-f2552d.jpg 600w, /assets/images/domaine-weinbach/1-800-f2552d.jpg 800w, /assets/images/domaine-weinbach/1-1000-f2552d.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>Although the winery is named Domaine Weinbach, it is purchased by the Faller brother in 1898 and has remained in their family’s possession ever since, hence the name on the wall surrounding their estate.  You can see their home / estate just above the the vines in the picture.  There was a lot of constuction on the road and sidewalks when I visited, so be careful if going on foot!</em></p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-weinbach/2-1050by788-f980af.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-weinbach/2-700by525-f980af.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-weinbach/2-675by506-f980af.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-weinbach/2-450by338-f980af.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-weinbach/2-525by394-f980af.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-weinbach/2-350by263-f980af.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/domaine-weinbach/2-350by263-f980af.jpg" alt="" title="The View in Reverse" class="center-image" />
-  </picture>
+<p><img title="The View in Reverse" class="center-image" src="/assets/images/domaine-weinbach/2-800-f980af.jpg" srcset="/assets/images/domaine-weinbach/2-400-f980af.jpg 400w, /assets/images/domaine-weinbach/2-600-f980af.jpg 600w, /assets/images/domaine-weinbach/2-800-f980af.jpg 800w, /assets/images/domaine-weinbach/2-1000-f980af.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>Once you make it to the estate and turnaround, you’ll see a gorgeous view of Schlossberg and all of the vines that are planted on it.  Unfortunately, the pixelation on my camera in selfie-mode is kinda bad, but I maintain that you truly cannot appreciate the view unless you are their in person, similar to the Douro and Cote Rotie.  You need to see it to believe it…</em></p>
 
@@ -351,43 +341,19 @@ if (typeof Object.assign !== 'function') {
 
 <p>According to their website, the winery was named after the little stream which runs through the property.  The history of the land is just fascinating though…  Vines have existed on the land for over 1000 years though it wasn’t domesticated for winemaking until the 1600s by Capuchin friars, hence the name of the old walls that surround the property (Clos des Capucins) and the monk on their wine labels.  After being sold as national property during the French revolution, it was acquired by the Faller brothers in 1898 and has been passed along through the generations until today.</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-weinbach/5-1050by788-d67b16.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-weinbach/5-700by525-d67b16.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-weinbach/5-675by506-d67b16.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-weinbach/5-450by338-d67b16.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-weinbach/5-525by394-d67b16.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-weinbach/5-350by263-d67b16.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/domaine-weinbach/5-350by263-d67b16.jpg" alt="" title="Selfie Time, Part 2" class="center-image" />
-  </picture>
+<p><img title="Selfie Time, Part 2" class="center-image" src="/assets/images/domaine-weinbach/5-800-d67b16.jpg" srcset="/assets/images/domaine-weinbach/5-400-d67b16.jpg 400w, /assets/images/domaine-weinbach/5-600-d67b16.jpg 600w, /assets/images/domaine-weinbach/5-800-d67b16.jpg 800w, /assets/images/domaine-weinbach/5-1000-d67b16.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>The entrance to the winery.  Again, not the most impressive on the outside, but the inside is a 180.  This picture was after my tasting, hence the wider grin than normal.  It was a decent walk back into town, but so worth it…  I highly recommend you visit if you are ever in the area.  In my Top 3 of Alsace!!</em></p>
 
 <p>Walking up to the estate, it’s not obvious how you should go about entering as there is no marked directions (e.g. Whether you should just walk right in, knock and wait outside, etc.).  Knowing their reputation, I was nervous about walking right in, but my excitement won out.  I was welcomed and guided to a room by a young lady (presumably, the daughter) and left to my own devices while they prepared a tasting menu for my impromptu visit (I highly recommend you make a reservation instead as I was lucky there weren’t many reservations for that morning!!).  For as large as Weinbach’s holdings are, the wine tasting room I found myself in seemed like the study room in their home.  I actually think it was and wondered what the other rooms were like as I saw another couple get ushered in to their room.  The advertising of Weinbach is spot on – although the production is large for a winery in this region, this is all family run, they do not really have the capacity to handle many visitors simultaneously, and I am pretty sure I interrupted their breakfast.</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-weinbach/3-1050by788-f67451.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-weinbach/3-700by525-f67451.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-weinbach/3-675by506-f67451.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-weinbach/3-450by338-f67451.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-weinbach/3-525by394-f67451.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-weinbach/3-350by263-f67451.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/domaine-weinbach/3-350by263-f67451.jpg" alt="" title="A room all to myself" class="center-image" />
-  </picture>
+<p><img title="A room all to myself" class="center-image" src="/assets/images/domaine-weinbach/3-800-f67451.jpg" srcset="/assets/images/domaine-weinbach/3-400-f67451.jpg 400w, /assets/images/domaine-weinbach/3-600-f67451.jpg 600w, /assets/images/domaine-weinbach/3-800-f67451.jpg 800w, /assets/images/domaine-weinbach/3-1000-f67451.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>The gorgeous living room I was invited to for the tasting.  My tasting was at 10AM, so you can see the morning sun was very strong coming through the windows behind me.  There were other groups tasting in different parts of the house through the morning (I took a little longer than others).  Being the only person in the room tasting defintely made me feel special, but the singular quality of the wines also played a huge part in the experience.</em></p>
 
 <p>Throughout the course of the tasting, I had the pleasure of meeting three of the four members of the family (I think the father was out cutting the grass).  The family chemistry was also fun to experience - my tasting started with the daughter who was very passionate about the wines, then transitioned to the eldest son who discussed more of the science and farming, and ended slightly rushed with the mother who was high energy (though I admit, I was being very deliberate with each wine I tasted).  With as small an operation that they seemingly have, how do they handle the capacity and the many different wines that they produced (their portfolio is huge each year!)</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-weinbach/4-1050by788-2da2cc.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-weinbach/4-700by525-2da2cc.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-weinbach/4-675by506-2da2cc.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-weinbach/4-450by338-2da2cc.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-weinbach/4-525by394-2da2cc.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-weinbach/4-350by263-2da2cc.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/domaine-weinbach/4-350by263-2da2cc.jpg" alt="" title="A map of the area" class="center-image" />
-  </picture>
+<p><img title="A map of the area" class="center-image" src="/assets/images/domaine-weinbach/4-800-2da2cc.jpg" srcset="/assets/images/domaine-weinbach/4-400-2da2cc.jpg 400w, /assets/images/domaine-weinbach/4-600-2da2cc.jpg 600w, /assets/images/domaine-weinbach/4-800-2da2cc.jpg 800w, /assets/images/domaine-weinbach/4-1000-2da2cc.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>Some pieces of the map are hard to read - that morning sun made it difficult to even see my computer screen!  Domaine Weinbach owns a large portion of the vineyards in the area.  In fact, I believe they are the largest family producer in all of Alsace!  While the classified areas of Mambourg and Marckrain were the largest, the majority of the wines I tasted were from their vines in Schlossberg and Altenbourg.  Many of which were Grand Crus.  The variety of wines and their uniqueness even when compared to each other made this seem like a day-long tasting.  In fact, it was so good, I didn’t tasting anything else the rest of the day…</em></p>
 
@@ -478,15 +444,7 @@ if (typeof Object.assign !== 'function') {
 
 <p>Needless to say, this was one of my favorite tastings in Alsace.  So make sure you visit and make sure you get to Weinbach.  To give you incentive one more time, I’ll end with another picture of me and Schlossberg.</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-weinbach/6-1050by788-e260fe.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-weinbach/6-700by525-e260fe.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-weinbach/6-675by506-e260fe.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-weinbach/6-450by338-e260fe.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-weinbach/6-525by394-e260fe.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-weinbach/6-350by263-e260fe.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/domaine-weinbach/6-350by263-e260fe.jpg" alt="" title="Again, the VIEW!!!" class="center-image" />
-  </picture>
+<p><img title="Again, the VIEW!!!" class="center-image" src="/assets/images/domaine-weinbach/6-800-e260fe.jpg" srcset="/assets/images/domaine-weinbach/6-400-e260fe.jpg 400w, /assets/images/domaine-weinbach/6-600-e260fe.jpg 600w, /assets/images/domaine-weinbach/6-800-e260fe.jpg 800w, /assets/images/domaine-weinbach/6-1000-e260fe.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>I still can’t say enough about the view of Schlossberg.  This was taken around noon, two hours after the second picture.  You can see the sky has evened out a bit.  What’s also impressive is the stone wall that runs parallel to the vines all the way down to the main road.  Please bring a better camera than I did and send me some copies of your photos, please!</em></p>
 

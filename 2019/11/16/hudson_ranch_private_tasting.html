@@ -46,9 +46,9 @@
     
         <meta content="carneros" property="article:tag">
     
-<!-- Begin Jekyll SEO tag v2.5.0 -->
+<!-- Begin Jekyll SEO tag v2.6.1 -->
 <title>Hudson Ranch Private Tasting | Wines By Jeremy</title>
-<meta name="generator" content="Jekyll v3.8.5" />
+<meta name="generator" content="Jekyll v3.8.6" />
 <meta property="og:title" content="Hudson Ranch Private Tasting" />
 <meta name="author" content="Jeremy Myers" />
 <meta property="og:locale" content="en_US" />
@@ -61,7 +61,7 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2019-11-16T19:20:00+00:00" />
 <script type="application/ld+json">
-{"image":"https://www.winesbyjeremy.com/hudson-ranch/5.jpg","url":"https://www.winesbyjeremy.com/2019/11/16/hudson_ranch_private_tasting.html","headline":"Hudson Ranch Private Tasting","dateModified":"2019-11-16T19:20:00+00:00","datePublished":"2019-11-16T19:20:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.winesbyjeremy.com/2019/11/16/hudson_ranch_private_tasting.html"},"author":{"@type":"Person","name":"Jeremy Myers"},"description":"Hudson Ranch is truly a ranch in every sense of the word: the amount of land it encompasses (~2000 acres), the livestock and gardens they maintain on the property, the living quarters built for workers and their families, etc. It’s truly a wonder. Though with all the resources and new equipment they have, it’s baffling to me that they are aiming to produce no more than 8000 bottles of wine a year. They do sell a good amount of fruit, but only to the best producers (e.g. Aubert, Kongsgaard, and Kistler). And with the amount of wine they do produce, their quality and scores are off the charts; the 2016 Little Bit scored 99pts from The Wine Advocate, while the 2015 Old Master and the 2016 Ladybug both scored 97pts. Regardless of the scores they received from others, tasting the wines myself, I’d put them in the Top 3 in the Napa area. And at their price point, it’s the best QPR Chardonnay around. A must visit if you are heading to Sonoma.","@type":"BlogPosting","@context":"http://schema.org"}</script>
+{"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.winesbyjeremy.com/2019/11/16/hudson_ranch_private_tasting.html"},"image":"https://www.winesbyjeremy.com/hudson-ranch/5.jpg","url":"https://www.winesbyjeremy.com/2019/11/16/hudson_ranch_private_tasting.html","author":{"@type":"Person","name":"Jeremy Myers"},"description":"Hudson Ranch is truly a ranch in every sense of the word: the amount of land it encompasses (~2000 acres), the livestock and gardens they maintain on the property, the living quarters built for workers and their families, etc. It’s truly a wonder. Though with all the resources and new equipment they have, it’s baffling to me that they are aiming to produce no more than 8000 bottles of wine a year. They do sell a good amount of fruit, but only to the best producers (e.g. Aubert, Kongsgaard, and Kistler). And with the amount of wine they do produce, their quality and scores are off the charts; the 2016 Little Bit scored 99pts from The Wine Advocate, while the 2015 Old Master and the 2016 Ladybug both scored 97pts. Regardless of the scores they received from others, tasting the wines myself, I’d put them in the Top 3 in the Napa area. And at their price point, it’s the best QPR Chardonnay around. A must visit if you are heading to Sonoma.","headline":"Hudson Ranch Private Tasting","dateModified":"2019-11-16T19:20:00+00:00","datePublished":"2019-11-16T19:20:00+00:00","@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/css/main.css"><link type="application/atom+xml" rel="alternate" href="https://www.winesbyjeremy.com/feed.xml" title="Wines By Jeremy" /><script>
 if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1")) {
@@ -162,6 +162,7 @@ var jekyllMaps = (function() {
         position: position,
         title: location.title,
         image: location.image,
+        popup_html: location.popup_html,
         icon: location.icon || mapOptions.markerIcon,
         url: markerUrl(mapOptions.baseUrl, location.url),
         url_text: location.url_text,
@@ -180,14 +181,19 @@ var jekyllMaps = (function() {
 
     function markerPopup() {
       var content = '<div class="map-info-window"><h5>' + this.title + '</h5>'
-      var imageTag =
-        this.image.length > 0 &&
-        '<img src="' + this.image + '" alt="' + this.title + '"/>'
-      if (this.url.length > 0) {
-        var linkContent = imageTag || this.url_text || 'View'
-        content += '<a href="' + this.url + '">' + linkContent + '</a>'
-      } else if (imageTag) {
-        content += imageTag
+      if (this.popup_html.length > 0) {
+        content += this.popup_html
+      }
+      else {
+        var imageTag =
+          this.image.length > 0 &&
+          '<img src="' + this.image + '" alt="' + this.title + '"/>'
+        if (this.url.length > 0) {
+          var linkContent = imageTag || this.url_text || 'View'
+          content += '<a href="' + this.url + '">' + linkContent + '</a>'
+        } else if (imageTag) {
+          content += imageTag
+        }
       }
       content += '</div>'
       infoWindow.setContent(content)
@@ -305,11 +311,11 @@ if (typeof Object.assign !== 'function') {
       <meta itemprop="addressCountry" content="US" />
     </div>
   </div>
-    <div id='9871e8c2-3c68-4379-8cf9-605caea49ec9' style='width:600px;height:400px;'></div>
+    <div id='ee0aab0f-ae23-4e8e-a5cc-e92be5d9cb18' style='width:600px;height:400px;'></div>
 <script type='text/javascript'>
   jekyllMaps.register(
-    '9871e8c2-3c68-4379-8cf9-605caea49ec9',
-    [{"latitude":38.257224,"longitude":-122.360262,"title":"Hudson Ranch Private Tasting","icon":null,"url":"/2019/11/16/hudson_ranch_private_tasting.html","url_text":null,"image":"hudson-ranch/5.jpg"}],
+    'ee0aab0f-ae23-4e8e-a5cc-e92be5d9cb18',
+    [{"latitude":38.257224,"longitude":-122.360262,"title":"Hudson Ranch Private Tasting","icon":null,"url":"/2019/11/16/hudson_ranch_private_tasting.html","url_text":null,"image":"hudson-ranch/5.jpg","popup_html":""}],
     {"baseUrl":"","useCluster":true,"showMarker":true,"showMarkerPopup":true,"markerIcon":null,"customZoom":16}
   );
 </script>
@@ -321,69 +327,29 @@ if (typeof Object.assign !== 'function') {
   <span itemprop="reviewBody">
     <p>Hudson Ranch is truly a ranch in every sense of the word: the amount of land it encompasses (~2000 acres), the livestock and gardens they maintain on the property, the living quarters built for workers and their families, etc.  It’s truly a wonder.  Though with all the resources and new equipment they have, it’s baffling to me that they are aiming to produce no more than 8000 bottles of wine a year.  They do sell a good amount of fruit, but only to the best producers (e.g. Aubert, Kongsgaard, and Kistler).  And with the amount of wine they do produce, their quality and scores are off the charts; the 2016 Little Bit scored 99pts from The Wine Advocate, while the 2015 Old Master and the 2016 Ladybug both scored 97pts.  Regardless of the scores they received from others, tasting the wines myself, I’d put them in the Top 3 in the Napa area.  And at their price point, it’s the best QPR Chardonnay around.  A must visit if you are heading to Sonoma.</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/hudson-ranch/1-1050by1400-3101c6.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/hudson-ranch/1-700by933-3101c6.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/hudson-ranch/1-675by900-3101c6.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/hudson-ranch/1-450by600-3101c6.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/hudson-ranch/1-525by700-3101c6.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/hudson-ranch/1-350by467-3101c6.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/hudson-ranch/1-350by467-3101c6.jpg" alt="" title="Apertifs for the win" class="center-image" />
-  </picture>
+<p><img title="Apertifs for the win" class="center-image" src="/assets/images/hudson-ranch/1-800-3101c6.jpg" srcset="/assets/images/hudson-ranch/1-400-3101c6.jpg 400w, /assets/images/hudson-ranch/1-600-3101c6.jpg 600w, /assets/images/hudson-ranch/1-800-3101c6.jpg 800w, /assets/images/hudson-ranch/1-1000-3101c6.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>Arriving at Hudson Ranch.  I’ve been to wineries where we were the only groups there before.  I’ve never been to a winery this large where that was the case.  We got a tour of the winery and gardens before the tasting.  But they wouldn’t make us do that without wine!  So we got small pours of the White Study to walk with.  Unfortunately, that meant I couldn’t take good notes of that wine while doing so.</em></p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/hudson-ranch/2-1050by1400-4f7511.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/hudson-ranch/2-700by933-4f7511.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/hudson-ranch/2-675by900-4f7511.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/hudson-ranch/2-450by600-4f7511.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/hudson-ranch/2-525by700-4f7511.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/hudson-ranch/2-350by467-4f7511.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/hudson-ranch/2-350by467-4f7511.jpg" alt="" title="Map of the Vineyards" class="center-image" />
-  </picture>
+<p><img title="Map of the Vineyards" class="center-image" src="/assets/images/hudson-ranch/2-800-4f7511.jpg" srcset="/assets/images/hudson-ranch/2-400-4f7511.jpg 400w, /assets/images/hudson-ranch/2-600-4f7511.jpg 600w, /assets/images/hudson-ranch/2-800-4f7511.jpg 800w, /assets/images/hudson-ranch/2-1000-4f7511.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>Talking through all of Hudson Ranch’s holdings.  They own A LOT of land in the area, but only a small percentage is planted.  And an even smaller percentage is used to produce wines under their label.  Most of the fruit is sold as they have a great reputation, on the level of Hyde Vineyards.  In fact, I might dare to say that they are to Chardonnay what Beckstoffer is to Cabernet.  Before you bite my head off, try their Little Bit!</em></p>
 
 <p>I found out about Hudson Ranch in a roundabout way.  Kongsgaard wines are one of the cult brands in Napa, up on Atlas Peak.  I’ve been on the waiting list forever for a chance to purchase their Chardonnay and try it out.  When I learned that Kongsgaard produced one of their Chardonnays from Hudson’s vineyards, that John Kongsgaard was also Hudson Ranch’s consulting winemaker, and that Hudson Ranch took tasting appointments, I had to sign up and make it the first stop of my day on the way to Sonoma.  Now that I am finally off the wait list at Kongsgaard, I still purchase more bottles of Hudson Ranch each vintage, even though they are a relatively unknown brand to collectors compared to collectors.  That’s how impressed I was with the Hudson Chardonnays.  I can’t speak highly enough of them and encourage those that are ABC drinkers (Anything but Chardonnay) to give these wines a shot.  They are delicious, but in a much different way than Hyde (HdV) or Burgundian Chardonnays.</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/hudson-ranch/3-1050by788-ba5feb.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/hudson-ranch/3-700by525-ba5feb.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/hudson-ranch/3-675by506-ba5feb.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/hudson-ranch/3-450by338-ba5feb.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/hudson-ranch/3-525by394-ba5feb.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/hudson-ranch/3-350by263-ba5feb.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/hudson-ranch/3-350by263-ba5feb.jpg" alt="" title="Vegetation" class="center-image" />
-  </picture>
+<p><img title="Vegetation" class="center-image" src="/assets/images/hudson-ranch/3-800-ba5feb.jpg" srcset="/assets/images/hudson-ranch/3-400-ba5feb.jpg 400w, /assets/images/hudson-ranch/3-600-ba5feb.jpg 600w, /assets/images/hudson-ranch/3-800-ba5feb.jpg 800w, /assets/images/hudson-ranch/3-1000-ba5feb.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>The walk around their gardens was impressive.  Although it seems like their isn’t enough water to grow anything and the soil is of poor quality, all of the plants look like they’ve been supersized.  We inquired as to what fertilizers they were using.  They laughed and said they didn’t use anything unusual.  It just goes to show what is underneath the surface.  The scent intensity of the herbs in their gardens were ridiculous too…</em></p>
 
 <p>Driving up from San Francisco, it’s relatively quick to get to Hudson Vineyards compared to the wineries in Napa as it is located straight west from the town of Napa, which itself is south of most wineries.  Hudson is also on the way to the town of Sonoma, so make it the first stop of your day (unless you want to instead go see the morning fogline from Hanzell at 10am which is also great).  The drive to the winery is like any other as you meander your way on a private road through the vineyard up to their facilities.  But once you make it to the facilities, be prepared for a different experience than most.</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/hudson-ranch/4-1050by1400-daffe4.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/hudson-ranch/4-700by933-daffe4.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/hudson-ranch/4-675by900-daffe4.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/hudson-ranch/4-450by600-daffe4.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/hudson-ranch/4-525by700-daffe4.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/hudson-ranch/4-350by467-daffe4.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/hudson-ranch/4-350by467-daffe4.jpg" alt="" title="Aloe Vera" class="center-image" />
-  </picture>
+<p><img title="Aloe Vera" class="center-image" src="/assets/images/hudson-ranch/4-800-daffe4.jpg" srcset="/assets/images/hudson-ranch/4-400-daffe4.jpg 400w, /assets/images/hudson-ranch/4-600-daffe4.jpg 600w, /assets/images/hudson-ranch/4-800-daffe4.jpg 800w, /assets/images/hudson-ranch/4-1000-daffe4.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>Yes, that is a single planting of Aloe Vera.  And my friend T$ is 5’10”.  That is the level of ridiculousness we saw while walking around the gardens.  That would make for a lot of skin salve to protect yourself from the sun beating down on you.  I forget if they were opening a restaurant or considering hiring a chef to make food pairings with the gardens, but they do already utilize the vegetables to make salads and use the olives to make olive oil (which they bottle and sell).</em></p>
 
 <p>When you are, you will be greeted by your wine ambassador with a glass of the White Study, which is composed of varietals traditionally found in Italy, near the Alps in the Veneto region.  After looking at a map of the grounds and discussing the absurd amount of land that Lee Hudson owns in the area, you’ll get a tour of their garden and the facilities (see the pictures for some examples of the sights you’ll see).  The garden looks like it’s filled each day with fertilizer (but the soil itself looks poor) and the equipment and facilities look brand new.  You could definitely see them becoming a large producer of wines in the region, but that’s not their goal.  Lee Hudson is from Texas and has that ranch mentality at heart where he is happy tending to his land and vines, moreso than producing large volumes of wine and focusing on profit.  John Kongsgaard helped talk Lee into making some wine, but low volume and only the highest quality.  And everything about the newly-built facilities screams quality and a high price tag.  Luckily, the latter isn’t true of their wines…</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/hudson-ranch/5-1050by788-f2b87f.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/hudson-ranch/5-700by525-f2b87f.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/hudson-ranch/5-675by506-f2b87f.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/hudson-ranch/5-450by338-f2b87f.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/hudson-ranch/5-525by394-f2b87f.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/hudson-ranch/5-350by263-f2b87f.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/hudson-ranch/5-350by263-f2b87f.jpg" alt="" title="The Tasting Menu" class="center-image" />
-  </picture>
+<p><img title="The Tasting Menu" class="center-image" src="/assets/images/hudson-ranch/5-800-f2b87f.jpg" srcset="/assets/images/hudson-ranch/5-400-f2b87f.jpg 400w, /assets/images/hudson-ranch/5-600-f2b87f.jpg 600w, /assets/images/hudson-ranch/5-800-f2b87f.jpg 800w, /assets/images/hudson-ranch/5-1000-f2b87f.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>A shot of the four bottles that were planned for our tasting.  These are not the traditional bottles used for the tasting, but I emailed and specially requested to taste both the Little Bit and Ladybug Chardonnays, even though they were officially sold out.  I was also able to purchase several bottles, so it was really my lucky day…  That Little Bit still haunts me and I occasionally get urges to open one of my remaining bottles.</em></p>
 

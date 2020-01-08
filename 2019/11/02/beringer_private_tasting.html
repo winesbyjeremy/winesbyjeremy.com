@@ -46,9 +46,9 @@
     
         <meta content="st-helena" property="article:tag">
     
-<!-- Begin Jekyll SEO tag v2.5.0 -->
+<!-- Begin Jekyll SEO tag v2.6.1 -->
 <title>Beringer Private Tasting | Wines By Jeremy</title>
-<meta name="generator" content="Jekyll v3.8.5" />
+<meta name="generator" content="Jekyll v3.8.6" />
 <meta property="og:title" content="Beringer Private Tasting" />
 <meta name="author" content="Jeremy Myers" />
 <meta property="og:locale" content="en_US" />
@@ -61,7 +61,7 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2019-11-02T19:20:00+00:00" />
 <script type="application/ld+json">
-{"image":"https://www.winesbyjeremy.com/beringer-2/1.jpg","url":"https://www.winesbyjeremy.com/2019/11/02/beringer_private_tasting.html","headline":"Beringer Private Tasting","dateModified":"2019-11-02T19:20:00+00:00","datePublished":"2019-11-02T19:20:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.winesbyjeremy.com/2019/11/02/beringer_private_tasting.html"},"author":{"@type":"Person","name":"Jeremy Myers"},"description":"You can read up on Beringer’s history and prior vintage tastings in this article HERE. As a Private Reserve member of Beringer, I try to get out to the winery once a year to taste the new vintage. And the wines made enough of an impact on me that I wanted to write a separate article to cover the 2015 vintage. This is not just because 2015 was a great vintage. 2015 was the first vintage fully produced by their new winemaker: Mark Beringer. After spending years honing his craft at Duckhorn, Mark came back home to take the reigns. And what a difference this has made on the wines Beringer producers…","@type":"BlogPosting","@context":"http://schema.org"}</script>
+{"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.winesbyjeremy.com/2019/11/02/beringer_private_tasting.html"},"image":"https://www.winesbyjeremy.com/beringer-2/1.jpg","url":"https://www.winesbyjeremy.com/2019/11/02/beringer_private_tasting.html","author":{"@type":"Person","name":"Jeremy Myers"},"description":"You can read up on Beringer’s history and prior vintage tastings in this article HERE. As a Private Reserve member of Beringer, I try to get out to the winery once a year to taste the new vintage. And the wines made enough of an impact on me that I wanted to write a separate article to cover the 2015 vintage. This is not just because 2015 was a great vintage. 2015 was the first vintage fully produced by their new winemaker: Mark Beringer. After spending years honing his craft at Duckhorn, Mark came back home to take the reigns. And what a difference this has made on the wines Beringer producers…","headline":"Beringer Private Tasting","dateModified":"2019-11-02T19:20:00+00:00","datePublished":"2019-11-02T19:20:00+00:00","@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/css/main.css"><link type="application/atom+xml" rel="alternate" href="https://www.winesbyjeremy.com/feed.xml" title="Wines By Jeremy" /><script>
 if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1")) {
@@ -162,6 +162,7 @@ var jekyllMaps = (function() {
         position: position,
         title: location.title,
         image: location.image,
+        popup_html: location.popup_html,
         icon: location.icon || mapOptions.markerIcon,
         url: markerUrl(mapOptions.baseUrl, location.url),
         url_text: location.url_text,
@@ -180,14 +181,19 @@ var jekyllMaps = (function() {
 
     function markerPopup() {
       var content = '<div class="map-info-window"><h5>' + this.title + '</h5>'
-      var imageTag =
-        this.image.length > 0 &&
-        '<img src="' + this.image + '" alt="' + this.title + '"/>'
-      if (this.url.length > 0) {
-        var linkContent = imageTag || this.url_text || 'View'
-        content += '<a href="' + this.url + '">' + linkContent + '</a>'
-      } else if (imageTag) {
-        content += imageTag
+      if (this.popup_html.length > 0) {
+        content += this.popup_html
+      }
+      else {
+        var imageTag =
+          this.image.length > 0 &&
+          '<img src="' + this.image + '" alt="' + this.title + '"/>'
+        if (this.url.length > 0) {
+          var linkContent = imageTag || this.url_text || 'View'
+          content += '<a href="' + this.url + '">' + linkContent + '</a>'
+        } else if (imageTag) {
+          content += imageTag
+        }
       }
       content += '</div>'
       infoWindow.setContent(content)
@@ -305,11 +311,11 @@ if (typeof Object.assign !== 'function') {
       <meta itemprop="addressCountry" content="US" />
     </div>
   </div>
-    <div id='7181daf3-251f-453d-a649-286d8adf8bff' style='width:600px;height:400px;'></div>
+    <div id='3b41e699-8626-4b3b-a830-bfb271f2302d' style='width:600px;height:400px;'></div>
 <script type='text/javascript'>
   jekyllMaps.register(
-    '7181daf3-251f-453d-a649-286d8adf8bff',
-    [{"latitude":38.510169,"longitude":-122.479882,"title":"Beringer Private Tasting","icon":null,"url":"/2019/11/02/beringer_private_tasting.html","url_text":null,"image":"beringer-2/1.jpg"}],
+    '3b41e699-8626-4b3b-a830-bfb271f2302d',
+    [{"latitude":38.510169,"longitude":-122.479882,"title":"Beringer Private Tasting","icon":null,"url":"/2019/11/02/beringer_private_tasting.html","url_text":null,"image":"beringer-2/1.jpg","popup_html":""}],
     {"baseUrl":"","useCluster":true,"showMarker":true,"showMarkerPopup":true,"markerIcon":null,"customZoom":16}
   );
 </script>
@@ -323,15 +329,7 @@ if (typeof Object.assign !== 'function') {
 
 <p>If you are used to the big, structured, almost harsh renditions of Private Reserve that required 10-20 years of cellar aging before they were ready, you are in for one heck of a surprise.  The new style being ushered in by Mark Beringer is all about approachability early in the life of the wines.  And this is without taking anything good away from the wines (as demonstrated by James Suckling’s back-to-back 99 point ratings of the 2015 and 2016 Private Reserves).  What this means is that all of their upper tier wines (e.g. the Private Reserves, Single Vineyard bottles, etc.) can now be enjoyed immediately upon release and they are really, really good.  I think that this change is a win for consumers as people don’t have the patience or basement-space to age wines for 5-10 years before enjoying them.</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/beringer-2/1-1050by700-2aac0d.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/beringer-2/1-700by467-2aac0d.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/beringer-2/1-675by450-2aac0d.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/beringer-2/1-450by300-2aac0d.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/beringer-2/1-525by350-2aac0d.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/beringer-2/1-350by233-2aac0d.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/beringer-2/1-350by233-2aac0d.jpg" alt="" title="It was very bright outside" class="center-image" />
-  </picture>
+<p><img title="It was very bright outside" class="center-image" src="/assets/images/beringer-2/1-800-2aac0d.jpg" srcset="/assets/images/beringer-2/1-400-2aac0d.jpg 400w, /assets/images/beringer-2/1-600-2aac0d.jpg 600w, /assets/images/beringer-2/1-800-2aac0d.jpg 800w, /assets/images/beringer-2/1-1000-2aac0d.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>A picture standing near the Rhine House garden and fountain at Beringer.  If you visit Beringer, you should absolutely pay the extra fee to taste the high-end wines located in the Rhine House, as opposed to tasting wines you can find in your local grocery stores in other sections of the winery.  More tasting means the sun was perfectly placed to hit me right in the eyes.  I need to remember to bring my sunglasses with me…</em></p>
 

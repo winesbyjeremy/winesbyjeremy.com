@@ -48,9 +48,9 @@
     
         <meta content="sonoma-coast" property="article:tag">
     
-<!-- Begin Jekyll SEO tag v2.5.0 -->
+<!-- Begin Jekyll SEO tag v2.6.1 -->
 <title>Donum Estate Private Tasting | Wines By Jeremy</title>
-<meta name="generator" content="Jekyll v3.8.5" />
+<meta name="generator" content="Jekyll v3.8.6" />
 <meta property="og:title" content="Donum Estate Private Tasting" />
 <meta name="author" content="Jeremy Myers" />
 <meta property="og:locale" content="en_US" />
@@ -63,7 +63,7 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2019-11-23T19:20:00+00:00" />
 <script type="application/ld+json">
-{"image":"https://www.winesbyjeremy.com/donum-estate/7.jpg","url":"https://www.winesbyjeremy.com/2019/11/23/donum_estate_private_tasting.html","headline":"Donum Estate Private Tasting","dateModified":"2019-11-23T19:20:00+00:00","datePublished":"2019-11-23T19:20:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.winesbyjeremy.com/2019/11/23/donum_estate_private_tasting.html"},"author":{"@type":"Person","name":"Jeremy Myers"},"description":"When you visit wineries for tastings, you may notice that a majority have a theme to them, likely due to past influences, and the owners will try to enhance that theme by incorporating art and/or architectural design (e.g. Round Pond and Tuscany, Cliff Lede and Rock-and-Roll, etc.). I have never before visited a winery like Donum Estate where the Art experience matches or even exceeds the tasting experience. And while the Chardonnays and Pinot Noirs (especially the Pinot) are well-regarded and rated, I think a good portion of the tasting fee ($95) goes towards your museum ticket to tour the sculptor garden. And even though the tasting fee may seem pricey, Donum is always fully booked at least a month ahead of time. So if you decide that you want to visit, be sure to book your reservation far in advance as there’s no guarantee they will have space for your group!","@type":"BlogPosting","@context":"http://schema.org"}</script>
+{"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.winesbyjeremy.com/2019/11/23/donum_estate_private_tasting.html"},"image":"https://www.winesbyjeremy.com/donum-estate/7.jpg","url":"https://www.winesbyjeremy.com/2019/11/23/donum_estate_private_tasting.html","author":{"@type":"Person","name":"Jeremy Myers"},"description":"When you visit wineries for tastings, you may notice that a majority have a theme to them, likely due to past influences, and the owners will try to enhance that theme by incorporating art and/or architectural design (e.g. Round Pond and Tuscany, Cliff Lede and Rock-and-Roll, etc.). I have never before visited a winery like Donum Estate where the Art experience matches or even exceeds the tasting experience. And while the Chardonnays and Pinot Noirs (especially the Pinot) are well-regarded and rated, I think a good portion of the tasting fee ($95) goes towards your museum ticket to tour the sculptor garden. And even though the tasting fee may seem pricey, Donum is always fully booked at least a month ahead of time. So if you decide that you want to visit, be sure to book your reservation far in advance as there’s no guarantee they will have space for your group!","headline":"Donum Estate Private Tasting","dateModified":"2019-11-23T19:20:00+00:00","datePublished":"2019-11-23T19:20:00+00:00","@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/css/main.css"><link type="application/atom+xml" rel="alternate" href="https://www.winesbyjeremy.com/feed.xml" title="Wines By Jeremy" /><script>
 if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1")) {
@@ -164,6 +164,7 @@ var jekyllMaps = (function() {
         position: position,
         title: location.title,
         image: location.image,
+        popup_html: location.popup_html,
         icon: location.icon || mapOptions.markerIcon,
         url: markerUrl(mapOptions.baseUrl, location.url),
         url_text: location.url_text,
@@ -182,14 +183,19 @@ var jekyllMaps = (function() {
 
     function markerPopup() {
       var content = '<div class="map-info-window"><h5>' + this.title + '</h5>'
-      var imageTag =
-        this.image.length > 0 &&
-        '<img src="' + this.image + '" alt="' + this.title + '"/>'
-      if (this.url.length > 0) {
-        var linkContent = imageTag || this.url_text || 'View'
-        content += '<a href="' + this.url + '">' + linkContent + '</a>'
-      } else if (imageTag) {
-        content += imageTag
+      if (this.popup_html.length > 0) {
+        content += this.popup_html
+      }
+      else {
+        var imageTag =
+          this.image.length > 0 &&
+          '<img src="' + this.image + '" alt="' + this.title + '"/>'
+        if (this.url.length > 0) {
+          var linkContent = imageTag || this.url_text || 'View'
+          content += '<a href="' + this.url + '">' + linkContent + '</a>'
+        } else if (imageTag) {
+          content += imageTag
+        }
       }
       content += '</div>'
       infoWindow.setContent(content)
@@ -307,11 +313,11 @@ if (typeof Object.assign !== 'function') {
       <meta itemprop="addressCountry" content="US" />
     </div>
   </div>
-    <div id='d63d24e6-cd5a-46cd-be95-e868b89c6848' style='width:600px;height:400px;'></div>
+    <div id='224a5001-bc39-4ef9-9779-8a31bfa27dfc' style='width:600px;height:400px;'></div>
 <script type='text/javascript'>
   jekyllMaps.register(
-    'd63d24e6-cd5a-46cd-be95-e868b89c6848',
-    [{"latitude":38.231295,"longitude":-122.402883,"title":"Donum Estate Private Tasting","icon":null,"url":"/2019/11/23/donum_estate_private_tasting.html","url_text":null,"image":"donum-estate/7.jpg"}],
+    '224a5001-bc39-4ef9-9779-8a31bfa27dfc',
+    [{"latitude":38.231295,"longitude":-122.402883,"title":"Donum Estate Private Tasting","icon":null,"url":"/2019/11/23/donum_estate_private_tasting.html","url_text":null,"image":"donum-estate/7.jpg","popup_html":""}],
     {"baseUrl":"","useCluster":true,"showMarker":true,"showMarkerPopup":true,"markerIcon":null,"customZoom":16}
   );
 </script>
@@ -323,107 +329,43 @@ if (typeof Object.assign !== 'function') {
   <span itemprop="reviewBody">
     <p>When you visit wineries for tastings, you may notice that a majority have a theme to them, likely due to past influences, and the owners will try to enhance that theme by incorporating art and/or architectural design (e.g. Round Pond and Tuscany, Cliff Lede and Rock-and-Roll, etc.).  I have never before visited a winery like Donum Estate where the Art experience matches or even exceeds the tasting experience.  And while the Chardonnays and Pinot Noirs (especially the Pinot) are well-regarded and rated, I think a good portion of the tasting fee ($95) goes towards your museum ticket to tour the sculptor garden.  And even though the tasting fee may seem pricey, Donum is always fully booked at least a month ahead of time.  So if you decide that you want to visit, be sure to book your reservation far in advance as there’s no guarantee they will have space for your group!</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/donum-estate/1-1050by1400-9e0822.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/donum-estate/1-700by933-9e0822.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/donum-estate/1-675by900-9e0822.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/donum-estate/1-450by600-9e0822.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/donum-estate/1-525by700-9e0822.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/donum-estate/1-350by467-9e0822.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/donum-estate/1-350by467-9e0822.jpg" alt="" title="Tasting Room" class="center-image" />
-  </picture>
+<p><img title="Tasting Room" class="center-image" src="/assets/images/donum-estate/1-800-9e0822.jpg" srcset="/assets/images/donum-estate/1-400-9e0822.jpg 400w, /assets/images/donum-estate/1-600-9e0822.jpg 600w, /assets/images/donum-estate/1-800-9e0822.jpg 800w, /assets/images/donum-estate/1-1000-9e0822.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>Once you get past the entrance corridor, this is the scene that you are greeted with.  I love the natural lighting and design of the space.  Although there is a tasting bar as you can see on the right, you’ll likely conduct your tasting in a private room if you come with a group of 4 or larger.  Just a beautiful space.</em></p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/donum-estate/2-1050by788-6b4114.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/donum-estate/2-700by525-6b4114.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/donum-estate/2-675by506-6b4114.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/donum-estate/2-450by338-6b4114.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/donum-estate/2-525by394-6b4114.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/donum-estate/2-350by263-6b4114.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/donum-estate/2-350by263-6b4114.jpg" alt="" title="The Wall of Pinot" class="center-image" />
-  </picture>
+<p><img title="The Wall of Pinot" class="center-image" src="/assets/images/donum-estate/2-800-6b4114.jpg" srcset="/assets/images/donum-estate/2-400-6b4114.jpg 400w, /assets/images/donum-estate/2-600-6b4114.jpg 600w, /assets/images/donum-estate/2-800-6b4114.jpg 800w, /assets/images/donum-estate/2-1000-6b4114.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>On the left hand side of the room in the first picture, you’ll see the wall of Pinot above.  I’m not sure if it contains a bottle of every wine they’ve ever produced or what it is, but I sure hope all the bottles are empty (because they are not being stored in a dark space, haha).  I really liked a lot of the architectural things they’ve done with their space and this is just one more thing.</em></p>
 
 <p>When planning my first trip to Sonoma, I asked friends and colleagues in the wine world what were the must-see places.  Most came back with two names: Hudson and Donum.  While Hudson Ranch specializes in Chardonnay, Donum focuses on their small-but-quality Pinot Noir production.  And they are highly-regarded to the point where they are considered a Pinot powerhouse, similar to the status Kosta Browne and only a few others enjoy.  I personally prefer the Donum winemaker’s personal production (more on Auteur Wines in another article), but I understand where their reputation comes from, having tasted the wines.  I was very lucky to secure a reservation 2 months out from our trip to Sonoma as I found it’s difficult, even for members, to secure reservations as the estate is always busy thanks to its new construction and beautiful art collection.</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/donum-estate/3-1050by788-0a1636.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/donum-estate/3-700by525-0a1636.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/donum-estate/3-675by506-0a1636.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/donum-estate/3-450by338-0a1636.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/donum-estate/3-525by394-0a1636.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/donum-estate/3-350by263-0a1636.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/donum-estate/3-350by263-0a1636.jpg" alt="" title="Our Tasting Room" class="center-image" />
-  </picture>
+<p><img title="Our Tasting Room" class="center-image" src="/assets/images/donum-estate/3-800-0a1636.jpg" srcset="/assets/images/donum-estate/3-400-0a1636.jpg 400w, /assets/images/donum-estate/3-600-0a1636.jpg 600w, /assets/images/donum-estate/3-800-0a1636.jpg 800w, /assets/images/donum-estate/3-1000-0a1636.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>Our tasting was conducted in private room within the winery.  What was really cool was the wall on the right side was retractable.  Because the weather was so pleasant, we opened it up and enjoyed the tasting with a breeze and the smell of nature.  If you love to take pictures, it’s a great opportunity to pop outside with a glass of wine in hand.  As you can see, our group was enjoying the Chardonnays, conversation, and didn’t need any Instagram shots.</em></p>
 
 <p>One sentence on Donum’s website really resonates with me for how I feel about the winery: “The interplay between our wine production and art collection expresses beauty through a singular sense of place.”  It is true that Donum feels like a singular place disconnected from the rest of the world when you are enjoying the wine and touring the gardens.  It’s been a journey for them though and this sanctuary wasn’t built overnight.  Setting out to craft Burgundian Grand-Cru level Pinot Noirs in 2001, each year they’ve increased production (modestly), price, and the scores only seem to be going up.  With the profits, they’ve been able to acquire addition land in the Russian River and Anderson Valleys, producing more site-specific, singular Pinots from around Sonoma.  There is no machine use in any of their vineyards (all work done by hand) and they currently produce around 5000 cases annually, which is mostly consumed by their 1800 wine club members.</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/donum-estate/4-1050by788-2e9969.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/donum-estate/4-700by525-2e9969.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/donum-estate/4-675by506-2e9969.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/donum-estate/4-450by338-2e9969.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/donum-estate/4-525by394-2e9969.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/donum-estate/4-350by263-2e9969.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/donum-estate/4-350by263-2e9969.jpg" alt="" title="United Nations?" class="center-image" />
-  </picture>
+<p><img title="United Nations?" class="center-image" src="/assets/images/donum-estate/4-800-2e9969.jpg" srcset="/assets/images/donum-estate/4-400-2e9969.jpg 400w, /assets/images/donum-estate/4-600-2e9969.jpg 600w, /assets/images/donum-estate/4-800-2e9969.jpg 800w, /assets/images/donum-estate/4-1000-2e9969.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>In addition to the great quality Pinot, the other reason to visit Donum is for their art collection onsite, whose value has to be at least $100 million dollars, likely much more.  In fact, I would be interested to know the distribution of people that visit for the wine versus the art.  In this picture, you can see the same iconic statue that exists at the United Nations.  I think this is 1 of 2 or 3 in existence.  Just unbelievable.</em></p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/donum-estate/5-1050by788-e539c3.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/donum-estate/5-700by525-e539c3.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/donum-estate/5-675by506-e539c3.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/donum-estate/5-450by338-e539c3.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/donum-estate/5-525by394-e539c3.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/donum-estate/5-350by263-e539c3.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/donum-estate/5-350by263-e539c3.jpg" alt="" title="The Zodiac" class="center-image" />
-  </picture>
+<p><img title="The Zodiac" class="center-image" src="/assets/images/donum-estate/5-800-e539c3.jpg" srcset="/assets/images/donum-estate/5-400-e539c3.jpg 400w, /assets/images/donum-estate/5-600-e539c3.jpg 600w, /assets/images/donum-estate/5-800-e539c3.jpg 800w, /assets/images/donum-estate/5-1000-e539c3.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>Another famous art piece.  The different signs of the Zodiac, spread out in a circle according to the Chinese Calendar.  Just one of the pieces must have cost millions (I know it’s by a famous sculptor).  The entire set must have cost a fortune.  Unfortunately for me, they didn’t hand out a catalog to look at while taking the tour.  Though, I’m not sure if it would’ve been more impressive or a turn-off.</em></p>
 
 <p>As you drive up to the winery, please don’t crash your car while staring at the giant head sculpture near their gated entrance.  Once inside, you’ll be able to take in the architecture of the building before being greeted by your wine ambassador and led to your private tasting room.  Here, you will enjoy the wine, the conversation, the views, and even the weather as one of the walls is actually a giant sliding door that opens, allowing you to enjoy your tasting looking at the vineyards and feeling the cool Carneros breeze hit you while tasting the cool Chardonnays.</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/donum-estate/6-1050by788-be9ffe.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/donum-estate/6-700by525-be9ffe.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/donum-estate/6-675by506-be9ffe.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/donum-estate/6-450by338-be9ffe.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/donum-estate/6-525by394-be9ffe.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/donum-estate/6-350by263-be9ffe.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/donum-estate/6-350by263-be9ffe.jpg" alt="" title="Purple!" class="center-image" />
-  </picture>
+<p><img title="Purple!" class="center-image" src="/assets/images/donum-estate/6-800-be9ffe.jpg" srcset="/assets/images/donum-estate/6-400-be9ffe.jpg 400w, /assets/images/donum-estate/6-600-be9ffe.jpg 600w, /assets/images/donum-estate/6-800-be9ffe.jpg 800w, /assets/images/donum-estate/6-1000-be9ffe.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>A picture of me with the lavender in the background.  One of the constant arguments I have with my friends is the color of my shirt: is it a shade of blue or a shade of purple.  I strongly argued the former, but looking at this picture (in literally “a new light”), I might have to agree with them now.</em></p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/donum-estate/7-1050by788-280c08.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/donum-estate/7-700by525-280c08.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/donum-estate/7-675by506-280c08.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/donum-estate/7-450by338-280c08.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/donum-estate/7-525by394-280c08.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/donum-estate/7-350by263-280c08.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/donum-estate/7-350by263-280c08.jpg" alt="" title="Giant Spider Money" class="center-image" />
-  </picture>
+<p><img title="Giant Spider Money" class="center-image" src="/assets/images/donum-estate/7-800-280c08.jpg" srcset="/assets/images/donum-estate/7-400-280c08.jpg 400w, /assets/images/donum-estate/7-600-280c08.jpg 600w, /assets/images/donum-estate/7-800-280c08.jpg 800w, /assets/images/donum-estate/7-1000-280c08.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>Yes, that is a giant spider in the center of the room.  When the owners purchased the sculpture, they didn’t move the spider inside the building.  They found the optimal spot for the spider, then built the building around the sculpture.  I know…  Apparently, this is by a famous sculptor and goes for millions (sorry, I don’t know much about art).  It’s very cool to see upclose, but now my friends and I joke about having “giant spider money”.  A new internal joke added to our arsenal.</em></p>
 
 <p>As you finish your tastings, making your purchases, and signing up for the wine club (if you so choose), you’ll be taken on a guided tour of the sculpture garden behind the winery.  It’s hard to do the experience justice with words, so I’ll let the pictures give you a sneak peek at what to expect, but if you are familiar with artists Ai Weiwei, Keith Haring, and Louise Bourgeois, let’s just say you’ll be very entertained.  Because the tour component is longer than at most wineries, expect to spend a full 2 hours at Donum Estate and make your schedule accordingly.</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/donum-estate/8-1050by1400-b68877.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/donum-estate/8-700by933-b68877.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/donum-estate/8-675by900-b68877.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/donum-estate/8-450by600-b68877.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/donum-estate/8-525by700-b68877.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/donum-estate/8-350by467-b68877.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/donum-estate/8-350by467-b68877.jpg" alt="" title="Rubber Palm Tree" class="center-image" />
-  </picture>
+<p><img title="Rubber Palm Tree" class="center-image" src="/assets/images/donum-estate/8-800-b68877.jpg" srcset="/assets/images/donum-estate/8-400-b68877.jpg 400w, /assets/images/donum-estate/8-600-b68877.jpg 600w, /assets/images/donum-estate/8-800-b68877.jpg 800w, /assets/images/donum-estate/8-1000-b68877.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>I didn’t realize it when we were parking, but walking back to our rental car after the tasting, I noticed that the tree we parked under wasn’t actually a tree.  It was a piece of art that was created using shredded tires.  Pretty life-like though, right?  Again, because of the amount of art and their fame, I felt a little out of place at the winery - others were enjoying the experience much more than I.  Just something to note when you visit.</em></p>
 

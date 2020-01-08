@@ -46,9 +46,9 @@
     
         <meta content="hermitage" property="article:tag">
     
-<!-- Begin Jekyll SEO tag v2.5.0 -->
+<!-- Begin Jekyll SEO tag v2.6.1 -->
 <title>Maison M. Chapoutier Public Tasting | Wines By Jeremy</title>
-<meta name="generator" content="Jekyll v3.8.5" />
+<meta name="generator" content="Jekyll v3.8.6" />
 <meta property="og:title" content="Maison M. Chapoutier Public Tasting" />
 <meta name="author" content="Jeremy Myers" />
 <meta property="og:locale" content="en_US" />
@@ -61,7 +61,7 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2019-04-27T19:20:00+00:00" />
 <script type="application/ld+json">
-{"image":"https://www.winesbyjeremy.com/chapoutier/2.jpg","url":"https://www.winesbyjeremy.com/2019/04/27/maison_chapoutier_private_tasting.html","headline":"Maison M. Chapoutier Public Tasting","dateModified":"2019-04-27T19:20:00+00:00","datePublished":"2019-04-27T19:20:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.winesbyjeremy.com/2019/04/27/maison_chapoutier_private_tasting.html"},"author":{"@type":"Person","name":"Jeremy Myers"},"description":"With the exception of Guigal, it would not be a stretch to say that Chapoutier was the winery I was most looking forward to in the Northern Rhone. I knew the views in Hermitage would be extraordinary (they still somehow surpassed my expectations), but the moment I saw Chapoutier’s name on the wall after arriving at Tain l’Hermitage, I knew I needed to drop off my bags and rush over there ASAP. After a tour of their vineyards and a tasting of their wines, it’s hard to do anything else the rest of the day except find some amazing food, enjoy a bottle of their wine, and stare at the river (or the vines opposite the train station if you are lucky with your view).","@type":"BlogPosting","@context":"http://schema.org"}</script>
+{"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.winesbyjeremy.com/2019/04/27/maison_chapoutier_private_tasting.html"},"image":"https://www.winesbyjeremy.com/chapoutier/2.jpg","url":"https://www.winesbyjeremy.com/2019/04/27/maison_chapoutier_private_tasting.html","author":{"@type":"Person","name":"Jeremy Myers"},"description":"With the exception of Guigal, it would not be a stretch to say that Chapoutier was the winery I was most looking forward to in the Northern Rhone. I knew the views in Hermitage would be extraordinary (they still somehow surpassed my expectations), but the moment I saw Chapoutier’s name on the wall after arriving at Tain l’Hermitage, I knew I needed to drop off my bags and rush over there ASAP. After a tour of their vineyards and a tasting of their wines, it’s hard to do anything else the rest of the day except find some amazing food, enjoy a bottle of their wine, and stare at the river (or the vines opposite the train station if you are lucky with your view).","headline":"Maison M. Chapoutier Public Tasting","dateModified":"2019-04-27T19:20:00+00:00","datePublished":"2019-04-27T19:20:00+00:00","@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/css/main.css"><link type="application/atom+xml" rel="alternate" href="https://www.winesbyjeremy.com/feed.xml" title="Wines By Jeremy" /><script>
 if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1")) {
@@ -162,6 +162,7 @@ var jekyllMaps = (function() {
         position: position,
         title: location.title,
         image: location.image,
+        popup_html: location.popup_html,
         icon: location.icon || mapOptions.markerIcon,
         url: markerUrl(mapOptions.baseUrl, location.url),
         url_text: location.url_text,
@@ -180,14 +181,19 @@ var jekyllMaps = (function() {
 
     function markerPopup() {
       var content = '<div class="map-info-window"><h5>' + this.title + '</h5>'
-      var imageTag =
-        this.image.length > 0 &&
-        '<img src="' + this.image + '" alt="' + this.title + '"/>'
-      if (this.url.length > 0) {
-        var linkContent = imageTag || this.url_text || 'View'
-        content += '<a href="' + this.url + '">' + linkContent + '</a>'
-      } else if (imageTag) {
-        content += imageTag
+      if (this.popup_html.length > 0) {
+        content += this.popup_html
+      }
+      else {
+        var imageTag =
+          this.image.length > 0 &&
+          '<img src="' + this.image + '" alt="' + this.title + '"/>'
+        if (this.url.length > 0) {
+          var linkContent = imageTag || this.url_text || 'View'
+          content += '<a href="' + this.url + '">' + linkContent + '</a>'
+        } else if (imageTag) {
+          content += imageTag
+        }
       }
       content += '</div>'
       infoWindow.setContent(content)
@@ -305,11 +311,11 @@ if (typeof Object.assign !== 'function') {
       <meta itemprop="addressCountry" content="FR" />
     </div>
   </div>
-    <div id='26d9562b-60e0-4ab1-8519-f89b0eaf8405' style='width:600px;height:400px;'></div>
+    <div id='bad0f210-a925-4335-afd3-b94769685769' style='width:600px;height:400px;'></div>
 <script type='text/javascript'>
   jekyllMaps.register(
-    '26d9562b-60e0-4ab1-8519-f89b0eaf8405',
-    [{"latitude":45.070852,"longitude":4.839715,"title":"Maison M. Chapoutier Public Tasting","icon":null,"url":"/2019/04/27/maison_chapoutier_private_tasting.html","url_text":null,"image":"chapoutier/2.jpg"}],
+    'bad0f210-a925-4335-afd3-b94769685769',
+    [{"latitude":45.070852,"longitude":4.839715,"title":"Maison M. Chapoutier Public Tasting","icon":null,"url":"/2019/04/27/maison_chapoutier_private_tasting.html","url_text":null,"image":"chapoutier/2.jpg","popup_html":""}],
     {"baseUrl":"","useCluster":true,"showMarker":true,"showMarkerPopup":true,"markerIcon":null,"customZoom":16}
   );
 </script>
@@ -321,55 +327,23 @@ if (typeof Object.assign !== 'function') {
   <span itemprop="reviewBody">
     <p>With the exception of Guigal, it would not be a stretch to say that Chapoutier was the winery I was most looking forward to in the Northern Rhone.  I knew the views in Hermitage would be extraordinary (they still somehow surpassed my expectations), but the moment I saw Chapoutier’s name on the wall after arriving at Tain l’Hermitage, I knew I needed to drop off my bags and rush over there ASAP.  After a tour of their vineyards and a tasting of their wines, it’s hard to do anything else the rest of the day except find some amazing food, enjoy a bottle of their wine, and stare at the river (or the vines opposite the train station if you are lucky with your view).</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chapoutier/1-1050by788-c91991.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chapoutier/1-700by525-c91991.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chapoutier/1-675by506-c91991.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chapoutier/1-450by338-c91991.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chapoutier/1-525by394-c91991.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chapoutier/1-350by263-c91991.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/chapoutier/1-350by263-c91991.jpg" alt="" title="Cote Rotie" class="center-image" />
-  </picture>
+<p><img title="Cote Rotie" class="center-image" src="/assets/images/chapoutier/1-800-c91991.jpg" srcset="/assets/images/chapoutier/1-400-c91991.jpg 400w, /assets/images/chapoutier/1-600-c91991.jpg 600w, /assets/images/chapoutier/1-800-c91991.jpg 800w, /assets/images/chapoutier/1-1000-c91991.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>A view of the Chapoutier block in Cote Rotie.  Although Guigal controls most of the grape production in the region, Chapoutier has a fair presence and produces its own Cote Rotie wines as well.  They may not command the same price point Guigal does, but they are fantastic and need to be tasted.</em></p>
 
 <p>While Cote Rotie / Ampuis was a bit difficult for a tourist to setup tastings and navigate the area, Hermitage was very easy.  The four largest wineries in town are easy to reach on foot and even easier to taste at (each welcomed walk-ins).  Even though Hermitage is a famous wine location and easy to access via train, M. Chapoutier had less visitors/tourists than I expected, at the height of summer no less!!  Truly, a perfect two day stop in paradise on any trip along the eastern side of France…</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chapoutier/2-1050by788-f93351.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chapoutier/2-700by525-f93351.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chapoutier/2-675by506-f93351.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chapoutier/2-450by338-f93351.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chapoutier/2-525by394-f93351.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chapoutier/2-350by263-f93351.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/chapoutier/2-350by263-f93351.jpg" alt="" title="Right off the train" class="center-image" />
-  </picture>
+<p><img title="Right off the train" class="center-image" src="/assets/images/chapoutier/2-800-f93351.jpg" srcset="/assets/images/chapoutier/2-400-f93351.jpg 400w, /assets/images/chapoutier/2-600-f93351.jpg 600w, /assets/images/chapoutier/2-800-f93351.jpg 800w, /assets/images/chapoutier/2-1000-f93351.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>The view from the train platform at Tain l’Hermitage.  As you can see, the two largest producers in Hermitage have their names on the walls here.  The views in Cote Rotie are amazing, but without a car or guide, it’s hard to get an up-close view.  In Hermitage, you can literally climb up paths/roads to the top of the hill and look at the vines below.  Hikers and wine lovers alike can appreciate this view.  If you love both, get here ASAP.</em></p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chapoutier/3-1050by788-263881.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chapoutier/3-700by525-263881.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chapoutier/3-675by506-263881.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chapoutier/3-450by338-263881.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chapoutier/3-525by394-263881.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chapoutier/3-350by263-263881.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/chapoutier/3-350by263-263881.jpg" alt="" title="The entrance" class="center-image" />
-  </picture>
+<p><img title="The entrance" class="center-image" src="/assets/images/chapoutier/3-800-263881.jpg" srcset="/assets/images/chapoutier/3-400-263881.jpg 400w, /assets/images/chapoutier/3-600-263881.jpg 600w, /assets/images/chapoutier/3-800-263881.jpg 800w, /assets/images/chapoutier/3-1000-263881.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>Chapoutier certainly makes it easy for visitors.  Their storefront is located a block from the train station and is difficult to miss.  I was just surprised there wasn’t a line out the door!</em></p>
 
 <p>After checking into my hotel, I rushed over to the Chapoutier storefront (nearly forgetting my wallet in the process).  After arriving, I realized that it was literally a block or two from the train station - very convenient for the on-the-go customer looking for their cellar restock.  As you can see in the photo below, I arrived at an opportune time and was able to get both a tour of the vineyard and a tasting.  NOTE: I highly recommend that you don’t wing it like me and instead make a reservation before visiting so they can ensure that an English-speaking wine expert (conseiller en vins) is awaiting your arrival.  Luckily enough, one happened to be working that day and didn’t have another appointment until after lunch.</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chapoutier/4-1050by788-e2977f.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chapoutier/4-700by525-e2977f.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chapoutier/4-675by506-e2977f.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chapoutier/4-450by338-e2977f.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chapoutier/4-525by394-e2977f.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chapoutier/4-350by263-e2977f.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/chapoutier/4-350by263-e2977f.jpg" alt="" title="The store" class="center-image" />
-  </picture>
+<p><img title="The store" class="center-image" src="/assets/images/chapoutier/4-800-e2977f.jpg" srcset="/assets/images/chapoutier/4-400-e2977f.jpg 400w, /assets/images/chapoutier/4-600-e2977f.jpg 600w, /assets/images/chapoutier/4-800-e2977f.jpg 800w, /assets/images/chapoutier/4-1000-e2977f.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>The view of the store from the entrance.  It’s normally packed but I stopped in right as they were opening.  There are so many different wines produced here at various price points.  I wonder how long it would take me to drink a bottle of each?  I try not to think how much it would cost to do so…</em></p>
 
@@ -377,29 +351,13 @@ if (typeof Object.assign !== 'function') {
 
 <p>Taking a bottle in hand, you’ll notice that there’s brail embedded in the wine labels.  Chapoutier was the first producer to do this in the mid-90s when Michel heard his blind friend explain that he needed to take someone with him to the store to identify each bottle of wine before he made his purchase.  After all, everyone is allowed to be picky with their wine choices!  I had to ask someone at the store, but apparently the Braille lists the producer, wine color, vineyard, vintage, and AOC region.  Pretty much everything you need to decide if you want it or not (remember: in France, listing the AOC gives you info about what grapes may have been used for the wine).  Chapoutier makes it even easier for the consumers.  Most of their wines are single varietal, so even if it lists an AOC only, you’ll know what you are getting in the bottle.  For example, their Châteauneuf-du-Papes are mostly varietal Grenaches, their red Hermitages are Syrahs and their white Hermitages are Marsanne only.</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chapoutier/5-1050by788-2da10e.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chapoutier/5-700by525-2da10e.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chapoutier/5-675by506-2da10e.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chapoutier/5-450by338-2da10e.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chapoutier/5-525by394-2da10e.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chapoutier/5-350by263-2da10e.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/chapoutier/5-350by263-2da10e.jpg" alt="" title="The terroirs" class="center-image" />
-  </picture>
+<p><img title="The terroirs" class="center-image" src="/assets/images/chapoutier/5-800-2da10e.jpg" srcset="/assets/images/chapoutier/5-400-2da10e.jpg 400w, /assets/images/chapoutier/5-600-2da10e.jpg 600w, /assets/images/chapoutier/5-800-2da10e.jpg 800w, /assets/images/chapoutier/5-1000-2da10e.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>A look at the different terroirs.  I like how they built the display into the flooring rather than displaying it on a pedastal next to the some of the displays.  It just felt right.  Though it did make it awkward for me to take pictures of it, haha.  NOTE: The wines from the three terroirs on the right were considerably more expensive than the ones on the left - for your consideration.</em></p>
 
 <p>Learning about all of this history inside the store and on my walk to the vineyards was really fascinating.  I have my conseiller en vins to thank for that: Julien Dreveton.  Julien has been working for Chapoutier for a while and just started his own wine label too: Domaine Des Louis.  Really excited for him and hope to be able follow in his footsteps…  NOTE: If you setup a tour-and-tasting instead of just doing the free tasting in the wine store, Chapoutier staff will walk you under the train station out into the actual vineyards.  I was surprised to hear that people are free to hike about the vines, so long as they do not interfere with them while doing so.</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chapoutier/6-1050by788-4e5984.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chapoutier/6-700by525-4e5984.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chapoutier/6-675by506-4e5984.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chapoutier/6-450by338-4e5984.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chapoutier/6-525by394-4e5984.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chapoutier/6-350by263-4e5984.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/chapoutier/6-350by263-4e5984.jpg" alt="" title="My guide through Chapoutier" class="center-image" />
-  </picture>
+<p><img title="My guide through Chapoutier" class="center-image" src="/assets/images/chapoutier/6-800-4e5984.jpg" srcset="/assets/images/chapoutier/6-400-4e5984.jpg 400w, /assets/images/chapoutier/6-600-4e5984.jpg 600w, /assets/images/chapoutier/6-800-4e5984.jpg 800w, /assets/images/chapoutier/6-1000-4e5984.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>A picture of the Chapoutier wine ambassador that took me on a tour of the vineyard and a tour of their portfolio.  Did I mention that he started his own label and is now producing wines too?</em></p>
 
@@ -458,15 +416,7 @@ if (typeof Object.assign !== 'function') {
   </li>
 </ul>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chapoutier/7-1050by788-a14b51.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chapoutier/7-700by525-a14b51.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chapoutier/7-675by506-a14b51.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chapoutier/7-450by338-a14b51.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chapoutier/7-525by394-a14b51.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/chapoutier/7-350by263-a14b51.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/chapoutier/7-350by263-a14b51.jpg" alt="" title="Standing spotlight" class="center-image" />
-  </picture>
+<p><img title="Standing spotlight" class="center-image" src="/assets/images/chapoutier/7-800-a14b51.jpg" srcset="/assets/images/chapoutier/7-400-a14b51.jpg 400w, /assets/images/chapoutier/7-600-a14b51.jpg 600w, /assets/images/chapoutier/7-800-a14b51.jpg 800w, /assets/images/chapoutier/7-1000-a14b51.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>Of course, I needed my turn in the spotlight.  These slopes are southfacing toward the west-east bend of the river, making it really bright out for most of the day and even necessitating the use of sunblock.</em></p>
 

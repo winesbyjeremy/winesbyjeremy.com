@@ -46,9 +46,9 @@
     
         <meta content="stags-leap" property="article:tag">
     
-<!-- Begin Jekyll SEO tag v2.5.0 -->
+<!-- Begin Jekyll SEO tag v2.6.1 -->
 <title>Shafer Private Tasting | Wines By Jeremy</title>
-<meta name="generator" content="Jekyll v3.8.5" />
+<meta name="generator" content="Jekyll v3.8.6" />
 <meta property="og:title" content="Shafer Private Tasting" />
 <meta name="author" content="Jeremy Myers" />
 <meta property="og:locale" content="en_US" />
@@ -61,7 +61,7 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2018-10-13T19:20:00+00:00" />
 <script type="application/ld+json">
-{"image":"https://www.winesbyjeremy.com/shafer/1.jpg","url":"https://www.winesbyjeremy.com/2018/10/13/shafer_private_tasting.html","headline":"Shafer Private Tasting","dateModified":"2018-10-13T19:20:00+00:00","datePublished":"2018-10-13T19:20:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.winesbyjeremy.com/2018/10/13/shafer_private_tasting.html"},"author":{"@type":"Person","name":"Jeremy Myers"},"description":"It’s hard for me to recall another winery with as large a production, well-known reputation, but as reclusive from the public eye as Shafer. But I totally understand and appreciate it - especially since we had the whole place to ourselves during our visit. Although the estate appears large and the tasting room is gorgeous, there are actually not many people onsite. Besides ourselves, the Shafer wine educator and the father/son proprietors, I don’t recall seeing anyone else on the property at the time. There were three workers in the field grafting vines, but that’s it.","@type":"BlogPosting","@context":"http://schema.org"}</script>
+{"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.winesbyjeremy.com/2018/10/13/shafer_private_tasting.html"},"image":"https://www.winesbyjeremy.com/shafer/1.jpg","url":"https://www.winesbyjeremy.com/2018/10/13/shafer_private_tasting.html","author":{"@type":"Person","name":"Jeremy Myers"},"description":"It’s hard for me to recall another winery with as large a production, well-known reputation, but as reclusive from the public eye as Shafer. But I totally understand and appreciate it - especially since we had the whole place to ourselves during our visit. Although the estate appears large and the tasting room is gorgeous, there are actually not many people onsite. Besides ourselves, the Shafer wine educator and the father/son proprietors, I don’t recall seeing anyone else on the property at the time. There were three workers in the field grafting vines, but that’s it.","headline":"Shafer Private Tasting","dateModified":"2018-10-13T19:20:00+00:00","datePublished":"2018-10-13T19:20:00+00:00","@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/css/main.css"><link type="application/atom+xml" rel="alternate" href="https://www.winesbyjeremy.com/feed.xml" title="Wines By Jeremy" /><script>
 if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1")) {
@@ -162,6 +162,7 @@ var jekyllMaps = (function() {
         position: position,
         title: location.title,
         image: location.image,
+        popup_html: location.popup_html,
         icon: location.icon || mapOptions.markerIcon,
         url: markerUrl(mapOptions.baseUrl, location.url),
         url_text: location.url_text,
@@ -180,14 +181,19 @@ var jekyllMaps = (function() {
 
     function markerPopup() {
       var content = '<div class="map-info-window"><h5>' + this.title + '</h5>'
-      var imageTag =
-        this.image.length > 0 &&
-        '<img src="' + this.image + '" alt="' + this.title + '"/>'
-      if (this.url.length > 0) {
-        var linkContent = imageTag || this.url_text || 'View'
-        content += '<a href="' + this.url + '">' + linkContent + '</a>'
-      } else if (imageTag) {
-        content += imageTag
+      if (this.popup_html.length > 0) {
+        content += this.popup_html
+      }
+      else {
+        var imageTag =
+          this.image.length > 0 &&
+          '<img src="' + this.image + '" alt="' + this.title + '"/>'
+        if (this.url.length > 0) {
+          var linkContent = imageTag || this.url_text || 'View'
+          content += '<a href="' + this.url + '">' + linkContent + '</a>'
+        } else if (imageTag) {
+          content += imageTag
+        }
       }
       content += '</div>'
       infoWindow.setContent(content)
@@ -305,11 +311,11 @@ if (typeof Object.assign !== 'function') {
       <meta itemprop="addressCountry" content="US" />
     </div>
   </div>
-    <div id='00538d3f-22d8-4cab-9c1e-1ea9ec438658' style='width:600px;height:400px;'></div>
+    <div id='1e132ec2-b8c7-4ce5-a58d-491bb28a08e6' style='width:600px;height:400px;'></div>
 <script type='text/javascript'>
   jekyllMaps.register(
-    '00538d3f-22d8-4cab-9c1e-1ea9ec438658',
-    [{"latitude":38.421002,"longitude":-122.326365,"title":"Shafer Private Tasting","icon":null,"url":"/2018/10/13/shafer_private_tasting.html","url_text":null,"image":"shafer/1.jpg"}],
+    '1e132ec2-b8c7-4ce5-a58d-491bb28a08e6',
+    [{"latitude":38.421002,"longitude":-122.326365,"title":"Shafer Private Tasting","icon":null,"url":"/2018/10/13/shafer_private_tasting.html","url_text":null,"image":"shafer/1.jpg","popup_html":""}],
     {"baseUrl":"","useCluster":true,"showMarker":true,"showMarkerPopup":true,"markerIcon":null,"customZoom":16}
   );
 </script>
@@ -323,15 +329,7 @@ if (typeof Object.assign !== 'function') {
 
 <p>Many people don’t make it past Stags Leap Cellars (which is also great) when they visit the Stags Leap AVA.  Besides driving past the 1976 Judgement of Paris winner for red wines, there are other obstacles to visiting Shafer, such as it’s only open on weekdays and by tasting appointment only.  But once you make it there, your realize the journey was well worth it…  Quite a number of fantastic wines to taste, fantastic views of the hillside from the winery with grapevines completely surrounding the building, and a great educational experience with a takeaway notebook detailing their wines, origins and process.</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/shafer/1-1050by723-df8a57.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/shafer/1-700by482-df8a57.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/shafer/1-675by465-df8a57.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/shafer/1-450by310-df8a57.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/shafer/1-525by362-df8a57.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/shafer/1-350by241-df8a57.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/shafer/1-350by241-df8a57.jpg" alt="" title="some good looking folks there" class="center-image" />
-  </picture>
+<p><img title="some good looking folks there" class="center-image" src="/assets/images/shafer/1-800-df8a57.jpg" srcset="/assets/images/shafer/1-400-df8a57.jpg 400w, /assets/images/shafer/1-600-df8a57.jpg 600w, /assets/images/shafer/1-800-df8a57.jpg 800w, /assets/images/shafer/1-1000-df8a57.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>Group picture along the gravel road in front of the winery</em></p>
 
@@ -367,29 +365,13 @@ if (typeof Object.assign !== 'function') {
 
 <p>The converation with our wine guide was also very enjoyable and unhurried - I think we spent 2.5 hours on the property.  And although their website limits the number of guests to 8, there is room enough at the table for more - it just gets roudier and harder to hear the wine guide, which is why they like to impose that limit.  Not surprisingly though, our group quieted down when we dug into the wines, as if the seriousness of the wines made us serious when tasting them.</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/shafer/2-1050by700-7b3867.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/shafer/2-700by467-7b3867.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/shafer/2-675by450-7b3867.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/shafer/2-450by300-7b3867.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/shafer/2-525by350-7b3867.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/shafer/2-350by233-7b3867.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/shafer/2-350by233-7b3867.jpg" alt="" title="rolling hills make some smooth wine" class="center-image" />
-  </picture>
+<p><img title="rolling hills make some smooth wine" class="center-image" src="/assets/images/shafer/2-800-7b3867.jpg" srcset="/assets/images/shafer/2-400-7b3867.jpg 400w, /assets/images/shafer/2-600-7b3867.jpg 600w, /assets/images/shafer/2-800-7b3867.jpg 800w, /assets/images/shafer/2-1000-7b3867.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>Some of their softer rolling hills that make some softer, more rounded wines that can be drunk early</em></p>
 
 <p>The converation with our wine guide was also very enjoyable and unhurried - I think we spent 2.5 hours on the property.  And although their website limits the number of guests to 8, there is room enough at the table for more - it just gets roudier and harder to hear the wine guide, which is why they like to impose that limit.  Not surprisingly though, our group quieted down when we dug into the wines, as if the seriousness of the wines made us serious when tasting them.</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/shafer/3-1050by788-dba061.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/shafer/3-700by525-dba061.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/shafer/3-675by506-dba061.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/shafer/3-450by338-dba061.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/shafer/3-525by394-dba061.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/shafer/3-350by263-dba061.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/shafer/3-350by263-dba061.jpg" alt="" title="steeper hills make the interesting stuff" class="center-image" />
-  </picture>
+<p><img title="steeper hills make the interesting stuff" class="center-image" src="/assets/images/shafer/3-800-dba061.jpg" srcset="/assets/images/shafer/3-400-dba061.jpg 400w, /assets/images/shafer/3-600-dba061.jpg 600w, /assets/images/shafer/3-800-dba061.jpg 800w, /assets/images/shafer/3-1000-dba061.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>Some of their rougher hills that make the Hillside Select, an enormous wine that needs so time in the cellar but will reward patience handsomely…</em></p>
 

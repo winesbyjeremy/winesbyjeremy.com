@@ -46,9 +46,9 @@
     
         <meta content="chateauneuf-du-pape" property="article:tag">
     
-<!-- Begin Jekyll SEO tag v2.5.0 -->
+<!-- Begin Jekyll SEO tag v2.6.1 -->
 <title>Domaine du Pegau Public Tasting | Wines By Jeremy</title>
-<meta name="generator" content="Jekyll v3.8.5" />
+<meta name="generator" content="Jekyll v3.8.6" />
 <meta property="og:title" content="Domaine du Pegau Public Tasting" />
 <meta name="author" content="Jeremy Myers" />
 <meta property="og:locale" content="en_US" />
@@ -61,7 +61,7 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2019-05-25T19:20:00+00:00" />
 <script type="application/ld+json">
-{"image":"https://www.winesbyjeremy.com/domaine-pegau/3.jpg","url":"https://www.winesbyjeremy.com/2019/05/25/domaine_du_pegau_public_tasting.html","headline":"Domaine du Pegau Public Tasting","dateModified":"2019-05-25T19:20:00+00:00","datePublished":"2019-05-25T19:20:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.winesbyjeremy.com/2019/05/25/domaine_du_pegau_public_tasting.html"},"author":{"@type":"Person","name":"Jeremy Myers"},"description":"The 2012 Domaine du Pegau was one of the first bottles that truly opened my eyes to the possibilities of the world of wine. Up until that point, I had mostly tasted fruit driven (American) wines, wines with both fruit and terroir influence (Bordeaux), and those that were driven by wood and age (Spanish). Never would I have thought that a wine could taste like a rare roast beef with crackling black pepper. That was my introduction to the garrigue character of French Syrah from the Rhone. Afterthat wine, I remember wanting to explore more wines from more areas to see what exotic flavor profiles were out there. It’s strange to look back on that experience today now that I am a WSET Diploma student preparing for my Unit #3 exam. Time does truly fly and I am very appreciative of the wines that first piqued my curiosity. You can definitely count Domaine du Pegau among them.","@type":"BlogPosting","@context":"http://schema.org"}</script>
+{"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.winesbyjeremy.com/2019/05/25/domaine_du_pegau_public_tasting.html"},"image":"https://www.winesbyjeremy.com/domaine-pegau/3.jpg","url":"https://www.winesbyjeremy.com/2019/05/25/domaine_du_pegau_public_tasting.html","author":{"@type":"Person","name":"Jeremy Myers"},"description":"The 2012 Domaine du Pegau was one of the first bottles that truly opened my eyes to the possibilities of the world of wine. Up until that point, I had mostly tasted fruit driven (American) wines, wines with both fruit and terroir influence (Bordeaux), and those that were driven by wood and age (Spanish). Never would I have thought that a wine could taste like a rare roast beef with crackling black pepper. That was my introduction to the garrigue character of French Syrah from the Rhone. Afterthat wine, I remember wanting to explore more wines from more areas to see what exotic flavor profiles were out there. It’s strange to look back on that experience today now that I am a WSET Diploma student preparing for my Unit #3 exam. Time does truly fly and I am very appreciative of the wines that first piqued my curiosity. You can definitely count Domaine du Pegau among them.","headline":"Domaine du Pegau Public Tasting","dateModified":"2019-05-25T19:20:00+00:00","datePublished":"2019-05-25T19:20:00+00:00","@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/css/main.css"><link type="application/atom+xml" rel="alternate" href="https://www.winesbyjeremy.com/feed.xml" title="Wines By Jeremy" /><script>
 if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1")) {
@@ -162,6 +162,7 @@ var jekyllMaps = (function() {
         position: position,
         title: location.title,
         image: location.image,
+        popup_html: location.popup_html,
         icon: location.icon || mapOptions.markerIcon,
         url: markerUrl(mapOptions.baseUrl, location.url),
         url_text: location.url_text,
@@ -180,14 +181,19 @@ var jekyllMaps = (function() {
 
     function markerPopup() {
       var content = '<div class="map-info-window"><h5>' + this.title + '</h5>'
-      var imageTag =
-        this.image.length > 0 &&
-        '<img src="' + this.image + '" alt="' + this.title + '"/>'
-      if (this.url.length > 0) {
-        var linkContent = imageTag || this.url_text || 'View'
-        content += '<a href="' + this.url + '">' + linkContent + '</a>'
-      } else if (imageTag) {
-        content += imageTag
+      if (this.popup_html.length > 0) {
+        content += this.popup_html
+      }
+      else {
+        var imageTag =
+          this.image.length > 0 &&
+          '<img src="' + this.image + '" alt="' + this.title + '"/>'
+        if (this.url.length > 0) {
+          var linkContent = imageTag || this.url_text || 'View'
+          content += '<a href="' + this.url + '">' + linkContent + '</a>'
+        } else if (imageTag) {
+          content += imageTag
+        }
       }
       content += '</div>'
       infoWindow.setContent(content)
@@ -305,11 +311,11 @@ if (typeof Object.assign !== 'function') {
       <meta itemprop="addressCountry" content="FR" />
     </div>
   </div>
-    <div id='4519faa5-5451-445b-b471-5c9330427205' style='width:600px;height:400px;'></div>
+    <div id='e284eb7a-cd54-40bc-b33d-226ed8670646' style='width:600px;height:400px;'></div>
 <script type='text/javascript'>
   jekyllMaps.register(
-    '4519faa5-5451-445b-b471-5c9330427205',
-    [{"latitude":44.056932,"longitude":4.832361,"title":"Domaine du Pegau Public Tasting","icon":null,"url":"/2019/05/25/domaine_du_pegau_public_tasting.html","url_text":null,"image":"domaine-pegau/3.jpg"}],
+    'e284eb7a-cd54-40bc-b33d-226ed8670646',
+    [{"latitude":44.056932,"longitude":4.832361,"title":"Domaine du Pegau Public Tasting","icon":null,"url":"/2019/05/25/domaine_du_pegau_public_tasting.html","url_text":null,"image":"domaine-pegau/3.jpg","popup_html":""}],
     {"baseUrl":"","useCluster":true,"showMarker":true,"showMarkerPopup":true,"markerIcon":null,"customZoom":16}
   );
 </script>
@@ -321,41 +327,17 @@ if (typeof Object.assign !== 'function') {
   <span itemprop="reviewBody">
     <p>The 2012 Domaine du Pegau was one of the first bottles that truly opened my eyes to the possibilities of the world of wine.  Up until that point, I had mostly tasted fruit driven (American) wines, wines with both fruit and terroir influence (Bordeaux), and those that were driven by wood and age (Spanish).  Never would I have thought that a wine could taste like a rare roast beef with crackling black pepper.  That was my introduction to the garrigue character of French Syrah from the Rhone.  Afterthat wine, I remember wanting to explore more wines from more areas to see what exotic flavor profiles were out there.  It’s strange to look back on that experience today now that I am a WSET Diploma student preparing for my Unit #3 exam.  Time does truly fly and I am very appreciative of the wines that first piqued my curiosity.  You can definitely count Domaine du Pegau among them.</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-pegau/1-1050by788-3d4fd5.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-pegau/1-700by525-3d4fd5.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-pegau/1-675by506-3d4fd5.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-pegau/1-450by338-3d4fd5.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-pegau/1-525by394-3d4fd5.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-pegau/1-350by263-3d4fd5.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/domaine-pegau/1-350by263-3d4fd5.jpg" alt="" title="Google was Wrong" class="center-image" />
-  </picture>
+<p><img title="Google was Wrong" class="center-image" src="/assets/images/domaine-pegau/1-800-3d4fd5.jpg" srcset="/assets/images/domaine-pegau/1-400-3d4fd5.jpg 400w, /assets/images/domaine-pegau/1-600-3d4fd5.jpg 600w, /assets/images/domaine-pegau/1-800-3d4fd5.jpg 800w, /assets/images/domaine-pegau/1-1000-3d4fd5.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>If you want to visit Domaine du Pegau during your journey to Châteauneuf-du-Pape as well, be warned.  Do not follow Google Maps.  Instead, ask around town for the correct location for their storefront and most people will be glad to point you in the right direction.</em></p>
 
 <p>So of course, when preparing my itinerary for the Châteauneuf-du-Pape area, I had to make sure I went and paid homage.  The first thing I did when I set out for the morning (as I do every morning when visiting wineries) was plug in the name into Google Maps and follow the directions.  You can see in the picture above, I was rather surprised to find that Google led me to the end of a street where vines were growing in a field.  I never figured out if those vines belonged to Domaine du Pegau because I was a little embarrassed to ask once I arrived at their storefront in town, but I suspect they did.  I’m pretty sure that if you look at some other results in Google Maps when looking up the winery, there is one that will seem like a store - that is the place you want to head towards.  As you can see below, I was rather happy to find it.</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-pegau/2-1050by788-528eb2.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-pegau/2-700by525-528eb2.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-pegau/2-675by506-528eb2.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-pegau/2-450by338-528eb2.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-pegau/2-525by394-528eb2.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-pegau/2-350by263-528eb2.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/domaine-pegau/2-350by263-528eb2.jpg" alt="" title="Finally found it" class="center-image" />
-  </picture>
+<p><img title="Finally found it" class="center-image" src="/assets/images/domaine-pegau/2-800-528eb2.jpg" srcset="/assets/images/domaine-pegau/2-400-528eb2.jpg 400w, /assets/images/domaine-pegau/2-600-528eb2.jpg 600w, /assets/images/domaine-pegau/2-800-528eb2.jpg 800w, /assets/images/domaine-pegau/2-1000-528eb2.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>It took a little more effort than I had hoped, but I finally found my destination.  You can tell I was very happy and proud of myself.  I was also confused too.  Why would a place like Domaine du Pegau, with the international brand that it has, be so quiet during the middle of the day on a weekend.  I was fine with the fact that it just meant more attention for me…</em></p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-pegau/3-1050by788-94d2a9.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-pegau/3-700by525-94d2a9.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-pegau/3-675by506-94d2a9.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-pegau/3-450by338-94d2a9.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-pegau/3-525by394-94d2a9.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-pegau/3-350by263-94d2a9.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/domaine-pegau/3-350by263-94d2a9.jpg" alt="" title="Happy to see me" class="center-image" />
-  </picture>
+<p><img title="Happy to see me" class="center-image" src="/assets/images/domaine-pegau/3-800-94d2a9.jpg" srcset="/assets/images/domaine-pegau/3-400-94d2a9.jpg 400w, /assets/images/domaine-pegau/3-600-94d2a9.jpg 600w, /assets/images/domaine-pegau/3-800-94d2a9.jpg 800w, /assets/images/domaine-pegau/3-1000-94d2a9.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>Although their tasting room and experience (only two wines to taste) is fairly simple, it is still worth spending 30 minutes to stop by while you are in town.  The tasting is free, so what have you got to lose?  The worst thing that can happen is that you fall in love with the wines and debate whether to ship a case back home or whether you have the patience to find a store that has enough bottles to satisfy you.</em></p>
 
@@ -376,29 +358,13 @@ if (typeof Object.assign !== 'function') {
   </li>
 </ul>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-pegau/4-1050by1400-8af93a.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-pegau/4-700by933-8af93a.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-pegau/4-675by900-8af93a.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-pegau/4-450by600-8af93a.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-pegau/4-525by700-8af93a.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-pegau/4-350by467-8af93a.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/domaine-pegau/4-350by467-8af93a.jpg" alt="" title="I need that wine in my collection" class="center-image" />
-  </picture>
+<p><img title="I need that wine in my collection" class="center-image" src="/assets/images/domaine-pegau/4-800-8af93a.jpg" srcset="/assets/images/domaine-pegau/4-400-8af93a.jpg 400w, /assets/images/domaine-pegau/4-600-8af93a.jpg 600w, /assets/images/domaine-pegau/4-800-8af93a.jpg 800w, /assets/images/domaine-pegau/4-1000-8af93a.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>What you see here are the best bottles in their collection.  Past vintages of their Laurence, Cuvee de Capo (their Creme de la Creme produced in select years), and special bottlings produced only during the years when the owners gave birth to their children.  That’s definitely one way to make your kids famous.  Sadly, these were outside of my price range and definitely were not going to be served at a tasting like this…</em></p>
 
 <p>As I mentioned in one of the captions above, there is no reason not to stop by Domaine du Pegau.  It’s right in town, does not require a reservation, does not require a tasting fee, and will likely be higher quality than many of the wines you will find in town.  There’s also a very good chance you could find their Cuvee Reservee in stores back in the USA if you wanted to buy bottles in the future.  I only wish they made more wines and had their Blanc available to taste - the Cuvee Reservee Blanc is produced in very small quantities (4200 bottles a year) and sells out quickly each vintage.</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-pegau/5-1050by788-2c4a9a.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-pegau/5-700by525-2c4a9a.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-pegau/5-675by506-2c4a9a.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-pegau/5-450by338-2c4a9a.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-pegau/5-525by394-2c4a9a.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/domaine-pegau/5-350by263-2c4a9a.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/domaine-pegau/5-350by263-2c4a9a.jpg" alt="" title="For those that do buy a bottle..." class="center-image" />
-  </picture>
+<p><img title="For those that do buy a bottle..." class="center-image" src="/assets/images/domaine-pegau/5-800-2c4a9a.jpg" srcset="/assets/images/domaine-pegau/5-400-2c4a9a.jpg 400w, /assets/images/domaine-pegau/5-600-2c4a9a.jpg 600w, /assets/images/domaine-pegau/5-800-2c4a9a.jpg 800w, /assets/images/domaine-pegau/5-1000-2c4a9a.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>If you do choose to buy a bottle at the store and want to enjoy it immediately, there is a common room a bit further back in the cave.  It’s nice and cool compared to the likely temperature outside and is therefore very tempting.  Since I was traveling alone and in a hurry to try as many wines as possible, I didn’t have a chance to relax here.</em></p>
 

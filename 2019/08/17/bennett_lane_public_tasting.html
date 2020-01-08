@@ -46,9 +46,9 @@
     
         <meta content="calistoga" property="article:tag">
     
-<!-- Begin Jekyll SEO tag v2.5.0 -->
+<!-- Begin Jekyll SEO tag v2.6.1 -->
 <title>Bennett Lane Reserve Tasting | Wines By Jeremy</title>
-<meta name="generator" content="Jekyll v3.8.5" />
+<meta name="generator" content="Jekyll v3.8.6" />
 <meta property="og:title" content="Bennett Lane Reserve Tasting" />
 <meta name="author" content="Jeremy Myers" />
 <meta property="og:locale" content="en_US" />
@@ -61,7 +61,7 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2019-08-17T19:20:00+00:00" />
 <script type="application/ld+json">
-{"image":"https://www.winesbyjeremy.com/bennett-lane/2.jpg","url":"https://www.winesbyjeremy.com/2019/08/17/bennett_lane_public_tasting.html","headline":"Bennett Lane Reserve Tasting","dateModified":"2019-08-17T19:20:00+00:00","datePublished":"2019-08-17T19:20:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.winesbyjeremy.com/2019/08/17/bennett_lane_public_tasting.html"},"author":{"@type":"Person","name":"Jeremy Myers"},"description":"The more wineries I visit in Calistoga, the more convinced I become that it’s the hidden value area of Napa. Bennett Lane was not on my radar before I began planning an itinerary for the weekend; I just happened to notice that it was directly next to where the Spire Collection holds its tastings. It isn’t as ostentatious as other wineries, but it makes solid wines that balance the fruit development with the weight and acidity on the palate. And if you are a patient buyer, you may find discounted bottles on distribution sites, such as Vivino, and use the opportunity to stock up! Having tasted at the winery and enjoyed several bottlings through online purchases, I highly recommend you visit and taste for yourself!","@type":"BlogPosting","@context":"http://schema.org"}</script>
+{"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.winesbyjeremy.com/2019/08/17/bennett_lane_public_tasting.html"},"image":"https://www.winesbyjeremy.com/bennett-lane/2.jpg","url":"https://www.winesbyjeremy.com/2019/08/17/bennett_lane_public_tasting.html","author":{"@type":"Person","name":"Jeremy Myers"},"description":"The more wineries I visit in Calistoga, the more convinced I become that it’s the hidden value area of Napa. Bennett Lane was not on my radar before I began planning an itinerary for the weekend; I just happened to notice that it was directly next to where the Spire Collection holds its tastings. It isn’t as ostentatious as other wineries, but it makes solid wines that balance the fruit development with the weight and acidity on the palate. And if you are a patient buyer, you may find discounted bottles on distribution sites, such as Vivino, and use the opportunity to stock up! Having tasted at the winery and enjoyed several bottlings through online purchases, I highly recommend you visit and taste for yourself!","headline":"Bennett Lane Reserve Tasting","dateModified":"2019-08-17T19:20:00+00:00","datePublished":"2019-08-17T19:20:00+00:00","@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/css/main.css"><link type="application/atom+xml" rel="alternate" href="https://www.winesbyjeremy.com/feed.xml" title="Wines By Jeremy" /><script>
 if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1")) {
@@ -162,6 +162,7 @@ var jekyllMaps = (function() {
         position: position,
         title: location.title,
         image: location.image,
+        popup_html: location.popup_html,
         icon: location.icon || mapOptions.markerIcon,
         url: markerUrl(mapOptions.baseUrl, location.url),
         url_text: location.url_text,
@@ -180,14 +181,19 @@ var jekyllMaps = (function() {
 
     function markerPopup() {
       var content = '<div class="map-info-window"><h5>' + this.title + '</h5>'
-      var imageTag =
-        this.image.length > 0 &&
-        '<img src="' + this.image + '" alt="' + this.title + '"/>'
-      if (this.url.length > 0) {
-        var linkContent = imageTag || this.url_text || 'View'
-        content += '<a href="' + this.url + '">' + linkContent + '</a>'
-      } else if (imageTag) {
-        content += imageTag
+      if (this.popup_html.length > 0) {
+        content += this.popup_html
+      }
+      else {
+        var imageTag =
+          this.image.length > 0 &&
+          '<img src="' + this.image + '" alt="' + this.title + '"/>'
+        if (this.url.length > 0) {
+          var linkContent = imageTag || this.url_text || 'View'
+          content += '<a href="' + this.url + '">' + linkContent + '</a>'
+        } else if (imageTag) {
+          content += imageTag
+        }
       }
       content += '</div>'
       infoWindow.setContent(content)
@@ -305,11 +311,11 @@ if (typeof Object.assign !== 'function') {
       <meta itemprop="addressCountry" content="US" />
     </div>
   </div>
-    <div id='d9f0eb18-e0bd-4fb3-b983-3e2c9798c14b' style='width:600px;height:400px;'></div>
+    <div id='3b35338e-37c9-4b55-8a3d-439a68652be5' style='width:600px;height:400px;'></div>
 <script type='text/javascript'>
   jekyllMaps.register(
-    'd9f0eb18-e0bd-4fb3-b983-3e2c9798c14b',
-    [{"latitude":38.599919,"longitude":-122.615221,"title":"Bennett Lane Reserve Tasting","icon":null,"url":"/2019/08/17/bennett_lane_public_tasting.html","url_text":null,"image":"bennett-lane/2.jpg"}],
+    '3b35338e-37c9-4b55-8a3d-439a68652be5',
+    [{"latitude":38.599919,"longitude":-122.615221,"title":"Bennett Lane Reserve Tasting","icon":null,"url":"/2019/08/17/bennett_lane_public_tasting.html","url_text":null,"image":"bennett-lane/2.jpg","popup_html":""}],
     {"baseUrl":"","useCluster":true,"showMarker":true,"showMarkerPopup":true,"markerIcon":null,"customZoom":16}
   );
 </script>
@@ -321,67 +327,27 @@ if (typeof Object.assign !== 'function') {
   <span itemprop="reviewBody">
     <p>The more wineries I visit in Calistoga, the more convinced I become that it’s the hidden value area of Napa.  Bennett Lane was not on my radar before I began planning an itinerary for the weekend; I just happened to notice that it was directly next to where the Spire Collection holds its tastings.  It isn’t as ostentatious as other wineries, but it makes solid wines that balance the fruit development with the weight and acidity on the palate.  And if you are a patient buyer, you may find discounted bottles on distribution sites, such as Vivino, and use the opportunity to stock up!  Having tasted at the winery and enjoyed several bottlings through online purchases, I highly recommend you visit and taste for yourself!</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/bennett-lane/1-1050by788-f9a7d2.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/bennett-lane/1-700by525-f9a7d2.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/bennett-lane/1-675by506-f9a7d2.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/bennett-lane/1-450by338-f9a7d2.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/bennett-lane/1-525by394-f9a7d2.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/bennett-lane/1-350by263-f9a7d2.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/bennett-lane/1-350by263-f9a7d2.jpg" alt="" title="The Winery Entrance" class="center-image" />
-  </picture>
+<p><img title="The Winery Entrance" class="center-image" src="/assets/images/bennett-lane/1-800-f9a7d2.jpg" srcset="/assets/images/bennett-lane/1-400-f9a7d2.jpg 400w, /assets/images/bennett-lane/1-600-f9a7d2.jpg 600w, /assets/images/bennett-lane/1-800-f9a7d2.jpg 800w, /assets/images/bennett-lane/1-1000-f9a7d2.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>Bennett Lane is a no-frills winery deep into the Calistoga AVA.  It is located right across the street from the building used to taste the Spire Collection wines under the Jackson family.  If you sign up to taste the latter, this is a perfect pitstop right before or after lunch in the area.</em></p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/bennett-lane/2-1050by788-fb13e6.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/bennett-lane/2-700by525-fb13e6.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/bennett-lane/2-675by506-fb13e6.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/bennett-lane/2-450by338-fb13e6.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/bennett-lane/2-525by394-fb13e6.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/bennett-lane/2-350by263-fb13e6.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/bennett-lane/2-350by263-fb13e6.jpg" alt="" title="The tasting area" class="center-image" />
-  </picture>
+<p><img title="The tasting area" class="center-image" src="/assets/images/bennett-lane/2-800-fb13e6.jpg" srcset="/assets/images/bennett-lane/2-400-fb13e6.jpg 400w, /assets/images/bennett-lane/2-600-fb13e6.jpg 600w, /assets/images/bennett-lane/2-800-fb13e6.jpg 800w, /assets/images/bennett-lane/2-1000-fb13e6.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>It is a shame that Bennett Lane is not well known.  It has a refined interior, but again, they don’t go over the top.  The wine is on point as well.  Because we had the winery to ourselves on a Sunday afternoon, we were lucky to taste through some of the Reserve bottlings that aren’t normally available.</em></p>
 
 <p>Bennett Lane Winery’s beginnings follow that of many others - the owner(s) were influenced by wine or a wine region at some point in their life and realized that living that dream is the next step after accomplishing what they set out to do in business.  It certainly is my dream.  From both the architecture and their blends (the Maximus brand), you can tell that Italy was the main influence and it translates well to this property.  The pictures above and below hopefully give you some insight on what to expect in the tasting room.</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/bennett-lane/3-1050by788-f0a471.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/bennett-lane/3-700by525-f0a471.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/bennett-lane/3-675by506-f0a471.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/bennett-lane/3-450by338-f0a471.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/bennett-lane/3-525by394-f0a471.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/bennett-lane/3-350by263-f0a471.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/bennett-lane/3-350by263-f0a471.jpg" alt="" title="The tasting bar" class="center-image" />
-  </picture>
+<p><img title="The tasting bar" class="center-image" src="/assets/images/bennett-lane/3-800-f0a471.jpg" srcset="/assets/images/bennett-lane/3-400-f0a471.jpg 400w, /assets/images/bennett-lane/3-600-f0a471.jpg 600w, /assets/images/bennett-lane/3-800-f0a471.jpg 800w, /assets/images/bennett-lane/3-1000-f0a471.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>The 180 degree view from the picture above.  I have no idea what my friend Simon is looking at.  I’ve squinted at this picture several times and don’t see a tasting sheet on the bar.  Do you?  Perhaps he is deep in thought, getting ready for the wines to come.</em></p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/bennett-lane/4-1050by1400-1682b0.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/bennett-lane/4-700by933-1682b0.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/bennett-lane/4-675by900-1682b0.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/bennett-lane/4-450by600-1682b0.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/bennett-lane/4-525by700-1682b0.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/bennett-lane/4-350by467-1682b0.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/bennett-lane/4-350by467-1682b0.jpg" alt="" title="The Chardonnay was good" class="center-image" />
-  </picture>
+<p><img title="The Chardonnay was good" class="center-image" src="/assets/images/bennett-lane/4-800-1682b0.jpg" srcset="/assets/images/bennett-lane/4-400-1682b0.jpg 400w, /assets/images/bennett-lane/4-600-1682b0.jpg 600w, /assets/images/bennett-lane/4-800-1682b0.jpg 800w, /assets/images/bennett-lane/4-1000-1682b0.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>A picture with their 2016 Reserve chardonnay from the Sangiacomo Vineyard over in Carneros.  I remember being pleasantly surprised by the balance of the wine.  It was neither too heavy, nor too light, and with the right amount of acid.  The flavors between the fruit and wood melded together nicely as well.</em></p>
 
 <p>Similar to the winery itself, the wine ambassador was courteous and direct about the tasting.  We chose the reserve tasting (and that lineup is reflected below), but one may also choose the traditional tasting to get a better sense of the Maximus wines.  At a previous tasting, I heard about the high quality and decent prices for their Cabernets, but I would also love to visit again to taste their blend of Sauvignon Blanc, Chardonnay and Muscat Canelli (Maximus White) and their Bordeaux blend of Cabernet Sauvignon and Franc, Merlot, Syrah, and Petit Verdot (Maxiumus Red).</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/bennett-lane/5-1050by788-1183d6.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/bennett-lane/5-700by525-1183d6.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/bennett-lane/5-675by506-1183d6.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/bennett-lane/5-450by338-1183d6.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/bennett-lane/5-525by394-1183d6.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/bennett-lane/5-350by263-1183d6.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/bennett-lane/5-350by263-1183d6.jpg" alt="" title="Soil Samples..." class="center-image" />
-  </picture>
+<p><img title="Soil Samples..." class="center-image" src="/assets/images/bennett-lane/5-800-1183d6.jpg" srcset="/assets/images/bennett-lane/5-400-1183d6.jpg 400w, /assets/images/bennett-lane/5-600-1183d6.jpg 600w, /assets/images/bennett-lane/5-800-1183d6.jpg 800w, /assets/images/bennett-lane/5-1000-1183d6.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>Yes, I nerded out a bit discussing the different plots that the grapes were farmed from.  These aren’t the most recognizable plots from the Napa Valley, which means that there may be an opportunity to find a bottle that hits above its price range.  I think the Lewelling vineyard was my favorite plot from the tasting.</em></p>
 

@@ -46,9 +46,9 @@
     
         <meta content="carneros" property="article:tag">
     
-<!-- Begin Jekyll SEO tag v2.5.0 -->
+<!-- Begin Jekyll SEO tag v2.6.1 -->
 <title>Kieu Hoang Public Tasting | Wines By Jeremy</title>
-<meta name="generator" content="Jekyll v3.8.5" />
+<meta name="generator" content="Jekyll v3.8.6" />
 <meta property="og:title" content="Kieu Hoang Public Tasting" />
 <meta name="author" content="Jeremy Myers" />
 <meta property="og:locale" content="en_US" />
@@ -61,7 +61,7 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2019-11-30T19:20:00+00:00" />
 <script type="application/ld+json">
-{"image":"https://www.winesbyjeremy.com/kieu-hoang/4.jpg","url":"https://www.winesbyjeremy.com/2019/11/30/kieu_hoang_public_tasting.html","headline":"Kieu Hoang Public Tasting","dateModified":"2019-11-30T19:20:00+00:00","datePublished":"2019-11-30T19:20:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.winesbyjeremy.com/2019/11/30/kieu_hoang_public_tasting.html"},"author":{"@type":"Person","name":"Jeremy Myers"},"description":"Kieu Hoang was a nice stop to unwind after a long day of tasting. The views from the balcony are great, the wine and tasting fees are affordable, and the wines themselves are pleasant and easy to drink. Though, if you asked me whether I would visit the winery again, the answer is likely “no”. It wasn’t the most memorable experience, the wine ambassador wasn’t the most engaging, and the wines did not ship well (a large percentage of the bottles we shipped back to DC were faulty - not just one or two). People have asked me why I wouldn’t give a winery a second chance. My response is that there are ~425 wineries in Sonoma. I will not likely be able to taste at all of them in my lifetime, so why bother trying the same one twice, especially if I didn’t like it the first time?","@type":"BlogPosting","@context":"http://schema.org"}</script>
+{"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.winesbyjeremy.com/2019/11/30/kieu_hoang_public_tasting.html"},"image":"https://www.winesbyjeremy.com/kieu-hoang/4.jpg","url":"https://www.winesbyjeremy.com/2019/11/30/kieu_hoang_public_tasting.html","author":{"@type":"Person","name":"Jeremy Myers"},"description":"Kieu Hoang was a nice stop to unwind after a long day of tasting. The views from the balcony are great, the wine and tasting fees are affordable, and the wines themselves are pleasant and easy to drink. Though, if you asked me whether I would visit the winery again, the answer is likely “no”. It wasn’t the most memorable experience, the wine ambassador wasn’t the most engaging, and the wines did not ship well (a large percentage of the bottles we shipped back to DC were faulty - not just one or two). People have asked me why I wouldn’t give a winery a second chance. My response is that there are ~425 wineries in Sonoma. I will not likely be able to taste at all of them in my lifetime, so why bother trying the same one twice, especially if I didn’t like it the first time?","headline":"Kieu Hoang Public Tasting","dateModified":"2019-11-30T19:20:00+00:00","datePublished":"2019-11-30T19:20:00+00:00","@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/css/main.css"><link type="application/atom+xml" rel="alternate" href="https://www.winesbyjeremy.com/feed.xml" title="Wines By Jeremy" /><script>
 if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1")) {
@@ -162,6 +162,7 @@ var jekyllMaps = (function() {
         position: position,
         title: location.title,
         image: location.image,
+        popup_html: location.popup_html,
         icon: location.icon || mapOptions.markerIcon,
         url: markerUrl(mapOptions.baseUrl, location.url),
         url_text: location.url_text,
@@ -180,14 +181,19 @@ var jekyllMaps = (function() {
 
     function markerPopup() {
       var content = '<div class="map-info-window"><h5>' + this.title + '</h5>'
-      var imageTag =
-        this.image.length > 0 &&
-        '<img src="' + this.image + '" alt="' + this.title + '"/>'
-      if (this.url.length > 0) {
-        var linkContent = imageTag || this.url_text || 'View'
-        content += '<a href="' + this.url + '">' + linkContent + '</a>'
-      } else if (imageTag) {
-        content += imageTag
+      if (this.popup_html.length > 0) {
+        content += this.popup_html
+      }
+      else {
+        var imageTag =
+          this.image.length > 0 &&
+          '<img src="' + this.image + '" alt="' + this.title + '"/>'
+        if (this.url.length > 0) {
+          var linkContent = imageTag || this.url_text || 'View'
+          content += '<a href="' + this.url + '">' + linkContent + '</a>'
+        } else if (imageTag) {
+          content += imageTag
+        }
       }
       content += '</div>'
       infoWindow.setContent(content)
@@ -305,11 +311,11 @@ if (typeof Object.assign !== 'function') {
       <meta itemprop="addressCountry" content="US" />
     </div>
   </div>
-    <div id='87464b58-a80f-4b11-99f5-aedeb3cb04a6' style='width:600px;height:400px;'></div>
+    <div id='b3ad73e6-932b-4796-b38e-93a1812852d3' style='width:600px;height:400px;'></div>
 <script type='text/javascript'>
   jekyllMaps.register(
-    '87464b58-a80f-4b11-99f5-aedeb3cb04a6',
-    [{"latitude":38.267947,"longitude":-122.34832,"title":"Kieu Hoang Public Tasting","icon":null,"url":"/2019/11/30/kieu_hoang_public_tasting.html","url_text":null,"image":"kieu-hoang/4.jpg"}],
+    'b3ad73e6-932b-4796-b38e-93a1812852d3',
+    [{"latitude":38.267947,"longitude":-122.34832,"title":"Kieu Hoang Public Tasting","icon":null,"url":"/2019/11/30/kieu_hoang_public_tasting.html","url_text":null,"image":"kieu-hoang/4.jpg","popup_html":""}],
     {"baseUrl":"","useCluster":true,"showMarker":true,"showMarkerPopup":true,"markerIcon":null,"customZoom":16}
   );
 </script>
@@ -321,67 +327,27 @@ if (typeof Object.assign !== 'function') {
   <span itemprop="reviewBody">
     <p>Kieu Hoang was a nice stop to unwind after a long day of tasting.  The views from the balcony are great, the wine and tasting fees are affordable, and the wines themselves are pleasant and easy to drink.  Though, if you asked me whether I would visit the winery again, the answer is likely “no”.  It wasn’t the most memorable experience, the wine ambassador wasn’t the most engaging, and the wines did not ship well (a large percentage of the bottles we shipped back to DC were faulty - not just one or two).  People have asked me why I wouldn’t give a winery a second chance.  My response is that there are ~425 wineries in Sonoma.  I will not likely be able to taste at all of them in my lifetime, so why bother trying the same one twice, especially if I didn’t like it the first time?</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/kieu-hoang/1-1050by1400-b8f6f2.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/kieu-hoang/1-700by933-b8f6f2.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/kieu-hoang/1-675by900-b8f6f2.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/kieu-hoang/1-450by600-b8f6f2.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/kieu-hoang/1-525by700-b8f6f2.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/kieu-hoang/1-350by467-b8f6f2.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/kieu-hoang/1-350by467-b8f6f2.jpg" alt="" title="Entrance" class="center-image" />
-  </picture>
+<p><img title="Entrance" class="center-image" src="/assets/images/kieu-hoang/1-800-b8f6f2.jpg" srcset="/assets/images/kieu-hoang/1-400-b8f6f2.jpg 400w, /assets/images/kieu-hoang/1-600-b8f6f2.jpg 600w, /assets/images/kieu-hoang/1-800-b8f6f2.jpg 800w, /assets/images/kieu-hoang/1-1000-b8f6f2.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>The entrance to the winery looked innocuous.  The wine chandelier was a little awkward to walk around, but I liked the idea.  I would probably change the execution a little bit if I try something similar in the future.  Walk-in tastings are welcome and because they open until 5pm, it’s a nice way to finish a day of tasting as many places close at 4pm.</em></p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/kieu-hoang/2-1050by788-f3cc60.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/kieu-hoang/2-700by525-f3cc60.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/kieu-hoang/2-675by506-f3cc60.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/kieu-hoang/2-450by338-f3cc60.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/kieu-hoang/2-525by394-f3cc60.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/kieu-hoang/2-350by263-f3cc60.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/kieu-hoang/2-350by263-f3cc60.jpg" alt="" title="Tasting Room" class="center-image" />
-  </picture>
+<p><img title="Tasting Room" class="center-image" src="/assets/images/kieu-hoang/2-800-f3cc60.jpg" srcset="/assets/images/kieu-hoang/2-400-f3cc60.jpg 400w, /assets/images/kieu-hoang/2-600-f3cc60.jpg 600w, /assets/images/kieu-hoang/2-800-f3cc60.jpg 800w, /assets/images/kieu-hoang/2-1000-f3cc60.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>The tasting room looks very different than the entrance.  If you make a reservation to have your tasting in this room (instead of reserving a table), then you can get your tasting fee reimbursed with purchases (if you reserve a table, you won’t be able to get your tasting fee back).  Luckily, we came at a date/time where the winery wasn’t busy, so they sat us at an outdoor table, but still reimbursed our fees with purchases.  This looks like a pretty good room to have your tasting in though if you had to.</em></p>
 
 <p>Kieu Hoang is named after the owner; a Vietnamese-born American billionaire who owned a large percentage of Shanghai RAAS Blood Products for a time.  Kieu Hoang first became interested in wine because of him background and passion regarding people’s well-being.  He, like so many others, discovered that wine was healthy in moderation: both physically and for the soul.  The winery was purchased from Michael Mondavi in 2014 and re-oriented toward the Chinese market.  Most of the wine produced is exported to China and sold through affiliated pharmacies.  Because of the market orientation of the winery and wines, I’m not sure if it’s geared toward the preferences of the American wine drinker and maybe everything is as the owner intended.</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/kieu-hoang/3-1050by788-5ec3ba.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/kieu-hoang/3-700by525-5ec3ba.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/kieu-hoang/3-675by506-5ec3ba.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/kieu-hoang/3-450by338-5ec3ba.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/kieu-hoang/3-525by394-5ec3ba.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/kieu-hoang/3-350by263-5ec3ba.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/kieu-hoang/3-350by263-5ec3ba.jpg" alt="" title="The View from the Couches" class="center-image" />
-  </picture>
+<p><img title="The View from the Couches" class="center-image" src="/assets/images/kieu-hoang/3-800-5ec3ba.jpg" srcset="/assets/images/kieu-hoang/3-400-5ec3ba.jpg 400w, /assets/images/kieu-hoang/3-600-5ec3ba.jpg 600w, /assets/images/kieu-hoang/3-800-5ec3ba.jpg 800w, /assets/images/kieu-hoang/3-1000-5ec3ba.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>The view from the tables on the deck of the tasting facility.  I really like how they use plants at the ends of vine rows to help pest control.  And the contrast of the green of the vineyard versus the unplanted hillsides is really something.  I’m usually an aggressive taster and will move on to the next winery as fast as possible, but it was hard not to enjoy relaxing here…</em></p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/kieu-hoang/4-1050by788-efd5c9.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/kieu-hoang/4-700by525-efd5c9.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/kieu-hoang/4-675by506-efd5c9.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/kieu-hoang/4-450by338-efd5c9.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/kieu-hoang/4-525by394-efd5c9.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/kieu-hoang/4-350by263-efd5c9.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/kieu-hoang/4-350by263-efd5c9.jpg" alt="" title="Our Group" class="center-image" />
-  </picture>
+<p><img title="Our Group" class="center-image" src="/assets/images/kieu-hoang/4-800-efd5c9.jpg" srcset="/assets/images/kieu-hoang/4-400-efd5c9.jpg 400w, /assets/images/kieu-hoang/4-600-efd5c9.jpg 600w, /assets/images/kieu-hoang/4-800-efd5c9.jpg 800w, /assets/images/kieu-hoang/4-1000-efd5c9.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>Our tasting group enjoying the wine and views from the couches.  Again, if you reserve one for your tasting, you won’t get your tasting fee back.   But if you go during the evening of a weekday like we did, you’ll likely not need the reservation to enjoy it.  Again, the views were quite something.  Just make sure that you bring sunglasses with you to California.  It seems like it’s always bright outside…</em></p>
 
 <p>While the winery isn’t very impressive on the outside, the inside is very different (and attractive).  The tasting room is tastefully designed and the patio area is my happy place.  The wines themselves were all smooth and drinking well, but nothing stuck out to me as individualistic or something that separates this winery from others.  The Emperor label was great, but not at the $175 price point (compared to other wines in the same category).  Also, you can get the bottle for ~$50 cheaper if you purchase it at “The Wine Room” in Palo Alto, though don’t ask me how or why the price is that different.</p>
 
-<picture>
-    <source srcset="https://www.winesbyjeremy.com/assets/images/kieu-hoang/5-1050by788-39f457.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/kieu-hoang/5-700by525-39f457.jpg" media="(min-width: 40em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/kieu-hoang/5-675by506-39f457.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/kieu-hoang/5-450by338-39f457.jpg" media="(min-width: 30em)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/kieu-hoang/5-525by394-39f457.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)" />
-    <source srcset="https://www.winesbyjeremy.com/assets/images/kieu-hoang/5-350by263-39f457.jpg" />
-    <img src="https://www.winesbyjeremy.com/assets/images/kieu-hoang/5-350by263-39f457.jpg" alt="" title="Poor Attempt" class="center-image" />
-  </picture>
+<p><img title="Poor Attempt" class="center-image" src="/assets/images/kieu-hoang/5-800-39f457.jpg" srcset="/assets/images/kieu-hoang/5-400-39f457.jpg 400w, /assets/images/kieu-hoang/5-600-39f457.jpg 600w, /assets/images/kieu-hoang/5-800-39f457.jpg 800w, /assets/images/kieu-hoang/5-1000-39f457.jpg 1000w" /></p>
 
 <p class="center-caption"><strong><em>Caption Title:</em></strong> <em>My poor attempt at a picture of my branded wine glass and the view in the background.  I think we spent at least an extra 30 minutes unwinding and enjoying the view outside.  Sonoma and Napa are really something…  Being the only group outside was nice too.</em></p>
 
