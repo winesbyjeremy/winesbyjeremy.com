@@ -23,6 +23,11 @@ winery_details:
   accepts_reservations: "Yes"
   reservation: Yes
 ---
+
+You can read up on Beringer's history and prior vintage tastings in this article [**HERE**](https://www.winesbyjeremy.com/2019/09/07/bevan_cellars_private_tasting.html).
+
+I also got word that the previous wine ambassador I tasted with had left his position at Bevan Cellars and is now the Wine Director at
+
 You'll notice that I dropped the rating compared to my last tasting here (from 99 to 94).  This is primarily because the number and quality of the wines used for the tasting were not up to par compared with what I was able to sample the previous visit and we were given the remnants of open bottles to taste, rather than being able to taste fresh bottles.  Although the wines had their flavors open thanks to being opened the day before, I think they also lost some of their intensity and precision as well.  I think the group I was with noticed that as well, since they ranked Bevan Cellars their least impressive wines of the day (in all fairness, we did have a rockstar lineup).
 
 I still wanted to post the tasting notes as they include some different wines from my last visit (e.g. the Chardonnay and Pinot Noir).  
