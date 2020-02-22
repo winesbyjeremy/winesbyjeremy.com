@@ -19,13 +19,13 @@ gem 'html-proofer'
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.6"
-  gem "jekyll-seo-tag", "~> 2.1"
+  gem "jekyll-feed"
+  gem "jekyll-seo-tag"
   gem 'jekyll-maps'
   gem "jekyll-paginate"
   gem "jekyll-sitemap"
   gem "jekyll-auto-image"
-  gem "jekyll_picture_tag", "~> 1.6"
+  gem "jekyll_picture_tag"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
