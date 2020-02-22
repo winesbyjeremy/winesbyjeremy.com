@@ -26,13 +26,13 @@ winery_details:
 Another winery with a storied history longer than most (dating back to the late 1800s) that continues to produce top notch wines is Larkmead.  Though unlike many others with the same length of history, Larkmead continues to be a small production winery, choosing to concentrate on quality over quantity as its 2013 The Lark (100pt by Wine Advocate) demonstrates.  Its smaller size and simple-but-bright tasting room provides quite the contrast to Frank Family, which is right across the street.  Both are located in Calistoga off the main highway, so there's no reason not to visit either or both.
 
 {% picture larkmead/1.jpg title="Peaceful, but not for long" class="center-image" %}
-***Caption Title:*** *The winery getting ready to start the day.  The winemaking facilty is on the right and the wine tasting building is on the left.  You can take the wine tour and visit both buildings.*
+*The winery getting ready to start the day.  The winemaking facilty is on the right and the wine tasting building is on the left.  You can take the wine tour and visit both buildings.*
 {: .center-caption }
 
 There's a reason why both wineries are so close together.  Larkmead sold its original winery building to Frank Family back in the day, but kept their vineyards and continued to produce wine, later constructing its new tasting room that I had the pleasure of visiting.  It is very refreshing with a white/light theme that is very fashionable but relaxing.  There are many reasons why this small family winery produces excellent wines, but I think the level of interaction with their vines is the most important one.  They hand prune and hand harvest everything in addition to walking the vineyards every day observing their development and making adjustments as needed.  As it was close to harvest time, I got to wander the vineyards with them and tasted some of the grapes - I've never tasted a Sauvignon Blanc grape that good before - ripe but with high acid.
 
 {% picture larkmead/2.jpg title="Wine loves Art" class="center-image" %}
-***Caption Title:*** *The private tasting room for larger reservations.  The family loves and creates art, which makes for great decorations around a tasting table.*
+*The private tasting room for larger reservations.  The family loves and creates art, which makes for great decorations around a tasting table.*
 {: .center-caption }
 
 Shout-out to Deanna Basham for taking me on a tour of the vineyards, for letting the wine sell itself while demonstrating a vast depth of knowledge, and for off-roading a little bit on the tasting menu - I had a couple more than the published menu.  Though, if you also show respect for the great wines they produce, I'm sure they will treat you like family and expand the tasting menu.  It's just too bad that "The Lark" is nearly impossible to get ahold of; they only produce 4-6 barrels of this rockstar each vintage.  Below are the wines I was able to sample:
