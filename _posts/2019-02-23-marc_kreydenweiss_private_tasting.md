@@ -25,29 +25,29 @@ winery_details:
 Without a doubt, there are many wineries along the northern Alsacian trail that serve great wine.  But Domaine Marc Kreydenweiss is near the top of my list for places that you should stop at.  Midway between Mittelbergheim and the center of the Andlau region, this small organic/biodynamic producer churns out great wine, year after year.  Domaine Marc Kreydenweiss has been managing their 14 hectares this way since 1989 - they've been doing it for so long that they had input into the actual definition of both organic and biodynamic farming for wine since there were only a few vineyards that were attempting / executing this vision back then.  Organic and Biodynamic wines have been all over the map for me (some great, some bad), but these were definitely some of the better ones.
 
 {% picture marc-kreydenweiss/1.jpg title="On the road to Kreydenweiss!" class="center-image" %}
-***Caption Title:*** *Walking the back paths off of the highway to Domaine Marc Kreydenweiss.  Again, normally a mile walk is fine, but when you are carrying your luggage with you, it's a little more difficult.  There are NO ubers out here, so find the phone numbers of the 1-2 taxi drivers in town and make use of them!*
+*Walking the back paths off of the highway to Domaine Marc Kreydenweiss.  Again, normally a mile walk is fine, but when you are carrying your luggage with you, it's a little more difficult.  There are NO ubers out here, so find the phone numbers of the 1-2 taxi drivers in town and make use of them!*
 {: .center-caption }
 
 {% picture marc-kreydenweiss/2.jpg title="Selfie time!" class="center-image" %}
-***Caption Title:*** *It was a tough (and hot) walk, but that doesn't mean I disliked it...  The views along the path were just stunning and cut right through the vineyards.  There's a common understanding to not touch the vines, but the level of trust to let people walk through the vineyards is still stunning.  I know, I am practically glowing with excitement...*
+*It was a tough (and hot) walk, but that doesn't mean I disliked it...  The views along the path were just stunning and cut right through the vineyards.  There's a common understanding to not touch the vines, but the level of trust to let people walk through the vineyards is still stunning.  I know, I am practically glowing with excitement...*
 {: .center-caption }
 
 Of course, because their wine is of such quality, you can sometimes find it in the American market or in restaurants that sport a healthy white wine menu, even though their production isn't all that high; their annual production comes in around 70,000 bottles.  They have successfully grown over the past 30+ years and now own vineyards in the Rhone Valley as well!  Because the Rhone vineyards are still up-and-coming, Marc's eldest son manages and produces the wines from his Alsacian holdings (since 2007) while Marc and his younger son live in the south and manage the Rhone Valley vineyards.  Don't fret for their family though; both sites are separated only by a ~3-hour train ride.  And if you were to ask me, the eldest son got the better part of the deal - it is just gorgeous here.
 
 {% picture marc-kreydenweiss/3.jpg title="" class="center-image" %}
-***Caption Title:*** *Make sure you have your international data plan on as the entrance can be a little hard to find.  Try to make a reservation ahead of time too if only to confirm that someone is at the building when you will be dropping by.*
+*Make sure you have your international data plan on as the entrance can be a little hard to find.  Try to make a reservation ahead of time too if only to confirm that someone is at the building when you will be dropping by.*
 {: .center-caption }
 
 Once you make it into the town area, finding the actual winery (it's more like a wine shop) can be a little tough, but if you stay true to Google Maps, you should be fine.  I highly recommend making reservations to ensure that they are open and have wines available for you to taste on arrival.  Once you check in at the front, you'll head upstairs with your wine ambassador for the tasting.  The size, experience, and foot-traffic is very different from USA wineries, but is very typical of smaller wineries in the less visited locations of Europe.  I myself enjoy the more personal experience.
 
 {% picture marc-kreydenweiss/4.jpg title="" class="center-image" %}
-***Caption Title:*** *It really isn't a winery as much as their wine tasting room and storefront.  You could easily purchase a bottle and a cheese board and enjoy sitting inside.  Do not expect grand estates along Alsace - most of the wineries are small and family run.  But the wine quality matches up with best so don't judge a book by its cover.*
+*It really isn't a winery as much as their wine tasting room and storefront.  You could easily purchase a bottle and a cheese board and enjoy sitting inside.  Do not expect grand estates along Alsace - most of the wineries are small and family run.  But the wine quality matches up with best so don't judge a book by its cover.*
 {: .center-caption }
 
 If you take a walk outside with the wine ambassador for a quick overview of the region, you'll notice that the altitude at the bottom here is ~100m with a hill that goes up to 400m.  You can also see the Kastelberg and Wiebelsberg Grand Crus nearby.  Auxerrois (more fruit, less acid) and Pinot Blanc (more acid, less fruit) are co-planted in the vineyard - a planting style that harkens back to olden times when this was done as a risk-aversion method.  Higher variety in the vineyard meant a greater chance something would survive a challenging growing season.  When you walk through the vineyards, you can clearly see the different rocks/soil-types that the grapes are grown in: pink sandstone in Weibelsberg, black slate in Kastelberg, with marl and limestone in Moenchberg.  
 
 {% picture marc-kreydenweiss/5.jpg title="" class="center-image" %}
-***Caption Title:*** *A topographical breakdown of the area of Alsace I (and Domaine Marc Kreydenweiss) were in.  As you can see, there are many different Grand Cru and other demarcated areas in the region.  The terroir is very different across small patches of land (similar to Burgundy), so track where you are and where your Alsacian wine is from very carefully.*
+*A topographical breakdown of the area of Alsace I (and Domaine Marc Kreydenweiss) were in.  As you can see, there are many different Grand Cru and other demarcated areas in the region.  The terroir is very different across small patches of land (similar to Burgundy), so track where you are and where your Alsacian wine is from very carefully.*
 {: .center-caption }
 
 After the introduction to the family, the vineyards, the grapes, and the biodynamic management/production methods, it was time to introduce the wines!

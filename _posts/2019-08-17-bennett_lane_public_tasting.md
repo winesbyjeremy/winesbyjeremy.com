@@ -26,27 +26,27 @@ winery_details:
 The more wineries I visit in Calistoga, the more convinced I become that it's the hidden value area of Napa.  Bennett Lane was not on my radar before I began planning an itinerary for the weekend; I just happened to notice that it was directly next to where the Spire Collection holds its tastings.  It isn't as ostentatious as other wineries, but it makes solid wines that balance the fruit development with the weight and acidity on the palate.  And if you are a patient buyer, you may find discounted bottles on distribution sites, such as Vivino, and use the opportunity to stock up!  Having tasted at the winery and enjoyed several bottlings through online purchases, I highly recommend you visit and taste for yourself!
 
 {% picture bennett-lane/1.jpg alt="" title="The Winery Entrance" class="center-image" %}
-***Caption Title:*** *Bennett Lane is a no-frills winery deep into the Calistoga AVA.  It is located right across the street from the building used to taste the Spire Collection wines under the Jackson family.  If you sign up to taste the latter, this is a perfect pitstop right before or after lunch in the area.*
+*Bennett Lane is a no-frills winery deep into the Calistoga AVA.  It is located right across the street from the building used to taste the Spire Collection wines under the Jackson family.  If you sign up to taste the latter, this is a perfect pitstop right before or after lunch in the area.*
 {: .center-caption }
 
 {% picture bennett-lane/2.jpg alt="" title="The tasting area" class="center-image" %}
-***Caption Title:*** *It is a shame that Bennett Lane is not well known.  It has a refined interior, but again, they don't go over the top.  The wine is on point as well.  Because we had the winery to ourselves on a Sunday afternoon, we were lucky to taste through some of the Reserve bottlings that aren't normally available.*
+*It is a shame that Bennett Lane is not well known.  It has a refined interior, but again, they don't go over the top.  The wine is on point as well.  Because we had the winery to ourselves on a Sunday afternoon, we were lucky to taste through some of the Reserve bottlings that aren't normally available.*
 {: .center-caption }
 
 Bennett Lane Winery's beginnings follow that of many others - the owner(s) were influenced by wine or a wine region at some point in their life and realized that living that dream is the next step after accomplishing what they set out to do in business.  It certainly is my dream.  From both the architecture and their blends (the Maximus brand), you can tell that Italy was the main influence and it translates well to this property.  The pictures above and below hopefully give you some insight on what to expect in the tasting room.
 
 {% picture bennett-lane/3.jpg alt="" title="The tasting bar" class="center-image" %}
-***Caption Title:*** *The 180 degree view from the picture above.  I have no idea what my friend Simon is looking at.  I've squinted at this picture several times and don't see a tasting sheet on the bar.  Do you?  Perhaps he is deep in thought, getting ready for the wines to come.*
+*The 180 degree view from the picture above.  I have no idea what my friend Simon is looking at.  I've squinted at this picture several times and don't see a tasting sheet on the bar.  Do you?  Perhaps he is deep in thought, getting ready for the wines to come.*
 {: .center-caption }
 
 {% picture bennett-lane/4.jpg alt="" title="The Chardonnay was good" class="center-image" %}
-***Caption Title:*** *A picture with their 2016 Reserve chardonnay from the Sangiacomo Vineyard over in Carneros.  I remember being pleasantly surprised by the balance of the wine.  It was neither too heavy, nor too light, and with the right amount of acid.  The flavors between the fruit and wood melded together nicely as well.*
+*A picture with their 2016 Reserve chardonnay from the Sangiacomo Vineyard over in Carneros.  I remember being pleasantly surprised by the balance of the wine.  It was neither too heavy, nor too light, and with the right amount of acid.  The flavors between the fruit and wood melded together nicely as well.*
 {: .center-caption }
 
 Similar to the winery itself, the wine ambassador was courteous and direct about the tasting.  We chose the reserve tasting (and that lineup is reflected below), but one may also choose the traditional tasting to get a better sense of the Maximus wines.  At a previous tasting, I heard about the high quality and decent prices for their Cabernets, but I would also love to visit again to taste their blend of Sauvignon Blanc, Chardonnay and Muscat Canelli (Maximus White) and their Bordeaux blend of Cabernet Sauvignon and Franc, Merlot, Syrah, and Petit Verdot (Maxiumus Red).
 
 {% picture bennett-lane/5.jpg alt="" title="Soil Samples..." class="center-image" %}
-***Caption Title:*** *Yes, I nerded out a bit discussing the different plots that the grapes were farmed from.  These aren't the most recognizable plots from the Napa Valley, which means that there may be an opportunity to find a bottle that hits above its price range.  I think the Lewelling vineyard was my favorite plot from the tasting.*
+*Yes, I nerded out a bit discussing the different plots that the grapes were farmed from.  These aren't the most recognizable plots from the Napa Valley, which means that there may be an opportunity to find a bottle that hits above its price range.  I think the Lewelling vineyard was my favorite plot from the tasting.*
 {: .center-caption }
 
 We did not spend much time discussing the owners' nor winemakers' backgrounds, so I recommend visiting their website if you are interested in learning more, as that will equal the knowledge I have access to.  Instead, we talked much more about the wines and what makes them different than others in the valley.  A summary on each of the available wines can also be found on the winery's [website](https://www.bennettlane.com/napa-valley-calistoga-wines-online-wine-shoping).
