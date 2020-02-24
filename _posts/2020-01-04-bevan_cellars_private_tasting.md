@@ -23,17 +23,29 @@ winery_details:
   accepts_reservations: "Yes"
   reservation: Yes
 ---
+You can read up on the background of Bevan Cellars and prior vintage tastings in in this article [**HERE**](https://www.winesbyjeremy.com/2019/09/07/bevan_cellars_private_tasting.html).
 
-You can read up on Beringer's history and prior vintage tastings in this article [**HERE**](https://www.winesbyjeremy.com/2019/09/07/bevan_cellars_private_tasting.html).
+The first thing you may notice about this article is that I dropped the rating (compared to my last tasting here).  The change from 99 to 94 is primarily due to the number and quality of the wines used for this tasting were not up to the standard that was set during my previous visit.  We were also given the remnants of open bottles to taste, rather than being able to taste fresh bottles.  In a couple cases, the pour was smaller than other bottles because the remainder in the bottle wasn't enough.  
 
-I also got word that the previous wine ambassador I tasted with had left his position at Bevan Cellars and is now the Wine Director at
+{% picture bevan-cellars-2/1.jpg alt="" title="The Entrance to the Winery" class="center-image" %}
+***Caption Title:*** *I forget whether or not the entrance is finished in the "Decanted" Netflix special or not - I remember it showing footage of the dug out cave.  But as you can see, Italics does not have a traditional wine tasting facility to handle guests like many others.  The facilities are underground and inside the same cave that they use for their wine tasting.  There are several wineries that do this (e.g. Pine Ridge), but it's not the norm.*
+{: .center-caption }
 
-You'll notice that I dropped the rating compared to my last tasting here (from 99 to 94).  This is primarily because the number and quality of the wines used for the tasting were not up to par compared with what I was able to sample the previous visit and we were given the remnants of open bottles to taste, rather than being able to taste fresh bottles.  Although the wines had their flavors open thanks to being opened the day before, I think they also lost some of their intensity and precision as well.  I think the group I was with noticed that as well, since they ranked Bevan Cellars their least impressive wines of the day (in all fairness, we did have a rockstar lineup).
+{% picture bevan-cellars-2/2.jpg alt="" title="The Entrance to the Winery" class="center-image" %}
+***Caption Title:*** 
+{: .center-caption }
 
-I still wanted to post the tasting notes as they include some different wines from my last visit (e.g. the Chardonnay and Pinot Noir).  
+{% picture bevan-cellars-2/3.jpg alt="" title="The Entrance to the Winery" class="center-image" %}
+***Caption Title:*** *I forget whether or not the entrance is finished in the "Decanted" Netflix special or not - I remember it showing footage of the dug out cave.  But as you can see, Italics does not have a traditional wine tasting facility to handle guests like many others.  The facilities are underground and inside the same cave that they use for their wine tasting.  There are several wineries that do this (e.g. Pine Ridge), but it's not the norm.*
+{: .center-caption }
 
+Although the wines had their flavors in well-rounded form thanks to being opened the day before, I think they also lost some of their intensity and precision because of that.  I think my tasting group noticed that as well, since they ranked Bevan Cellars their least impressive wines of the day.  In all fairness, we did have a rockstar lineup, but I can empathize with their viewpoint on the wines.  It's really too bad, because we hit it off with the co-owner of the winery (Victoria ???) and she invited us to her new winery in Healdsburg, which we accepted and will be visiting another trip.  
 
-•	The really like the rich, round texture and mouthfeel. They do not rack their wines and blend all of the barrels together in a tank, then redistribute.  They ferment the free run and the press juice separately, then top of the free run juice barrels with the press juice during the fermentation to replace the angel’s share (and they may not choose to use that liquid at all).  They press the juice off the tank while it is still fermenting (anywhere from 8-10 bricks) and then barrel it while it is finishing the fermentation (most people wait until dryness).  They use a pulsar in tank too to pump gas from the bottom and break up the cap instead of pump over or punch downs (same as Quiceda Creek) to do the job softely.
+I got word that the previous wine ambassador I had befriended and tasted with had left his position at Bevan Cellars and is now the Wine Director at ???.  This was the reason Victoria was conducting our tasting.  If you plan to visit Bevan Cellars in the near future, you may want to confirm your tasting lineup before visiting to ensure the wine quality is up-to-par.  But if you do get a good lineup, you are in for a good tasting...
+
+Again, Bevan Cellars are for drinkers that really like rich, round texture and mouthfeel to their wines. Bevan does not rack their wines and blends all of the barrels together in a tank, then redistributes to each barrel, ensuring integration of flavors and texture early on.  They ferment the free run and the press juice separately, then top of the free run juice barrels with the press juice during the fermentation to replace the angel's share.  Some years, they may choose not to use that liquid at all.  They press the juice off the tank while it is still fermenting (anywhere from 8-10 brix of sugar left) and then barrel it while it is finishing the fermentation - most people wait until the fermentation finishes the sugar.  They use a pulsar in tank too to pump gas from the bottom and break up the cap instead of pump over or punch downs (same as Quiceda Creek).  This really softens the tannins and allows them to create high tannin wines that have great mouthfeels in their youth.
+
+To the wines!
 
 * [**2017 Ritchie Vineyard Chardonnay**]() ($)
   * Inverted cinder-cone (volcano collapsed on itself).  Hens and chicks – For chardonnay bunches, the grape sizes should be different in the cluster.  There’s a younger block and an older block.  100% new French oak and you can tell on the nose.  Ripe yellow fruit, butter, cream, and vanilla.  Make the wine in a reductive style with not too much SO2 (very clean winery).  Should peak at 3 years of age.  Rich, beautiful, not as big as the Hudson Ranch – super enjoyable right now.
@@ -46,3 +58,4 @@ I still wanted to post the tasting notes as they include some different wines fr
 * [**2015 Wildfoote Cabernet Sauvignon**]() ($)
   * Pronounced red fruit with some candied red fruit in there as well.  It feels a little like a sleeping giant.  The most feminine of their Cabernets.  It has an elegance, weight, and finish that is fierce.
 
+If you buy a bottle of their Cabernet Sauvignon, the tasting is free, which is why I highly recommend visiting if the bottle is not out of your price range.  Just be sure to confirm the wine lineup before visiting and you'll come back a very happy person.  Cheers!!
