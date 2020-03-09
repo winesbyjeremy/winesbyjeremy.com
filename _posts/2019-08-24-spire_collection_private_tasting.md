@@ -26,33 +26,33 @@ winery_details:
 After my visit to Lokoya a couple years ago, I started following and tasting more of Chris Carpenter's wines.  I would put him right beside Tony Arcudi as one of the winemakers I would love to work for and learn from.  I highly recommend you check out his podcast interview on "The Taste" with Doug Shafer to get a feel for his career and what's shaped his style of winemaking.  One night, I happened upon his Mt. Brave and La Jota Cabernets and decided that I needed to taste the rest of the portfolio.  Luckily, each of the labels are all grouped under the Spire Collection brand and can be tasted together at their estate in Calistoga.  I recommend you find bottles sooner rather than later as the prices seem to rise every year...
 
 {% picture spire-collection/1.jpg alt="" title="The tasting builiding" class="center-image" %}
-***Caption Title:*** *The tasting building for the Spire Collection.  It doesn't look like much on the outside, but the inside with surprise and impress you.  But even better than the building is the views.  See below...*
+*The tasting building for the Spire Collection.  It doesn't look like much on the outside, but the inside with surprise and impress you.  But even better than the building is the views.  See below...*
 {: .center-caption }
 
 If you visit Calistoga, I strongly recommend that you make an appointment with the Spire Collection.  Not only will you get to taste some excellent wines from the Napa Valley, but you'll also get to sample great wines from other countries such as Australia, South Africa, Italy, France, etc.  Even better, you can email Spire ahead of time to let them know your preferences, the $$ you are willing to pay for the tasting, and they can adjust the wines they pour to fit what you'd like.  Most of the wines chosen for our tasting came from their international portfolio, while the rest were from Mt. Brave.  The tasting for those 6 wines came in at $75 per person, so that should give you an idea of what to expect.
 
 {% picture spire-collection/2.jpg alt="" title="The vines before trimming" class="center-image" %}
-***Caption Title:*** *Not to toot my own horn, but I really like this picture.  You get a glimpse of the beautiful mountain views in the background, but also what the vines look like October, after harvest but before trimming all of the vines to start the winter hibernation.  Just gorgeous...*
+*Not to toot my own horn, but I really like this picture.  You get a glimpse of the beautiful mountain views in the background, but also what the vines look like October, after harvest but before trimming all of the vines to start the winter hibernation.  Just gorgeous...*
 {: .center-caption }
 
 {% picture spire-collection/3.jpg alt="" title="So bright..." class="center-image" %}
-***Caption Title:*** *It was cold enough that you needed a heavy coat, but the morning sun was as strong as ever.  You also get a better view of the mountains in the background.  The one other thing you notice?  Not another winery in sight.*
+*It was cold enough that you needed a heavy coat, but the morning sun was as strong as ever.  You also get a better view of the mountains in the background.  The one other thing you notice?  Not another winery in sight.*
 {: .center-caption }
 
 Putting aside the wines for just a moment, the presentation for the tasting is among the best I've experienced in the Napa Valley.  Driving to the tasting room, you drive parallel to the mountains and need to meander on a one lane road through the vines to get to your destination.  The only scary moment is when you arrive and see the building where the tasting is conducted.  It does not look like much from the outside, but once you make your way inside, everything changes.  The room is stylish, elegant, and the views of the mountains outside cannot be beat.  You can just stare at the mountainside while enjoying the wines and ignore everything else that is going on around you.  Though, if you love wine like I do, the view may actually be a distraction to enjoying the wine to their utmost.
 
 {% picture spire-collection/4.jpg alt="" title="The tasting room" class="center-image" %}
-***Caption Title:*** *The beautiful tasting room.  Very elegant, lots of natural light (you'll see why later), but that mirror betrays us, haha.  I loved thhe display of the different wines from the Spire Collection (though no Lokoya...).*
+*The beautiful tasting room.  Very elegant, lots of natural light (you'll see why later), but that mirror betrays us, haha.  I loved thhe display of the different wines from the Spire Collection (though no Lokoya...).*
 {: .center-caption }
 
 {% picture spire-collection/5.jpg alt="" title="What do you think?" class="center-image" %}
-***Caption Title:*** *We had two wines to blind taste during the visit.  The first one gave us all some trouble as you can see by the thinking faces in the room.  Needless to say, we all got the wine origins wrong (the Spire Collection has wineries all over the world).  A very fun tasting.*
+*We had two wines to blind taste during the visit.  The first one gave us all some trouble as you can see by the thinking faces in the room.  Needless to say, we all got the wine origins wrong (the Spire Collection has wineries all over the world).  A very fun tasting.*
 {: .center-caption }
 
 After taking some pictures and wandering the room a bit, it was time for our 10am tasting to begin.  Not only did I appreciate the lineup, but I appreciated the order in which we tasted the wines (the first thing you want to taste in the morning isn't a Cabernet).  The Chardonnay was especially good, though my favorite had to be the Single Block Cabernet from Mt. Brave.  Just a singular wine that will continue to age well and is very good value at $125, compared to other wines in the same price category.
 
 {% picture spire-collection/6.jpg alt="" title="The view outside" class="center-image" %}
-***Caption Title:*** *I will admit to being distracted during the tasting.  This picture is the reason why...  You might think that having a beautiful view while tasting is always a plus, but I appreciate it as much as others.  I'd rather concentrate on the wine while tasting, then enjoy the views separately before/after the tasting.  What do you think?*
+*I will admit to being distracted during the tasting.  This picture is the reason why...  You might think that having a beautiful view while tasting is always a plus, but I appreciate it as much as others.  I'd rather concentrate on the wine while tasting, then enjoy the views separately before/after the tasting.  What do you think?*
 {: .center-caption }
 
 To the wines!

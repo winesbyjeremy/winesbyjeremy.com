@@ -25,17 +25,17 @@ winery_details:
 The first stop on my Alsace + Rhone wine vacation.  Straight off the train from Strasbourg, I walked half a mile with all of my luggage to get here.  The backwoods path was beautiful but carrying three bags will put a damper on enjoying that.  Even though I was traveling in the fall and the temperature was relatively cool, the intensity of the sun was fairly strong as the vineyards of Alsace are generally planted on southern facing slopes next to the Vosges Mountain range to absorb as much of the light as possible, leading to ripe fruit development but keeping their acid.
 
 {% picture albert-seltz/1.jpg alt="" title="Walking to the Winery" class="center-image" %}
-***Caption Title:*** *I decided to make my way through Alsace without renting a car.  Which meant that I had to walk over a mile from the train station with all of my luggage to the winery.  And then I had to walk another mile to my hotel.  Still, the views while walking were like this the whole time.*
+*I decided to make my way through Alsace without renting a car.  Which meant that I had to walk over a mile from the train station with all of my luggage to the winery.  And then I had to walk another mile to my hotel.  Still, the views while walking were like this the whole time.*
 {: .center-caption }
 
 {% picture albert-seltz/2.jpg alt="" title="Welcome to Mittelbergheim" class="center-image" %}
-***Caption Title:*** *I was so happy to finally see this sign.  I didn't realize that Mittelbergheim had so many wineries within the town.  I wish I knew so I could've spent more time exploring...  It's definitely on my list of things to do if/when I return to Alsace!*
+*I was so happy to finally see this sign.  I didn't realize that Mittelbergheim had so many wineries within the town.  I wish I knew so I could've spent more time exploring...  It's definitely on my list of things to do if/when I return to Alsace!*
 {: .center-caption }
 
 Walking through the town of Mittelbergheim, I saw that there were at least 8 other wineries within walking distance to Albert Seltz.  I did not get the chance to check if they were open / spoke English / were available for tastings, so Albert Seltz ended up being my only stop in Mittelbergheim.  Though after discovering there were that many places in the area, I am emboldened to make a return visit and stay in town for an evening or two.  Though, it will be difficult to live up to Albert Seltz. 
 
 {% picture albert-seltz/3.jpg alt="" title="Written in Stone" class="center-image" %}
-***Caption Title:*** *On the one hand, I wish the sign was easier to see/read.  On the other hand, having a stone sign without any paint is a really classy move.  The cracks showing the age is also pretty cool.  I was really excited to get to tasting...*
+*On the one hand, I wish the sign was easier to see/read.  On the other hand, having a stone sign without any paint is a really classy move.  The cracks showing the age is also pretty cool.  I was really excited to get to tasting...*
 {: .center-caption }
 
 The website has a quote from the owner: "The Sylvaner is a pretty girl from a poor family that does not interest the boy full of money is the disease of the 21st century."  I totally understand where he is coming from - sometimes selling wine is a popularity contest where name recognition is everything for a consumer and can transitively affect the choices of the Producer.  Chardonnay, Sauvignon Blanc, Riesling... people are more likely to purchase something they have at least some tangential familiarity with.  It's a good thing I went outside my own comfort zone as I've had some unimpressive Sylvaner before, but these wines totally changed my opinion about the varietal.  It made such an impression that I bought a few bottles with hopes of sharing with friends and spreading Albert's message just a little further.  
@@ -43,7 +43,7 @@ The website has a quote from the owner: "The Sylvaner is a pretty girl from a po
 Heading into the winery, I was sad to find that there was (literally) no one home upon my arrival.  After waiting 30 minutes in the shade with their dog, a woman returning from the field was startled to discover me standing there - I had not called ahead for an appointment.  After collecting herself and learning I was an American on an Alsacian Wine Crusade, she guided me inside for a tasting.  Their tasting room doubled as their office, which had several desks and a small 4-stool tasting bar where we broke out some of the wines in their inventory.  NOTE: This was a family-run winery and didn't have the infrastructure of a larger establishment.  It soon didn't matter to me as the wines were very good and all I could think about.
 
 {% picture albert-seltz/4.jpg alt="" title="Quenching the Thirst" class="center-image" %}
-***Caption Title:*** *I don't know if there is a better view.  To be alone in a winery with the undivided attention of the wine ambassador, drinking some amazing white wines and discussing the individuality of the winery and its wines.  The QPR on the wines are sooo good...*
+*I don't know if there is a better view.  To be alone in a winery with the undivided attention of the wine ambassador, drinking some amazing white wines and discussing the individuality of the winery and its wines.  The QPR on the wines are sooo good...*
 {: .center-caption }
 
 For the tasting, we focused on their speciality: Sylvaner.  I think they are the only winery in the region that grows Grand Cru Sylvaner (I am likely mistaken there since there are so many producers), but it sure tasted like their specialty.  There was no formal menu, so your menu is likely to be different when you visit.  
@@ -66,17 +66,17 @@ For the tasting, we focused on their speciality: Sylvaner.  I think they are the
   * Very different from other Gewurztraminers in Alsace.  Not too much marmalade, nor too heavy.  The nose is a little less intense than the normal varietal character, but in a pleasurable way.  There is even a tickle of lemon zest too!  The body and finish have a flint-like character to them and do not finish over the top - the fruit is bright and finishes wonderfully with pineapple and stonefruit.  This is also an easy drinking without the feel of a sugar spike that can be utilized in many ways.
 
 {% picture albert-seltz/5.jpg alt="" title="Sweet and Satisfying" class="center-image" %}
-***Caption Title:*** *There were a couple of wines that really struck me and both were of the same varietal that I haven't liked in the past - Sylvaner.  This Grand Cru is the perfect balance of distinctive terroir, varietal and easy drinking.  I need a case of this.*
+*There were a couple of wines that really struck me and both were of the same varietal that I haven't liked in the past - Sylvaner.  This Grand Cru is the perfect balance of distinctive terroir, varietal and easy drinking.  I need a case of this.*
 {: .center-caption }
 
 {% picture albert-seltz/6.jpg alt="" title="So good..." class="center-image" %}
-***Caption Title:*** *The other wine that really struck me.  Old vines, older wine, and sweeter than the above Grand Cru, this wine is for the special occasion at the end of the night.  I really need to find their distributor!*
+*The other wine that really struck me.  Old vines, older wine, and sweeter than the above Grand Cru, this wine is for the special occasion at the end of the night.  I really need to find their distributor!*
 {: .center-caption }
 
 It's a shame that I could not taste these great wines with the owner.  Other online reviews tell of an intimate experience, including touring their cellars and getting more into the philosophy of winemaking.  I am not the biodynamic purist that the owner is, but I would've really been interested in getting his thoughts on the matter, especially since all of these wines were done very well...  Normally I like to let the wines do the talking, but in this case, I would've liked the extra background and how we can achieve the same quality with these methods in the states.
 
 {% picture albert-seltz/7.jpg alt="" title="Mandatory Selfie" class="center-image" %}
-***Caption Title:*** *Obligatory selfie with the vines behind the winery.  It was pretty cool outside, but the sun was also pretty strong.  It's probably how they have ripe wines with great acidity.  Seems like a great place to live and make wines.*
+*Obligatory selfie with the vines behind the winery.  It was pretty cool outside, but the sun was also pretty strong.  It's probably how they have ripe wines with great acidity.  Seems like a great place to live and make wines.*
 {: .center-caption }
 
 If you find yourself in Strasbourg and want to make a day trip for wine by train, you could do worse than Albert Seltz and Mittelbergheim in general.  Just be sure to make reservations by email before showing up so that you get the full experience with the winery owner and check whether they speak English for the tour or not.  I definitely recommend that you make your way into Alsace wine country and enjoy some really good white varietals, but especially Sylvaner since you can't find it in the states!  Cheers!!

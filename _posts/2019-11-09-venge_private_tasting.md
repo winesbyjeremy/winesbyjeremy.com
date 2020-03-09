@@ -26,29 +26,29 @@ winery_details:
 Nils Venge is a household name in the Napa Valley.  He's consulted for wineries such as Groth, Saddleback, Carter Cellars, and was even the first American winemaker to receive a 100pt score for a wine (earning it for his 1985 Groth Reserve Cabernet Sauvignon from Robert Parker).  It turns out that the winemaking talent runs in the family, no doubt also the hard work and perseverance required to be a successful winemaker.  Venge Vineyards is run by Nil's son, Kirk.  And while Kirk doesn't quite have the same resume and reputation that his father does, I have no doubt that he will garner it in the future.  The quality of the wines in the tasting communicate that quite clearly.  So consider yourself lucky that you can enjoy his wines at affordable prices until that happens!
 
 {% picture venge/1.jpg alt="" title="Smooth and Sleek" class="center-image" %}
-***Caption Title:*** *Smooth and sleek tasting room.  The fact that it was empty says less about the popularity of the winery and more about it's tasting policy (they can only have 20 people per day per their alcohol license) and the view outside - the group before and after us also took their tasting outside.  If it ever got cold enough to have the tasting indoors, I don't think people would be disappointed.*
+*Smooth and sleek tasting room.  The fact that it was empty says less about the popularity of the winery and more about it's tasting policy (they can only have 20 people per day per their alcohol license) and the view outside - the group before and after us also took their tasting outside.  If it ever got cold enough to have the tasting indoors, I don't think people would be disappointed.*
 {: .center-caption }
 
 {% picture venge/2.jpg alt="" title="View of the Vineyard" class="center-image" %}
-***Caption Title:*** *The view from their patio.  Their tasting room is pretty far off the main road, so you won't encounter many people coming and going from the winery.  This is important as I'm pretty sure the road you take is a one-lane road.  This makes for a very peaceful tasting where the only stimuli are the views, wine, and conversation.*
+*The view from their patio.  Their tasting room is pretty far off the main road, so you won't encounter many people coming and going from the winery.  This is important as I'm pretty sure the road you take is a one-lane road.  This makes for a very peaceful tasting where the only stimuli are the views, wine, and conversation.*
 {: .center-caption }
 
 Venge Vineyards doesn't have the advertising or fame of many other vineyards in Napa.  With their current alcohol license (they can only host a maxium of 20 people per day), I think that is fine.  In fact, I'm sure it helps them build deeper relationships with consumers since they do not have the production level or resources to sustain a large, rotating membership pool.  To get an tasting appointment with them, I had to submit a request and then take a phone call with one of their front-office folks to explain how I heard about them and where my interest came from.  Although the logistics were a little tougher than normal, it was well worth the effort.  I am used to paying much more for the quality of the wines and exclusivity of the experience.  
 
 {% picture venge/3.jpg alt="" title="Our Tasting Group" class="center-image" %}
-***Caption Title:*** *Wine is always better with friends.  I'm lucky to have a good group to call on when I'm on the west coast!  Most of us agreed on the quality/price of the tasting and purchased the two bottles necessary to get the free tasting fee.  The Silencieux was my favorite and I walked away with two bottles.*
+*Wine is always better with friends.  I'm lucky to have a good group to call on when I'm on the west coast!  Most of us agreed on the quality/price of the tasting and purchased the two bottles necessary to get the free tasting fee.  The Silencieux was my favorite and I walked away with two bottles.*
 {: .center-caption }
 
 When navigating to the winery, rely on Google Maps to make the correct turn (even if the signage is absent/unclear) and just trust the one-lane road all the way back to the winery.  You'll get to drive past the entire vineyard in front of the winery along the way.  When you arrive, you may see one other group wrapping up their tasting, but other than yourself and the wine ambassador on duty that day, you'll have the place to yourself.  Once you get settled outside, prepare to try 5 really good wines.  And for purchasing as little as $70-$80 worth of wine (2 bottles), you'll get your $45 tasting fee waived.  It's a "can't lose" situation here.  So just enjoy yourselves to the max.
 
 {% picture venge/4.jpg alt="" title="Close look" class="center-image" %}
-***Caption Title:*** *A close look at the first set of bottles that we tasted.  While none of the wines were showstopping to me, all of them were great quality and very much worth their modest (by Napa standards) prices.  If you like your wines smooth with moderate complexity and like to try a mix of blends and varietals, you'll enjoy visiting Venge.*
+*A close look at the first set of bottles that we tasted.  While none of the wines were showstopping to me, all of them were great quality and very much worth their modest (by Napa standards) prices.  If you like your wines smooth with moderate complexity and like to try a mix of blends and varietals, you'll enjoy visiting Venge.*
 {: .center-caption }
 
 When people ask me what type of wine they should expect from Venge, I think it boils down to a few points for me.  It's affordable (which is always important); the quality is not off-the-charts, but very solid; the blends are different and interesting; the grapes are sourced from different areas, giving you different styles of wine in each bottle; and the red wines have a prettiness and are made to be consumed immediately, though you can age them if you want to.  This is similar to the style that Mark Beringer that ushered in at Beringer as well.  I don't know if this is the beginning of a trend among winemakers, but I personally approve and think that it will engage younger drinkers that don't/can't sustain a cellar to grab a perfectly aged bottle from each evening.  
 
 {% picture venge/5.jpg alt="" title="Posers" class="center-image" %}
-***Caption Title:*** *I learned some things about posing, Instagram, filters and other topics on this trip.  While I don't quite have my pose down, others were more than happy to show me how it's done.  Just imagine yourself in their shoes, drinking some darn good wine...*
+*I learned some things about posing, Instagram, filters and other topics on this trip.  While I don't quite have my pose down, others were more than happy to show me how it's done.  Just imagine yourself in their shoes, drinking some darn good wine...*
 {: .center-caption }
 
 Can I elaborate on the actual wines you can expect to taste at the winery?  Of course I can!
