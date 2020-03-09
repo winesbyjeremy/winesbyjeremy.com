@@ -1,0 +1,30 @@
+media_presets:
+  desktop: 'max-width: 1800px'
+  wide_desktop: 'min-width: 1801px'
+  tablet: 'max-width: 900px'
+  wide_tablet: 'max-width: 1200px'
+  mobile: 'max-width: 600px'
+  source_lrg: '(min-width: 40em)'
+  source_med: '(min-width: 30em)'
+  source_wide_hi: "(min-width: 40em) and (min-resolution: 1.5dppx)"
+  source_wide: "(min-width: 40em)"
+
+markup_presets:
+  # You can't specify both widths and pixel ratios anymore. Choose one.
+  # Full width pictures, width-based srcset
+  default:
+    widths: [350, 450, 700]
+
+  # Full width pictures, multiplier based srcset
+  default-ppi:
+    markup: picture
+    base_width: 350
+    pixel_ratios: [1, 1.5]
+
+  # Half width pictures
+  half:
+    widths: [250, 350, 400]
+
+  # 250px width pictures
+  thumbnail:
+    widths: [250]
