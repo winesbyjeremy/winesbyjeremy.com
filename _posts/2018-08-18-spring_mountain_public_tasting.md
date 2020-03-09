@@ -26,7 +26,7 @@ winery_details:
 Some places can seem intimidating due to the energy, focus, and exclusivity of the winery in their drive to produce amazing wines, which also brings high scores.  With the high scores comes high prices due to supply/demand, which increases the exclusivity and continues the cycle.  Spring Mountain bucks that mindset while still producing nice old-world style wines, thanks to the resources of its owner and his desire to make wine unique to their terroir, rather than aiming for what wine reviewers desire.  And you get to enjoy the wines from the comfort of outdoor lawn chairs, staring at Spring Mountain (this is quite a sight/site).  
 
 {% picture spring_mountain/1.jpg alt="" title="Spring Mountain is gorgeous" class="center-image" %}
-***Caption Title:*** *The view of Spring Mountain from the wine tasting lawn chairs*
+*The view of Spring Mountain from the wine tasting lawn chairs*
 {: .center-caption }
 
 When you also factor in that it won't break the bank to pay the tasting fee, this can be a relaxing tasting for the new initiates of Napa as well as an educational tasting for the seasoned veterans.  You still need to make a reservation, but really their only drawback is that you are not allowed to purchase bottles and consume them onsite.  Since the atmosphere is a huge component of what makes them unique, their rating suffers a couple points for not allowing patrons to savor the experience.  
@@ -34,7 +34,7 @@ When you also factor in that it won't break the bank to pay the tasting fee, thi
 Located at the base of Spring Mountain, just outside of St. Helena, Spring Mountain Winery looks like a small family-owned winery with just the plot of land in front of the tasting room and up on the hill in view of the winery.  It’s surprising to hear that the winery actually owns most of the land in the Spring Mountain AVA and sells off a majority of its fruit to other wineries.  This winery only uses its best for their own production and ages its wine however long they need to be before they’ve reached their pinnacle.  This style of winemaking emulates the best Bordeaux estates moreso than other Napa Valley brethren.  
 
 {% picture spring_mountain/2.jpg alt="" title="The actual lawn chairs" class="center-image" %}
-***Caption Title:*** *A group of us actually sitting in the lawn chairs*
+*A group of us actually sitting in the lawn chairs*
 {: .center-caption }
 
 For most wine tastings at this price, I am expecting 3-5 wines that are newly released and are produced at volume.  Well, I got the number of wines right, but boy did I underestimate the quality of the wine we were going to be served:
@@ -52,7 +52,7 @@ For most wine tastings at this price, I am expecting 3-5 wines that are newly re
 This is another winery that produces a refreshing Sauvignon Blanc.  Some wineries will utilize the ripeness they can achieve in Napa for exotically style wines.  Spring Mountain preserves the light body and acidity for a nice, light, crisp wine to be enjoyed on a hot summer day.  The Cabernet Sauvignons are drier, earthier, and display a bit more spice than most other Napa Cabs, reminding me of old world style wines from Europe.  It’s incredible that the current release of wine is 10 years old and aged to its height of fruit/earth/wood balance.  
 
 {% picture spring_mountain/3.jpg alt="" title="Why are all the glasses empty?!?!" class="center-image" %}
-***Caption Title:*** *Tasting Spring Mountain wines in the great outdoors*
+*Tasting Spring Mountain wines in the great outdoors*
 {: .center-caption }
 
 The other thing you’ll notice is that the vintages of Cabernets from Spring Mountain vary wildly in profile from each other.  That’s because every year, the winemaker gauges the quality of fruit produced and crafts that year's profile based on what nature gives him.  The winery sells off the rest.  Which means year-to-year, grapes from different plots are utilized for their wine – it’s not as if there is one “best” location that they get their grapes from.  I couldn't believe how different the 2007/2008 Cabernets were; they appeal to two totally different types of palates.  

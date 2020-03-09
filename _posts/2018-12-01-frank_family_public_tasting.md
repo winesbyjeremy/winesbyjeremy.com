@@ -26,19 +26,19 @@ winery_details:
 Frank Family is one of those vineyards that aren't hyped by the major wine reviewers, but you continue to hear its name talked about on the wine apps (e.g. Vivino and Delectable) and see its bottles in stores, as their wines are nationally distributed.  I finally had enough and decided to find out for myself what the fuss was all about.  Like many other wineries, it was founded with capital earned in another industry.  In the case of Frank Family, it was Hollywood.  But not as actors - the owner was President of Disney and the son is currently the President of Dreamworks Studios.  And what person in the movie business wouldn't appreciate good vino?  Better yet, what person in any industry wouldn't appreciate good vino?
 
 {% picture frank-family/1.jpg alt="" title="Where's Waldo" class="center-image" %}
-***Caption Title:*** *It's a little hard to miss Frank Family while driving by...*
+*It's a little hard to miss Frank Family while driving by...*
 {: .center-caption }
 
 Found off Highway 29 in Calistoga, the Frank Family winery is very traditional in the design of its buildings and landscape.  After all, the winery portion was purchased from Larkmead some years back.  The interior is very polished with a darker, old fashioned wood theme.  After taking a picture on their red carpet (of course they had one), I was led inside and joined by two other groups for the tasting.  
 
 {% picture frank-family/2.jpg alt="" title="Red Carpet Rollin" class="center-image" %}
-***Caption Title:*** *Enjoying my time on the red carpet.  I must admit, I look very asian in this photograph, but definitely not up to the crazy rich asian standard.  That movie changed the game.*
+*Enjoying my time on the red carpet.  I must admit, I look very asian in this photograph, but definitely not up to the crazy rich asian standard.  That movie changed the game.*
 {: .center-caption }
 
 The five others that were seated with me at the tasting were relatively new to wine, so the hostess adjusted the tasting to their experience level.  And though she didn't have any formal training or a wine background, she was very engaging and very good at recalling her facts!  It's nice to enjoy tastings like this because it serves as a reminder that not everyone will develop a passion or an intellectual curiosity for all things wine.  But that doesn't mean that they can't enjoy it for what it is as much as I do.  And instead of serious talk about wine chemistry, we enjoyed sharing stories about the biggest bloopers we've all made with wine.
 
 {% picture frank-family/3.jpg alt="" title="Storytelling and Laughs" class="center-image" %}
-***Caption Title:*** *Sharing some stories and some laughs over sparkling wine in the tasting room.*
+*Sharing some stories and some laughs over sparkling wine in the tasting room.*
 {: .center-caption }
 
 While lots of fun, the pace and conversation at the table did distract me a bit from analyzing the wines and I couldn’t really ask questions regarding some of the more intricate details of their wine production process.  It may very well be that my rating of the wines/wineries would've been higher on a different day with different circumstances.  Though, if you are looking for a winery to bring a party of 6-8 people, Frank Family could be a very nice choice for the price point, since your party would likely be seated alone.  Without further ado, the wines on the tasting menu!
