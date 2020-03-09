@@ -28,13 +28,13 @@ UC Davis, Class of ’74.  That’s really all you need to know.  Alright, a lit
 Although he still consults for several other places, you need to try the wines that bears Tom Eddy’s name.  Tastings are by appointment only and I recommend that you go for the barrel tasting.  At $100, it is an investment, though the return is well worth it.  Driving up to the winery, you get the sense you are actually driving up to someone’s house.  
 
 {% picture tom_eddy/1.jpg alt="" title="I wish my backyard looked like this" class="center-image" %}
-***Caption Title:*** *The vast preserved lands surrounding Tom Eddy's vineyards*
+*The vast preserved lands surrounding Tom Eddy's vineyards*
 {: .center-caption }
 
 And that's exactly the hospitality you get during the tasting.  I really enjoyed it – Tom Eddy is a 3 person operation: Tom, his wife, and their brand ambassador / membership director.  The experience is 1-on-1, though I happened to pick the weekend that Tom was traveling (we were still greeted by his wife with the NZ Sauvignon Blanc on arrival).  The view from the property to the valley below is gorgeous (100+ acres of untouched grasslands and hills) and the wine cellar door makes you think you’ve stumbled into Hobbiton (LOTR).  
 
 {% picture tom_eddy/2.jpg alt="" title="The door to vast treasures" class="center-image" %}
-***Caption Title:*** *The door to Hobbiton or Tom Eddy's cellars?  Either way, treasures lie within...*
+*The door to Hobbiton or Tom Eddy's cellars?  Either way, treasures lie within...*
 {: .center-caption }
 
 All of these things combined with the knowledge but casual demeanor of their brand ambassador resulted in one of our groups favorite experiences that week.  And I haven't even started talking about how good their wines are yet!  I think we got lucky with our tasting menu since I espoused the qualities/beauty of wines from Stagecoach Vineyard and Tom’s reputation.  Also, now that E&J Gallo purchased Stagecoach Vineyard for $180 Million in April, the price for wines from there will only go up.
@@ -65,5 +65,5 @@ Their membership program is very flexible and can be tailored to you, so get out
 And nothing beats enjoy some great wine while enjoying great views.
 
 {% picture tom_eddy/3.jpg alt="" title="Nature is special" class="center-image" %}
-***Caption Title:*** *Enjoying great views with great wines feels like true harmony*
+*Enjoying great views with great wines feels like true harmony*
 {: .center-caption }

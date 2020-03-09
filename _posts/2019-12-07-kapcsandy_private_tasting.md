@@ -26,23 +26,23 @@ winery_details:
 You can read up on Kapcsandy's history and prior vintage tastings in this article [**HERE**](https://www.winesbyjeremy.com/2018/07/21/kapcsandy_private_tasting.html).  Although there is no membership club you can sign up for with Kapcsandy, they do have a benefit programs you can qualify for based on your purchases.  Since my tasting group loves and purchases as much Kapcsandy as I do, we try to make a trip once a year to taste the new vintage.  And I can't say enough about Kapcsandy - it is my favorite winery experience in Napa, if you can afford it and meet the requirements for the tasting (see the previous article for details).  
 
 {% picture kapcsandy-2/1.jpg alt="" title="Louis in his happy place" class="center-image" %}
-***Caption Title:*** *Last time, we got a tour from the wine ambassador of Kapcsandy.  This trip, Louis Jr. himself gave us the repeat full tour (we had a couple new people on the trip with us).  This tasting almost didn't happen - we booked our trip to Napa during the same week Louis Jr. and his father were supposed to go on a family vacation.  Luckily for us they happened to cancel/move the trip and Louis was happy to host us again.*
+*Last time, we got a tour from the wine ambassador of Kapcsandy.  This trip, Louis Jr. himself gave us the repeat full tour (we had a couple new people on the trip with us).  This tasting almost didn't happen - we booked our trip to Napa during the same week Louis Jr. and his father were supposed to go on a family vacation.  Luckily for us they happened to cancel/move the trip and Louis was happy to host us again.*
 {: .center-caption }
 
 {% picture kapcsandy-2/2.jpg alt="" title="If only I could have a barrel" class="center-image" %}
-***Caption Title:*** *The beautiful barrel room with the 2017 vintage in barrel now.  The barrels still look clean/crisp because they use new French Oak each year when producing their wines.  If only I could have a barrel...  What a happy man I would be.*
+*The beautiful barrel room with the 2017 vintage in barrel now.  The barrels still look clean/crisp because they use new French Oak each year when producing their wines.  If only I could have a barrel...  What a happy man I would be.*
 {: .center-caption }
 
 For the Grand Vins, we tasted the 2013 and 2014 vintages last year, so tasting the amazing 2015 and 2016 vintages were in order.  And my word, did we all enjoy the wines...  But we knew that coming in.  When the only female Chief Editor of a major wine magazine calls a wine "sex in a glass", you know you need to try that wine.  I think I walked away with 6 bottles of the 2016 Grand Vin - it may be the greatest young wine I have ever tasted in my life.  And I have tried many 100pt wines before.  
 
 {% picture kapcsandy-2/3.jpg alt="" title="Bottles and Bottles" class="center-image" %}
-***Caption Title:*** *Some of the bottles that we tasted this year.  It doesn't include a picture of my favorite (the 2016 Grand Vin), but the ones in the picture were still really good bottles.  We happened to see Tony Arcudi on the property during the tasting too and were sure to say hello before diving in!*
+*Some of the bottles that we tasted this year.  It doesn't include a picture of my favorite (the 2016 Grand Vin), but the ones in the picture were still really good bottles.  We happened to see Tony Arcudi on the property during the tasting too and were sure to say hello before diving in!*
 {: .center-caption }
 
 2016 also marked the first vintage for Tony Arcudi as the consulting winemaker for Kapcsandy.  Coincidence?  You can read up on my tasting of Tony Arcudi's personal label and his background here [**HERE**](https://www.winesbyjeremy.com/2019/07/27/tony_arcudi_private_tasting.html).  Suffice it to say that he is one of the newer winemakers in the Napa Valley that I am tracking closely and is someone that comes from the Heidi Barrett Winemaking tree (at Fantesca).  Also, I want to be him when I grow up.  So it wouldn't be wrong to say that I had two reasons I needed to visit Kapcsandy this past year.  
 
 {% picture kapcsandy-2/4.jpg alt="" title="Telling Stories" class="center-image" %}
-***Caption Title:*** *There's my favorite bottle, just waiting to be poured into my empty glass after Louis Jr. finishes telling his story.  2016 was probably the best vintage in Napa this millenium after 2013.  But I think I prefer the 2016 over the 2013 Grand Vin.  I almost felt like I could drink any more wine after the tasting this morning.  But after the bland lunch, I was ready to get back into it...*
+*There's my favorite bottle, just waiting to be poured into my empty glass after Louis Jr. finishes telling his story.  2016 was probably the best vintage in Napa this millenium after 2013.  But I think I prefer the 2016 over the 2013 Grand Vin.  I almost felt like I could drink any more wine after the tasting this morning.  But after the bland lunch, I was ready to get back into it...*
 {: .center-caption }
 
 As I noted in my earlier article, the wines of Kapcsandy are not in the normal affordable price segment - their Estate Cuvee starts at ~$125 while their Grand Cru runs to $325/350.  But, if you need a special occasion wine or have done well enough in life that you can afford several bottles, you will be glad you did and all of your wine friends will be jealous of you as soon as they taste a glass.
