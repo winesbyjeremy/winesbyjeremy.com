@@ -25,25 +25,25 @@ winery_details:
 Most people come to Ribeauville to visit Maison Trimbach, which is famous, has a large production each year, and has a good amount of distribution in the USA.  I did too, but unfortunately Maison Trimbach was closed when I arrived in August.  In fact, many wineries in France are closed for vacations between late July and mid-August before the harvest.  Fortunately Cave de Ribeauville, the second largest place in town, was still open and I quickly diverted there out of the drizzling rain.
 
 {% picture cave-du-ribeauville/1.jpg title="Ribeauville!" class="center-image" %}
-***Caption Title:*** *The largest wine storefront in the town of Ribeauville.  It is pretty amazing what local winegrowers can do when they band together.  I know that it may not look that fancy on the outside, but the inside is a whole other story...*
+*The largest wine storefront in the town of Ribeauville.  It is pretty amazing what local winegrowers can do when they band together.  I know that it may not look that fancy on the outside, but the inside is a whole other story...*
 {: .center-caption }
 
 Though Cave de Ribeauville has a large production (it its actually Top 5 in the Alsace region), it is not because it is a large winery.  Rather, it is a large cooperative of many small producers that go in together, share equipment and facilities, and bottle wines under the same brand.  Some of the producers will also bottle some wine under their own brand per the cooperative's guidelines.  It's rather remarkable that in today's capitalistic markets, you can still find examples where people work together for everyone's benefit.  Thankfully for the rest of us, this cooperation also results in better product and amazing prices...
 
 {% picture cave-du-ribeauville/2.jpg title="The guts of the building" class="center-image" %}
-***Caption Title:*** *Didn't I say that the inside of the building was much nicer?  In addition to selling wines, the building also has exhibits that talks through the history of the region and its winegrowers.  I highly recommend that you read up and take a look around before heading for the tasting table.*
+*Didn't I say that the inside of the building was much nicer?  In addition to selling wines, the building also has exhibits that talks through the history of the region and its winegrowers.  I highly recommend that you read up and take a look around before heading for the tasting table.*
 {: .center-caption }
 
 I must admit that the exterior of the building had me rather skeptical at first, but that impression changed immediately after stepping foot inside, as you can see above.  It reminded me of the interiors of wineries back home.  Though as a bonus, they also had display cases, exhibits and maps that explained the history of the area as well as the surrounding grand crus to help familiarize folks with the region.  As I had arrived soon after the building opened and on a weekday, I was left to my own devices for a while.  After inhaling a bit of history, it was time to head to the counter and taste some wines.
 
 {% picture cave-du-ribeauville/3.jpg title="Ready when they are" class="center-image" %}
-***Caption Title:*** *The view from the tasting counter.  There really isn't a set tasting menu - you mostly just tell them what you are interested in and what you want to taste and they'll usually pour it for you.  I may have taken it a bit too far as you can see from the number of wines I wrote about*
+*The view from the tasting counter.  There really isn't a set tasting menu - you mostly just tell them what you are interested in and what you want to taste and they'll usually pour it for you.  I may have taken it a bit too far as you can see from the number of wines I wrote about*
 {: .center-caption }
 
 At most wineries in the area, there is usually a tasting menu or whoever is pouring for you will choose a lineup of the portfolio.  Here, there are so many wines on the list that it's not really possible to do either.  Since I looked like I knew what I was doing (taking notes on the laptop helped with that impression), they let me taste around on the list until they got busier.  A shout-out to the two people that ran my tasting below - I got to try a number of really interesting wines thanks to them.  
 
 {% picture cave-du-ribeauville/4.jpg title="Thank you for the great tasting!" class="center-image" %}
-***Caption Title:*** *The kind folks that ran my tasting for the morning.  I was there bright and early, and as a result got a lot of attention and pours until other customers started arriving.  I had made it through a good port of the menu by then though, haha.  It was also impressive how fluent they were in German and English - I wish I was that smart.*
+*The kind folks that ran my tasting for the morning.  I was there bright and early, and as a result got a lot of attention and pours until other customers started arriving.  I had made it through a good port of the menu by then though, haha.  It was also impressive how fluent they were in German and English - I wish I was that smart.*
 {: .center-caption }
 
 Without further ado, the wines:
@@ -82,7 +82,7 @@ Without further ado, the wines:
 Again, this was quite a lineup that even I had a hard time getting through.  While all of the wines were solid (and some even more than that), the Clos du Zahnackers were just special.  A 4000 bottle production each year and exclusive property of the "Le Cave de Ribeauville" since 1935, located in the heart of the Grand Cru Osterberg vineyard.  It is said that Louis XIV liked this wine, which is a blend of Riesling, Pinot Gris, and Gewurztraminer that are grown intertwined and are pressed/vinified together.  I walked away with several bottles, which is saying a lot since I only had room for 16-20 wines in my luggage for a 3 week trip.  And when you see vineyards just down the street from the winery (see picture below), how could I not pick up multiple bottles.
 
 {% picture cave-du-ribeauville/5.jpg title="Which way did you think I went?" class="center-image" %}
-***Caption Title:*** *As I mention in other articles, the vines of Alsace are mostly planted on a slope facing south.  You can get a taste of the elevation of the vines and the slope from this selfie.  Which way do you think I decided to walk after checking out the sign?*
+*As I mention in other articles, the vines of Alsace are mostly planted on a slope facing south.  You can get a taste of the elevation of the vines and the slope from this selfie.  Which way do you think I decided to walk after checking out the sign?*
 {: .center-caption }
 
 I think the greatest surprise of all, even more than the great quality and variety that had at the winery, was the price on these wines.  Normally when you think of "Grand Cru" the price ends with at least two 0s.  But most of the Grand Crus here were under 20€!!  I literally asked multiple times that the prices listed were for 750mL (normal-sized) bottles, which they were.  The Vendange Tardives and Selection de Grains Nobles cost more than the other Grand Cru because they must be picked by hand, and therefore the labor costs / costs to produce the wines are higher.  Over the course of the tasting, I saw at least 20 different people come in, get a sample of a wine, buy a box of it, and walk out.  At these prices, I would too!!
