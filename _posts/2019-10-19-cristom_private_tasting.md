@@ -28,35 +28,35 @@ This is actually my second time visiting Cristom.  The first made such an impres
 My suggestion, get to Cristom sooner rather than later.  If you look between the two posts, you'll notice that that 2016 vintage is more expensive than the 2015 vintage.  And if you look on their website at their newly posted 2017 vintages, you'll notice the prices have gone up again.  Everyone is catching on to the fact that their wines are of great quality and are starting to buy more and more.  Don't miss your chance to pick up bottles before the bottles hit $100+ in 5-10 years.
 
 {% picture cristom-2/1.jpg title="The winery" class="center-image" %}
-***Caption Title:*** *The winery hasn't changed much in the last year on the surface.  The weather was certainly a bit more brooding than the last time I was here.  Still, I was very happy to be here to taste the new vintage.*
+*The winery hasn't changed much in the last year on the surface.  The weather was certainly a bit more brooding than the last time I was here.  Still, I was very happy to be here to taste the new vintage.*
 {: .center-caption }
 
 {% picture cristom-2/2.jpg title="The Welcome Sign" class="center-image" %}
-***Caption Title:*** *Like the sign says, you could do the 5 wine walk-in tasting for $15, or you could do the Cristom Experience for $50 and taste 8-10 wines, including the 4 ladies.  Of course, I had to do the latter since those 4 were the mostly likely bottles I was going home with.*
+*Like the sign says, you could do the 5 wine walk-in tasting for $15, or you could do the Cristom Experience for $50 and taste 8-10 wines, including the 4 ladies.  Of course, I had to do the latter since those 4 were the mostly likely bottles I was going home with.*
 {: .center-caption }
 
 {% picture cristom-2/3.jpg title="The Tasting Room" class="center-image" %}
-***Caption Title:*** *I thought we would have the tasting room to ourselves on a Friday morning, but I guess not.  Plenty of room to do a walk-in tasting at the standing bar.  Or, you could sit outside on the new patio.  I definitely recommend that and you'll see a picture of the view later below.*
+*I thought we would have the tasting room to ourselves on a Friday morning, but I guess not.  Plenty of room to do a walk-in tasting at the standing bar.  Or, you could sit outside on the new patio.  I definitely recommend that and you'll see a picture of the view later below.*
 {: .center-caption }
 
 {% picture cristom-2/4.jpg title="The vineyard" class="center-image" %}
-***Caption Title:*** *The view into the vineyard.  Not nearly as busy as the last time we were here when they were using chainsaws on their vines to re-graft new clones/varietals on the rootstocks.  Beautiful and well maincured.*
+*The view into the vineyard.  Not nearly as busy as the last time we were here when they were using chainsaws on their vines to re-graft new clones/varietals on the rootstocks.  Beautiful and well maincured.*
 {: .center-caption }
 
 {% picture cristom-2/5.jpg title="Selfie Time!" class="center-image" %}
-***Caption Title:*** *I get a little nausea looking at this picture.  Nothing beats walking through a vineyard except walking through a vineyard with a glass of wine in your hand.  I wish it wasn't as cloudy, but that is what Willamette Valley is like.*
+*I get a little nausea looking at this picture.  Nothing beats walking through a vineyard except walking through a vineyard with a glass of wine in your hand.  I wish it wasn't as cloudy, but that is what Willamette Valley is like.*
 {: .center-caption }
 
 {% picture cristom-2/6.jpg title="From the new patio" class="center-image" %}
-***Caption Title:*** *The view from their newly completed patio.  It's not as good as staring into the vineyards, but the view will do.  Very easy imagining just spending a day with a couple of bottles on those two seats with someone special.  It's the wine version of the shot from seats on a beach looking at the ocean.*
+*The view from their newly completed patio.  It's not as good as staring into the vineyards, but the view will do.  Very easy imagining just spending a day with a couple of bottles on those two seats with someone special.  It's the wine version of the shot from seats on a beach looking at the ocean.*
 {: .center-caption }
 
 {% picture cristom-2/7.jpg title="In the tasting room" class="center-image" %}
-***Caption Title:*** *Once we got to tasting, the mood got serious.  Lots of wine glasses, lots of tasting, lots of revisiting, lots of second-guessing ourselves as to our favorites and which ones we were going to buy.  I think I did pretty well in my selections, but everyone thinks they are a genius...*
+*Once we got to tasting, the mood got serious.  Lots of wine glasses, lots of tasting, lots of revisiting, lots of second-guessing ourselves as to our favorites and which ones we were going to buy.  I think I did pretty well in my selections, but everyone thinks they are a genius...*
 {: .center-caption }
 
 {% picture cristom-2/8.jpg title="The vineyards" class="center-image" %}
-***Caption Title:*** *A view of their vineyards.  My favorite are the Pinot Noirs from Jessie, but the Syrahs are a potential QPR darling, even at $40-$50.  After that, it's between the Eileen and Marjorie for me, but they are starting to replant in Marjorie so Eileen are the safe bet for now.*
+*A view of their vineyards.  My favorite are the Pinot Noirs from Jessie, but the Syrahs are a potential QPR darling, even at $40-$50.  After that, it's between the Eileen and Marjorie for me, but they are starting to replant in Marjorie so Eileen are the safe bet for now.*
 {: .center-caption }
 
 * [**2017 Estate Pinot Gris**](https://www.cristomvineyards.com/product/2017-Estate-Pinot-Gris) ($20)

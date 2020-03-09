@@ -26,27 +26,27 @@ winery_details:
 The first review of a winery in my home state: Virginia.  Although I've never visited Grace Estate nor had their wine until this weekend, I'm glad this happened to be my first review.  There are two things I look for in wineries: (1) Is the wine quality on point? (2) Is it relatively off people's radar?  If the answers to both are "yes", you'll have at least one intrigued customer coming to visit you.  Each one of the wines poured during the tasting at Grace Estate were unique, cerebral, and pretty good.  Combined with a nicely designed tasting room that feels like home rather than a Napa spaceship, I had a really nice time visiting for a couple hours.
 
 {% picture grace-estate/1.jpg alt="" title="Group Picture!" class="center-image" %}
-***Caption Title:*** *The first stop of the day during our wine tour in Charlottesville.  On the weekdays, there are some places you can have to yourself and then there are some that will always be busy.  Although this was the former, we really enjoyed the tasting room and the wines.*
+*The first stop of the day during our wine tour in Charlottesville.  On the weekdays, there are some places you can have to yourself and then there are some that will always be busy.  Although this was the former, we really enjoyed the tasting room and the wines.*
 {: .center-caption }
 
 {% picture grace-estate/2.jpg alt="" title="Close-up" class="center-image" %}
-***Caption Title:*** *The close-up shot of our group.  Everyone had flown in from NYC the night before and spent the weekend at an AirBnB in Charlottesville.  They all agreed it was a beautiful weekend and that they had a lot of fun in Charlottesville.  I wonder how much traffic overall they get from NYC fliers...*
+*The close-up shot of our group.  Everyone had flown in from NYC the night before and spent the weekend at an AirBnB in Charlottesville.  They all agreed it was a beautiful weekend and that they had a lot of fun in Charlottesville.  I wonder how much traffic overall they get from NYC fliers...*
 {: .center-caption }
 
 Like many other wineries in Virginia, Grace Estate is a family-owned business.  But unlike many other Virginia wineries that purchase grapes to some degree to produce their wines, the wines of Grace Estate are 100% estate-grown and estate-bottled.  And we aren't talking about a small amount of land or grapes either.  Grace Estate owns over 450 acres of land and 50 acres of it are visible from their Tasting room (Mt. Juliet Farm).  I also appreciate how the Grace Family's residence is on the grounds - they live with their vines and wine.  If I owned a winery, I would certainly want to!
 
 {% picture grace-estate/3.jpg alt="" title="The Tasting Room" class="center-image" %}
-***Caption Title:*** *I really likes the decor of the tasting room.  Clean, sophisticated, dark-brown color scheme, and true to southern style.  They have tables in all sizes, so if you are worried that they can't sit 8+ people together, don't be.  If you are 15-20+ people though, definitely make a reservation.*
+*I really likes the decor of the tasting room.  Clean, sophisticated, dark-brown color scheme, and true to southern style.  They have tables in all sizes, so if you are worried that they can't sit 8+ people together, don't be.  If you are 15-20+ people though, definitely make a reservation.*
 {: .center-caption }
 
 {% picture grace-estate/4.jpg alt="" title="Pouring Station" class="center-image" %}
-***Caption Title:*** *A closer look at the wine bar itself.  Again, I really liked how clean the wine room was, even though the building itself showed sign of its age.  Here, you could order glasses or bottles of wine you like as well as charcuterie and other snacks.  One of the things I like about Virginia wineries - if you want to stay for half-a-day, they make it possible.*
+*A closer look at the wine bar itself.  Again, I really liked how clean the wine room was, even though the building itself showed sign of its age.  Here, you could order glasses or bottles of wine you like as well as charcuterie and other snacks.  One of the things I like about Virginia wineries - if you want to stay for half-a-day, they make it possible.*
 {: .center-caption }
 
 One thing that the wine ambassador said to us that resonated with me was that Grace Estate Winery "embodies the true tradition of a Virginia farm winery".  You can also find that phrase on their website.  Virginia is more like Oregon and Washington than Napa/Sonoma in that people can't just spend a lot of money to buy land, build a sensational winery, produce wine, and become successful (there are always exceptions like RdV).  The differentiation between a lot of Virginia wineries are the stories and traditions that the wineries were built upon and the care they put into managing their crop.  After all, the land isn't as diverse as Napa's AVAs and they weather isn't nearly as kind either (it's very easy to lose your crop to frost, rain, mildew, etc.).
 
 {% picture grace-estate/5.jpg alt="" title="Powerful New Yorkers" class="center-image" %}
-***Caption Title:*** *As you can imagine with important New Yorkers, everyone had an emergency or two to deal with over the weekend.  When they weren't checking messages, they were always engaged in spirited debate on some deep topics.  Wine is good at enabling that.  I was quiet most of the trip - just taking these notes you are reading now, haha.*
+*As you can imagine with important New Yorkers, everyone had an emergency or two to deal with over the weekend.  When they weren't checking messages, they were always engaged in spirited debate on some deep topics.  Wine is good at enabling that.  I was quiet most of the trip - just taking these notes you are reading now, haha.*
 
 Tasting through the wines, you could get a sense of the weather, land, and struggles of making wine in Virginia.  Though, the vines at Grace Estate are largely 20+ years old, so they are capable of complexity and depth, maybe moreso than other wineries in the region.  I wasn't the biggest fan of the white wine, but all of the red wines were very interesting and beguiling to me.  I definitely recommend visiting and tasting these cerebral wines.  At the tasting's price point, there is absolutely no reason not to visit if you are in the Charlottesville area.
 
