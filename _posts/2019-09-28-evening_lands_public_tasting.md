@@ -26,29 +26,29 @@ winery_details:
 I strongly prefer tasting bottles at the winery rather than at in-town tasting rooms.  Unfortunately, I was in a bit of a rush, so I gladly made an exception here because when I think of Oregon Chardonnay, I think of Evening Springs.  If you've had a bottle of wine from Oregon (specifically around the Willamette Valley), chances are it was a Pinot Noir.  There are several other varietals grown in the region, but none are known for being as good a fit with the terroir as Pinot Noir.  However, once you taste the La Source here, you'll be adding Chardonnay to that list.  I would confidently put La Source in a blind tasting against the best that America has to offer and it's not even their best bottling (Summum).  I don't care if you visit the tasting facility or not; just make sure to try these wines!
 
 {% picture evening-land/1.jpg alt="" title="The Tasting Room" class="center-image" %}
-***Caption Title:*** *Their tasting room in Dundee, right off the main highway.  There are several winery tasting room located in the same building, so it's not a bad idea to just setup tastings with all the wineries there over the course of the afternoon.  I'm sure the location in town helps generate foot traffic.*
+*Their tasting room in Dundee, right off the main highway.  There are several winery tasting room located in the same building, so it's not a bad idea to just setup tastings with all the wineries there over the course of the afternoon.  I'm sure the location in town helps generate foot traffic.*
 {: .center-caption }
 
 {% picture evening-land/2.jpg alt="" title="Their room in the building" class="center-image" %}
-***Caption Title:*** *The entrance to their room in the building.  They opened at 10am, so we needed to wait a bit before we were able to enter and start our tasting.  I'll admit, waiting for them to open was tough, especially since you could see into the room and imagine yourself drinking wine inside it.*
+*The entrance to their room in the building.  They opened at 10am, so we needed to wait a bit before we were able to enter and start our tasting.  I'll admit, waiting for them to open was tough, especially since you could see into the room and imagine yourself drinking wine inside it.*
 {: .center-caption }
 
 One of the first things you'll notice when looking up Evening Springs is that they migrated up to Eola Amity Hills from Sonoma in 2007.  The fact that both locations both produce similar varietals (e.g. Pinot Noir, Chardonnay) gives you confidence that they know what they are doing, even if they were officially established only 10+ years ago.  And even for a winery so young, all of the grapes for their wines come from their Seven Springs Vineyards.  Though, not all of the grapes are up to their desired quality level, so they maintain a secondary label (Salem Wine Company) for their declassified grapes.  I respect wineries that are picky about their grapes and the quality of their wines.
 
 {% picture evening-land/3.jpg alt="" title="In at Last" class="center-image" %}
-***Caption Title:*** *I not generally a fan of gray but the theme works very well inside this tasting room.  Like really, really well.  There was outdoor seating through the back if you prefer it, but I highly recommend staying in the tasting room...*
+*I not generally a fan of gray but the theme works very well inside this tasting room.  Like really, really well.  There was outdoor seating through the back if you prefer it, but I highly recommend staying in the tasting room...*
 {: .center-caption }
 
 If you have a subscription to Wine Spectator, you may recognize the Evening Land label.  After all, the 2012 La Source Pinot Noir scored 98 points and landed as #3 on Wine Spectator's World Top 100 wines in 2015.  And not criticize, but the two wines that ranked higher both received a lower score than the La Source and were more expensive than the La Source.  So in my book and maybe others', the 2012 La Source was the best wine in 2015 according to Wine Spectator.  They don't quite have the cult following, and therefore the high prices, of other wineries.  So this is your chance to get excellent quality wine at reasonable prices.  
 
 {% picture evening-land/4.jpg alt="" title="La Source Pinot" class="center-image" %}
-***Caption Title:*** *The La Source Pinot Noir pictured here was really good, but it was the La Source Chardonnay that stole the show for me.  It could be that I just had a lot of good Pinot Noir from multiple producers over the weekend and this was the first surprising Chardonnay of them all.  But I don't think you can go wrong between either of the Pinot or Chardonnay.*
+*The La Source Pinot Noir pictured here was really good, but it was the La Source Chardonnay that stole the show for me.  It could be that I just had a lot of good Pinot Noir from multiple producers over the weekend and this was the first surprising Chardonnay of them all.  But I don't think you can go wrong between either of the Pinot or Chardonnay.*
 {: .center-caption }
 
 As you can see from the pictures and my descriptions, I really liked their tasting room.  Clean, classic, good color scheme, and good background music choices.  As we started chatting with the wine ambassador, we learned that the winemaker felt the 2016s were the best chardonnays he has ever made.  That is a powerful statement and just made me thirstier.  Before we get to the tasting notes below, I do want to clarify that to have your tasting at their winery, you need to pay a $65 tasting fee per person and agree to a suggested 6-bottle purchase.  If someone does take the winery tour and enjoy it, please let me know and I may need to return!
 
 {% picture evening-land/5.jpg alt="" title="Map on the Label" class="center-image" %}
-***Caption Title:*** *I thought this was a pretty cool thing to do with their label.  They included a minature map of the Eola Amity Hills AVA region and marked the location of their vineyards.  It may take a bit of knowledge about the region to fully appreciate the information, but the label design just looks cool regardless.*
+*I thought this was a pretty cool thing to do with their label.  They included a minature map of the Eola Amity Hills AVA region and marked the location of their vineyards.  It may take a bit of knowledge about the region to fully appreciate the information, but the label design just looks cool regardless.*
 {: .center-caption }
 
 To the wines!

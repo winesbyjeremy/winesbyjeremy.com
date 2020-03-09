@@ -26,35 +26,35 @@ winery_details:
 When choosing wineries to enroll as a member, there are many factors to look at: the wine quality, prices, bottle minimums, membership benefits, etc.  The most important factor for me is simple: do they treat you like family?  If the answer is "yes", everything else will work itself out.  In the case of Siltstone Wines, this is almost literally true for me as the owners and I share the same family name.  Even if we didn't though, I would love this winery all the same.  A family starting the winery from nothing, growing the grapes themselves, making the wines themselves, and sharing the wines themselves.  It's everything I want to do in the future.  On top of everything, there is an energy and happiness that pervades the place - it makes you want to spend your afternoon there.
 
 {% picture siltstone/1.jpg alt="" title="The Tasting Room" class="center-image" %}
-***Caption Title:*** *The Siltstone winery almost looks like a roadside diner when you drive by it on the highway.  It can be easy to miss and if you do, don't brake hard to try to make the turn into the entrance.  Relax and take your time.  That phrase embodies this winery in that it feels home.  And for me, it very well may be (need to take that 23-and-me test).*
+*The Siltstone winery almost looks like a roadside diner when you drive by it on the highway.  It can be easy to miss and if you do, don't brake hard to try to make the turn into the entrance.  Relax and take your time.  That phrase embodies this winery in that it feels home.  And for me, it very well may be (need to take that 23-and-me test).*
 {: .center-caption }
 
 {% picture siltstone/2.jpg alt="" title="It's small inside" class="center-image" %}
-***Caption Title:*** *The inside of their tiny tasting room.  If you look in the mirror, you can see it only takes 6 people to make the tasting room feel packed.  That and how long my reach is in order to take pictures, haha.  Don't worry, there is an outdoor patio in the back to enjoy the wines more easily.*
+*The inside of their tiny tasting room.  If you look in the mirror, you can see it only takes 6 people to make the tasting room feel packed.  That and how long my reach is in order to take pictures, haha.  Don't worry, there is an outdoor patio in the back to enjoy the wines more easily.*
 {: .center-caption }
 
 The Siltstone tasting room is located just right off the highway – you can literally see and/or hear the cars drive by while at the winery and it's very easy to accidentally miss the entrance while driving to the winery.  Once you get over those two things, it's smooth sailing from there as the winery itself is super laid back, but also filled with people who care about what they do since it truly is their livelihood.  And with the care that they show every customer, you truly do get the feel of family...
 
 {% picture siltstone/3.jpg alt="" title="My cousin" class="center-image" %}
-***Caption Title:*** *My cousin Jennifer at our table on the back patio.  The facility may not be up to your normal standards, but the hospitality is second to none.  There is a meat-and-cheese table in the back that you can help yourself to, the wine ambassadors will come outside to your table to pour the next wine on the tasting list, and the atmosphere/conversation is very jovial.  The roof extension helps protect your from the summer sun and fall rains.*
+*My cousin Jennifer at our table on the back patio.  The facility may not be up to your normal standards, but the hospitality is second to none.  There is a meat-and-cheese table in the back that you can help yourself to, the wine ambassadors will come outside to your table to pour the next wine on the tasting list, and the atmosphere/conversation is very jovial.  The roof extension helps protect your from the summer sun and fall rains.*
 {: .center-caption }
 
 My brother happened to find Siltstone during his research for his honeymoon (he surprised his wife with a weekend in Willamette before heading to the Bahamas as they are both Pinot-philes).  After he gave me his impression of the place and a couple bottles of the J. Myers and Sons upon his return, I knew I had to stop by the next time I visited Portland.  I called ahead to schedule an appointment and let them know my availability like I normally do.  Once I explained the story of why I was visiting (my sister-in-law barely had time to take off her makeup from the wedding in Cleveland), the offered to open up the winery just for me.  Luckily, that wasn't necessary after some schedule tweaking on my end.
 
 {% picture siltstone/4.jpg alt="" title="The Parking Lot" class="center-image" %}
-***Caption Title:*** *As you can see, the parking lot extends right up to the edge of the vines.  This is family winery that wasn't founded with millions of dollars.  It was built from scratch to what it is today, so I can appreciate these small details.*
+*As you can see, the parking lot extends right up to the edge of the vines.  This is family winery that wasn't founded with millions of dollars.  It was built from scratch to what it is today, so I can appreciate these small details.*
 {: .center-caption }
 
 When I arrived, the first two things I noticed was that it was a really small place and it was crazy busy.  Though, everyone there seemed to be a local, rather than an out-of-towner.  The tasting room manager, Heather, had given birth only 10 days ago was already back pouring wines while her mother-in-law cared for her baby on the tasting patio (there was a mini-crowd around the baby).  The tasting room inside is small as you can see from my picture, but they had additional seats outside in the back.  You can choose to going inside every time you need another pour or they will walk around with bottles, check on everyone’s progress.  It just allows you to be very relaxed (lazy, even) and enjoy the wines.
 
 {% picture siltstone/5.jpg alt="" title="First Person View" class="center-image" %}
-***Caption Title:*** *A first-person view of the patio.  You can see the sign over the door that was made from the top of a barrel, the coal-fires outside to keep the patrons warm in the fall, and the fact that most of the tables were full (people seemed to know about this place).*
+*A first-person view of the patio.  You can see the sign over the door that was made from the top of a barrel, the coal-fires outside to keep the patrons warm in the fall, and the fact that most of the tables were full (people seemed to know about this place).*
 {: .center-caption }
 
 Putting aside the ambiance of the place and looking at the vineyards, all of the Myers family vines are farmed Certified Sustainable. Joel Myers (why their Grand Vin is called J. Myers and Sons) first planted grapes in the 1960s by himself.  Today, the winery produces about 1,500 cases of wine (miniscule amount) under the Siltstone label from the Guadalupe Vineyard, Blacktail Vineyard, and Owl Ranch Vineyard.  A limited quantity of their premium Pinot noir label, J. Myers & Sons, is blended from select barrels after exceptional vintages (I only saw a 2012 and 2014 at the winery).
 
 {% picture siltstone/6.jpg alt="" title="With the Founder" class="center-image" %}
-***Caption Title:*** *With the man that started it all at Siltstone.  The Myers family owns and operates the winery, while the grand vin is named after him and the family: "J. Myers & Sons".  It is a coincidence that my father's name, my brother's name, and my name is J. Myers, but it is a pretty amazing one.  Since the label seemed tailor-made for us, I bought a case to share with my family...*
+*With the man that started it all at Siltstone.  The Myers family owns and operates the winery, while the grand vin is named after him and the family: "J. Myers & Sons".  It is a coincidence that my father's name, my brother's name, and my name is J. Myers, but it is a pretty amazing one.  Since the label seemed tailor-made for us, I bought a case to share with my family...*
 {: .center-caption }
 
 But wines need to be good to want to visit a winery right?  So let's look at the wines!
