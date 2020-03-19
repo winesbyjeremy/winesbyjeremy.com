@@ -23,10 +23,20 @@ winery_details:
   accepts_reservations: "Recommended, but not necessary"
   reservation: No
 ---
+If you asked me to name one person in Napa who has a truly inspiring story of achieving his or her dreams, Rolando Herrera is one of the first names that comes to mind.  From immigrating to California from Mexico at age 15, to washing dishes at night while in High School, to starting at the bottom as a harvest laborer at Stag's Leap Wine Cellars, to eventually making it to Cellarmaster, to winemaking at Vine Cliff and eventually becoming Director of Winemaking at Paul Hobbs Consulting (Paul Hobbs is another hugely famous name in the wine world), Rolando has always made the best of his situation and continued to grow.  It is only natural that he started his own label (Mi Sueno mean "My Dream" in Spanish) with his wife Lorena and continues to confront and overcome new challenges.
 
-{% picture mi-sueno/1.jpg alt="" title="" class="center-image" %}
-***Caption Title:*** **
+{% picture mi-sueno/1.jpg alt="" title="The Village" class="center-image" %}
+***Caption Title:*** *I really like what Vista Collina Resort, Meritage Resort, and the wineries have done here.  875 Bordeaux Way is like a mini wine-mall that makes several good wineries easy to access (literally a walk away from each other).  If you are looking for a way to taste many different wines in a short period of time, you can try wine bars in the town of Napa or come here.  Even though this place seems huge, it's usually not that crowded.*
 {: .center-caption }
+
+I've heard of Rolando Herrera in the background of wines I've tasted (he consults for Baldacci), but it wasn't until I had a bottle of the Mi Sueno Cabernet that I decided I needed to pay this man's winery a visit.  After all, every famous winemaker I know who started their own winery has always put out good product (e.g. La Sirena, Favia, Rivers-Marie, Arcudi, etc.).  Luckily for me, I didn't have to drive all the way into Napa to enjoy his wines.  The winemaking facility and his tasting room at 875 Bordeaux Way are only a mile from each other and both offer tastings.  Since I was in the mood to walk and try other wines this evening, I decided on the 875 location.
+
+{% picture mi-sueno/2.jpg alt="" title="The Directory" class="center-image" %}
+***Caption Title:*** *I thought the directory would have the listing of wineries that setup tasting rooms here (e.g. Cornerstone, Trinitas, Mi Sueno, Jayson, etc.), but it doesn't.  It does have an entry for "Our Lady of Grapes Chapel" though, which was way too hilarious for me to ignore.*
+{: .center-caption }
+
+Pulling up to the place, it strikes you as an outside mini-mall for wine drinkers.  There is a rectangular astroturf yard in the center where you can pull up a table to enjoy your purchased bottles and it even has Cornhole set up.  The architecture is well done, but relaxed and the atmosphere is neither sluggish or too energetic.  An oasis to enjoy wines away from the crowds and the traffic of Napa.  
+
 
 
 * [**2016 Herrera Perla Chardonnay**]() ($70)
