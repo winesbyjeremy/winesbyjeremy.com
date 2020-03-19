@@ -23,9 +23,7 @@ winery_details:
   accepts_reservations: "Yes"
   reservation: Yes
 ---
-You can read up on the background of Bevan Cellars and prior vintage tastings in in this article [**HERE**](https://www.winesbyjeremy.com/2019/09/07/bevan_cellars_private_tasting.html).
-
-The first thing you may notice about this article is that I dropped the rating (compared to my last tasting here).  The change from 99 to 94 is primarily due to the number and quality of the wines used for this tasting were not up to the standard that was set during my previous visit.  We were also given the remnants of open bottles to taste, rather than being able to taste fresh bottles.  In a couple cases, the pour was smaller than other bottles because the remainder in the bottle wasn't enough.  
+You can read up on the background of Bevan Cellars and prior vintage tastings in in this article [**HERE**](https://www.winesbyjeremy.com/2019/09/07/bevan_cellars_private_tasting.html).  The first thing you may notice about this article is that I dropped the rating, compared to my last tasting here.  The change is primarily due to the number and quality of the wines used for this tasting; they were not up to the standard that was set during my previous visit.  We were also given the remnants of bottles opened the previous day to taste, rather than being able to taste fresh bottles.  In a couple cases, the pour was smaller than other bottles because the amount available wasn't enough.  Make no mistake, these are wines of the highest quality, just not served in their best condition.
 
 {% picture bevan-cellars-2/1.jpg alt="" title="The Tasting Room" class="center-image" %}
 ***Caption Title:*** *The tasting room used at Brasswood Winery.  I really need to taste their wines too at some point, since I've been to the winery twice now...  I like the tasting bar setup and how you can see outside, but the people on the outside cannot see inside, haha.*
